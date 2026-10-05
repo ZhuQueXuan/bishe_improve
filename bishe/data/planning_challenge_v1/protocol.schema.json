@@ -1,0 +1,477 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medical-agent:planning-protocol:v1",
+  "description": "DESIGN ONLY. Not wired into production chat. Runtime must additionally validate registry/provenance/budgets.",
+  "$defs": {
+    "action": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "kind": {
+              "const": "read_relations"
+            },
+            "entity_id": {
+              "type": "string",
+              "pattern": "^Disease:[0-9a-f]{64}$"
+            },
+            "relation": {
+              "const": "acompany_with"
+            }
+          },
+          "required": [
+            "kind",
+            "entity_id",
+            "relation"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "kind": {
+              "const": "read_fields"
+            },
+            "entity_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Disease:[0-9a-f]{64}$"
+              },
+              "uniqueItems": true,
+              "maxItems": 2,
+              "minItems": 1
+            },
+            "fields": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "desc",
+                  "prevent"
+                ]
+              },
+              "uniqueItems": true,
+              "maxItems": 2,
+              "minItems": 1
+            }
+          },
+          "required": [
+            "kind",
+            "entity_ids",
+            "fields"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "kind": {
+              "const": "stop"
+            },
+            "status": {
+              "enum": [
+                "complete",
+                "partial",
+                "blocked"
+              ]
+            },
+            "reason": {
+              "type": "string",
+              "maxLength": 240
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^E[1-9][0-9]*$"
+              },
+              "uniqueItems": true,
+              "maxItems": 32
+            }
+          },
+          "required": [
+            "kind",
+            "status",
+            "reason",
+            "evidence_ids"
+          ]
+        }
+      ]
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "const": "planning_observation_v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^O[1-9][0-9]*$"
+        },
+        "action": {
+          "$ref": "#/$defs/action"
+        },
+        "status": {
+          "enum": [
+            "found",
+            "missing",
+            "transient_error",
+            "permanent_error"
+          ]
+        },
+        "entities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^Disease:[0-9a-f]{64}$"
+              },
+              "name": {
+                "type": "string",
+                "maxLength": 120
+              }
+            },
+            "required": [
+              "id",
+              "name"
+            ]
+          },
+          "uniqueItems": true,
+          "maxItems": 8
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^E[1-9][0-9]*$"
+              },
+              "entity_id": {
+                "type": "string",
+                "pattern": "^Disease:[0-9a-f]{64}$"
+              },
+              "field": {
+                "enum": [
+                  "acompany_with",
+                  "desc",
+                  "prevent"
+                ]
+              },
+              "excerpt": {
+                "type": "string",
+                "maxLength": 1800
+              },
+              "source": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "file": {
+                    "const": "bishe/data/medical.json"
+                  },
+                  "file_sha256": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  "line": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "field": {
+                    "enum": [
+                      "acompany",
+                      "desc",
+                      "prevent"
+                    ]
+                  },
+                  "index": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "file",
+                  "file_sha256",
+                  "line",
+                  "field"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "entity_id",
+              "field",
+              "excerpt",
+              "source"
+            ]
+          },
+          "uniqueItems": true,
+          "maxItems": 8
+        },
+        "truncated": {
+          "type": "boolean"
+        },
+        "budget_remaining": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "reads": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 5
+            },
+            "decisions": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "milliseconds": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 90000
+            }
+          },
+          "required": [
+            "reads",
+            "decisions",
+            "milliseconds"
+          ]
+        }
+      },
+      "required": [
+        "version",
+        "id",
+        "action",
+        "status",
+        "entities",
+        "evidence",
+        "truncated",
+        "budget_remaining"
+      ]
+    },
+    "task_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "const": "planning_task_v1"
+        },
+        "task_id": {
+          "type": "string",
+          "pattern": "^P0[1-8]$"
+        },
+        "dataset_id": {
+          "const": "medical_full_v1"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "goal": {
+          "type": "string",
+          "maxLength": 4000
+        },
+        "registry": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^Disease:[0-9a-f]{64}$"
+              },
+              "name": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "origin": {
+                "enum": [
+                  "explicit_question",
+                  "relation_result"
+                ]
+              },
+              "discovery_evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^E[1-9][0-9]*$"
+                },
+                "uniqueItems": true,
+                "maxItems": 8
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "origin",
+              "discovery_evidence_ids"
+            ]
+          },
+          "uniqueItems": true,
+          "maxItems": 9
+        },
+        "selected_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^Disease:[0-9a-f]{64}$"
+          },
+          "uniqueItems": true,
+          "maxItems": 2
+        },
+        "evidence_index": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^E[1-9][0-9]*$"
+              },
+              "entity_id": {
+                "type": "string",
+                "pattern": "^Disease:[0-9a-f]{64}$"
+              },
+              "field": {
+                "enum": [
+                  "acompany_with",
+                  "desc",
+                  "prevent"
+                ]
+              },
+              "observation_id": {
+                "type": "string",
+                "pattern": "^O[1-9][0-9]*$"
+              }
+            },
+            "required": [
+              "id",
+              "entity_id",
+              "field",
+              "observation_id"
+            ]
+          },
+          "uniqueItems": true,
+          "maxItems": 32
+        },
+        "unresolved": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "entity_id": {
+                "type": "string",
+                "pattern": "^Disease:[0-9a-f]{64}$"
+              },
+              "field": {
+                "enum": [
+                  "desc",
+                  "prevent"
+                ]
+              },
+              "status": {
+                "enum": [
+                  "pending",
+                  "missing",
+                  "transient_error",
+                  "permanent_error"
+                ]
+              }
+            },
+            "required": [
+              "entity_id",
+              "field",
+              "status"
+            ]
+          },
+          "uniqueItems": true,
+          "maxItems": 4
+        },
+        "completed_action_keys": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 250
+          },
+          "uniqueItems": true,
+          "maxItems": 5
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "reads": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 5
+            },
+            "decisions": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "answers": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "reads",
+            "decisions",
+            "answers"
+          ]
+        },
+        "remaining_ms": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 90000
+        },
+        "phase": {
+          "enum": [
+            "active",
+            "complete",
+            "partial",
+            "blocked"
+          ]
+        }
+      },
+      "required": [
+        "version",
+        "task_id",
+        "dataset_id",
+        "source_sha256",
+        "goal",
+        "registry",
+        "selected_ids",
+        "evidence_index",
+        "unresolved",
+        "completed_action_keys",
+        "counts",
+        "remaining_ms",
+        "phase"
+      ]
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/action"
+    },
+    {
+      "$ref": "#/$defs/observation"
+    },
+    {
+      "$ref": "#/$defs/task_state"
+    }
+  ]
+}

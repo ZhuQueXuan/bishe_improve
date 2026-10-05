@@ -1,0 +1,215 @@
+[
+  {
+    "entityType": "NODE",
+    "labelsOrTypes": [
+      "CuratedDataset"
+    ],
+    "name": "curated_dataset_key",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "NODE",
+    "labelsOrTypes": [
+      "CuratedEntity"
+    ],
+    "name": "curated_entity_key",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": [
+      "acompany_with"
+    ],
+    "name": "full_rel_acompany_with",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": [
+      "belongs_to"
+    ],
+    "name": "full_rel_belongs_to",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": [
+      "common_drug"
+    ],
+    "name": "full_rel_common_drug",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": [
+      "cure_way"
+    ],
+    "name": "full_rel_cure_way",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": [
+      "do_eat"
+    ],
+    "name": "full_rel_do_eat",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": [
+      "has_symptom"
+    ],
+    "name": "full_rel_has_symptom",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": [
+      "need_check"
+    ],
+    "name": "full_rel_need_check",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": [
+      "no_eat"
+    ],
+    "name": "full_rel_no_eat",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": [
+      "recommand_drug"
+    ],
+    "name": "full_rel_recommand_drug",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": [
+      "recommand_eat"
+    ],
+    "name": "full_rel_recommand_eat",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "range-1.0"
+    },
+    "properties": [
+      "dataset_id",
+      "id"
+    ],
+    "type": "RANGE"
+  },
+  {
+    "entityType": "NODE",
+    "labelsOrTypes": null,
+    "name": "index_343aff4e",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "token-lookup-1.0"
+    },
+    "properties": null,
+    "type": "LOOKUP"
+  },
+  {
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": null,
+    "name": "index_f7700477",
+    "options": {
+      "indexConfig": {},
+      "indexProvider": "token-lookup-1.0"
+    },
+    "properties": null,
+    "type": "LOOKUP"
+  }
+]

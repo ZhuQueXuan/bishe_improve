@@ -1,0 +1,67 @@
+{
+  "C01": {
+    "status": "ready",
+    "objects": [
+      "肺炎"
+    ],
+    "field": "prevent",
+    "format": "table"
+  },
+  "C02": {
+    "status": "ready",
+    "objects": [
+      "高血压"
+    ],
+    "field": "prevent",
+    "format": "table"
+  },
+  "C03": {
+    "status": "ready",
+    "objects": [
+      "肺炎"
+    ],
+    "field": "prevent",
+    "format": null
+  },
+  "C04": {
+    "status": "ready",
+    "objects": [
+      "胃溃疡"
+    ],
+    "field": null,
+    "format": null
+  },
+  "C05": {
+    "status": "clarify",
+    "objects": [
+      "感冒",
+      "肺炎"
+    ],
+    "field": null,
+    "format": null
+  },
+  "C06": {
+    "status": "ready",
+    "objects": [
+      "冠心病"
+    ],
+    "field": "prevent",
+    "format": null
+  },
+  "C07": {
+    "status": "ready",
+    "objects": [
+      "急性胰腺炎"
+    ],
+    "field": null,
+    "format": "table"
+  },
+  "C08": {
+    "status": "ready",
+    "objects": [
+      "感冒"
+    ],
+    "field": "prevent",
+    "format": "table"
+  }
+}

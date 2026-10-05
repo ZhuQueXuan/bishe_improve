@@ -1,0 +1,8 @@
+{
+  "description": "Historical fingerprints recorded before archiving legacy generated graph files; medical.json remains the live raw source.",
+  "source_file_sha256": {
+    "medical.json": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+    "entities.json": "dfbd23d22d55c30ae2255b20d620da2551bc0546e15d6c46052bf6a713b529ef",
+    "relations.json": "b62768685a8a413ad5244dfe28981e4294b3ab613bf7fe7c74b7973cc613202c"
+  }
+}

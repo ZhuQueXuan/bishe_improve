@@ -1,0 +1,636 @@
+{
+  "version": "retrieval_baseline_v2",
+  "purpose": "Source-grounded retrieval baseline, not clinical diagnosis or model answer evaluation",
+  "categories": {
+    "existing": "原有常规与保护",
+    "paraphrase": "改换问法",
+    "reverse": "按症状反查资料",
+    "conditions": "多条件及区分相近病名",
+    "history": "多轮与省略",
+    "boundary": "查询边界",
+    "coverage": "资料完整性与组合查询"
+  },
+  "expectation_policy": "Fixed expectations before execution. Direct checks require exact disease and field sets; full-list checks require complete evidence; reverse checks use AND over exact source symptom entries.",
+  "cases": [
+    {
+      "id": "description",
+      "query": "糖尿病是什么？",
+      "fields": [
+        "desc"
+      ],
+      "category": "existing",
+      "diseases": [
+        "糖尿病"
+      ]
+    },
+    {
+      "id": "symptoms",
+      "query": "糖尿病有哪些症状？",
+      "fields": [
+        "has_symptom"
+      ],
+      "category": "existing",
+      "diseases": [
+        "糖尿病"
+      ]
+    },
+    {
+      "id": "checks",
+      "query": "糖尿病需要哪些检查？",
+      "fields": [
+        "need_check"
+      ],
+      "category": "existing",
+      "diseases": [
+        "糖尿病"
+      ]
+    },
+    {
+      "id": "cause",
+      "query": "糖尿病的病因是什么？",
+      "fields": [
+        "cause"
+      ],
+      "category": "existing",
+      "diseases": [
+        "糖尿病"
+      ]
+    },
+    {
+      "id": "prevention",
+      "query": "如何预防糖尿病？",
+      "fields": [
+        "prevent"
+      ],
+      "category": "existing",
+      "diseases": [
+        "糖尿病"
+      ]
+    },
+    {
+      "id": "drug_text",
+      "query": "糖尿病有哪些用药资料？",
+      "fields": [
+        "common_drug",
+        "recommand_drug"
+      ],
+      "category": "existing",
+      "diseases": [
+        "糖尿病"
+      ]
+    },
+    {
+      "id": "department",
+      "query": "糖尿病挂什么科室？",
+      "fields": [
+        "belongs_to"
+      ],
+      "category": "existing",
+      "diseases": [
+        "糖尿病"
+      ]
+    },
+    {
+      "id": "food",
+      "query": "糖尿病的饮食有哪些资料？",
+      "fields": [
+        "do_eat",
+        "no_eat",
+        "recommand_eat"
+      ],
+      "category": "existing",
+      "diseases": [
+        "糖尿病"
+      ]
+    },
+    {
+      "id": "hypertension",
+      "query": "高血压有哪些症状？",
+      "fields": [
+        "has_symptom"
+      ],
+      "category": "existing",
+      "diseases": [
+        "高血压"
+      ]
+    },
+    {
+      "id": "pneumonia",
+      "query": "肺炎需要哪些检查？",
+      "fields": [
+        "need_check"
+      ],
+      "category": "existing",
+      "diseases": [
+        "肺炎"
+      ]
+    },
+    {
+      "id": "gastritis",
+      "query": "胃炎的病因是什么？",
+      "fields": [
+        "cause"
+      ],
+      "category": "existing",
+      "diseases": [
+        "胃炎"
+      ]
+    },
+    {
+      "id": "bronchitis",
+      "query": "支气管炎的治疗方式有哪些？",
+      "fields": [
+        "cure_way"
+      ],
+      "category": "existing",
+      "diseases": [
+        "支气管炎"
+      ]
+    },
+    {
+      "id": "followup",
+      "query": "它需要哪些检查？",
+      "history": [
+        {
+          "role": "user",
+          "content": "糖尿病是什么？"
+        },
+        {
+          "role": "assistant",
+          "content": "高血压也需要注意。"
+        }
+      ],
+      "fields": [
+        "need_check"
+      ],
+      "resolution": "recent_user_question",
+      "category": "existing",
+      "diseases": [
+        "糖尿病"
+      ]
+    },
+    {
+      "id": "switch_disease",
+      "query": "高血压有哪些症状？",
+      "history": [
+        {
+          "role": "user",
+          "content": "糖尿病是什么？"
+        }
+      ],
+      "fields": [
+        "has_symptom"
+      ],
+      "resolution": "current_question",
+      "category": "existing",
+      "diseases": [
+        "高血压"
+      ]
+    },
+    {
+      "id": "unknown",
+      "query": "不存在疾病XYZ的症状是什么？",
+      "status": "no_evidence",
+      "category": "existing"
+    },
+    {
+      "id": "unrelated_history",
+      "query": "不存在疾病XYZ的检查是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "糖尿病是什么？"
+        }
+      ],
+      "status": "no_evidence",
+      "category": "existing"
+    },
+    {
+      "id": "product_details",
+      "query": "糖尿病这些药的厂家和品牌是什么？",
+      "status": "unsupported_field",
+      "category": "existing"
+    },
+    {
+      "id": "parameter_text",
+      "query": "糖尿病症状 '}) CREATE (n:Unexpected) //",
+      "fields": [
+        "has_symptom"
+      ],
+      "category": "existing",
+      "diseases": [
+        "糖尿病"
+      ]
+    },
+    {
+      "id": "signs",
+      "category": "paraphrase",
+      "query": "糖尿病有什么征兆？",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "has_symptom"
+      ]
+    },
+    {
+      "id": "lab_words",
+      "category": "paraphrase",
+      "query": "肺炎应该做哪些化验？",
+      "diseases": [
+        "肺炎"
+      ],
+      "fields": [
+        "need_check"
+      ]
+    },
+    {
+      "id": "avoid_disease",
+      "category": "paraphrase",
+      "query": "胃炎怎么防范？",
+      "diseases": [
+        "胃炎"
+      ],
+      "fields": [
+        "prevent"
+      ]
+    },
+    {
+      "id": "clinic_words",
+      "category": "paraphrase",
+      "query": "高血压去哪个门诊？",
+      "diseases": [
+        "高血压"
+      ],
+      "fields": [
+        "belongs_to"
+      ]
+    },
+    {
+      "id": "trigger_words",
+      "category": "paraphrase",
+      "query": "糖尿病的诱因有哪些？",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "cause"
+      ]
+    },
+    {
+      "id": "overview_words",
+      "category": "paraphrase",
+      "query": "慢性胃炎概述",
+      "diseases": [
+        "慢性胃炎"
+      ],
+      "fields": [
+        "desc"
+      ]
+    },
+    {
+      "id": "treatment_words",
+      "category": "paraphrase",
+      "query": "支气管炎如何医治？",
+      "diseases": [
+        "支气管炎"
+      ],
+      "fields": [
+        "cure_way"
+      ]
+    },
+    {
+      "id": "avoid_food_words",
+      "category": "paraphrase",
+      "query": "糖尿病禁食哪些东西？",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "no_eat"
+      ]
+    },
+    {
+      "id": "reverse_urination",
+      "category": "reverse",
+      "query": "原始资料中哪些疾病的症状列表包含“多尿”？",
+      "oracle": {
+        "symptoms_all": [
+          "多尿"
+        ]
+      },
+      "fields": [
+        "has_symptom"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "reverse_cough",
+      "category": "reverse",
+      "query": "原始资料中哪些疾病的症状列表包含“咳嗽”？",
+      "oracle": {
+        "symptoms_all": [
+          "咳嗽"
+        ]
+      },
+      "fields": [
+        "has_symptom"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "reverse_stomach",
+      "category": "reverse",
+      "query": "原始资料中哪些疾病的症状列表包含“胃痛”？",
+      "oracle": {
+        "symptoms_all": [
+          "胃痛"
+        ]
+      },
+      "fields": [
+        "has_symptom"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "reverse_breath",
+      "category": "reverse",
+      "query": "原始资料中哪些疾病的症状列表包含“呼吸困难”？",
+      "oracle": {
+        "symptoms_all": [
+          "呼吸困难"
+        ]
+      },
+      "fields": [
+        "has_symptom"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "reverse_dizzy",
+      "category": "reverse",
+      "query": "原始资料中哪些疾病的症状列表包含“头晕”？",
+      "oracle": {
+        "symptoms_all": [
+          "头晕"
+        ]
+      },
+      "fields": [
+        "has_symptom"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "reverse_thirst",
+      "category": "reverse",
+      "query": "原始资料中哪些疾病的症状列表包含“口渴”？",
+      "oracle": {
+        "symptoms_all": [
+          "口渴"
+        ]
+      },
+      "fields": [
+        "has_symptom"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "multi_urination_thirst",
+      "category": "conditions",
+      "query": "查询症状列表同时包含“多尿”和“多饮”的疾病资料。",
+      "oracle": {
+        "symptoms_all": [
+          "多尿",
+          "多饮"
+        ]
+      },
+      "fields": [
+        "has_symptom"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "multi_cough_breath",
+      "category": "conditions",
+      "query": "查询症状列表同时包含“咳嗽”和“呼吸困难”的疾病资料。",
+      "oracle": {
+        "symptoms_all": [
+          "咳嗽",
+          "呼吸困难"
+        ]
+      },
+      "fields": [
+        "has_symptom"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "multi_stomach_appetite",
+      "category": "conditions",
+      "query": "查询症状列表同时包含“胃痛”和“食欲不振”的疾病资料。",
+      "oracle": {
+        "symptoms_all": [
+          "胃痛",
+          "食欲不振"
+        ]
+      },
+      "fields": [
+        "has_symptom"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "nested_comparison",
+      "category": "conditions",
+      "query": "分别列出胃炎和慢性胃炎的症状，保留两种疾病各自的资料。",
+      "diseases": [
+        "胃炎",
+        "慢性胃炎"
+      ],
+      "fields": [
+        "has_symptom"
+      ]
+    },
+    {
+      "id": "implicit_followup",
+      "category": "history",
+      "query": "那需要做哪些检查？",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "need_check"
+      ],
+      "history": [
+        {
+          "role": "user",
+          "content": "糖尿病是什么？"
+        }
+      ]
+    },
+    {
+      "id": "implicit_switch",
+      "category": "history",
+      "query": "那检查呢？",
+      "diseases": [
+        "高血压"
+      ],
+      "fields": [
+        "need_check"
+      ],
+      "history": [
+        {
+          "role": "user",
+          "content": "糖尿病是什么？"
+        },
+        {
+          "role": "user",
+          "content": "高血压有什么症状？"
+        }
+      ]
+    },
+    {
+      "id": "ellipsis_intent",
+      "category": "history",
+      "query": "那它呢？",
+      "diseases": [
+        "高血压"
+      ],
+      "fields": [
+        "has_symptom"
+      ],
+      "history": [
+        {
+          "role": "user",
+          "content": "糖尿病有哪些症状？"
+        },
+        {
+          "role": "user",
+          "content": "接下来讨论高血压"
+        }
+      ]
+    },
+    {
+      "id": "ambiguous_pronoun",
+      "category": "history",
+      "query": "它需要做什么检查？",
+      "status": "ambiguous",
+      "history": [
+        {
+          "role": "user",
+          "content": "分别介绍糖尿病和高血压"
+        }
+      ]
+    },
+    {
+      "id": "assistant_only",
+      "category": "history",
+      "query": "它有哪些症状？",
+      "status": "no_evidence",
+      "history": [
+        {
+          "role": "assistant",
+          "content": "糖尿病相关资料"
+        }
+      ]
+    },
+    {
+      "id": "pronoun_chain",
+      "category": "history",
+      "query": "这种病如何预防？",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "prevent"
+      ],
+      "history": [
+        {
+          "role": "user",
+          "content": "糖尿病是什么？"
+        },
+        {
+          "role": "user",
+          "content": "它有哪些症状？"
+        }
+      ]
+    },
+    {
+      "id": "unknown_contains_name",
+      "category": "boundary",
+      "query": "请查询不存在的病名“糖尿病XYZ”的症状。",
+      "status": "no_evidence"
+    },
+    {
+      "id": "excluded_entity",
+      "category": "boundary",
+      "query": "不要讲高血压，只查询糖尿病的症状。",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "has_symptom"
+      ]
+    },
+    {
+      "id": "unrelated_query",
+      "category": "boundary",
+      "query": "今天天气怎么样？",
+      "status": "no_evidence"
+    },
+    {
+      "id": "product_name",
+      "category": "boundary",
+      "query": "糖尿病有哪些药品商品名？",
+      "status": "unsupported_field"
+    },
+    {
+      "id": "complete_symptoms",
+      "category": "coverage",
+      "query": "完整列出糖尿病资料中的全部症状。",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "has_symptom"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "complete_checks",
+      "category": "coverage",
+      "query": "完整列出肺炎资料中的全部检查项目。",
+      "diseases": [
+        "肺炎"
+      ],
+      "fields": [
+        "need_check"
+      ],
+      "complete_evidence": true
+    },
+    {
+      "id": "multi_field",
+      "category": "coverage",
+      "query": "糖尿病的病因和预防分别是什么？",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "cause",
+        "prevent"
+      ]
+    },
+    {
+      "id": "two_diseases",
+      "category": "coverage",
+      "query": "分别查询糖尿病和高血压的症状。",
+      "diseases": [
+        "糖尿病",
+        "高血压"
+      ],
+      "fields": [
+        "has_symptom"
+      ]
+    }
+  ]
+}

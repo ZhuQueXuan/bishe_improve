@@ -1,0 +1,93 @@
+{
+  "database_access": "none",
+  "dataset_id": "medical_full_v1",
+  "dataset_version": "full_v1",
+  "diseases": 8806,
+  "duplicate_decisions": [
+    {
+      "different_fields": [
+        "_id",
+        "acompany",
+        "cause",
+        "check",
+        "cost_money",
+        "cure_lasttime",
+        "cure_way",
+        "cured_prob",
+        "desc",
+        "do_eat",
+        "easy_get",
+        "get_prob",
+        "not_eat",
+        "prevent",
+        "recommand_eat",
+        "symptom"
+      ],
+      "excluded_line": 1739,
+      "name": "胎膜早破",
+      "reason": "duplicate_choose_complete_record_no_content_merge",
+      "selected_line": 8771
+    }
+  ],
+  "excluded_records": 2,
+  "graph": {
+    "entities": 27098,
+    "entities_by_type": {
+      "Check": 3353,
+      "Cure": 544,
+      "Department": 54,
+      "Disease": 8806,
+      "Drug": 3828,
+      "Food": 4870,
+      "Symptom": 5643
+    },
+    "primary_list_items_before_filter": 290972,
+    "relations": 301314,
+    "relations_by_type": {
+      "acompany_with": 11973,
+      "belongs_to": 16781,
+      "common_drug": 14647,
+      "cure_way": 21046,
+      "do_eat": 22025,
+      "has_symptom": 53712,
+      "need_check": 39417,
+      "no_eat": 22034,
+      "recommand_drug": 59465,
+      "recommand_eat": 40214
+    },
+    "skip_reasons": {
+      "contradictory_food_both_directions_omitted": 402,
+      "duplicate_value": 263,
+      "empty_list": 1495,
+      "missing_or_invalid_text_not_filled": 52,
+      "missing_or_null": 10856,
+      "self_reference": 50,
+      "truncated": 994,
+      "unverified_product_details_not_in_graph": 163290
+    },
+    "skipped_items": 177402,
+    "validation": {
+      "drugs_of_relations": 0,
+      "duplicate_entities": 0,
+      "duplicate_relations": 0,
+      "empty_names": 0,
+      "isolated_nodes": 0,
+      "missing_endpoints": 0,
+      "missing_evidence": 0,
+      "producer_nodes": 0
+    }
+  },
+  "manual_review_status": "pending",
+  "medical_review_status": "not_verified",
+  "source": {
+    "parse_errors": [],
+    "parsed_records": 8808,
+    "physical_lines": 8808,
+    "unique_original_names": 8807
+  },
+  "source_file_sha256": {
+    "entities.json": "dfbd23d22d55c30ae2255b20d620da2551bc0546e15d6c46052bf6a713b529ef",
+    "medical.json": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+    "relations.json": "b62768685a8a413ad5244dfe28981e4294b3ab613bf7fe7c74b7973cc613202c"
+  }
+}

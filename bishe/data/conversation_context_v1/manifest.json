@@ -1,0 +1,9 @@
+{
+  "version": "conversation_context_v1",
+  "protocol": "window10 surrogate and session state; same byte budget; expected values scoring only",
+  "hashes": {
+    "tasks.json": "238ee713c959f8e39aeac028d9c845eb9942672cdf76dc53b5077452c0cd34c7",
+    "oracle.json": "d588ec196fe64bd1607eac99dc64e3a0bb08cf598aa17b70a4c242e5b370c7b0"
+  },
+  "holdout_notice": "4 reserved cases written by the author, not blind; not to be used for iterative tuning."
+}

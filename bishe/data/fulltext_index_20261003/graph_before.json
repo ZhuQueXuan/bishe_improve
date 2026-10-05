@@ -1,0 +1,79 @@
+{
+  "dataset_id": "medical_full_v1",
+  "dataset_state": "complete",
+  "metadata_nodes": 1,
+  "node_categories": [
+    {
+      "label": "Disease",
+      "node_count": 8806
+    },
+    {
+      "label": "Symptom",
+      "node_count": 5643
+    },
+    {
+      "label": "Food",
+      "node_count": 4870
+    },
+    {
+      "label": "Drug",
+      "node_count": 3828
+    },
+    {
+      "label": "Check",
+      "node_count": 3353
+    },
+    {
+      "label": "Cure",
+      "node_count": 544
+    },
+    {
+      "label": "Department",
+      "node_count": 54
+    }
+  ],
+  "relationship_types": [
+    {
+      "relation_count": 59465,
+      "relation_type": "recommand_drug"
+    },
+    {
+      "relation_count": 53712,
+      "relation_type": "has_symptom"
+    },
+    {
+      "relation_count": 40214,
+      "relation_type": "recommand_eat"
+    },
+    {
+      "relation_count": 39417,
+      "relation_type": "need_check"
+    },
+    {
+      "relation_count": 22034,
+      "relation_type": "no_eat"
+    },
+    {
+      "relation_count": 22025,
+      "relation_type": "do_eat"
+    },
+    {
+      "relation_count": 21046,
+      "relation_type": "cure_way"
+    },
+    {
+      "relation_count": 16781,
+      "relation_type": "belongs_to"
+    },
+    {
+      "relation_count": 14647,
+      "relation_type": "common_drug"
+    },
+    {
+      "relation_count": 11973,
+      "relation_type": "acompany_with"
+    }
+  ],
+  "total_nodes": 27098,
+  "total_relationships": 301314
+}

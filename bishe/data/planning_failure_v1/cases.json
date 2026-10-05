@@ -1,0 +1,98 @@
+{
+  "version": "planning_failure_v1",
+  "source_report": "temp/authorized_planner_20261004_live.json",
+  "source_sha256": "4af965e2c23a849ab080ae1baed0c729ff3ea0b1c21bd384dd013592c933a511",
+  "cases": [
+    {
+      "task_id": "P02",
+      "recorded_actions": [
+        {
+          "kind": "read_relations",
+          "entity_id": "Disease:2c37d480186021c595298d0be6543962ee82efc0c263846c0cc995a549f7f355",
+          "relation": "acompany_with"
+        },
+        {
+          "kind": "read_fields",
+          "entity_ids": [
+            "Disease:a6f163c81f590eadef9a4f4c351f9b7e58215a230f18dd0aa77e8b32b59c4503",
+            "Disease:97e80de72c28bc4a1ed0939e7a1cd07e6237da5a5b4a6856f8a327d693d8624e"
+          ],
+          "fields": [
+            "desc",
+            "prevent"
+          ]
+        },
+        {
+          "kind": "stop",
+          "status": "complete",
+          "reason": "已整理前2个并发疾病的描述与预防原文摘录及出处",
+          "evidence_ids": [
+            "E4",
+            "E5",
+            "E6",
+            "E7"
+          ]
+        },
+        {
+          "kind": "stop",
+          "status": "complete",
+          "reason": "已整理前2个并发疾病的描述与预防原文摘录及出处",
+          "evidence_ids": [
+            "E4",
+            "E5",
+            "E6",
+            "E7"
+          ]
+        }
+      ],
+      "recorded_rejections": [
+        "incomplete_citations",
+        "incomplete_citations"
+      ],
+      "original_status": "blocked"
+    },
+    {
+      "task_id": "P05",
+      "recorded_actions": [
+        {
+          "kind": "read_relations",
+          "entity_id": "Disease:63403dfe0d0c42776d27e8cdcc244438abe48fb95695b29127b3961bd619b34a",
+          "relation": "acompany_with"
+        },
+        {
+          "kind": "read_fields",
+          "entity_ids": [
+            "Disease:e04842952e9b41aeee63e80969f2e59b5f200d6d3936b77a6e6be03b990b28b0"
+          ],
+          "fields": [
+            "desc",
+            "prevent"
+          ]
+        },
+        {
+          "kind": "read_fields",
+          "entity_ids": [
+            "Disease:e04842952e9b41aeee63e80969f2e59b5f200d6d3936b77a6e6be03b990b28b0"
+          ],
+          "fields": [
+            "prevent"
+          ]
+        },
+        {
+          "kind": "read_fields",
+          "entity_ids": [
+            "Disease:e04842952e9b41aeee63e80969f2e59b5f200d6d3936b77a6e6be03b990b28b0"
+          ],
+          "fields": [
+            "prevent"
+          ]
+        }
+      ],
+      "recorded_rejections": [
+        "resolved_field_repeat",
+        "resolved_field_repeat"
+      ],
+      "original_status": "blocked"
+    }
+  ]
+}

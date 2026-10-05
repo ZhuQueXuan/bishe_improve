@@ -1,0 +1,7994 @@
+[
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "支气管炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "999感冒灵颗粒(感冒灵颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "山东方健麻黄止嗽丸(麻黄止嗽丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "乐松(洛索洛芬钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "普尔丁肺宁片(肺宁片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "云丰伤风停胶囊(伤风停胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "唯田(匹多莫德分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "阿莫仙阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "修正药业消炎片(消炎片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "江苏康缘抗病毒口服液(抗病毒口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "鲁抗阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "广东华南依托红霉素片(依托红霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "银力舒(头孢丙烯分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "康良头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "上海中华风油精(风油精)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "康威迪克(洛索洛芬钠胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "昆药集团银芩胶囊(银芩胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "广州花城药业穿心莲片(穿心莲片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "芬必得酚咖片(酚咖片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "广东罗浮山国药喉痛灵片(喉痛灵片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "珠海联邦头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "利凡优(愈美胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 33,
+    "name": "感冒",
+    "raw_value": "昆明中药蒲公英颗粒(蒲公英颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "支气管肺炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "希舒美(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "维宏(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "新达罗(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "先奎莎(加替沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "赛乐林(罗红霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "康裕头孢氨苄胶囊(头孢氨苄胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "鹿迪桔贝合剂(桔贝合剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "联邦左福康盐酸左氧氟沙星胶(盐酸左氧氟沙星胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "阿莫仙阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "联邦安必仙氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "鲁抗阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "广东华南依托红霉素片(依托红霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "孩尔欣头孢克洛颗粒(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "银力舒(头孢丙烯分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "康良头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "安必君氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "佳乐弗乳酸左氧氟沙星片(乳酸左氧氟沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "达力芬(头孢克肟颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "鲁神乙酰螺旋霉素片(乙酰螺旋霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "鲁抗注射用头孢唑林钠(注射用头孢唑林钠)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "鲁抗麦迪霉素片(麦迪霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "珠海联邦头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 24,
+    "name": "肺炎",
+    "raw_value": "朗瑞(司帕沙星分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "肺水肿",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "振兴氨茶碱片(氨茶碱片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "乐普药业盐酸氨溴索缓释胶囊(盐酸氨溴索缓释胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "深圳致君制药盐酸氨溴索口服(盐酸氨溴索口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "大冢制药盐酸氨溴索口服溶液(盐酸氨溴索口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "信谊天平盐酸氨溴索胶囊(盐酸氨溴索胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "沐舒坦(盐酸氨溴索片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "纽兰药业小青龙合剂(小青龙合剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "沐舒坦(盐酸氨溴索口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "华南药业醋酸泼尼松片(醋酸泼尼松片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "百沫舒(盐酸氨溴索缓释胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "石药欧意氨茶碱片(氨茶碱片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "山西云鹏制药氨茶碱片(氨茶碱片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "天津力生制药醋酸泼尼松片(醋酸泼尼松片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "天津天药药业醋酸泼尼松片(醋酸泼尼松片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "仙琚制药醋酸泼尼松片(醋酸泼尼松片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "亨瑞达制药醋酸泼尼松片(醋酸泼尼松片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "怀仁盐酸氨溴索片(盐酸氨溴索片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "白敬宇制药氨茶碱片(氨茶碱片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "亿康药业细辛脑片(细辛脑片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "盐酸氨溴索糖浆(盐酸氨溴索糖浆)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "石药欧意盐酸氨溴索口服溶液(盐酸氨溴索口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "遂成药业醋酸泼尼松片(醋酸泼尼松片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 2215,
+    "name": "支气管哮喘",
+    "raw_value": "信谊倍他米松片(倍他米松片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "咯血",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 2,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "肺结核",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 3,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "支气管扩张",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 4,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "肺癌",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 5,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "肺气肿",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 6,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "肺动脉高压",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "必与(盐酸氨溴索分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "桑海制药喷托维林氯化铵糖浆(喷托维林氯化铵糖浆)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "赣南制药喷托维林氯化铵糖浆(喷托维林氯化铵糖浆)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "振兴氨茶碱片(氨茶碱片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "希舒美(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "维宏(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "宜昌长江阿奇霉素分散片(阿奇霉素分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "大洋制药盐酸氨溴索分散片(盐酸氨溴索分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "乐普药业盐酸氨溴索缓释胶囊(盐酸氨溴索缓释胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "大连天宇制药阿奇霉素胶囊(阿奇霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "福邦药业阿奇霉素胶囊(阿奇霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "深圳致君制药盐酸氨溴索口服(盐酸氨溴索口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "大冢制药盐酸氨溴索口服溶液(盐酸氨溴索口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "葵花药业得菲尔公司阿奇霉素(阿奇霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "利民制药阿奇霉素胶囊(阿奇霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "东药阿奇霉素胶囊(阿奇霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "浙江南洋药业阿奇霉素胶囊(阿奇霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "江苏长江阿奇霉素胶囊(阿奇霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "信谊天平盐酸氨溴索胶囊(盐酸氨溴索胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "辅仁药业阿奇霉素片(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "南峰药业固本咳喘片(固本咳喘片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "江苏精华制药固本咳喘片(固本咳喘片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 1050,
+    "name": "慢性支气管炎",
+    "raw_value": "汇仁药业阿奇霉素片(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 2,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "细菌性肺炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 3,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "中毒性休克综合征",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 4,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "昏迷",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 5,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "肝大",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 6,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "心律失常",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "广西维威制药维C银翘胶囊(维C银翘胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "湘江利巴韦林颗粒(利巴韦林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "999感冒灵颗粒(感冒灵颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "云丰伤风停胶囊(伤风停胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "江西德上制药小柴胡颗粒(小柴胡颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "天耀牛黄解毒片(牛黄解毒片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "江苏康缘抗病毒口服液(抗病毒口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "上海中华风油精(风油精)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "内蒙古蒙药克感额日敦片(克感额日敦片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "湖北济安堂药业玉屏风口服液(玉屏风口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "昆药集团银芩胶囊(银芩胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "四川逢春小儿止咳糖浆(小儿止咳糖浆)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "太极集团小儿止咳糖浆(小儿止咳糖浆)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "江西南昌桑海玉屏风口服液(玉屏风口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "广东一禾二天油(二天油)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "广州花城药业穿心莲片(穿心莲片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "万年青藿香正气片(藿香正气片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "芬必得酚咖片(酚咖片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "广东罗浮山国药喉痛灵片(喉痛灵片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "利凡优(愈美胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "美大康利巴韦林片(利巴韦林片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "倍乐信(对乙酰氨基酚缓释片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 56,
+    "name": "流行性感冒",
+    "raw_value": "江西心诚藿香正气片(藿香正气片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "胃癌",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "北京同仁堂越鞠保和丸(越鞠保和丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "思密达(蒙脱石散)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "泻利停颠茄磺苄啶片(颠茄磺苄啶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "苏州三药盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "斯达舒维U颠茄铝分散片(维U颠茄铝分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "大庆华科抗饥消渴片(抗饥消渴片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "康缘维动力金红片(金红片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "民生奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "桂林三金复方田七胃痛胶囊(复方田七胃痛胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "民康金明和胃胶囊(金明和胃胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "通化万通元胡止痛胶囊(元胡止痛胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "山西宝泰多潘立酮片(多潘立酮片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "云鹏呋喃唑酮片(呋喃唑酮片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "西安利君奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "北京亚东胃灵颗粒(胃灵颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "洛镁赛奥美拉唑镁肠溶片(奥美拉唑镁肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "新络纳(枸橼酸莫沙必利分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "内蒙古蒙药阿那日十四味散(阿那日十四味散)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "温胃舒温胃舒胶囊(温胃舒胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "乐家老铺参梅养胃颗粒(参梅养胃颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "丰海复方尿囊素片(复方尿囊素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "连乡左金丸(左金丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "洪光胃康胶囊(胃康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 3,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "幽门梗阻",
+    "reason": "duplicate_value"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "上消化道出血",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 1,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "幽门梗阻",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 2,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "胃溃疡性穿孔",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "杭州民生药业奥美拉唑肠溶胶(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "许昌修正奥美拉唑镁肠溶片(奥美拉唑镁肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "国药工业奥美拉唑肠溶片(奥美拉唑肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "信谊天平奥美拉唑肠溶片(奥美拉唑肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "天津力生制药碳酸氢钠片(碳酸氢钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "燕京药业碳酸氢钠片(碳酸氢钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "南湖制药奥美拉唑肠溶片(奥美拉唑肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "康和碳酸氢钠片(碳酸氢钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "星斗药业碳酸氢钠片(碳酸氢钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "大力神制药碳酸氢钠片(碳酸氢钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "沈阳澳华制药奥美拉唑肠溶胶(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "润都制药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "悦康药业奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "石药欧意奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "上海天龙药业奥美拉唑肠溶胶(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "津华晖星奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "东药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "九泰药业奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "康普药业奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "迪诺制药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "海神同洲奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "哈药诺捷奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "呃逆",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "杭州民生药业奥美拉唑肠溶胶(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "宝泰药业多潘立酮片(多潘立酮片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "宜昌长江法莫替丁胶囊(法莫替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "广东三才盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "利君制药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "大庆华科盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "金钥药业多潘立酮口腔崩解片(多潘立酮口腔崩解片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "福森药业盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "万杰制药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "沈阳一药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "丽珠制药多潘立酮片(多潘立酮片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "吗丁啉(多潘立酮片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "鹏鹞药业奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "天津太平洋盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "石药欧意盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "石家庄四药盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "衡山药业盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "黄河药业盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "康美药业盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "北京曙光药业盐酸雷尼替丁胶(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "津华晖星法莫替丁片(法莫替丁片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "全星制药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 2685,
+    "name": "胃食管反流病",
+    "raw_value": "美唯宁(枸橼酸莫沙必利胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "腹痛",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "金鸡复方猴头颗粒(复方猴头颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "江苏康缘蜂胶片(蜂胶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "民生奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "舒威(枸橼酸铋雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "克隆雷克拉霉素分散片(克拉霉素分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "珍棒阿莫西林胶囊(阿莫西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "健朗晨(泮托拉唑钠肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "江西杏林白马胃灵颗粒(胃灵颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "谓葆猴头菌提取物颗粒(猴头菌提取物颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "浙江经纬复方猴头颗粒(复方猴头颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "合肥今越胃膜素胶囊(胃膜素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "广东三才石岐盐酸雷尼替丁胶(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "芜湖张恒春香砂六君丸(香砂六君丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "北京永定胃灵颗粒(胃灵颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "西安利君奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "锥子山香砂养胃丸(香砂养胃丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "北京健都胃灵颗粒(胃灵颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "洛镁赛奥美拉唑镁肠溶片(奥美拉唑镁肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "冯了性香砂六君丸(香砂六君丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "阿莫仙阿莫西林胶囊(阿莫西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "贝克诺顿阿莫西林胶囊(阿莫西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "丰海复方尿囊素片(复方尿囊素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 8548,
+    "name": "十二指肠溃疡",
+    "raw_value": "湖北天圣香砂六君丸(香砂六君丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "脱水",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "杭州民生药业奥美拉唑肠溶胶(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "广东三才盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "利君制药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "大庆华科盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "福森药业盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "鹏鹞药业硫糖铝咀嚼片(硫糖铝咀嚼片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "万杰制药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "天津力生制药碳酸氢钠片(碳酸氢钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "白敬宇制药硫糖铝咀嚼片(硫糖铝咀嚼片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "沈阳一药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "鹏鹞药业奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "仁和堂硫糖铝咀嚼片(硫糖铝咀嚼片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "爱普森药业硫糖铝咀嚼片(硫糖铝咀嚼片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "爱普森药业丙谷胺片(丙谷胺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "天津太平洋盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "石药欧意盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "石家庄四药盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "衡山药业盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "黄河药业盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "康美药业盐酸雷尼替丁胶囊(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "北京曙光药业盐酸雷尼替丁胶(盐酸雷尼替丁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "燕京药业碳酸氢钠片(碳酸氢钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 385,
+    "name": "急性胃炎",
+    "raw_value": "全星制药奥美拉唑肠溶胶囊(奥美拉唑肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "中风",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "伊达力(厄贝沙坦片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "天知二十五味珊瑚丸(二十五味珊瑚丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "天津美伦吲达帕胺滴丸(吲达帕胺滴丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "丽珠优可苯磺酸氨氯地平胶囊(苯磺酸氨氯地平胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "葵花脑立清丸(脑立清丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "浦美特(替米沙坦片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "上海信谊赖诺普利片(赖诺普利片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "新亚富舒盐酸贝那普利片(盐酸贝那普利片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "嘉瑟宜(替米沙坦片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "安内强(替米沙坦片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "怡方(缬沙坦胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "普罗新希马来酸氨氯地平片(马来酸氨氯地平片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "维奥欣(薯蓣皂苷片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "络德(卡维地洛片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "拉美亚马来酸依那普利片(马来酸依那普利片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "瑙珍复方天麻蜜环糖肽片(复方天麻蜜环糖肽片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "宜欣硝苯地平缓释片Ⅰ(硝苯地平缓释片Ⅰ)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "国药硝苯地平缓释片(Ⅰ)(硝苯地平缓释片(Ⅰ))",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "勤可息(马来酸依那普利片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "科苏(厄贝沙坦片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "迪赛诺盐酸拉贝洛尔片(盐酸拉贝洛尔片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "一品红回心康片(回心康片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "圣华曦盐酸乐卡地平片(盐酸乐卡地平片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "糖尿病酮症酸中毒",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 1,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "糖尿病乳酸性酸中毒",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 2,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "糖尿病性神经病",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 4,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "尿毒症",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "海王盐酸二甲双胍片(盐酸二甲双胍片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "北京中惠盐酸二甲双胍片(盐酸二甲双胍片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "北京永康药业盐酸二甲双胍片(盐酸二甲双胍片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "吉林天强制药降糖宁胶囊(降糖宁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "万晟药业盐酸二甲双胍缓释片(盐酸二甲双胍缓释片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "北京同仁堂（唐山）玉泉颗粒(玉泉颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "辅仁堂降糖宁胶囊(降糖宁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "以岭药业盐酸二甲双胍片(盐酸二甲双胍片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "富格药业天麦消渴片(天麦消渴片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "康普药业消渴平片(消渴平片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "吉特药业消渴灵片(消渴灵片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "中联盐酸二甲双胍片(盐酸二甲双胍片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "格华止(盐酸二甲双胍片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "常州制药盐酸二甲双胍片(盐酸二甲双胍片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "卜可(盐酸二甲双胍缓释片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "北京同仁堂抗饥消渴片(抗饥消渴片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "晶珠藏药十八味诃子利尿胶囊(十八味诃子利尿胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "华洋药业渴乐宁胶囊(渴乐宁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "百姓堂药业降糖宁胶囊(降糖宁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "倍顺(盐酸二甲双胍缓释片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "德艾欣(盐酸二甲双胍缓释片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "维奥制药米格列醇片(米格列醇片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 8780,
+    "name": "糖尿病",
+    "raw_value": "倍欣(伏格列波糖片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "猝死",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 1,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "二尖瓣关闭不全",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "天士力复方丹参滴丸(复方丹参滴丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "步长脑心通胶囊(脑心通胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "阜药清心沉香八味丸(清心沉香八味丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "百灵鸟通脉颗粒(通脉颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "康缘大株红景天胶囊(大株红景天胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "江西南昌康尔心胶囊(康尔心胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "雷氏丹参片(丹参片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "太极集团益心酮片(益心酮片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "浙江尖峰愈风宁心滴丸(愈风宁心滴丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "伊贝特单硝酸异山梨酯胶囊(单硝酸异山梨酯胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "修正药业降脂宁颗粒(降脂宁颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "理舒达(辛伐他汀胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "凯宝新谊芪参胶囊(芪参胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "维奥欣(薯蓣皂苷片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "特安呐丹参益心胶囊(丹参益心胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "一品红回心康片(回心康片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "芜湖张恒春天王补心丸(天王补心丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "云植舒心降脂片(舒心降脂片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "江苏康缘大株红景天片(大株红景天片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "佛山天王补心丸(天王补心丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "北京东升冠心生脉丸(冠心生脉丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "松栢速效救心丸(速效救心丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 143,
+    "name": "冠心病",
+    "raw_value": "多达一氨氯地平阿托伐他汀钙(氨氯地平阿托伐他汀钙片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "颈动脉狭窄",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "海正药业奥利司他片(奥利司他片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "康缘药业蜂胶片(蜂胶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "杭州民生药业非诺贝特片(非诺贝特片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "理舒达(辛伐他汀胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "苏之(辛伐他汀片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "乐知苹(阿昔莫司胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "黑龙江济仁药业降脂宁颗粒(降脂宁颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "河南天汇药业降脂宁颗粒(降脂宁颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "天宏药业苯扎贝特片(苯扎贝特片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "永生堂辛伐他汀片(辛伐他汀片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "克旨达制药阿昔莫司胶囊(阿昔莫司胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "鲁南贝特辛伐他汀片(辛伐他汀片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "通化东宝消栓通络片(消栓通络片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "吉通药业降脂宁颗粒(降脂宁颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "云南永安制药脂必妥片(脂必妥片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "神威药业心脑清软胶囊(心脑清软胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "雪樱花制药心脑清软胶囊(心脑清软胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "北京同仁堂消栓通络片(消栓通络片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "鹏鹞药业肌醇烟酸酯片(肌醇烟酸酯片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "天津力生制药烟酸片(烟酸片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "金世制药藻酸双酯钠片(藻酸双酯钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "天津太平洋藻酸双酯钠片(藻酸双酯钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 4406,
+    "name": "高脂血症",
+    "raw_value": "津华晖星藻酸双酯钠片(藻酸双酯钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "周围神经炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 1,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "酒精性肝炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 2,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "肝硬化",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 3,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "肥胖症",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 6,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "腹水",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 7,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "水肿",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 8,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "蜘蛛痣",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "安邦制药强肝片(强肝片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "丹东医创药业复方二氯醋酸二(复方二氯醋酸二异丙胺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "玉药生物三七脂肝丸(三七脂肝丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "卫华药业复方二氯醋酸二异丙(复方二氯醋酸二异丙胺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "内蒙福瑞壳脂胶囊(壳脂胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "石家东方药业强肝胶囊(强肝胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "千金协力药业水飞蓟宾葡甲胺(水飞蓟宾葡甲胺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "通化东宝复方蛋氨酸胆碱片(复方蛋氨酸胆碱片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "仁民药业复方蛋氨酸胆碱片(复方蛋氨酸胆碱片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "水林佳(水飞蓟宾胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "酒泉大得利制药卵磷脂片(卵磷脂片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "山东希力药业复方牛胎肝提取(复方牛胎肝提取物片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "中兴药业水飞蓟宾葡甲胺片(水飞蓟宾葡甲胺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "顺生制药弹性酶肠溶片(弹性酶肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "金伴药业大豆磷脂散(大豆磷脂散)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "亚东生物茵莲清肝颗粒(茵莲清肝颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "绿金子药业复方肝水解物片(复方肝水解物片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "润弘制药肝胆舒康胶囊(肝胆舒康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "太极南充制药茵芪肝复颗粒(茵芪肝复颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "永寿制药强肝片(强肝片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "颐海药业复方蚂蚁养肝胶囊(复方蚂蚁养肝胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "第一生物复方牛胎肝提取物片(复方牛胎肝提取物片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 587,
+    "name": "脂肪肝",
+    "raw_value": "江世药业复方牛胎肝提取物片(复方牛胎肝提取物片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "恶心和呕吐",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 1,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "头痛",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 2,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "眩晕",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 3,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "共济失调",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 4,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "耳鸣",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 5,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "意识障碍",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 6,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "心律失常",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "欧立停(苯甲酸利扎曲普坦片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "伯基(阿司匹林肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "太极涪陵制药通天口服液(通天口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "益欣雪(阿司匹林肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "丹东医创药业阿司匹林片(阿司匹林片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "东泰药业双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "南昌济生双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "石药欧意双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "依科制药双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "中杰药业双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "石药欧意阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "辰欣药业阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "久联制药阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "太洋药业阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "北京曙光药业阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "白敬宇制药萘普生片(萘普生片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "长恒药业双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "天方药业双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "跨海生化双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "长红制药双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "成都一药双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "云阳盐酸可乐定片(盐酸可乐定片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "抑郁症",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "泰华天然生物枣仁安神颗粒(枣仁安神颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "天知二十五味珊瑚丸(二十五味珊瑚丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "葛洪桂龙药膏(桂龙药膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "灵泰补肾益脑丸(补肾益脑丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "健民叶开泰国药安眠补脑口服(安眠补脑口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "修正刺五加颗粒(刺五加颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "敖东安神补脑液(安神补脑液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "四平正和解郁安神颗粒(解郁安神颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "济宁安康谷维素片(谷维素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "浙江越翠珍珠末(珍珠末)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "西藏神猴药业二十味肉豆蔻丸(二十味肉豆蔻丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "仁和脑灵素胶囊(脑灵素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "广东万年青复方首乌补液(复方首乌补液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "天士力养血清脑丸(养血清脑丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "北京东升养血安神颗粒(养血安神颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "连乡安乐片(安乐片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "奥勃兰(长春胺缓释胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "天胶(阿胶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "江西京通美联消疲灵颗粒(消疲灵颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "黑龙江济仁枣仁安神颗粒(枣仁安神颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "甘肃中天金丹红芪口服液(红芪口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "海南回元堂固本回元口服液(固本回元口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 8519,
+    "name": "失眠",
+    "raw_value": "万通景志安神口服液(景志安神口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "骨质增生",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "加衡(左甲状腺素钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "优甲乐(左甲状腺素钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "宇宙甲状腺片(甲状腺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "山东惠诺甲状腺片(甲状腺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "南宁康诺甲状腺片(甲状腺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "济生甲状腺片(甲状腺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "吉林吉春益康胶囊(益康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "中泰甲状腺片(甲状腺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "山西黄河益康胶囊(益康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "君碧莎益康胶囊(益康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "雷替斯(左甲状腺素钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "加衡(左甲状腺素钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "山东鲁北甲状腺片(甲状腺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "优甲乐左甲状腺素钠片(左甲状腺素钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "山东仁和甲状腺片(甲状腺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "陕西汉唐制药益康胶囊(益康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "雷替斯(左甲状腺素钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "兖州生宝甲状腺片(甲状腺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "优甲乐(左甲状腺素钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "加衡(左甲状腺素钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "天津君安甲状腺片(甲状腺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "辽宁天医生物甲状腺片(甲状腺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 826,
+    "name": "甲状腺功能减退",
+    "raw_value": "亚宝益康胶囊(益康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "颅内高压综合征",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "瑞克生血宁片(生血宁片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "吉林金复康益血生胶囊(益血生胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "尤尼雪(乳酸亚铁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "上海信谊富马酸亚铁咀嚼片(富马酸亚铁咀嚼片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "通化新东日富马酸亚铁胶囊(富马酸亚铁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "翔宇红衣复方红衣补血口服液(复方红衣补血口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "益源生(复方硫酸亚铁叶酸片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "健民药业健脾生血片(健脾生血片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "天劲强骨生血口服液(强骨生血口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "迪维佳多维铁口服溶液(多维铁口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "河南福森复方硫酸亚铁颗粒(复方硫酸亚铁颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "维畅舒健脾补血颗粒(健脾补血颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "广西梧州三箭硫酸亚铁缓释片(硫酸亚铁缓释片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "红源达(多糖铁复合物胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "鹊灵硫酸亚铁片(硫酸亚铁片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "九芝堂小儿生血糖浆(小儿生血糖浆)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "北京首儿小儿生血糖浆(小儿生血糖浆)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "蜂王牌再造生血片(再造生血片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "湖北盛通小儿硫酸亚铁糖浆(小儿硫酸亚铁糖浆)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "广州白云山和记黄埔中药健脾(健脾补血片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "达因右旋糖酐铁口服液(右旋糖酐铁口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "广西恒拓富马酸亚铁颗粒(富马酸亚铁颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 938,
+    "name": "缺铁性贫血",
+    "raw_value": "哈药总厂富马酸亚铁颗粒(富马酸亚铁颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "睡眠障碍",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "泰舒达(吡贝地尔缓释片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "绿叶思科盐酸司来吉兰片(盐酸司来吉兰片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "佰莫亭(甲磺酸溴隐亭片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "森福罗(盐酸普拉克索片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "金钥药业多潘立酮口腔崩解片(多潘立酮口腔崩解片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "宜昌人福盐酸金刚烷胺片(盐酸金刚烷胺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "思利巴(左旋多巴片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "美多芭(多巴丝肼片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "宝珠制药盐酸苯海拉明片(盐酸苯海拉明片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "江苏天士力盐酸苯海索片(盐酸苯海索片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "息宁(卡左双多巴控释片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "临汾健民盐酸苯海索片(盐酸苯海索片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "常州康普盐酸苯海索片(盐酸苯海索片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "北京曙光药业左旋多巴片(左旋多巴片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "太原药业盐酸苯海拉明片(盐酸苯海拉明片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "北海阳光药业左旋多巴片(左旋多巴片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "凌云制药左旋多巴片(左旋多巴片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "信谊万象盐酸金刚烷胺片(盐酸金刚烷胺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "华润顺峰药业盐酸苯海拉明片(盐酸苯海拉明片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "福达制药左旋多巴片(左旋多巴片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "中南制药盐酸苯海索片(盐酸苯海索片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "赛升药业单唾液酸四己糖神经(单唾液酸四己糖神经节苷脂钠注射液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 749,
+    "name": "帕金森病",
+    "raw_value": "华北制药多潘立酮口腔崩解片(多潘立酮口腔崩解片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "新达罗(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "赛乐林(罗红霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "忆欣磷霉素氨丁三醇散(磷霉素氨丁三醇散)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "唯田(匹多莫德分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "康裕头孢氨苄胶囊(头孢氨苄胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "联邦左福康盐酸左氧氟沙星胶(盐酸左氧氟沙星胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "阿莫仙阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "联邦安必仙氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "鲁抗阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "广东华南依托红霉素片(依托红霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "孩尔欣头孢克洛颗粒(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "康良头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "西藏神水藏药十八味诃子丸(十八味诃子丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "安必君氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "鼎炉八宝丹胶囊(八宝丹胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "佳乐弗乳酸左氧氟沙星片(乳酸左氧氟沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "鲁抗注射用头孢唑林钠(注射用头孢唑林钠)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "紫竹爱维(替勃龙片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "芙露饮(匹多莫德口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "谱乐益(匹多莫德颗粒剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "珠海联邦头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "特普欣(盐酸头孢他美酯片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 644,
+    "name": "尿路感染",
+    "raw_value": "达力新(头孢呋辛酯胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "先奎莎(加替沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "忆欣磷霉素氨丁三醇散(磷霉素氨丁三醇散)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "康裕头孢氨苄胶囊(头孢氨苄胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "联邦安必仙氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "康良头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "安必君氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "达力芬(头孢克肟颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "鲁抗注射用头孢唑林钠(注射用头孢唑林钠)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "珠海联邦头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "诺仕帕(盐酸屈他维林片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "朗瑞(司帕沙星分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "珍棒阿莫西林胶囊(阿莫西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "万敏新(头孢克洛分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "希诺(头孢克洛分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "巴沙(司帕沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "世福素(头孢克肟胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "博美欣(阿莫西林克拉维酸钾(4:1)分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "西双版纳版纳肾茶袋泡茶(肾茶袋泡茶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "阿莫仙阿莫西林胶囊(阿莫西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "贝克诺顿阿莫西林胶囊(阿莫西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "哈药总厂氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "三叶安比先氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "广西梧州结石通茶(结石通茶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "慢性肾盂肾炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "希尔安肾石通颗粒(肾石通颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "诺仕帕(盐酸屈他维林片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "通尔畅荡石片(荡石片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "百善为民肾石通颗粒(肾石通颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "999肾石通颗粒(肾石通颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "河北万岁药业肾石通颗粒(肾石通颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "岷州肾石通颗粒(肾石通颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "鹊牌排石颗粒(排石颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "乐家老铺排石颗粒(排石颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "杨济生排石颗粒(排石颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "沙溪排石颗粒(排石颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "力生制药氢氯噻嗪片(氢氯噻嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "广东彼迪别嘌醇片(别嘌醇片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "世贸天阶别嘌醇片(别嘌醇片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "广西古方尿路通胶囊(尿路通胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "仁和堂氢氯噻嗪片(氢氯噻嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "常药氢氯噻嗪片(氢氯噻嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "三才石岐制药氢氯噻嗪片(氢氯噻嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "久联别嘌醇片(别嘌醇片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "江西九连山肾石通颗粒(肾石通颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "武汉双龙肾炎四味胶囊(肾炎四味胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "龙泰净石灵胶囊(净石灵胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 3978,
+    "name": "肾结石",
+    "raw_value": "安药肾炎四味胶囊(肾炎四味胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "慢性肾性贫血",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "东北制药呋塞米片(呋塞米片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "中华肾炎安胶囊(肾炎安胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "康乐果肾炎四味胶囊(肾炎四味胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "金汇益肾康胶囊(益肾康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "河南辅仁堂肾复康胶囊(肾复康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "吉林敖东力源肾复康片(肾复康片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "辽宁好护士肾炎消肿片(肾炎消肿片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "太阳肾炎康复片(肾炎康复片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "力生呋塞米片(呋塞米片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "石家庄康力藻酸双酯钠片(藻酸双酯钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "聪明虎益肾康胶囊(益肾康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "山西众燊潞党参口服液(潞党参口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "花溪血尿胶囊(血尿胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "陕西步长高新复方石韦胶囊(复方石韦胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "陕西汉唐制药血尿胶囊(血尿胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "力生制药氢氯噻嗪片(氢氯噻嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "贵阳济仁堂复方石韦胶囊(复方石韦胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "金爵复方石韦胶囊(复方石韦胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "湖北襄阳隆中复方石韦颗粒(复方石韦颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "哈尔滨大洋肾复康胶囊(肾复康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "吉林吉春肾复康胶囊(肾复康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "湖北纽兰肾复康胶囊(肾复康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 637,
+    "name": "慢性肾炎",
+    "raw_value": "康复牌肾炎四味片(肾炎四味片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "早泄",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "康裕头孢氨苄胶囊(头孢氨苄胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "联邦左福康盐酸左氧氟沙星胶(盐酸左氧氟沙星胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "佳乐弗乳酸左氧氟沙星片(乳酸左氧氟沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "朗瑞(司帕沙星分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "安徽新世纪盐酸左氧氟沙星胶(盐酸左氧氟沙星胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "巴沙(司帕沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "宜昌人福甲磺酸培氟沙星片(甲磺酸培氟沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "奇康化瘀固精合剂(化瘀固精合剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "银诺克前列康舒胶囊(前列康舒胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "博美欣(阿莫西林克拉维酸钾(4:1)分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "一品红尿清舒颗粒(尿清舒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "可乐必妥(左氧氟沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "邛崃天银前列舒乐胶囊(前列舒乐胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "诺捷康前列舒乐胶囊(前列舒乐胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "斯威前列舒乐胶囊(前列舒乐胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "顺津前列泰胶囊(前列泰胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "前沥清丹益片(丹益片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "浙江得恩德制药氧氟沙星片(氧氟沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "凯莱克林盐酸克林霉素棕榈酸(盐酸克林霉素棕榈酸酯分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "济仁前列安通胶囊(前列安通胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "陕西君碧莎前列安通胶囊(前列安通胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "云南希陶萆薢分清丸(萆薢分清丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "贵州关德兴宝芝林前列舒乐颗(前列舒乐颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "海南制药一厂富马酸酮替芬片(富马酸酮替芬片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "史泰舒(氯雷他定糖浆)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "西安杨森氯雷他定片(氯雷他定片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "精威(氯雷他定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "希瓦丁(盐酸西替利嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "昔利(盐酸西替利嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "衡山药业富马酸酮替芬胶囊(富马酸酮替芬胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "黑龙江天龙药业富马酸酮替芬(富马酸酮替芬滴鼻液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "华润顺峰药业马来酸氯苯那敏(马来酸氯苯那敏片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "大冢制药孟鲁司特钠咀嚼片(孟鲁司特钠咀嚼片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "大冢制药孟鲁司特钠片(孟鲁司特钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "常州制药富马酸酮替芬片(富马酸酮替芬片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "鲁南贝特孟鲁司特钠片(孟鲁司特钠片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "红药集团通窍鼻炎片(通窍鼻炎片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "万裕药业盐酸非索非那定片(盐酸非索非那定片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "宇惠制药氯雷他定胶囊(氯雷他定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "康博士制药通窍鼻炎片(通窍鼻炎片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "白云山何济公滴通鼻炎水(滴通鼻炎水)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "福州凯华药业盐酸左旋咪唑搽(盐酸左旋咪唑搽剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "氯雷他定糖浆(氯雷他定糖浆)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "临汾健民盐酸异丙嗪片(盐酸异丙嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "巨仁堂通窍鼻炎片(通窍鼻炎片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "万通药业（梅河）胆香鼻炎片(胆香鼻炎片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "化脓性鼻窦炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "希舒美(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "维宏(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "新达罗(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "太极鼻窦炎口服液(鼻窦炎口服液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "天津同仁堂鼻炎灵片(鼻炎灵片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "赛乐林(罗红霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "康裕头孢氨苄胶囊(头孢氨苄胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "阿莫仙阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "联邦安必仙氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "鲁抗阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "广东华南依托红霉素片(依托红霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "孩尔欣头孢克洛颗粒(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "康良头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "民生盐酸羟甲唑啉喷雾剂(盐酸羟甲唑啉喷雾剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "安必君氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "达力芬(头孢克肟颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "鲁神乙酰螺旋霉素片(乙酰螺旋霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "鲁抗注射用头孢唑林钠(注射用头孢唑林钠)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "芙露饮(匹多莫德口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "谱乐益(匹多莫德颗粒剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "珠海联邦头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "特普欣(盐酸头孢他美酯片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "克隆雷克拉霉素分散片(克拉霉素分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "急性喉炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 1,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "支气管炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 3,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "脓毒症",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 4,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "慢性喉炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "acompany",
+    "index": 6,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "咽喉炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "维宏(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "广西维威制药维C银翘胶囊(维C银翘胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "康恩贝复方鱼腥草合剂(复方鱼腥草合剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "新达罗(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "三金西瓜霜润喉片(西瓜霜润喉片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "陈李济喉疾灵胶囊(喉疾灵胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "赛乐林(罗红霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "西安博爱咽炎含片(咽炎含片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "黑龙江天龙口腔炎喷雾剂(口腔炎喷雾剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "贵州百灵双羊喉痹通颗粒(双羊喉痹通颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "康裕头孢氨苄胶囊(头孢氨苄胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "江西德上制药小柴胡颗粒(小柴胡颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "吉祥春牛黄解毒丸(牛黄解毒丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "联邦左福康盐酸左氧氟沙星胶(盐酸左氧氟沙星胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "阿莫仙阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "联邦安必仙氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "江西京通美联一清颗粒(一清颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "鲁抗阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "广东华南依托红霉素片(依托红霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "孩尔欣头孢克洛颗粒(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "申洛(头孢克洛缓释胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "康良头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "扁桃体周围脓肿",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "康裕头孢氨苄胶囊(头孢氨苄胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "吉林巨仁堂感冒清胶囊(感冒清胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "吉祥春牛黄解毒丸(牛黄解毒丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "联邦左福康盐酸左氧氟沙星胶(盐酸左氧氟沙星胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "阿莫仙阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "白山市长白山感冒清胶囊(感冒清胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "天耀牛黄解毒片(牛黄解毒片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "江西京通美联一清颗粒(一清颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "江西诚志永丰蛇胆川贝液(蛇胆川贝液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "鲁抗阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "广东华南依托红霉素片(依托红霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "孩尔欣头孢克洛颗粒(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "运泰(头孢呋辛酯干混悬剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "申优(头孢拉定分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "申洛(头孢克洛缓释胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "康良头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "鼎炉新癀片(新癀片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "桂林三金复方红根草片(复方红根草片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "天强制药炎立消胶囊(炎立消胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "鲁神乙酰螺旋霉素片(乙酰螺旋霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "广州花城穿心莲片(穿心莲片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "芙露饮(匹多莫德口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 8764,
+    "name": "扁桃体炎",
+    "raw_value": "沙溪金菊五花茶颗粒(金菊五花茶颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "慢性中耳炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "希舒美(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "维宏(阿奇霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "新达罗(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "赛乐林(罗红霉素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "大峻当归龙荟片(当归龙荟片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "唯田(匹多莫德分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "康裕头孢氨苄胶囊(头孢氨苄胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "吉祥春牛黄解毒丸(牛黄解毒丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "阿莫仙阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "联邦安必仙氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "鲁抗阿莫西林颗粒(阿莫西林颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "孩尔欣头孢克洛颗粒(头孢克洛颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "银力舒(头孢丙烯分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "康良头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "安必君氨苄西林胶囊(氨苄西林胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "达力芬(头孢克肟颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "浙江尖峰氧氟沙星滴耳液(氧氟沙星滴耳液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "鲁神乙酰螺旋霉素片(乙酰螺旋霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "鲁抗注射用头孢唑林钠(注射用头孢唑林钠)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "鲁抗麦迪霉素片(麦迪霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "芙露饮(匹多莫德口服溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "谱乐益(匹多莫德颗粒剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 2311,
+    "name": "中耳炎",
+    "raw_value": "珠海联邦头孢拉定胶囊(头孢拉定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "皮炎",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "海普林(肝素钠乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "中天金丹药业肤痒颗粒(肤痒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "香菊药业防风通圣丸(防风通圣丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "冯了性(佛山)药业防风通圣(防风通圣丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "华润顺峰药业马来酸氯苯那敏(马来酸氯苯那敏片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "华润顺峰药业咪康唑氯倍他索(咪康唑氯倍他索乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "康正药业曲咪新乳膏(曲咪新乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "新和成药业曲咪新乳膏(曲咪新乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "科田药业曲咪新乳膏(曲咪新乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "吉春制药肤痒颗粒(肤痒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "华润顺峰药业哈西奈德乳膏(哈西奈德乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "高邦制药咪康唑氯倍他索乳膏(咪康唑氯倍他索乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "曲安奈德益康唑乳膏(曲安奈德益康唑乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "益富清(曲安奈德益康唑乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "迪诺制药曲安奈德益康唑乳膏(曲安奈德益康唑乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "泛德曲安奈德益康唑乳膏(曲安奈德益康唑乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "福建太平洋制药曲安奈德益康(曲安奈德益康唑乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "同人泰创灼膏(创灼膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "滇虹药业糠酸莫米松乳膏(糠酸莫米松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "金耀药业醋酸氟轻松乳膏(醋酸氟轻松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "恒安药业丙酸氟替卡松乳膏(丙酸氟替卡松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "临汾健民盐酸异丙嗪片(盐酸异丙嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "长春海外制药肤痒颗粒(肤痒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "喉水肿",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "西安杨森氯雷他定片(氯雷他定片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "精威(氯雷他定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "希瓦丁(盐酸西替利嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "昔利(盐酸西替利嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "中天金丹药业肤痒颗粒(肤痒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "香菊药业防风通圣丸(防风通圣丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "冯了性(佛山)药业防风通圣(防风通圣丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "万裕药业盐酸非索非那定片(盐酸非索非那定片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "吉春制药肤痒颗粒(肤痒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "宇惠制药氯雷他定胶囊(氯雷他定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "临汾健民盐酸异丙嗪片(盐酸异丙嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "长春海外制药肤痒颗粒(肤痒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "泰乐肤痒颗粒(肤痒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "升和药业肤痒颗粒(肤痒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "成都迪康药业肤痒颗粒(肤痒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "南京中山制药肤痒颗粒(肤痒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "盐酸西替利嗪滴剂(盐酸西替利嗪滴剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "盐酸西替利嗪滴剂(盐酸西替利嗪滴剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "白云山中一防风通圣丸(防风通圣丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "宝珠制药盐酸苯海拉明片(盐酸苯海拉明片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "万岁药业防风通圣丸(防风通圣丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "施诺敏(氯雷他定胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "仙特明(盐酸西替利嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "疤痕",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "康裕头孢氨苄胶囊(头孢氨苄胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "达因甘草锌颗粒(甘草锌颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "华威凉血解毒颗粒(凉血解毒颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "平洁甲硝唑乳膏(甲硝唑乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "班赛(过氧苯甲酰凝胶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "黑龙江天龙克林霉素磷酸酯凝(克林霉素磷酸酯凝胶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "山东方明克林霉素磷酸酯凝胶(克林霉素磷酸酯凝胶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "新和成红霉素软膏(红霉素软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "奥络(夫西地酸乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "湖北康正克林霉素磷酸酯凝胶(克林霉素磷酸酯凝胶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "吉林吉尔吉排毒清脂片(排毒清脂片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "黑龙江天宏增抗宁片(增抗宁片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "云昆金花消痤丸(金花消痤丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "黑龙江天龙维胺酯维E乳膏(维胺酯维E乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "广东华润顺峰硫软膏(硫软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "福建三明天泰硫软膏(硫软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "安徽新和成皖南硫软膏(硫软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "舒美达姜黄消痤搽剂(姜黄消痤搽剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "康尼(盐酸米诺环素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "马应龙药业红霉素软膏(红霉素软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "北京御本堂解毒凉血合剂(解毒凉血合剂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "玫卢玫芦消痤膏(玫芦消痤膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 2760,
+    "name": "痤疮",
+    "raw_value": "广东华润顺峰葡萄糖酸氯己定(葡萄糖酸氯己定软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "瘙痒症",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "三益无极膏(无极膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "康纳乐复方曲安奈德乳膏(复方曲安奈德乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "仙唐马来酸氯苯那敏片(马来酸氯苯那敏片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "众生复方醋酸地塞米松乳膏(复方醋酸地塞米松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "惠美健曲咪新乳膏(曲咪新乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "科田曲咪新乳膏(曲咪新乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "常州四药赛庚啶乳膏(赛庚啶乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "珠海安生复方醋酸地塞米松乳(复方醋酸地塞米松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "广东泰恩康复方醋酸地塞米松(复方醋酸地塞米松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "福元药业复方醋酸地塞米松乳(复方醋酸地塞米松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "安徽江中高邦复方醋酸地塞米(复方醋酸地塞米松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "顺峰哈西奈德乳膏(哈西奈德乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "铍宝克痒敏醑(克痒敏醑)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "人福医药氟轻松维B6乳膏(氟轻松维B6乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "槐花氟轻松维B6乳膏(氟轻松维B6乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "维芙膏氟轻松维B6乳膏(氟轻松维B6乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "双燕牌醋酸氟轻松乳膏(醋酸氟轻松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "信龙复方醋酸地塞米松乳膏(复方醋酸地塞米松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "湖北人福成田复方醋酸地塞米(复方醋酸地塞米松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "鞍山九天复方醋酸地塞米松乳(复方醋酸地塞米松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "白云山复方醋酸地塞米松乳膏(复方醋酸地塞米松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "恒安药业丙酸氟替卡松乳膏(丙酸氟替卡松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 2918,
+    "name": "接触性皮炎",
+    "raw_value": "山西亨瑞达马来酸氯苯那敏片(马来酸氯苯那敏片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "红皮病",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "奥瑞特丙酸氯倍他索乳膏(丙酸氯倍他索乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "萌尔夫(他卡西醇软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "银屑颗粒(银屑颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "重庆华邦制药卡泊三醇软膏(卡泊三醇软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "天骄哈西奈德溶液(哈西奈德溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "恒健制药曲安奈德新霉素贴膏(曲安奈德新霉素贴膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "田可(环孢素软胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "中联四药复方地蒽酚软膏(复方地蒽酚软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "奥深(复方氟米松软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "叶开泰复方倍氯米松樟脑乳膏(复方倍氯米松樟脑乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "华润顺峰药业哈西奈德乳膏(哈西奈德乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "白云药业软皂(软皂)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "人福成田药业氟轻松维B6乳(氟轻松维B6乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "天龙制药氟轻松维B6乳膏(氟轻松维B6乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "江苏远恒氟轻松维B6乳膏(氟轻松维B6乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "东新药业银屑灵(银屑灵)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "人福成田药业维A酸乳膏(维A酸乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "金耀药业醋酸氟轻松乳膏(醋酸氟轻松乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "新和成药业丙酸氯倍他索乳膏(丙酸氯倍他索乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "恩肤霜(丙酸氯倍他索乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "康惠制药擦癣药水(擦癣药水)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "西藏芝芝药业冰黄肤乐软膏(冰黄肤乐软膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 3118,
+    "name": "银屑病",
+    "raw_value": "东陵药业哈西奈德溶液(哈西奈德溶液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "植物神经功能紊乱",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "白山长白山制药骨刺片(骨刺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "海力生氨糖美辛肠溶片(氨糖美辛肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "药都樟树抗骨质增生丸(抗骨质增生丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "闽海药业抗骨增生片(抗骨增生片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "西峰制药藤黄健骨胶囊(藤黄健骨胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "中医研究院骨筋丸胶囊(骨筋丸胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "康奇力药业腰息痛胶囊(腰息痛胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "新赣江药业腰息痛胶囊(腰息痛胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "茂祥制药藤黄健骨丸(藤黄健骨丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "振霖药业腰息痛胶囊(腰息痛胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "方兴制药骨刺平片(骨刺平片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "康惠制药骨刺胶囊(骨刺胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "吉尔吉药业颈康胶囊(颈康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "白云制药灵仙跌打片(灵仙跌打片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "辅仁堂抗骨增生片(抗骨增生片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "甘南藏药抗骨质增生丸(抗骨质增生丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "陕西健民骨刺平片(骨刺平片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "双鼎制药抑眩宁胶囊(抑眩宁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "欧莱(复方七叶皂苷钠凝胶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "海天制药骨筋丸胶囊(骨筋丸胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "海口市制药根痛平片(根痛平片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "汉典制药根痛平颗粒(根痛平颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 719,
+    "name": "颈椎病",
+    "raw_value": "福瑞达制药颈痛片(颈痛片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "周围神经损伤",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "白山长白山制药骨刺片(骨刺片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "康惠制药骨刺胶囊(骨刺胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "吉尔吉药业颈康胶囊(颈康胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "白云制药灵仙跌打片(灵仙跌打片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "盛辉药业麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "欧莱(复方七叶皂苷钠凝胶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "卫生材料药业麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "汉典制药根痛平颗粒(根痛平颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "鼎泰麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "康恩贝中药麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "天津同仁堂麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "东陵药业麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "百益制药麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "津奉药业麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "力康药业麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "奇灵药业麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "湖北康源麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "华润天和麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "羚锐卫生麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "颈复康药业腰痛宁胶囊(腰痛宁胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "保定东方制药麝香壮骨膏(麝香壮骨膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 8614,
+    "name": "腰椎间盘突出",
+    "raw_value": "益民堂制药根痛平胶囊(根痛平胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "关节疼痛",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "保节力(硫酸氨基葡萄糖片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "伊索佳(硫酸氨基葡萄糖胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "宜昌长江乳酸左氧氟沙星片(乳酸左氧氟沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "伯基(阿司匹林肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "先声药业双氯芬酸钠凝胶(双氯芬酸钠凝胶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "芬迪(双氯芬酸钠凝胶)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "益欣雪(阿司匹林肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "东泰药业双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "南昌济生双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "石药欧意双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "依科制药双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "中杰药业双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "华纳大药厂双氯芬酸钠缓释片(双氯芬酸钠缓释片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "石药欧意阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "辰欣药业阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "久联制药阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "太洋药业阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "北京曙光药业阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "白敬宇制药萘普生片(萘普生片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "长恒药业双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "阿司匹林肠溶片(阿司匹林肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "天方药业双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 985,
+    "name": "骨关节炎",
+    "raw_value": "跨海生化双氯芬酸钠肠溶片(双氯芬酸钠肠溶片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "瘢痕性睑内翻",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "典舒(妥布霉素地塞米松滴眼液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "润舒(氯霉素滴眼液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "归真堂熊胆粉(熊胆粉)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "大峻当归龙荟片(当归龙荟片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "天耀牛黄解毒片(牛黄解毒片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "江西京通美联一清颗粒(一清颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "广东华南依托红霉素片(依托红霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "沙溪金菊五花茶颗粒(金菊五花茶颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "希瓦丁(盐酸西替利嗪片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "青峰一清颗粒(一清颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "花城龙胆泻肝丸(龙胆泻肝丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "求康氯霉素滴眼液(氯霉素滴眼液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "新红康(红霉素肠溶胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "艾唯多(萘敏维滴眼液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "广西济民制药清火栀麦片(清火栀麦片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "广西千福制药夏桑菊颗粒(夏桑菊颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "云南植物药业红霉素眼膏(红霉素眼膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "承德天原药业栀子金花丸(栀子金花丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "典必殊(妥布霉素地塞米松滴眼液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "浙江维康一清颗粒(一清颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "湖北香连黄连上清片(黄连上清片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "润舒氧氟沙星滴眼液(氧氟沙星滴眼液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "东康氧氟沙星滴眼液(氧氟沙星滴眼液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "acompany",
+    "index": 0,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "牙周脓肿",
+    "reason": "disease_outside_sample"
+  },
+  {
+    "field": "drug_detail",
+    "index": 0,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "益口佳丁硼乳膏(丁硼乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 1,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "康裕头孢氨苄胶囊(头孢氨苄胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 2,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "吉祥春牛黄解毒丸(牛黄解毒丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 3,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "鲁神乙酰螺旋霉素片(乙酰螺旋霉素片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 4,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "朗瑞(司帕沙星分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 5,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "巴沙(司帕沙星片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 6,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "口泰(复方氯己定含漱液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 7,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "丹东康宁丁硼乳膏(丁硼乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 8,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "博美欣(阿莫西林克拉维酸钾(4:1)分散片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 9,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "四川大冢糠甾醇片(糠甾醇片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 10,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "抚河牌人工牛黄甲硝唑胶囊(人工牛黄甲硝唑胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 11,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "贵州飞云岭甲硝唑片(甲硝唑片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 12,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "遂成药业替硝唑胶囊(替硝唑胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 13,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "口宝金栀洁龈含漱液(金栀洁龈含漱液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 14,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "康尼(盐酸米诺环素胶囊)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 15,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "丽珠集团替硝唑片(替硝唑片)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 16,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "金口馨复方氯己定含漱液(复方氯己定含漱液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 17,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "北京海德润碘甘油(碘甘油)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 18,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "江苏晨牌邦德浓替硝唑含漱液(浓替硝唑含漱液)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 19,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "雅皓(丁硼乳膏)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 20,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "松栢牙痛停滴丸(牙痛停滴丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 21,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "陕西天洋黄连上清丸(黄连上清丸)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "drug_detail",
+    "index": 22,
+    "line": 2492,
+    "name": "牙周炎",
+    "raw_value": "修正复方金银花颗粒(复方金银花颗粒)",
+    "reason": "unverified_product_details_not_in_graph"
+  },
+  {
+    "field": "symptom",
+    "index": 1,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "重压感、紧箍感...",
+    "reason": "truncated"
+  },
+  {
+    "field": "recommand_eat",
+    "index": 5,
+    "line": 139,
+    "name": "高血压",
+    "raw_value": "芹菜粥",
+    "reason": "duplicate_value"
+  },
+  {
+    "field": "symptom",
+    "index": 6,
+    "line": 645,
+    "name": "膀胱炎",
+    "raw_value": "腰痛伴尿频、尿...",
+    "reason": "truncated"
+  },
+  {
+    "field": "do_eat",
+    "index": 1,
+    "line": 748,
+    "name": "偏头痛",
+    "raw_value": "莲子",
+    "reason": "duplicate_value"
+  },
+  {
+    "field": "recommand_eat",
+    "index": 5,
+    "line": 1224,
+    "name": "前列腺炎",
+    "raw_value": "海带粳米粥",
+    "reason": "duplicate_value"
+  },
+  {
+    "field": "symptom",
+    "index": 3,
+    "line": 1950,
+    "name": "鼻窦炎",
+    "raw_value": "鼻塞排出脓性或...",
+    "reason": "truncated"
+  },
+  {
+    "field": "symptom",
+    "index": 6,
+    "line": 1958,
+    "name": "过敏性鼻炎",
+    "raw_value": "侧卧时位于下侧...",
+    "reason": "truncated"
+  },
+  {
+    "field": "symptom",
+    "index": 0,
+    "line": 2298,
+    "name": "胃炎",
+    "raw_value": "发热伴有腹痛、...",
+    "reason": "truncated"
+  },
+  {
+    "field": "common_drug",
+    "index": 2,
+    "line": 2304,
+    "name": "咽炎",
+    "raw_value": "慢严舒柠",
+    "reason": "duplicate_value"
+  },
+  {
+    "field": "symptom",
+    "index": 1,
+    "line": 2316,
+    "name": "结膜炎",
+    "raw_value": "眼睑部有明显的...",
+    "reason": "truncated"
+  },
+  {
+    "field": "symptom",
+    "index": 4,
+    "line": 3072,
+    "name": "湿疹",
+    "raw_value": "妊娠时皮肤皱褶...",
+    "reason": "truncated"
+  },
+  {
+    "field": "symptom",
+    "index": 3,
+    "line": 3114,
+    "name": "荨麻疹",
+    "raw_value": "粪便中查见虫卵...",
+    "reason": "truncated"
+  },
+  {
+    "field": "symptom",
+    "index": 8,
+    "line": 8336,
+    "name": "胃溃疡",
+    "raw_value": "胃镜下表现出广...",
+    "reason": "truncated"
+  }
+]

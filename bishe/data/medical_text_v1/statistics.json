@@ -1,0 +1,21 @@
+{
+  "by_field": {
+    "cause": 15873,
+    "check": 39530,
+    "cure_way": 21048,
+    "desc": 8842,
+    "prevent": 9976,
+    "symptom": 54706
+  },
+  "chunks": 149975,
+  "chunks_sha256": "6a8ea539a0994f58bb3887d247bb9e5882fb7fa143fdce814565f53fd3f50ae7",
+  "database_writes": 0,
+  "dataset_id": "medical_text_v1",
+  "diseases": 8806,
+  "max_characters": 600,
+  "medical_review_status": "not_verified",
+  "overlap_characters": 0,
+  "retained_records_sha256": "609fe950e3c404b9ff0c41cab9536655d6f4dc04a8404ed1105dc4aef968de3c",
+  "source_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+  "source_validation": "exact_original_record_and_span"
+}

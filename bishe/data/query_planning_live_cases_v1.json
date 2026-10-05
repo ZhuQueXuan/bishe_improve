@@ -1,0 +1,145 @@
+{
+  "cases": [
+    {
+      "category": "paraphrase",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "has_symptom"
+      ],
+      "id": "signs",
+      "query": "糖尿病有什么征兆？"
+    },
+    {
+      "category": "paraphrase",
+      "diseases": [
+        "肺炎"
+      ],
+      "fields": [
+        "need_check"
+      ],
+      "id": "lab_words",
+      "query": "肺炎应该做哪些化验？"
+    },
+    {
+      "category": "paraphrase",
+      "diseases": [
+        "胃炎"
+      ],
+      "fields": [
+        "prevent"
+      ],
+      "id": "avoid_disease",
+      "query": "胃炎怎么防范？"
+    },
+    {
+      "category": "paraphrase",
+      "diseases": [
+        "高血压"
+      ],
+      "fields": [
+        "belongs_to"
+      ],
+      "id": "clinic_words",
+      "query": "高血压去哪个门诊？"
+    },
+    {
+      "category": "paraphrase",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "cause"
+      ],
+      "id": "trigger_words",
+      "query": "糖尿病的诱因有哪些？"
+    },
+    {
+      "category": "paraphrase",
+      "diseases": [
+        "慢性胃炎"
+      ],
+      "fields": [
+        "desc"
+      ],
+      "id": "overview_words",
+      "query": "慢性胃炎概述"
+    },
+    {
+      "category": "paraphrase",
+      "diseases": [
+        "支气管炎"
+      ],
+      "fields": [
+        "cure_way"
+      ],
+      "id": "treatment_words",
+      "query": "支气管炎如何医治？"
+    },
+    {
+      "category": "paraphrase",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "no_eat"
+      ],
+      "id": "avoid_food_words",
+      "query": "糖尿病禁食哪些东西？"
+    },
+    {
+      "category": "history",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "need_check"
+      ],
+      "history": [
+        {
+          "content": "糖尿病是什么？",
+          "role": "user"
+        }
+      ],
+      "id": "implicit_followup",
+      "query": "那需要做哪些检查？"
+    },
+    {
+      "category": "history",
+      "diseases": [
+        "糖尿病"
+      ],
+      "fields": [
+        "prevent"
+      ],
+      "history": [
+        {
+          "content": "糖尿病是什么？",
+          "role": "user"
+        },
+        {
+          "content": "它有哪些症状？",
+          "role": "user"
+        }
+      ],
+      "id": "pronoun_chain",
+      "query": "这种病如何预防？"
+    },
+    {
+      "category": "boundary",
+      "id": "unknown_contains_name",
+      "query": "请查询不存在的病名“糖尿病XYZ”的症状。",
+      "status": "no_evidence"
+    },
+    {
+      "category": "boundary",
+      "id": "product_name",
+      "query": "糖尿病有哪些药品商品名？",
+      "status": "unsupported_field"
+    }
+  ],
+  "scope": "8 paraphrase, 2 history, 2 boundary; current question only sent externally",
+  "source": "retrieval_baseline_v2.json",
+  "version": "query_planning_live_cases_v1"
+}

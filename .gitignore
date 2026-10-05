@@ -1,0 +1,48 @@
+# Local process material and retired versions
+/temp/
+/Old/
+
+# Credentials and local user data
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+*.sqlite3
+*.sqlite3-*
+*.db
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Installed environments, caches and generated builds
+**/.venv/
+**/.venv-*/
+**/venv/
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.cache/
+**/dist/
+**/build/
+*.log
+*.pid
+**/logs/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Neo4j stores, authentication metadata, backups and model artifacts
+/bishe/data/neo4j_full_v1/
+/bishe/data/backups/
+/bishe/data/models/
+*.dump
+
+# Large deterministic exports; regenerate from medical.json
+/bishe/data/full_v1/entities.json
+/bishe/data/full_v1/relations.json
+/bishe/data/full_v1/source_records.json
+/bishe/data/full_v1/skipped_items.json
+/bishe/data/medical_text_v1/chunks.json

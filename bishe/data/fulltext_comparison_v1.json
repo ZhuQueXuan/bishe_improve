@@ -1,0 +1,1445 @@
+{
+  "baseline_cases_sha256": "7eff1c09595423beb674a2c04662c1edf4af59d9d88272eb347a200db23938bf",
+  "existing_50_cases": [
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 14.73,
+      "fulltext_status": "no_evidence",
+      "id": "description",
+      "query": "糖尿病是什么？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 12.2,
+      "fulltext_status": "no_evidence",
+      "id": "symptoms",
+      "query": "糖尿病有哪些症状？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 12.14,
+      "fulltext_status": "no_evidence",
+      "id": "checks",
+      "query": "糖尿病需要哪些检查？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 11.14,
+      "fulltext_status": "no_evidence",
+      "id": "cause",
+      "query": "糖尿病的病因是什么？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 12.58,
+      "fulltext_status": "no_evidence",
+      "id": "prevention",
+      "query": "如何预防糖尿病？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 11.16,
+      "fulltext_status": "no_evidence",
+      "id": "drug_text",
+      "query": "糖尿病有哪些用药资料？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 11.79,
+      "fulltext_status": "no_evidence",
+      "id": "department",
+      "query": "糖尿病挂什么科室？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 11.57,
+      "fulltext_status": "no_evidence",
+      "id": "food",
+      "query": "糖尿病的饮食有哪些资料？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 12.33,
+      "fulltext_status": "no_evidence",
+      "id": "hypertension",
+      "query": "高血压有哪些症状？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 11.18,
+      "fulltext_status": "no_evidence",
+      "id": "pneumonia",
+      "query": "肺炎需要哪些检查？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 11.3,
+      "fulltext_status": "no_evidence",
+      "id": "gastritis",
+      "query": "胃炎的病因是什么？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 11.92,
+      "fulltext_status": "no_evidence",
+      "id": "bronchitis",
+      "query": "支气管炎的治疗方式有哪些？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 10.52,
+      "fulltext_status": "no_evidence",
+      "id": "followup",
+      "query": "它需要哪些检查？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 11.14,
+      "fulltext_status": "no_evidence",
+      "id": "switch_disease",
+      "query": "高血压有哪些症状？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 12.19,
+      "fulltext_status": "no_evidence",
+      "id": "unknown",
+      "query": "不存在疾病XYZ的症状是什么？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 13.04,
+      "fulltext_status": "no_evidence",
+      "id": "unrelated_history",
+      "query": "不存在疾病XYZ的检查是什么？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 32.43,
+      "fulltext_status": "no_evidence",
+      "id": "product_details",
+      "query": "糖尿病这些药的厂家和品牌是什么？"
+    },
+    {
+      "category": "existing",
+      "facts": 0,
+      "fulltext_latency_ms": 11.81,
+      "fulltext_status": "no_evidence",
+      "id": "parameter_text",
+      "query": "糖尿病症状 '}) CREATE (n:Unexpected) //"
+    },
+    {
+      "category": "paraphrase",
+      "facts": 0,
+      "fulltext_latency_ms": 12.18,
+      "fulltext_status": "no_evidence",
+      "id": "signs",
+      "query": "糖尿病有什么征兆？"
+    },
+    {
+      "category": "paraphrase",
+      "facts": 0,
+      "fulltext_latency_ms": 14.54,
+      "fulltext_status": "no_evidence",
+      "id": "lab_words",
+      "query": "肺炎应该做哪些化验？"
+    },
+    {
+      "category": "paraphrase",
+      "facts": 0,
+      "fulltext_latency_ms": 12.22,
+      "fulltext_status": "no_evidence",
+      "id": "avoid_disease",
+      "query": "胃炎怎么防范？"
+    },
+    {
+      "category": "paraphrase",
+      "facts": 0,
+      "fulltext_latency_ms": 11.34,
+      "fulltext_status": "no_evidence",
+      "id": "clinic_words",
+      "query": "高血压去哪个门诊？"
+    },
+    {
+      "category": "paraphrase",
+      "facts": 0,
+      "fulltext_latency_ms": 12.77,
+      "fulltext_status": "no_evidence",
+      "id": "trigger_words",
+      "query": "糖尿病的诱因有哪些？"
+    },
+    {
+      "category": "paraphrase",
+      "facts": 0,
+      "fulltext_latency_ms": 9.32,
+      "fulltext_status": "no_evidence",
+      "id": "overview_words",
+      "query": "慢性胃炎概述"
+    },
+    {
+      "category": "paraphrase",
+      "facts": 0,
+      "fulltext_latency_ms": 10.7,
+      "fulltext_status": "no_evidence",
+      "id": "treatment_words",
+      "query": "支气管炎如何医治？"
+    },
+    {
+      "category": "paraphrase",
+      "facts": 0,
+      "fulltext_latency_ms": 11.57,
+      "fulltext_status": "no_evidence",
+      "id": "avoid_food_words",
+      "query": "糖尿病禁食哪些东西？"
+    },
+    {
+      "category": "reverse",
+      "facts": 0,
+      "fulltext_latency_ms": 12.74,
+      "fulltext_status": "no_evidence",
+      "id": "reverse_urination",
+      "query": "原始资料中哪些疾病的症状列表包含“多尿”？"
+    },
+    {
+      "category": "reverse",
+      "facts": 0,
+      "fulltext_latency_ms": 11.67,
+      "fulltext_status": "no_evidence",
+      "id": "reverse_cough",
+      "query": "原始资料中哪些疾病的症状列表包含“咳嗽”？"
+    },
+    {
+      "category": "reverse",
+      "facts": 0,
+      "fulltext_latency_ms": 11.47,
+      "fulltext_status": "no_evidence",
+      "id": "reverse_stomach",
+      "query": "原始资料中哪些疾病的症状列表包含“胃痛”？"
+    },
+    {
+      "category": "reverse",
+      "facts": 0,
+      "fulltext_latency_ms": 11.91,
+      "fulltext_status": "no_evidence",
+      "id": "reverse_breath",
+      "query": "原始资料中哪些疾病的症状列表包含“呼吸困难”？"
+    },
+    {
+      "category": "reverse",
+      "facts": 0,
+      "fulltext_latency_ms": 11.61,
+      "fulltext_status": "no_evidence",
+      "id": "reverse_dizzy",
+      "query": "原始资料中哪些疾病的症状列表包含“头晕”？"
+    },
+    {
+      "category": "reverse",
+      "facts": 0,
+      "fulltext_latency_ms": 12.25,
+      "fulltext_status": "no_evidence",
+      "id": "reverse_thirst",
+      "query": "原始资料中哪些疾病的症状列表包含“口渴”？"
+    },
+    {
+      "category": "conditions",
+      "facts": 0,
+      "fulltext_latency_ms": 11.17,
+      "fulltext_status": "no_evidence",
+      "id": "multi_urination_thirst",
+      "query": "查询症状列表同时包含“多尿”和“多饮”的疾病资料。"
+    },
+    {
+      "category": "conditions",
+      "facts": 0,
+      "fulltext_latency_ms": 11.77,
+      "fulltext_status": "no_evidence",
+      "id": "multi_cough_breath",
+      "query": "查询症状列表同时包含“咳嗽”和“呼吸困难”的疾病资料。"
+    },
+    {
+      "category": "conditions",
+      "facts": 0,
+      "fulltext_latency_ms": 12.38,
+      "fulltext_status": "no_evidence",
+      "id": "multi_stomach_appetite",
+      "query": "查询症状列表同时包含“胃痛”和“食欲不振”的疾病资料。"
+    },
+    {
+      "category": "conditions",
+      "facts": 0,
+      "fulltext_latency_ms": 35.55,
+      "fulltext_status": "no_evidence",
+      "id": "nested_comparison",
+      "query": "分别列出胃炎和慢性胃炎的症状，保留两种疾病各自的资料。"
+    },
+    {
+      "category": "history",
+      "facts": 0,
+      "fulltext_latency_ms": 12.41,
+      "fulltext_status": "no_evidence",
+      "id": "implicit_followup",
+      "query": "那需要做哪些检查？"
+    },
+    {
+      "category": "history",
+      "facts": 0,
+      "fulltext_latency_ms": 12.58,
+      "fulltext_status": "no_evidence",
+      "id": "implicit_switch",
+      "query": "那检查呢？"
+    },
+    {
+      "category": "history",
+      "facts": 0,
+      "fulltext_latency_ms": 11.22,
+      "fulltext_status": "no_evidence",
+      "id": "ellipsis_intent",
+      "query": "那它呢？"
+    },
+    {
+      "category": "history",
+      "facts": 0,
+      "fulltext_latency_ms": 25.38,
+      "fulltext_status": "no_evidence",
+      "id": "ambiguous_pronoun",
+      "query": "它需要做什么检查？"
+    },
+    {
+      "category": "history",
+      "facts": 0,
+      "fulltext_latency_ms": 12.41,
+      "fulltext_status": "no_evidence",
+      "id": "assistant_only",
+      "query": "它有哪些症状？"
+    },
+    {
+      "category": "history",
+      "facts": 0,
+      "fulltext_latency_ms": 12.68,
+      "fulltext_status": "no_evidence",
+      "id": "pronoun_chain",
+      "query": "这种病如何预防？"
+    },
+    {
+      "category": "boundary",
+      "facts": 0,
+      "fulltext_latency_ms": 11.08,
+      "fulltext_status": "no_evidence",
+      "id": "unknown_contains_name",
+      "query": "请查询不存在的病名“糖尿病XYZ”的症状。"
+    },
+    {
+      "category": "boundary",
+      "facts": 0,
+      "fulltext_latency_ms": 10.46,
+      "fulltext_status": "no_evidence",
+      "id": "excluded_entity",
+      "query": "不要讲高血压，只查询糖尿病的症状。"
+    },
+    {
+      "category": "boundary",
+      "facts": 0,
+      "fulltext_latency_ms": 11.84,
+      "fulltext_status": "no_evidence",
+      "id": "unrelated_query",
+      "query": "今天天气怎么样？"
+    },
+    {
+      "category": "boundary",
+      "facts": 0,
+      "fulltext_latency_ms": 11.19,
+      "fulltext_status": "no_evidence",
+      "id": "product_name",
+      "query": "糖尿病有哪些药品商品名？"
+    },
+    {
+      "category": "coverage",
+      "facts": 0,
+      "fulltext_latency_ms": 13.13,
+      "fulltext_status": "no_evidence",
+      "id": "complete_symptoms",
+      "query": "完整列出糖尿病资料中的全部症状。"
+    },
+    {
+      "category": "coverage",
+      "facts": 0,
+      "fulltext_latency_ms": 13.28,
+      "fulltext_status": "no_evidence",
+      "id": "complete_checks",
+      "query": "完整列出肺炎资料中的全部检查项目。"
+    },
+    {
+      "category": "coverage",
+      "facts": 0,
+      "fulltext_latency_ms": 23.13,
+      "fulltext_status": "no_evidence",
+      "id": "multi_field",
+      "query": "糖尿病的病因和预防分别是什么？"
+    },
+    {
+      "category": "coverage",
+      "facts": 0,
+      "fulltext_latency_ms": 11.65,
+      "fulltext_status": "no_evidence",
+      "id": "two_diseases",
+      "query": "分别查询糖尿病和高血压的症状。"
+    }
+  ],
+  "limitations": [
+    "Exact phrases from raw text are a smoke test, not general question accuracy.",
+    "The existing 50 natural questions remain the graph baseline; full-text literal hits are not pass rates.",
+    "No vectors, rank fusion or change to the chat route in this milestone."
+  ],
+  "phrase_cases": [
+    {
+      "expected_source_disease": "糖尿病",
+      "fulltext_latency_ms": 13.96,
+      "fulltext_target_found": true,
+      "graph_target_found": false,
+      "phrase": "内分泌代谢性疾病",
+      "retrieval": {
+        "candidate_diseases": 3,
+        "candidate_limit_reached": false,
+        "dataset_id": "medical_full_v1",
+        "external_model_calls": 0,
+        "facts": [
+          {
+            "disease": "心包积液",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 9.122098922729492,
+            "sources": [
+              {
+                "disease": "心包积液",
+                "end": 221,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 194,
+                "record_id": {
+                  "$oid": "5bb578b8831b973a137e3fa7"
+                },
+                "start": 0
+              }
+            ],
+            "value": "心包积液的常见病因分为感染性和非感染性两大类。\n包括肿瘤(尤其肺癌，乳腺癌，淋巴瘤，纵隔肿瘤等)，风湿病(类风湿性关节炎，系统性红斑狼疮，硬皮病等)，心脏损伤或大血管破裂，内分泌代谢性疾病(如甲减，尿毒症，痛风等)，放射损伤，心肌梗死后积液等。\n包括结核，病毒(柯萨奇，流感等病毒)，细菌(金葡菌，肺炎球菌，革兰阴性杆菌，霉菌等)，原虫(阿米巴)等;大多数心包积液顽固难治，难以彻底根除，明确病因，对疾病本身进行治疗，可使心包积液缓解或根治。"
+          },
+          {
+            "disease": "糖尿病",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 6.8174591064453125,
+            "sources": [
+              {
+                "disease": "糖尿病",
+                "end": 423,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 8780,
+                "record_id": {
+                  "$oid": "5bb57901831b973a137e6131"
+                },
+                "start": 0
+              }
+            ],
+            "value": "糖尿病是一种比较常见的内分泌代谢性疾病。该病发病原因主要是由于胰岛素分泌不足，以及胰升高血糖素不适当地分泌过多所引起。多见于40岁以上喜食甜食而肥胖的病人，城市多于农村，常有家族史，故与遗传有关。少数病人与病毒感染和自身免疫反应有关。主要表现为烦渴、多饮、多尿、多食、乏力、消瘦等症状。生命的常见病，伴发高血压、冠心病、高脂血症等，严重时危及生命。\n中医学认为，肝主疏泄，关系人体接收机的升降与调畅，肝气郁滞则气机升降输布紊乱，肝失疏泄则血糖等精微物质不能随清阳之气输布于周身而郁滞于血中，出现高血糖或精微物质的输布紊乱，反见血糖升高，进一步导致血脂、蛋白等其它精微物质紊乱，引起其他合并症，治疗以疏肝调气为主，顺肝条达之性以恢复其生理功能，肝气条达，气机调畅，精微得以输布，糖被利用而血糖自然下降。\n另外，因糖尿病的发生和饮食有关，饮食控制的好坏直接影响着治疗的效果。再就是配合运动，注意调摄情志，再适当的配合中药治疗会取得良好的治疗效果。\n "
+          },
+          {
+            "disease": "急性心包炎",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 6.455053329467773,
+            "sources": [
+              {
+                "disease": "急性心包炎",
+                "end": 600,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 151,
+                "record_id": {
+                  "$oid": "5bb578b8831b973a137e3f7c"
+                },
+                "start": 0
+              }
+            ],
+            "value": "细菌性：⑴化脓性心包炎；⑵结核性心包炎。\n病毒性：如柯萨奇病毒、埃可病毒、流感病毒、和巨细胞病毒等引起的心包炎。\n真菌性：如组织胞浆菌、放线菌、奴卡氏菌、耳{0状菌、分支杆菌等。\n其他：如立克次体、螺旋体、支原体、肺吸虫、阿米巴原虫和包囊虫等。\n自身免疫性疾病：如风湿热、类风湿性关节炎、系统性红斑狼疮、皮肌炎、硬皮病、多关节炎、心包切开术后综合征、心肌梗塞后综合征、透析治疗、肾移植和艾滋病等。\n过敏性疾病：如血清病、过敏性肉芽肿和过敏性肺炎等。\n邻近器官的疾病：如心肌梗塞、夹层动脉瘤、肺栓塞、胸膜、肺和食管疾病等。\n内分泌代谢性疾病：如尿毒症、粘液性水肿、糖尿病、痛风、阿钬森病、胆固醇性心包炎等。\n其他：如胰腺炎、地中海贫血、肠源性脂肪代谢障碍、非淋病性关节炎，结膜、尿道炎综合征等。\n创伤如穿透伤、异物、心导管、人工心脏起搏器和心脏按摩等的创伤。\n如肼苯哒嗪、普鲁卡因酰胺、苯妥英钠、青霉素、异烟肼、保泰松和甲基硫氧嘧啶等。\n急性非特异性心包炎是一种浆液纤维蛋白性心包炎，病因不明，可能与病毒感染或过敏、自身免疫反应有关，以男性、青壮年多见。原发性间皮瘤、肉瘤等。继发性肺或乳腺癌、多发性骨髓瘤、白血病和淋巴瘤等转移均会导致急性心包炎。\n发病机制\n1、病理解剖：急性心包炎的病理改变，早期表现为心包的脏层和壁层的炎症反应，出现含有纤维蛋白沉积和多核白细胞聚集组成的黏稠液体，称为纤维蛋白性或"
+          }
+        ],
+        "query": "内分泌代谢性疾病",
+        "scope": [
+          "desc",
+          "cause",
+          "prevent"
+        ],
+        "status": "found",
+        "tool": "fulltext_literal_phrase_v1",
+        "truncated": false
+      }
+    },
+    {
+      "expected_source_disease": "糖尿病",
+      "fulltext_latency_ms": 15.18,
+      "fulltext_target_found": true,
+      "graph_target_found": false,
+      "phrase": "胰岛素分泌不足",
+      "retrieval": {
+        "candidate_diseases": 7,
+        "candidate_limit_reached": false,
+        "dataset_id": "medical_full_v1",
+        "external_model_calls": 0,
+        "facts": [
+          {
+            "disease": "小儿糖尿病",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 11.837686538696289,
+            "sources": [
+              {
+                "disease": "小儿糖尿病",
+                "end": 169,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 4449,
+                "record_id": {
+                  "$oid": "5bb578de831b973a137e5046"
+                },
+                "start": 0
+              }
+            ],
+            "value": "小儿糖尿病，多为第一型或需胰岛素型糖尿病，是由于胰岛素分泌不足所引起的内分泌代谢疾病;以碳水化合物、蛋白质及脂肪代谢紊乱为主，引起高血糖及尿糖，小儿易出现酮症酸中毒，后期常有血管病变，眼及肾脏受累。小儿糖尿病5～6岁及10～14岁小儿多发，5岁以下小儿少见。目前，小儿二型糖尿病发病率也在提高，胰岛素敏感性降低，胰岛素分泌水平高于正常人。"
+          },
+          {
+            "disease": "小儿糖尿病",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 11.837686538696289,
+            "sources": [
+              {
+                "disease": "小儿糖尿病",
+                "end": 600,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 4449,
+                "record_id": {
+                  "$oid": "5bb578de831b973a137e5046"
+                },
+                "start": 0
+              }
+            ],
+            "value": "1、一般认为，遗传是小儿得糖尿病的重要原因。\n有人统计，双亲中有一人患糖尿病，子代的发病率为3%～7%；双亲均为糖尿病者，子代发病率可达30%～50%。此外，环境因素、免疫因素被公认为与糖尿病发病密切相关。\n2、病理生理。\n胰岛素分泌不足或完全缺乏造成葡萄糖利用减少，同时一些反调节激素如胰高糖素、肾上腺素、皮质醇、生长激素分泌增加，促使肝糖原分解和糖原异生增加、脂肪分解和蛋白质分解加速，最终导致血糖升高、血渗透压增高。\n当血糖浓度超过肾阈值10mmol/L(180mg/dl)时，导致渗透性利尿，临床出现多尿、多饮症状，糖尿产生；严重者可出现电解质失衡和脱水。另外，脂肪分解加速，游离脂肪酸过多，最终酮体产生，形成酮症酸中毒(ketoacidosis)。\n3、环境因素。\n多年来不断有报告胰岛素依赖型糖尿病的发病与多种病毒的感染有关；如风疹病毒、肋腺炎病毒、可萨奇病毒、脑心肌病毒等感染后发生胰岛素依赖型糖尿病的报告。\n总之，环境因素可能包括病毒感染、环境中化学毒物、营养中的某些成分等都可能对带有易感性基因者产生B细胞毒性作用，激发体内免疫功能的变化，最后导致胰岛素依赖型糖尿病的发生。环境因素极复杂在各地区各民族胰岛素依赖型糖尿病发病率的差异上可能起着重要作用。\n另外，严重的精神和身体的压力和感染及应激能使胰岛素依赖型糖尿病的发病率的差异上可能起着重要作用。严重的精神和身体的压力和感染及应"
+          },
+          {
+            "disease": "高渗性非酮症性糖尿病昏迷",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 9.27682113647461,
+            "sources": [
+              {
+                "disease": "高渗性非酮症性糖尿病昏迷",
+                "end": 166,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 819,
+                "record_id": {
+                  "$oid": "5bb578bf831b973a137e4218"
+                },
+                "start": 0
+              }
+            ],
+            "value": "糖尿病高渗性昏迷(HNDC)是糖尿病一种较少见的严重急性并发症，多见于老年无糖尿病史或非胰岛素依赖型糖尿病轻症患者，但也可见于胰岛素依赖型糖尿病患者。患者原有胰岛素分泌不足，在诱因作用下血糖急骤上升，促进糖代谢紊乱加重，致细胞外液呈高渗状态，发生低血容量高渗性脱水，原有动脉硬化使大脑皮质供血不足和缺氧，以致造成精神神经症状及昏迷。"
+          },
+          {
+            "disease": "糖尿病",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 7.7143354415893555,
+            "sources": [
+              {
+                "disease": "糖尿病",
+                "end": 423,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 8780,
+                "record_id": {
+                  "$oid": "5bb57901831b973a137e6131"
+                },
+                "start": 0
+              }
+            ],
+            "value": "糖尿病是一种比较常见的内分泌代谢性疾病。该病发病原因主要是由于胰岛素分泌不足，以及胰升高血糖素不适当地分泌过多所引起。多见于40岁以上喜食甜食而肥胖的病人，城市多于农村，常有家族史，故与遗传有关。少数病人与病毒感染和自身免疫反应有关。主要表现为烦渴、多饮、多尿、多食、乏力、消瘦等症状。生命的常见病，伴发高血压、冠心病、高脂血症等，严重时危及生命。\n中医学认为，肝主疏泄，关系人体接收机的升降与调畅，肝气郁滞则气机升降输布紊乱，肝失疏泄则血糖等精微物质不能随清阳之气输布于周身而郁滞于血中，出现高血糖或精微物质的输布紊乱，反见血糖升高，进一步导致血脂、蛋白等其它精微物质紊乱，引起其他合并症，治疗以疏肝调气为主，顺肝条达之性以恢复其生理功能，肝气条达，气机调畅，精微得以输布，糖被利用而血糖自然下降。\n另外，因糖尿病的发生和饮食有关，饮食控制的好坏直接影响着治疗的效果。再就是配合运动，注意调摄情志，再适当的配合中药治疗会取得良好的治疗效果。\n "
+          },
+          {
+            "disease": "青年人中的成年发病型糖尿病",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 5.537925720214844,
+            "sources": [
+              {
+                "disease": "青年人中的成年发病型糖尿病",
+                "end": 1412,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 8004,
+                "record_id": {
+                  "$oid": "5bb578fb831b973a137e5e29"
+                },
+                "start": 812
+              }
+            ],
+            "value": "加快，进一步促进胰岛素的分泌，故胰岛β细胞中的葡萄糖激酶有“葡萄糖感受器”之称;肝脏中的葡萄糖激酶受胰岛素调节，进食后血糖升高，胰岛素分泌增多，葡萄糖激酶活性增强，促进肝细胞中糖原的合成，该酶缺陷可以导致餐后血糖升高，研究表明，β细胞葡萄糖激酶活性的轻微下降将提高葡萄糖诱导的胰岛素分泌的感受阈，这是MODY 2发生的主要机制，目前已发现130种以上与MODY 2相关的葡萄糖激酶突变，包括无义突变，错义突变，缺失突变等，这些突变通过改变酶活性及酶与葡萄糖或三磷酸腺苷的结合力，使葡萄糖激酶选择性地对血中葡萄糖浓度的“感受力”下降，胰岛素分泌的快速时相延迟或消失，分泌率下降，从而导致不适当的胰岛素分泌不足，而β细胞对于其他促胰岛素分泌物如精氨酸的刺激反应正常，此外，肝脏葡萄糖激酶的活性降低可导致6-磷酸葡萄糖的生成及肝糖原合成的速度减慢，也是引起高血糖的原因。\n另外5种与转录因子变异相关的MODY亚型均以原发性胰岛素分泌缺陷而非胰岛素抵抗为病理生理基础，但具体发病机制目前仍未清楚，这些转录因子主要在肝脏，肾脏，胃肠道及胰腺细胞中表达，彼此之间形成相互调节的网络体系，共同对胚胎期胰腺发育，胰岛β细胞的增殖分化以及与葡萄糖及脂代谢相关基因的表达调控起重要作用，例如HNF-1α主要由3个功能区组成，包括氨基端的二聚化区，羧基端的反式激活区，以及中间的核酸结合区，它主要以同二聚体或与HNF-1β"
+          },
+          {
+            "disease": "糖代谢异常伴发的精神障碍",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 4.940557479858398,
+            "sources": [
+              {
+                "disease": "糖代谢异常伴发的精神障碍",
+                "end": 600,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 7294,
+                "record_id": {
+                  "$oid": "5bb578f6831b973a137e5b63"
+                },
+                "start": 0
+              }
+            ],
+            "value": "(一)发病原因\n由于糖尿病的病因和发病机制至今尚不完全清楚，一般认为遗传和心理，社会环境之间的复杂相互作用是糖尿病发病的主要因素，因此糖尿病伴发精神障碍的发病原因相对就更为复杂，除与糖尿病致病因素相关外，尚与糖尿病的不同类型也有关，(WHO糖尿病专家委员会提出将糖尿病的临床类型分为胰岛素依赖型与非胰岛素依赖型)，胰岛素分泌不足引起的代谢紊乱可导致酮症酸中毒，动脉硬化和微血管病变，进而导致脑供血不足和脑功能障碍是产生神经精神症状的生物学基础。\n低血糖症伴发精神障碍的病因主要是低血糖使脑功能紊乱产生的精神神经症状。\n(二)发病机制\n1.糖尿病伴发精神障碍的发病机制\n(1)遗传因素：Ⅰ型糖尿病的发病与遗传有一定关系，根据单卵双生子的研究，糖尿病的共显性接近50%，而在Ⅱ型糖尿病中关系更为密切，很多病人有阳性家族史，单卵双生的共显率高达90%以上。\n(2)心理因素：一些临床观察阐明，糖尿病发作与灾难性事件有关，特别是酸中毒或昏迷常被认为是由情绪的激发所致，高北陵(1996)指出，Ⅰ型糖尿病者发病前双亲死亡，家庭破裂等生活事件发生率高，而Ⅱ型者经受的灾难性生活事件则更多，唐雅文等(1996)报道了47例糖尿病人中，所有病人在发病前都有重大事件发生，其中79%发生在2年前，许多研究指出，糖尿病人的性格也有许多特征，如内向，情绪不稳，被动，依赖，幼稚，不安全感，优柔寡断等，上述因素对精神障碍的出"
+          },
+          {
+            "disease": "老年人糖尿病",
+            "field": "prevent",
+            "label": "预防",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 4.803127288818359,
+            "sources": [
+              {
+                "disease": "老年人糖尿病",
+                "end": 723,
+                "field": "prevent",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 6604,
+                "record_id": {
+                  "$oid": "5bb578f0831b973a137e58b1"
+                },
+                "start": 123
+              }
+            ],
+            "value": "或延缓各种糖尿病并发症的发生。\n糖尿病的一，二，三级预防远不如其他疾病预防那么简单明了，其特殊性在于糖尿病病因的复杂性，以2型DM而言，其中绝大多数病例属于胰岛素抵抗综合征的范畴，被称为糖尿病并发症的高血压，高脂蛋白血症，冠心病，脑卒中实际上可发生于出现临床糖尿病之前(而做为某疾病的并发症，理论上说应发生于该疾病出现之后)，这样一来，糖尿病并发症的预防应在糖尿病诊断之前开始才能真正有效，因此糖尿病的二，三级预防在实际工作中很难分得很清，二级预防也起到三级预防的作用甚至较后者更为重要更为有效。\n老年糖尿病基本属于2型糖尿病，2型DM的发病受基因，老龄化及不利环境因素影响，除少部分为B细胞胰岛素分泌不足外，其余绝大多数为胰岛素抵抗伴胰岛素分泌不足，基因干预远未成熟，老龄化不能逆转，故改善环境因素使其不利于发生胰岛素抵抗为降低发生糖尿病危险的主要环节，可在①有2型DM家庭史或②出生低体重者或③肥胖(BMI≥25尤其是中心型肥胖；腰，臀围比值男≥0.9，女≥0.85)或④生活方式由体力活动多向体力活动少等转化(如职业，职位变化，退休等)或⑤现有高血压，高脂蛋白症或⑥有妊娠糖尿病史的人群中糖耐量尚正常者，采取下述预防措施。\n①合理的饮食(质和量)。\n②鼓励适当增加体力活动。\n③维持理想体重，肥胖者减肥，出生低体重或为巨大儿者尤其应注意不要肥胖。\n④治疗高血压避免使用降低机体胰岛素敏感性的药物"
+          },
+          {
+            "disease": "小儿充血性心力衰竭",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 3.2862863540649414,
+            "sources": [
+              {
+                "disease": "小儿充血性心力衰竭",
+                "end": 5266,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 185,
+                "record_id": {
+                  "$oid": "5bb578b8831b973a137e3f9e"
+                },
+                "start": 4891
+              }
+            ],
+            "value": "中，2，3-双磷酸甘油酸盐浓度增加，有助于红细胞经组织时有释放更多的氧到组织中去。\n充血性心力衰竭的症状部分与上述代偿机理所带来的副作用有关，心室扩张所伴随的舒张末期压力增高，导致在房压上升和肺充血，交感神经张力增加则有动静脉收缩，血流量重新分布，心慌，出汗增加，由于体内大部分组织和器官内的小动脉收缩，使周围血管阻力增加，而加重心脏的后负荷，体液潴留会加剧水肿，心室肥厚增加心肌的氧耗量，由于相对性供血不足，而抵消其有利作用。\n心力衰竭时身体各组织和器官灌注减少，加上肺瘀血，使组织处于缺氧状态，而且代谢产物的清除也受到影响，产生酸血症及低氧血症，因此心肌细胞收缩力受抑制，另外，胰岛缺血，胰岛素分泌不足，使心肌利用葡萄糖作为能量的来源发生障碍，心肌功能进一步受抑制，心力衰竭患儿的生化改变颇为显著，多数有呼吸性和/或代谢性酸中毒，血钠，血氯偏低。"
+          }
+        ],
+        "query": "胰岛素分泌不足",
+        "scope": [
+          "desc",
+          "cause",
+          "prevent"
+        ],
+        "status": "found",
+        "tool": "fulltext_literal_phrase_v1",
+        "truncated": false
+      }
+    },
+    {
+      "expected_source_disease": "高血压",
+      "fulltext_latency_ms": 16.74,
+      "fulltext_target_found": true,
+      "graph_target_found": false,
+      "phrase": "体循环动脉压增高",
+      "retrieval": {
+        "candidate_diseases": 2,
+        "candidate_limit_reached": false,
+        "dataset_id": "medical_full_v1",
+        "external_model_calls": 0,
+        "facts": [
+          {
+            "disease": "高血压",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 4.701557159423828,
+            "sources": [
+              {
+                "disease": "高血压",
+                "end": 341,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 139,
+                "record_id": {
+                  "$oid": "5bb578b7831b973a137e3f70"
+                },
+                "start": 0
+              }
+            ],
+            "value": "高血压是以体循环动脉压增高为主要表现的临床综合征，是最常见的心血管疾病，长期高血压，还是多种心血管疾病的重要危险因素，并影响重要器官如心，脑，肾的功能，最终导致这些器官的功能衰竭，可分为原发性及继发性两大类，在大多数患者中，高血压的病因不明，称之为原发性高血压，占总高血压患者95%以上，在不足5%的患者中，血压升高是某些疾病的一种临床表现，本身有明确而独立的疾病，称为继发性高血压。目前我国采用国际上统一的诊断标准，即收缩压大于或等于140毫米汞柱和(或)舒张压大于或等于九十毫米汞柱，即诊断为高血压。收缩压≥140mmHg和舒张压<90mmHg，单列为单纯性收缩期高血压。可进一步分为高血压，1，2，3级，结合患者总的心血管疾病危险因素及合并的靶器官损害，分为低危，中危，高危。"
+          },
+          {
+            "disease": "妊娠合并原发性高血压",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 4.204191207885742,
+            "sources": [
+              {
+                "disease": "妊娠合并原发性高血压",
+                "end": 276,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 8217,
+                "record_id": {
+                  "$oid": "5bb578fd831b973a137e5efe"
+                },
+                "start": 0
+              }
+            ],
+            "value": "妊娠合并原发性高血压无特殊预防方式，患病后注意避免受寒和关节局麻，局部理疗等可保护手、足。高血压(hypertension)是以体循环动脉压增高为主要表现的临床综合征，其本身可出现一系列症状，降低患者的生活及工作质量，重症者甚至可导致死亡。原发性高血压患病率随着年龄的增加而上升，一般在35岁以后增长幅度较大，在60岁以前，一般男性患病率高于女性，但60岁以后则女性高于男性。原发性高血压根据起病和病情进展的缓急及病程的长短可分为两型，缓进性和急进性高血压，前者又称良性高血压，绝大部分患者属此型，后者又称恶性高血压，仅占原发性高血压患者的1%～5%。"
+          }
+        ],
+        "query": "体循环动脉压增高",
+        "scope": [
+          "desc",
+          "cause",
+          "prevent"
+        ],
+        "status": "found",
+        "tool": "fulltext_literal_phrase_v1",
+        "truncated": false
+      }
+    },
+    {
+      "expected_source_disease": "高血压",
+      "fulltext_latency_ms": 13.65,
+      "fulltext_target_found": true,
+      "graph_target_found": false,
+      "phrase": "血压升高是某些疾病",
+      "retrieval": {
+        "candidate_diseases": 2,
+        "candidate_limit_reached": false,
+        "dataset_id": "medical_full_v1",
+        "external_model_calls": 0,
+        "facts": [
+          {
+            "disease": "高血压",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 5.11517333984375,
+            "sources": [
+              {
+                "disease": "高血压",
+                "end": 341,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 139,
+                "record_id": {
+                  "$oid": "5bb578b7831b973a137e3f70"
+                },
+                "start": 0
+              }
+            ],
+            "value": "高血压是以体循环动脉压增高为主要表现的临床综合征，是最常见的心血管疾病，长期高血压，还是多种心血管疾病的重要危险因素，并影响重要器官如心，脑，肾的功能，最终导致这些器官的功能衰竭，可分为原发性及继发性两大类，在大多数患者中，高血压的病因不明，称之为原发性高血压，占总高血压患者95%以上，在不足5%的患者中，血压升高是某些疾病的一种临床表现，本身有明确而独立的疾病，称为继发性高血压。目前我国采用国际上统一的诊断标准，即收缩压大于或等于140毫米汞柱和(或)舒张压大于或等于九十毫米汞柱，即诊断为高血压。收缩压≥140mmHg和舒张压<90mmHg，单列为单纯性收缩期高血压。可进一步分为高血压，1，2，3级，结合患者总的心血管疾病危险因素及合并的靶器官损害，分为低危，中危，高危。"
+          },
+          {
+            "disease": "原发性高血压",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 2.9916534423828125,
+            "sources": [
+              {
+                "disease": "原发性高血压",
+                "end": 179,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 6605,
+                "record_id": {
+                  "$oid": "5bb578f0831b973a137e58b2"
+                },
+                "start": 0
+              }
+            ],
+            "value": "在绝大多数患者中，高血压的病因不明，称之为原发性高血压，占总高血压着的95%以上；在不足5%患者中，血压升高是某些疾病的一种临床表现，本身有明确而独立的病因，称为继发性高血压。原发性高血压，又称高血压病，患者除了可引起高血压本身有关的症状以外，长期高血压还可成为多种心脑血管疾病的重要危险因素，并影响重要脏器如心、脑、肾的功能，最终可导致这些器官的功能衰竭。"
+          }
+        ],
+        "query": "血压升高是某些疾病",
+        "scope": [
+          "desc",
+          "cause",
+          "prevent"
+        ],
+        "status": "found",
+        "tool": "fulltext_literal_phrase_v1",
+        "truncated": false
+      }
+    },
+    {
+      "expected_source_disease": "慢性胃炎",
+      "fulltext_latency_ms": 18.11,
+      "fulltext_target_found": true,
+      "graph_target_found": false,
+      "phrase": "胃粘膜上皮",
+      "retrieval": {
+        "candidate_diseases": 6,
+        "candidate_limit_reached": false,
+        "dataset_id": "medical_full_v1",
+        "external_model_calls": 0,
+        "facts": [
+          {
+            "disease": "胃良性肿瘤",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 6.928532600402832,
+            "sources": [
+              {
+                "disease": "胃良性肿瘤",
+                "end": 343,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 522,
+                "record_id": {
+                  "$oid": "5bb578bc831b973a137e40ef"
+                },
+                "start": 0
+              }
+            ],
+            "value": "干细胞都有各种原癌基因和抑癌基因，绝大多数情况下原癌基因的特性不表达出来，不会形成致癌物质，因此也就不能发育成胃癌细胞。有胃癌家族史者原癌基因可能更容易表达出来，这就是遗传的因素。除了遗传等内在因素外，还有很多外在的致癌因素，如上述高危人群面临的各种非遗传因素，也可直接诱发或长期破坏胃粘膜屏障使促癌物质更易诱发干细胞癌基因表达或基因突变而产生致癌物，使新生不成熟的原始细胞不能分化成具有正常功能的胃粘膜上皮细胞，而是变成各种分化程度不良且生长失控的非正常细胞。若机体的免疫监测功能正常，往往可以清除少量的异常细胞，但当长期心里状态不佳引起内分泌系统异常及免疫功能长期低下、或异常细胞由于某种未知原因逃逸了机体的免疫监测，则异常细胞最终发展成机体无法控制其生长的胃癌细胞，完成癌变过程。"
+          },
+          {
+            "disease": "药物性胃病",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 6.928532600402832,
+            "sources": [
+              {
+                "disease": "药物性胃病",
+                "end": 237,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 569,
+                "record_id": {
+                  "$oid": "5bb578bd831b973a137e411e"
+                },
+                "start": 0
+              }
+            ],
+            "value": "药物干扰\n胃粘膜上皮细胞合成粘蛋白，影响胃粘液的质和量；抑制粘膜前列腺素合成，抑制粘膜上皮细胞正常增生，更新及肉芽组织形成，使胃粘膜屏障遭受破坏，更新及肉芽组织形成，使胃粘膜屏障遭受破坏，修复障碍，而致胃粘膜糜烂，形成溃疡。\n胃酸\n胃粘膜腺体正常刺激胃酸，胃蛋白酶分泌，有些药物使血小板减少，抑制血小板聚集，降低凝血酶原而致上消化道出血。\n粘膜刺激\n有些药物对胃粘膜有刺激，腐蚀作用，如氯化钾及铁盐等，有些药物影响胃肠运动功能及胃粘膜的血液和淋巴循环等，而损伤胃肠正常功能。"
+          },
+          {
+            "disease": "糜烂性胃炎",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 6.523348808288574,
+            "sources": [
+              {
+                "disease": "糜烂性胃炎",
+                "end": 600,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 2600,
+                "record_id": {
+                  "$oid": "5bb578cf831b973a137e490d"
+                },
+                "start": 0
+              }
+            ],
+            "value": "某些药物如非甾体类消炎药阿司匹林、保泰松、吲哚美辛、肾上腺皮质类固醇、某些抗生素、酒精等，均可损伤胃的粘膜屏障，导致粘膜通透性增加，胃液的氢离子回渗入胃粘膜，引起胃粘膜糜烂、出血。肾上腺皮质类固醇可使盐酸和胃蛋白酶的分泌增加，胃粘液分泌减少、胃粘膜上皮细胞的更新速度减慢而导致本病。\n包括严重感染、严重创伤、颅内高压、严重灼伤、大手术、休克、过度紧张劳累等。在应激状态下，可兴奋交感神经及迷走神经，前者使胃粘膜血管痉挛收缩，血流量减少，后者则使粘膜下动静脉短路开放，促使粘膜缺血缺氧加重、导致胃粘膜上皮损害，发生糜烂和出血。严重休克可致5-羟色胺及组胺等释放，前者刺激胃壁细胞释放溶酶体，直接损害胃粘膜，后者则增加胃蛋白酶及胃酸的分泌而损害胃粘膜屏障。\n病理生理\n应激状态时去甲肾上腺素和肾上腺皮质激素分泌增加，内脏血管收缩，胃血流量减少，不能清除逆向弥散的H+;缺氧和去甲肾上腺素使前列腺素合成减少，黏液分泌不足，HCO3-分泌也减少;应激状态时胃肠运动迟缓，幽门功能失调，造成胆汁反流，胆盐进一步损伤缺血的胃黏膜上皮，使胃黏膜屏障遭受破坏，最终导致黏膜发生糜烂与出血。病变多见于胃底及胃体部，有时累及胃窦，胃黏膜呈多发性糜烂，伴有点片状出血，有时见浅小溃疡，覆以白苔或黄苔。组织学检查见糜烂处表层上皮细胞有灶性脱落，腺体因水肿、出血而扭曲，固有层有中性粒细胞和单核细胞浸润。\n发病机制\n具体发病机"
+          },
+          {
+            "disease": "急性胃粘膜病变",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 6.426889419555664,
+            "sources": [
+              {
+                "disease": "急性胃粘膜病变",
+                "end": 349,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 375,
+                "record_id": {
+                  "$oid": "5bb578ba831b973a137e405c"
+                },
+                "start": 0
+              }
+            ],
+            "value": "一、外源性因素 某些药物如非甾醇类抗炎药如阿斯匹林，消炎痛，保泰松等以及肾上腺皮质激素类、某些抗生素、酒精等，均可损伤胃的粘膜屏障，导致粘膜通透性增加，胃液的氢离子回渗入胃粘膜，引起胃粘膜糜烂、出血。肾上腺皮质激素可使盐酸和胃蛋白酶的分泌增加，胃粘液分泌减少、胃粘膜上皮细胞的更新速度减慢而导致本病。非甾体抗炎药还通过抑制局部前列腺素合成使胃粘膜修复过程受到影响。\n二、内源性因素 包括全身感染、严重创伤、颅内高压、严重灼伤、大手术、休克、过度紧张劳累等。在应激状态下，可兴奋交感神经及迷走神经，前者使胃粘膜血管痉挛收缩，血流量减少，后者使粘膜上皮损害，发生糜烂和出血。严重休克可致5-羟色胺及组胺等释放，前者刺激胃壁细胞释放溶酶体，直接损害胃粘膜，后者则增加胃蛋白酶及胃酸的分泌而损害胃粘膜屏障。"
+          },
+          {
+            "disease": "慢性糜烂性胃炎",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 4.718669891357422,
+            "sources": [
+              {
+                "disease": "慢性糜烂性胃炎",
+                "end": 600,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 2551,
+                "record_id": {
+                  "$oid": "5bb578ce831b973a137e48dc"
+                },
+                "start": 0
+              }
+            ],
+            "value": "包括严重感染、严重创伤、颅内高压、严重灼伤、大手术、休克、过度紧张劳累等。严重休克可致5-羟色胺及组胺等释放，前者刺激胃壁细胞释放溶酶体，直接损害胃粘膜，后者则增加胃蛋白酶及胃酸的分泌而损害胃粘膜屏障。\n某些药物如非甾体类消炎药、某些抗生素、酒精等，均可损伤胃的粘膜屏障，导致粘膜通透性增加，胃液的氢离子回渗入胃粘膜，引起胃粘膜糜烂、出血。肾上腺皮质类固醇可使盐酸和胃蛋白酶的分泌增加，胃粘液分泌减少、胃粘膜上皮细胞的更新速度减慢而导致本病。\n应激状态时去甲肾上腺素和肾上腺皮质激素分泌增加，内脏血管收缩，胃血流量减少，不能清除逆向弥散的H+;缺氧和去甲肾上腺素使前列腺素合成减少，黏液分泌不足，HCO3-分泌也减少;应激状态时胃肠运动迟缓，幽门功能失调，造成胆汁反流，胆盐进一步损伤缺血的胃黏膜上皮，使胃黏膜屏障遭受破坏，最终导致黏膜发生糜烂与出血。\n发病机制\n具体发病机制如下：\n1.药物：\n①非甾体抗炎药，包括阿司匹林、吲哚美辛(消炎痛)等。该类药物可通过胃黏膜直接损伤及抑制环氧合酶损伤。\n②抗肿瘤药。\n2.应激：严重创伤、大手术、大面积烧伤、颅内病变、败血症、严重器官病变及多器官功能衰竭均可致本病。\n应激时：\n① 肾上腺素和去甲肾上腺素释放增多，导致胃黏膜血管收缩而血流量减少，黏膜缺血造成黏液和碳酸氢钠分泌不足，局部前列腺素合成及再生能力下降，胃黏膜屏障作用减低，造成黏膜损害。\n② 肾"
+          },
+          {
+            "disease": "慢性胃炎",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 3.43898868560791,
+            "sources": [
+              {
+                "disease": "慢性胃炎",
+                "end": 210,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 422,
+                "record_id": {
+                  "$oid": "5bb578bb831b973a137e408b"
+                },
+                "start": 0
+              }
+            ],
+            "value": "慢性胃炎(chronicgastritis)系指不同病因引起的胃粘膜的慢性炎症或萎缩性病变，其实质是胃粘膜上皮遭受反复损害后，由于粘膜特异的再生能力，以致粘膜发生改建，且最终导致不可逆的固有胃腺体的萎缩，甚至消失。本病十分常见，约占接受胃镜检查病人的80～90%，男性多于女性，随年龄增长发病率逐渐增高。\n慢性浅表性胃炎、慢性萎缩性胃炎是两种最常见的慢性胃炎。小儿慢性胃炎、老年人慢性胃炎近几年临床发病率也逐渐升高。\n "
+          }
+        ],
+        "query": "胃粘膜上皮",
+        "scope": [
+          "desc",
+          "cause",
+          "prevent"
+        ],
+        "status": "found",
+        "tool": "fulltext_literal_phrase_v1",
+        "truncated": false
+      }
+    },
+    {
+      "expected_source_disease": "慢性胃炎",
+      "fulltext_latency_ms": 22.99,
+      "fulltext_target_found": true,
+      "graph_target_found": false,
+      "phrase": "胃粘膜的慢性炎症",
+      "retrieval": {
+        "candidate_diseases": 3,
+        "candidate_limit_reached": false,
+        "dataset_id": "medical_full_v1",
+        "external_model_calls": 0,
+        "facts": [
+          {
+            "disease": "贲门炎",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 8.655133247375488,
+            "sources": [
+              {
+                "disease": "贲门炎",
+                "end": 350,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 5669,
+                "record_id": {
+                  "$oid": "5bb578e9831b973a137e550a"
+                },
+                "start": 0
+              }
+            ],
+            "value": "贲门炎属慢性胃炎，仅是在胃粘膜炎症不同的部位而已。慢性胃炎是提示不同的病因引起胃粘膜的慢性炎症或萎缩性病变，治疗上目前仍无特效药物，宜选择易消化无刺激的食物，忌烟酒、浓茶、少量多餐、细嚼慢咽。定期去医院消化内科随访，半年至一年后可复查胃镜。\n贲门，是我们吃进的食物经过食管抵达胃之前的必经之处，贲门也会发生贲门炎。贲门炎在临床也是慢性胃炎中比较常见的一个类型，只是由于贲门炎是属于慢性胃炎的一种，一般都不做详细的分类而被归为慢性胃炎，贲门炎仅是在胃粘膜炎症不同的部位而已。\n贲门炎相对来说治疗时间需要长些，一般症状不是否明显的浅表性胃炎患者，建议以养为主即可，严重者采用中医调理治疗是完全可以治愈的。胃病是个慢性病种，需要慢慢调理治疗。积极的心态对病情也有很大益处。采用中医治疗，标本兼治，彻底治愈。"
+          },
+          {
+            "disease": "消化性溃疡",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 5.209682464599609,
+            "sources": [
+              {
+                "disease": "消化性溃疡",
+                "end": 1284,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 529,
+                "record_id": {
+                  "$oid": "5bb578bc831b973a137e40f6"
+                },
+                "start": 684
+              }
+            ],
+            "value": "慢性胃炎的主要病因，是引起消化性溃疡的重要病因。在HP粘附的上皮细胞可见微绒毛减少，细胞间连接丧失，细胞肿胀、表面不规则，细胞内粘液颗粒耗竭，空泡样变，细菌与细胞间形成粘着蒂和浅杯样结构。\n正常情况下，各种食物的理化因素和酸性胃液的消化作用均不能损伤胃粘膜而导致溃疡形成，乃是由于正常胃粘膜具有保护功能，包括粘液分泌、胃粘膜屏障完整性、丰富的粘膜血流和上皮细胞的再生等。\n胃溃疡病时胃窦和幽门区域的这种退行性变可使胃窦收缩失效，从而影响食糜的向前推进。胃排空延缓可能是胃溃疡病发病机理中的一个因素。\n十二指肠内容物中某些成分，如胆汁酸和溶血卵磷脂可以损伤胃上皮。十二指肠内容物反流入胃可以引起胃粘膜的慢性炎症。受损的胃粘膜更易遭受酸和胃蛋白酶的破坏。胃溃疡病时空腹胃液中胆汁酸结合物较正常对照者的浓度显著增高，从而推想胆汁反流入胃可能在胃溃疡病的发病机理中起重要作用。\n已知许多胃肠肽可以影响胃酸分泌，但只有胃泌素与消化性溃疡关系的研究较多。关于胃泌素在寻常的消化性溃疡发病机理中所起的作用，尚不清楚。\n现已一致认为消化性溃疡的发生具有遗传素质，而且证明胃溃疡和十二指肠溃疡病系单独遗传，互不相干。胃溃疡患者的家族中，胃溃疡的发病率较正常人高3倍，而在十二指肠溃疡患者的家族中，较多发生的是十二指肠溃疡而非胃溃疡。\n药物因素\n某些解热镇痛药、抗癌药等，如消炎痛、保泰松、阿司匹林、肾上腺皮质激素，氟尿"
+          },
+          {
+            "disease": "慢性胃炎",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 4.96662712097168,
+            "sources": [
+              {
+                "disease": "慢性胃炎",
+                "end": 210,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 422,
+                "record_id": {
+                  "$oid": "5bb578bb831b973a137e408b"
+                },
+                "start": 0
+              }
+            ],
+            "value": "慢性胃炎(chronicgastritis)系指不同病因引起的胃粘膜的慢性炎症或萎缩性病变，其实质是胃粘膜上皮遭受反复损害后，由于粘膜特异的再生能力，以致粘膜发生改建，且最终导致不可逆的固有胃腺体的萎缩，甚至消失。本病十分常见，约占接受胃镜检查病人的80～90%，男性多于女性，随年龄增长发病率逐渐增高。\n慢性浅表性胃炎、慢性萎缩性胃炎是两种最常见的慢性胃炎。小儿慢性胃炎、老年人慢性胃炎近几年临床发病率也逐渐升高。\n "
+          }
+        ],
+        "query": "胃粘膜的慢性炎症",
+        "scope": [
+          "desc",
+          "cause",
+          "prevent"
+        ],
+        "status": "found",
+        "tool": "fulltext_literal_phrase_v1",
+        "truncated": false
+      }
+    },
+    {
+      "expected_source_disease": "支气管哮喘",
+      "fulltext_latency_ms": 21.15,
+      "fulltext_target_found": true,
+      "graph_target_found": false,
+      "phrase": "气道反应性增高",
+      "retrieval": {
+        "candidate_diseases": 8,
+        "candidate_limit_reached": false,
+        "dataset_id": "medical_full_v1",
+        "external_model_calls": 0,
+        "facts": [
+          {
+            "disease": "运动诱发哮喘",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 8.778264045715332,
+            "sources": [
+              {
+                "disease": "运动诱发哮喘",
+                "end": 132,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 6380,
+                "record_id": {
+                  "$oid": "5bb578ee831b973a137e57d1"
+                },
+                "start": 0
+              }
+            ],
+            "value": "运动诱发哮喘(exercise-inducedasthma，EIA)是气道反应性增高者在剧烈运动后发生的急性气道狭窄和气道阻力增高，运动性哮喘在临床上并不少见。据统计，50%～90%已确诊的哮喘病人可出现运动性哮喘;40%尚未确诊的过敏性鼻炎患者可出现运动性哮喘。"
+          },
+          {
+            "disease": "咳嗽性哮喘",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 7.257046699523926,
+            "sources": [
+              {
+                "disease": "咳嗽性哮喘",
+                "end": 869,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 5831,
+                "record_id": {
+                  "$oid": "5bb578ea831b973a137e55ac"
+                },
+                "start": 269
+              }
+            ],
+            "value": "咳嗽。\n咳嗽是一种清除气道内外界物质或黏液，分泌物的自身保护机制，咳嗽受体包括两大类：主要集中在隆突，受轻微碰触或吸入粉尘的刺激发生反应，C纤维，其末梢位于咽部，支气管树和肺泡，主要对化学性刺激物，如卡托普利，某些炎症介质(如缓激肽)等发生反应，同时也受某些机械力的刺激，C纤维所含神经肽类物质 (如P物质)的释放又可以增强Aδ纤维的活化，感受器受到刺激后，通过迷走神经传入髓质咳嗽中枢，进而通过传出神经，使膈肌，肋间肌，咽产生相应的咳嗽动作， Simosson等发现引起咳嗽的反射弧与支气管收缩的反射弧之间，具有类似的组成，均由上皮黏膜下的感受器，传入神经，髓质中枢，传出神经与作用肌组成，气道反应性增高和咳嗽次数的增加均是由同一感受器受刺激所致，在支气管哮喘发病过程中，某些致病因子刺激气道上皮下的咳嗽受体，通过迷走神经通路直接引起咳嗽，或者通过引起局部支气管收缩间接引起咳嗽反射。\nMc Fadden指出咳嗽性哮喘主要是大气道狭窄，由于大气道咳嗽受体极丰富，故表现以咳嗽为主，而典型支气管哮喘因炎症既作用于大气道，又作用于周围气道，从而除产生咳嗽外，尚出现喘息及呼吸困难，哮喘患者由于存在持续的气道炎症，支气管上皮表面受损，使上皮细胞间紧密结合位点下的迷走神经末梢感受器暴露并易被激惹，其兴奋阈值低于正常人，对于各种刺激的敏感性增高，故可引起顽固性的咳嗽，通过对典型支气管哮喘患儿分别进行不同浓"
+          },
+          {
+            "disease": "肺病",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 6.6783857345581055,
+            "sources": [
+              {
+                "disease": "肺病",
+                "end": 813,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 5065,
+                "record_id": {
+                  "$oid": "5bb578e3831b973a137e52ae"
+                },
+                "start": 333
+              }
+            ],
+            "value": "高，出现呼吸道症状的人数明显增多。\n5、空气污染：长期生活在室外空气受到污染的区域可能是导致肺病发病的一个重要因素。对于已经患有肺病的患者，严重的城市空气污染可以使病情加重。\n二、引起肺病的内因\n1、遗传因素：流行病学研究结果提示肺病易患性与基因有关，但肺病肯定不是一种单基因疾病，其易患性涉及多个基因。目前唯一比较肯定的是不同程度的仅a一抗胰蛋白酶缺乏。其他如谷胱甘肽S转移酶基因、基质金属蛋白酶组织抑制物一2基因、血红素氧合酶一l基因、肿瘤坏死因子一a基因、白介素(IL)一13基因、IL-10基因等可能与COPD发病也有一定关系。\n2、气道高反应性：国内和国外的流行病学研究结果均表明，气道反应性增高者其肺病的发病率也明显增高，二者关系密切。肺发育、生长不良在怀孕期、新生儿期、婴儿期或儿童期由各种原因导致肺发育或生长不良的个体在成人后容易罹患肺病。\n3、全球范围内已有大量流行病学研究证实，吸烟是导致肺癌的首要危险因素。专家指出，70%～80%的肺癌与吸烟(包括被动吸烟)相关，其他的相关因素为：放射性暴露因素、环境或职业暴露因素、遗传或家族性因素等。"
+          },
+          {
+            "disease": "急性细支气管炎",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 6.036593437194824,
+            "sources": [
+              {
+                "disease": "急性细支气管炎",
+                "end": 1628,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 2341,
+                "record_id": {
+                  "$oid": "5bb578cc831b973a137e480a"
+                },
+                "start": 1028
+              }
+            ],
+            "value": "，而毛细支气管炎则为I型变态反应的结果，血清中IgG1和IgG3在保护小儿免受下呼吸道感染方面亦起重要作用，病人初次感染呼吸道合胞病毒后，CD4和CD8淋巴细胞亚群参与和终止病毒的复制过程，以CD8起主要作用，IL-4能诱发IgE的生成，与毛细支气管炎的发生有密切关系，患毛细支气管炎时，体内产生IL-2和IFN-γ的细胞克隆受抑制，而释放IL-4的细胞克隆优先激活，使IL-4分泌增加，IL-4能特异性地诱导B细胞合成IgE，且通过抑制IFN-γ产生而促进IgE生成，IL-4和其他淋巴因子激活中性粒细胞和巨噬细胞脱粒，从而引发变态反应，血清和支气管分泌液中特异性IgG和IgE上升，并出现气道反应性增高。\n病变主要在细支气管，支气管，肺泡也可累及，受累上皮细胞纤毛脱落，坏死，继之细胞增生形成无纤毛的扁平或柱状上皮细胞，管壁水肿，黏液分泌，加之管壁内充满脱落的上皮细胞，白细胞，巨噬细胞碎屑及纤维蛋白形成的渗出物，造成细支气管腔部分阻塞，其远端有显著的肺气肿，细支气管周围有大量细胞浸润，其中绝大多数为单核细胞，黏膜下层和动脉外膜水肿，除细支气管病变外，其周围的肺泡壁有水肿，肺泡腔内亦有炎性渗出物，病变以肺下叶和肺底部为多见。\n小支气管和细支气管虽表现为一般炎症，但其所引起的病理生理改变非常显著，炎症和水肿易使婴幼儿病灶部位的细支气管腔引流不畅，坏死物质和纤维蛋白形成的栓子可使细支气管部分或"
+          },
+          {
+            "disease": "小儿支气管哮喘",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 4.867238998413086,
+            "sources": [
+              {
+                "disease": "小儿支气管哮喘",
+                "end": 1111,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 5089,
+                "record_id": {
+                  "$oid": "5bb578e4831b973a137e52c6"
+                },
+                "start": 511
+              }
+            ],
+            "value": "剧烈的咳嗽，喘息，平时有回奶或呕吐现象。\n许多调查资料表明，哮喘患者亲属患病率高于群体患病率，并且亲缘关系越近，患病率越高;患者病情越严重，其亲属患病率也越高，目前，对哮喘的相关基因尚未完全明确，但有研究表明，有多位点的基因与变态反应性疾病相关，这些基因在哮喘的发病中起着重要作用。\n吸入刺激性气体或剧烈运动，哭闹，油漆，煤烟，冷空气吸入均可作为非特异性刺激物诱发哮喘发作，其中油漆散发的气体可触发严重而持续的咳喘发作，应尽量避免，剧烈运动，哭闹使呼吸运动加快，呼吸道温度降低或呼吸道内液体渗透压改变，而诱发哮喘发作。\n发病机制\n哮喘的发病机制不完全清楚，多数人认为，变态反应，气道慢性炎症，气道反应性增高及自主神经功能障碍等因素相互作用，共同参与哮喘的发病过程。\n1.变态反应\n当变应原进入具有过敏体质的机体后，通过巨噬细胞和T淋巴细胞的传递，可刺激机体的B淋巴细胞合成特异性IgE，并结合于肥大细胞和嗜碱性粒细胞表面的高亲和性的IgE受体(FcεR1)，若变应原再次进入体内，可与肥大细胞和嗜碱性粒细胞表面的IgE交联，从而促发细胞内一系列的反应，使该细胞合成并释放多种活性介质导致平滑肌收缩，黏液分泌增加，血管通透性增高和炎症细胞浸润等，炎症细胞在介质的作用下又可分泌多种介质，使气道病变加重，炎症浸润增加，产生哮喘的临床症状，根据变应原吸入后哮喘发生的时间，可分为速发型哮喘反应(IAR)，迟"
+          },
+          {
+            "disease": "小儿过敏性支气管炎",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 4.517224311828613,
+            "sources": [
+              {
+                "disease": "小儿过敏性支气管炎",
+                "end": 1064,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 6342,
+                "record_id": {
+                  "$oid": "5bb578ee831b973a137e57ab"
+                },
+                "start": 464
+              }
+            ],
+            "value": "除外界物质或粘液、分泌物的自身保护机制。咳嗽受体包括两大类：Aδ纤维，属快调节延伸受体，主要集中在隆突，受轻微碰触或吸入粉尘的刺激发生反应;C纤维，其末梢位于咽部、支气管树和肺泡，主要对化学性刺激物，如巯甲丙脯酸、某些炎症介质(如缓激肽)等发生反应，同时也受某些机械力的刺激，C纤维所含神经肽类物质(如P物质)的释放又可以增强Aδ纤维的活化。感受器受到刺激后，通过迷走神经传入髓质咳嗽中枢，进而通过传出神经，使膈肌、肋间肌、咽产生相应的咳嗽动作。Simosson等发现引起咳嗽的反射弧与支气管收缩的反射弧之间，具有类似的组成，均由上皮粘膜下的感受器、传入神经、髓质中枢、传出神经与作用肌组成，气道反应性增高和咳嗽次数的增加均是由同一感受器受刺激所致。在哮喘发病过程中，气道平滑肌痉挛或某些致病因子可刺激气道上皮下的咳嗽反射感受器或咳嗽受体，通过迷走神经通路直接引起咳嗽，或者通过引起局部支气管收缩间接引起咳嗽反射。Mc Fadden指出咳嗽变异性哮喘主要是大气道狭窄，由于大气道咳嗽受体极丰富，故表现以咳嗽为主，而典型支气管哮喘因炎症既作用于大气道，又作用于周围气道，从而除产生咳嗽外，尚出现喘息及呼吸困难。哮喘患者由于存在持续的气道炎症，支气管上皮表面受损，使上皮细胞间紧密结合位点下的迷走神经末梢感受器暴露并易被激惹，其兴奋阈值低于正常人，对于各种刺激的敏感性增高，故可引起顽固性的咳嗽。Koh等"
+          },
+          {
+            "disease": "支气管哮喘",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 4.104608535766602,
+            "sources": [
+              {
+                "disease": "支气管哮喘",
+                "end": 162,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 2215,
+                "record_id": {
+                  "$oid": "5bb578cb831b973a137e478c"
+                },
+                "start": 0
+              }
+            ],
+            "value": "在世界卫生组织及美国国家卫生院组织修订的“哮喘的全球防治战略”(2002)中对支气管哮喘的定义为“支气管哮喘是由多种细胞及细胞组分参与的慢性气道炎症，此种炎症常伴随引起气道反应性增高，导致反复发作的喘息、气促，胸闷和(或)咳嗽等症状，多在夜间和(或)凌晨发生，此类症状常伴有广泛而多变的气流阻塞，可以自行或通过治疗而逆转”。"
+          },
+          {
+            "disease": "支气管哮喘",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 4.104608535766602,
+            "sources": [
+              {
+                "disease": "支气管哮喘",
+                "end": 1861,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 2215,
+                "record_id": {
+                  "$oid": "5bb578cb831b973a137e478c"
+                },
+                "start": 1261
+              }
+            ],
+            "value": "部地区主要为豚草花粉;北部主要为蒿草类。\n(2)职业性变应原：可引起职业性哮喘常见的变应原有谷物粉，面粉，木材，饲料，茶，咖啡豆，家蚕，鸽子，蘑菇，抗生素(青霉素，头孢霉素)异氰酸盐，邻苯二甲酸，松香，活性染料，过硫酸盐，乙二胺等。\n(3)药物及食物添加剂：阿司匹林和一些非皮质激素类抗炎药是药物所致哮喘的主要变应原，水杨酸酯，防腐剂及染色剂等食物添加剂也可引起哮喘急性发作，蜂王浆口服液是我国及东南亚地区国家和地区广泛用来作为健康保健品的食物，目前已证实蜂王浆可引起一些病人哮喘急性发作，是由IgE介导的变态反应。\n促发因素：\n(1)大气污染：空气污染(SO2，NO)可致支气管收缩，一过性气道反应性增高并能增强对变应原的反应。\n(2)吸烟：香烟烟雾(包括被动吸烟)是户内促发因素的主要来源，是一种重要的哮喘促发因子，特别是对于那些父母抽烟的哮喘儿童，常因吸烟引起哮喘发作。\n(3)呼吸道病毒感染：呼吸道病毒感染与哮喘发作有密切关系，婴儿支气管病毒感染作为哮喘发病的启动病因尤其受到关注，呼吸道感染常见病毒有呼吸道合胞病毒(RSV)，腺病毒，鼻病毒，流感病毒，副流感病毒，冠状病毒，以及某些肠道病毒，与成人哮喘有关的病毒以鼻病毒和流感病毒为主;呼吸道合胞病毒，副流感病毒，腺病毒和鼻病毒则与儿童哮喘发作关系密切，合胞病毒是出生后第一年的主要病原，在2岁以下的感染性哮喘中占44%，在大儿童哮喘中也有"
+          },
+          {
+            "disease": "哮喘持续状态",
+            "field": "cause",
+            "label": "病因",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 3.155646324157715,
+            "sources": [
+              {
+                "disease": "哮喘持续状态",
+                "end": 1848,
+                "field": "cause",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 2196,
+                "record_id": {
+                  "$oid": "5bb578cb831b973a137e4779"
+                },
+                "start": 1248
+              }
+            ],
+            "value": "，我国东部地区主要为豚草花粉;北部主要为蒿草类。\n(2)职业性变应原：可引起职业性哮喘常见的变应原有谷物粉，面粉，木材，饲料，茶，咖啡豆，家蚕，鸽子，蘑菇，抗生素(青霉素，头孢霉素)，异氰酸盐，邻苯二甲酸，松香，活性染料，过硫酸盐，乙二胺等。\n(3)药物及食物添加剂：阿司匹林和一些非皮质激素类抗炎药是药物所致哮喘的主要变应原，水杨酸酯，防腐剂及染色剂等食物添加剂也可引起哮喘急性发作，蜂王浆口服液是我国及东南亚地区国家和地区广泛用来作为健康保健品的食物，目前已证实蜂王浆可引起一些病人哮喘急性发作，是由IgE介导的变态反应。\n(1)大气污染：空气污染(SO2，NOx)可致支气管收缩，一过性气道反应性增高并能增强对变应原的反应。\n(2)吸烟：香烟烟雾(包括被动吸烟)是户内促发因素的主要来源，是一种重要的哮喘促发因子，特别是对于那些父母抽烟的哮喘儿童，常因吸烟引起哮喘发作。\n(3)呼吸道病毒感染：呼吸道病毒感染与哮喘发作有密切关系，婴儿支气管病毒感染作为哮喘发病的启动病因尤其受到关注，呼吸道感染常见病毒有呼吸道合胞病毒(RSV)，腺病毒，鼻病毒，流感病毒，副流感病毒，冠状病毒，以及某些肠道病毒，与成人哮喘有关的病毒以鼻病毒和流感病毒为主;呼吸道合胞病毒，副流感病毒，腺病毒和鼻病毒则与儿童哮喘发作关系密切，合胞病毒是出生后第1年的主要病原，在2岁以下的感染性哮喘中占44%，在大儿童哮喘中也有"
+          }
+        ],
+        "query": "气道反应性增高",
+        "scope": [
+          "desc",
+          "cause",
+          "prevent"
+        ],
+        "status": "found",
+        "tool": "fulltext_literal_phrase_v1",
+        "truncated": false
+      }
+    },
+    {
+      "expected_source_disease": "支气管哮喘",
+      "fulltext_latency_ms": 16.17,
+      "fulltext_target_found": true,
+      "graph_target_found": false,
+      "phrase": "反复发作的喘息",
+      "retrieval": {
+        "candidate_diseases": 3,
+        "candidate_limit_reached": false,
+        "dataset_id": "medical_full_v1",
+        "external_model_calls": 0,
+        "facts": [
+          {
+            "disease": "哮喘",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 7.504714012145996,
+            "sources": [
+              {
+                "disease": "哮喘",
+                "end": 303,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 89,
+                "record_id": {
+                  "$oid": "5bb578b7831b973a137e3f3e"
+                },
+                "start": 0
+              }
+            ],
+            "value": "支气管哮喘(bronchialasthma),简称哮喘，是由多种细胞(如肥大细胞、嗜酸性粒细胞、中性粒细胞、T淋巴细胞、气道上皮细胞及平滑肌细胞等)及细胞组份(如IL-2，组织胺、白三烯等)参与的气道慢性炎症性疾病。临床上主要表现为气道对多种刺激因子反应性增高，可出现反复发作的喘息，气促、胸闷和(或)咳嗽等症状，多在夜间和(或)凌晨发做或加重，多数患者症状可自行或经治疗后缓解。近年来，美国、英国、澳大利亚，新西兰等国家哮喘患病率和死亡率有上升趋势，全世界约有3亿哮喘患者，已成为严重威胁公众健康的一种主要慢性疾病，我国哮喘的患病率约为0.5%～5%，且呈逐年上升趋势，据测算全国约有6千万以上哮喘患者。"
+          },
+          {
+            "disease": "老年性哮喘",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 7.16064453125,
+            "sources": [
+              {
+                "disease": "老年性哮喘",
+                "end": 117,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 2815,
+                "record_id": {
+                  "$oid": "5bb578d0831b973a137e49e4"
+                },
+                "start": 0
+              }
+            ],
+            "value": "老年性哮喘是由多种细胞特别是肥大细胞、嗜酸性粒细胞和T淋巴细胞参与的慢性气道炎症，在易感者中此种炎症可引起反复发作的喘息、气促、胸闷和(或)咳嗽等症状，多在夜间和(或)凌晨发生，气道对多种刺激因子反应性增高。但症状可自行或经治疗缓解。"
+          },
+          {
+            "disease": "支气管哮喘",
+            "field": "desc",
+            "label": "疾病描述",
+            "medical_review_status": "not_verified",
+            "retrieval_channel": "fulltext",
+            "score": 2.9024486541748047,
+            "sources": [
+              {
+                "disease": "支气管哮喘",
+                "end": 162,
+                "field": "desc",
+                "file": "bishe/data/medical.json",
+                "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                "line": 2215,
+                "record_id": {
+                  "$oid": "5bb578cb831b973a137e478c"
+                },
+                "start": 0
+              }
+            ],
+            "value": "在世界卫生组织及美国国家卫生院组织修订的“哮喘的全球防治战略”(2002)中对支气管哮喘的定义为“支气管哮喘是由多种细胞及细胞组分参与的慢性气道炎症，此种炎症常伴随引起气道反应性增高，导致反复发作的喘息、气促，胸闷和(或)咳嗽等症状，多在夜间和(或)凌晨发生，此类症状常伴有广泛而多变的气流阻塞，可以自行或通过治疗而逆转”。"
+          }
+        ],
+        "query": "反复发作的喘息",
+        "scope": [
+          "desc",
+          "cause",
+          "prevent"
+        ],
+        "status": "found",
+        "tool": "fulltext_literal_phrase_v1",
+        "truncated": false
+      }
+    }
+  ],
+  "scope": "standalone_literal_tool_not_chat_hybrid_or_clinical_accuracy",
+  "source_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+  "summary": {
+    "database_writes": 0,
+    "external_model_calls": 0,
+    "fulltext_target_found": 8,
+    "graph_target_found": 0,
+    "graph_unchanged": true,
+    "natural_question_literal_hits": 0,
+    "phrase_cases": 8,
+    "protection_cases": 3,
+    "source_facts_verified": 36
+  }
+}

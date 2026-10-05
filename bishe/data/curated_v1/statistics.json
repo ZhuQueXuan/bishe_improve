@@ -1,0 +1,988 @@
+{
+  "candidate_decisions": [
+    {
+      "group": "呼吸系统",
+      "line": 33,
+      "name": "感冒",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 24,
+      "name": "肺炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 2215,
+      "name": "支气管哮喘",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 1050,
+      "name": "慢性支气管炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 56,
+      "name": "流行性感冒",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 2202,
+      "name": "肺结核",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 3898,
+      "name": "急性上呼吸道感染",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 7267,
+      "name": "慢性阻塞性肺疾病",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "消化系统",
+      "line": 2298,
+      "name": "胃炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "消化系统",
+      "line": 8336,
+      "name": "胃溃疡",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "消化系统",
+      "line": 2685,
+      "name": "胃食管反流病",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "消化系统",
+      "line": 8548,
+      "name": "十二指肠溃疡",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "消化系统",
+      "line": 385,
+      "name": "急性胃炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "消化系统",
+      "line": 422,
+      "name": "慢性胃炎",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "消化系统",
+      "line": 3865,
+      "name": "急性肠炎",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "消化系统",
+      "line": 1167,
+      "name": "胆结石",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "消化系统",
+      "line": 386,
+      "name": "急性阑尾炎",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 139,
+      "name": "高血压",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 8780,
+      "name": "糖尿病",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 143,
+      "name": "冠心病",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 4406,
+      "name": "高脂血症",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 587,
+      "name": "脂肪肝",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 178,
+      "name": "心绞痛",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 181,
+      "name": "心肌梗死",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 1014,
+      "name": "痛风",
+      "reasons": [
+        "contradictory_food:白扁豆"
+      ],
+      "status": "excluded_quality"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 748,
+      "name": "偏头痛",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 8519,
+      "name": "失眠",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 826,
+      "name": "甲状腺功能减退",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 938,
+      "name": "缺铁性贫血",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 749,
+      "name": "帕金森病",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 934,
+      "name": "贫血",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 2503,
+      "name": "脑梗死",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 3999,
+      "name": "癫痫",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 153,
+      "name": "甲亢",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 644,
+      "name": "尿路感染",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 645,
+      "name": "膀胱炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 3978,
+      "name": "肾结石",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 637,
+      "name": "慢性肾炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 1224,
+      "name": "前列腺炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 671,
+      "name": "肾盂肾炎",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 1223,
+      "name": "前列腺增生",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 1958,
+      "name": "过敏性鼻炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 1950,
+      "name": "鼻窦炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 2304,
+      "name": "咽炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 8764,
+      "name": "扁桃体炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 2311,
+      "name": "中耳炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 4294,
+      "name": "慢性鼻炎",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 2000,
+      "name": "慢性咽炎",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 1966,
+      "name": "急性扁桃体炎",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "皮肤",
+      "line": 3072,
+      "name": "湿疹",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "皮肤",
+      "line": 3114,
+      "name": "荨麻疹",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "皮肤",
+      "line": 2760,
+      "name": "痤疮",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "皮肤",
+      "line": 2918,
+      "name": "接触性皮炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "皮肤",
+      "line": 3118,
+      "name": "银屑病",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "皮肤",
+      "line": 2517,
+      "name": "水痘",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "皮肤",
+      "line": 2171,
+      "name": "带状疱疹",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "皮肤",
+      "line": 3068,
+      "name": "手足癣",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 719,
+      "name": "颈椎病",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 8614,
+      "name": "腰椎间盘突出",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 985,
+      "name": "骨关节炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 2316,
+      "name": "结膜炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 2492,
+      "name": "牙周炎",
+      "reasons": [],
+      "status": "selected"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 997,
+      "name": "类风湿关节炎",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 2511,
+      "name": "牙龈炎",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 1872,
+      "name": "青光眼",
+      "reasons": [],
+      "status": "not_selected_quota"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 2096,
+      "name": "龋齿",
+      "reasons": [],
+      "status": "not_selected_quota"
+    }
+  ],
+  "database_access": "none",
+  "dataset_version": "curated_v1",
+  "graph": {
+    "duplicate_relations_removed": 0,
+    "entities": 1390,
+    "entities_by_type": {
+      "Check": 244,
+      "Cure": 13,
+      "Department": 21,
+      "Disease": 40,
+      "Drug": 432,
+      "Food": 347,
+      "Symptom": 293
+    },
+    "relations": 2138,
+    "relations_before_deduplication": 2138,
+    "relations_by_type": {
+      "acompany_with": 11,
+      "belongs_to": 78,
+      "common_drug": 81,
+      "cure_way": 87,
+      "do_eat": 159,
+      "has_symptom": 351,
+      "need_check": 301,
+      "no_eat": 160,
+      "recommand_drug": 594,
+      "recommand_eat": 316
+    },
+    "skip_reasons": {
+      "disease_outside_sample": 68,
+      "duplicate_value": 5,
+      "truncated": 9,
+      "unverified_product_details_not_in_graph": 917
+    },
+    "skipped_items": 999,
+    "validation": {
+      "drugs_of_relations": 0,
+      "duplicate_entity_keys": 0,
+      "duplicate_relation_keys": 0,
+      "empty_entity_names": 0,
+      "entities_without_sources": 0,
+      "isolated_entities": 0,
+      "missing_endpoints": 0,
+      "producer_entities": 0,
+      "relations_without_sources": 0
+    }
+  },
+  "manual_review_status": "pending",
+  "medical_reliability": "Source fidelity and structural checks only; no clinical correctness certification.",
+  "medical_review_status": "not_verified",
+  "selected_diseases": [
+    {
+      "group": "呼吸系统",
+      "line": 33,
+      "name": "感冒"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 24,
+      "name": "肺炎"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 2215,
+      "name": "支气管哮喘"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 1050,
+      "name": "慢性支气管炎"
+    },
+    {
+      "group": "呼吸系统",
+      "line": 56,
+      "name": "流行性感冒"
+    },
+    {
+      "group": "消化系统",
+      "line": 2298,
+      "name": "胃炎"
+    },
+    {
+      "group": "消化系统",
+      "line": 8336,
+      "name": "胃溃疡"
+    },
+    {
+      "group": "消化系统",
+      "line": 2685,
+      "name": "胃食管反流病"
+    },
+    {
+      "group": "消化系统",
+      "line": 8548,
+      "name": "十二指肠溃疡"
+    },
+    {
+      "group": "消化系统",
+      "line": 385,
+      "name": "急性胃炎"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 139,
+      "name": "高血压"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 8780,
+      "name": "糖尿病"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 143,
+      "name": "冠心病"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 4406,
+      "name": "高脂血症"
+    },
+    {
+      "group": "心血管与代谢",
+      "line": 587,
+      "name": "脂肪肝"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 748,
+      "name": "偏头痛"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 8519,
+      "name": "失眠"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 826,
+      "name": "甲状腺功能减退"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 938,
+      "name": "缺铁性贫血"
+    },
+    {
+      "group": "神经、内分泌与血液",
+      "line": 749,
+      "name": "帕金森病"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 644,
+      "name": "尿路感染"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 645,
+      "name": "膀胱炎"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 3978,
+      "name": "肾结石"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 637,
+      "name": "慢性肾炎"
+    },
+    {
+      "group": "泌尿系统",
+      "line": 1224,
+      "name": "前列腺炎"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 1958,
+      "name": "过敏性鼻炎"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 1950,
+      "name": "鼻窦炎"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 2304,
+      "name": "咽炎"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 8764,
+      "name": "扁桃体炎"
+    },
+    {
+      "group": "耳鼻喉",
+      "line": 2311,
+      "name": "中耳炎"
+    },
+    {
+      "group": "皮肤",
+      "line": 3072,
+      "name": "湿疹"
+    },
+    {
+      "group": "皮肤",
+      "line": 3114,
+      "name": "荨麻疹"
+    },
+    {
+      "group": "皮肤",
+      "line": 2760,
+      "name": "痤疮"
+    },
+    {
+      "group": "皮肤",
+      "line": 2918,
+      "name": "接触性皮炎"
+    },
+    {
+      "group": "皮肤",
+      "line": 3118,
+      "name": "银屑病"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 719,
+      "name": "颈椎病"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 8614,
+      "name": "腰椎间盘突出"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 985,
+      "name": "骨关节炎"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 2316,
+      "name": "结膜炎"
+    },
+    {
+      "group": "骨关节、眼与口腔",
+      "line": 2492,
+      "name": "牙周炎"
+    }
+  ],
+  "source": {
+    "duplicate_names": [
+      "胎膜早破"
+    ],
+    "eligibility_fail": 4286,
+    "eligibility_pass": 4522,
+    "field_statistics": {
+      "_id": {
+        "empty": 0,
+        "missing": 0,
+        "null": 0,
+        "types": {
+          "dict": 8808
+        }
+      },
+      "acompany": {
+        "empty": 282,
+        "missing": 1,
+        "null": 0,
+        "types": {
+          "list": 8807
+        }
+      },
+      "category": {
+        "empty": 1,
+        "missing": 0,
+        "null": 0,
+        "types": {
+          "list": 8808
+        }
+      },
+      "cause": {
+        "empty": 17,
+        "missing": 0,
+        "null": 0,
+        "types": {
+          "str": 8808
+        }
+      },
+      "check": {
+        "empty": 4,
+        "missing": 0,
+        "null": 0,
+        "types": {
+          "list": 8808
+        }
+      },
+      "common_drug": {
+        "empty": 0,
+        "missing": 1163,
+        "null": 0,
+        "types": {
+          "list": 7645
+        }
+      },
+      "cost_money": {
+        "empty": 10,
+        "missing": 1,
+        "null": 0,
+        "types": {
+          "str": 8807
+        }
+      },
+      "cure_department": {
+        "empty": 0,
+        "missing": 1,
+        "null": 0,
+        "types": {
+          "list": 8807
+        }
+      },
+      "cure_lasttime": {
+        "empty": 10,
+        "missing": 2,
+        "null": 0,
+        "types": {
+          "str": 8806
+        }
+      },
+      "cure_way": {
+        "empty": 6,
+        "missing": 2,
+        "null": 0,
+        "types": {
+          "list": 8806
+        }
+      },
+      "cured_prob": {
+        "empty": 49,
+        "missing": 2,
+        "null": 0,
+        "types": {
+          "str": 8806
+        }
+      },
+      "desc": {
+        "empty": 1,
+        "missing": 0,
+        "null": 0,
+        "types": {
+          "str": 8808
+        }
+      },
+      "do_eat": {
+        "empty": 0,
+        "missing": 3232,
+        "null": 0,
+        "types": {
+          "list": 5576
+        }
+      },
+      "drug_detail": {
+        "empty": 1163,
+        "missing": 0,
+        "null": 0,
+        "types": {
+          "list": 8808
+        }
+      },
+      "easy_get": {
+        "empty": 0,
+        "missing": 4,
+        "null": 0,
+        "types": {
+          "str": 8804
+        }
+      },
+      "get_prob": {
+        "empty": 9,
+        "missing": 2,
+        "null": 0,
+        "types": {
+          "str": 8806
+        }
+      },
+      "get_way": {
+        "empty": 2,
+        "missing": 2,
+        "null": 0,
+        "types": {
+          "str": 8806
+        }
+      },
+      "name": {
+        "empty": 0,
+        "missing": 0,
+        "null": 0,
+        "types": {
+          "str": 8808
+        }
+      },
+      "not_eat": {
+        "empty": 0,
+        "missing": 3232,
+        "null": 0,
+        "types": {
+          "list": 5576
+        }
+      },
+      "prevent": {
+        "empty": 37,
+        "missing": 0,
+        "null": 0,
+        "types": {
+          "str": 8808
+        }
+      },
+      "recommand_drug": {
+        "empty": 1163,
+        "missing": 0,
+        "null": 0,
+        "types": {
+          "list": 8808
+        }
+      },
+      "recommand_eat": {
+        "empty": 0,
+        "missing": 3232,
+        "null": 0,
+        "types": {
+          "list": 5576
+        }
+      },
+      "symptom": {
+        "empty": 43,
+        "missing": 0,
+        "null": 0,
+        "types": {
+          "list": 8808
+        }
+      },
+      "yibao_status": {
+        "empty": 0,
+        "missing": 1,
+        "null": 0,
+        "types": {
+          "str": 8807
+        }
+      }
+    },
+    "list_anomaly_reasons": {
+      "duplicate_value": 235,
+      "empty_list": 1216,
+      "missing_or_null": 10862,
+      "truncated": 996
+    },
+    "parse_errors": [],
+    "parsed_records": 8808,
+    "physical_lines": 8808,
+    "quality_failure_reasons": {
+      "contradictory_food:南瓜子仁": 4,
+      "contradictory_food:干腌菜": 2,
+      "contradictory_food:杏仁": 38,
+      "contradictory_food:松子仁": 1,
+      "contradictory_food:栗子（熟）": 1,
+      "contradictory_food:白扁豆": 17,
+      "contradictory_food:绿豆": 7,
+      "contradictory_food:腰果": 1,
+      "contradictory_food:芝麻": 5,
+      "contradictory_food:花生": 2,
+      "contradictory_food:葵花子仁": 2,
+      "contradictory_food:蜂蜜": 4,
+      "contradictory_food:赤小豆": 3,
+      "contradictory_food:赤砂糖": 2,
+      "contradictory_food:银鱼": 2,
+      "contradictory_food:青豆": 2,
+      "contradictory_food:鸡爪": 1,
+      "contradictory_food:鸡翅": 1,
+      "contradictory_food:鸡肉": 15,
+      "contradictory_food:鸡肉,鸡蛋": 20,
+      "contradictory_food:鸡肉,鸭肉": 1,
+      "contradictory_food:鸡肝": 11,
+      "contradictory_food:鸡腿": 1,
+      "contradictory_food:鸡蛋": 13,
+      "contradictory_food:鸡蛋黄": 4,
+      "contradictory_food:鸭肉": 2,
+      "contradictory_food:鸭肝": 3,
+      "contradictory_food:鸭血(白鸭)": 7,
+      "contradictory_food:鹅肉": 1,
+      "contradictory_food:鹌鹑蛋": 3,
+      "contradictory_food:鹿肉": 3,
+      "contradictory_food:黑豆": 1,
+      "duplicate_disease_name_requires_manual_resolution": 2,
+      "incomplete_text:cause": 80,
+      "incomplete_text:desc": 3,
+      "incomplete_text:prevent": 365,
+      "no_usable_values:check": 4,
+      "no_usable_values:common_drug": 1163,
+      "no_usable_values:cure_department": 1,
+      "no_usable_values:cure_way": 8,
+      "no_usable_values:do_eat": 3232,
+      "no_usable_values:not_eat": 3232,
+      "no_usable_values:recommand_drug": 1163,
+      "no_usable_values:recommand_eat": 3232,
+      "no_usable_values:symptom": 59
+    },
+    "status_counts": {
+      "excluded_quality": 4286,
+      "outside_demo_scope": 4482,
+      "selected": 40
+    },
+    "unique_usable_names": 8807
+  },
+  "source_file_sha256": {
+    "entities.json": "dfbd23d22d55c30ae2255b20d620da2551bc0546e15d6c46052bf6a713b529ef",
+    "medical.json": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+    "relations.json": "b62768685a8a413ad5244dfe28981e4294b3ab613bf7fe7c74b7973cc613202c"
+  }
+}

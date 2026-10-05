@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-03",
+  "status": "passed",
+  "browser_checks": {
+    "status": "passed",
+    "checks": [
+      {
+        "id": "guest_question",
+        "status": "passed",
+        "detail": "Actual frontend, local HTTP view, real graph evidence, local model stub"
+      },
+      {
+        "id": "source_hidden",
+        "status": "passed",
+        "detail": "UI hides citation markers and appendix"
+      },
+      {
+        "id": "guest_multiple_switch",
+        "status": "passed",
+        "detail": "New session retains old one and switching restores old messages"
+      },
+      {
+        "id": "guest_search_delete",
+        "status": "passed",
+        "detail": "Search filters sessions and deleting active session selects the remaining one"
+      },
+      {
+        "id": "guest_reload",
+        "status": "passed",
+        "detail": "Refresh clears guest messages"
+      },
+      {
+        "id": "register_validation",
+        "status": "passed",
+        "detail": "Empty registration fields rejected in the UI"
+      },
+      {
+        "id": "login_sync_guard",
+        "status": "passed",
+        "detail": "Delayed HTTP list check: history loading disables new-chat and composer"
+      },
+      {
+        "id": "register_login",
+        "status": "passed",
+        "detail": "Registration automatically logs in and opens server-backed history"
+      },
+      {
+        "id": "login_followup",
+        "status": "passed",
+        "detail": "Two-round messages persist in the selected conversation"
+      },
+      {
+        "id": "login_reload_switch",
+        "status": "passed",
+        "detail": "Logged-in sessions and both rounds survive refresh and switching"
+      },
+      {
+        "id": "request_failure",
+        "status": "passed",
+        "detail": "Service failure is shown and composer becomes usable again"
+      },
+      {
+        "id": "recover_after_failure",
+        "status": "passed",
+        "detail": "A subsequent request succeeds after the simulated failure"
+      },
+      {
+        "id": "logout_isolation",
+        "status": "passed",
+        "detail": "Logging out clears the logged-in view and opens an empty guest session"
+      },
+      {
+        "id": "second_account_isolation",
+        "status": "passed",
+        "detail": "Second user sees only their own empty conversation"
+      },
+      {
+        "id": "wrong_password",
+        "status": "passed",
+        "detail": "Incorrect login shows an understandable error"
+      },
+      {
+        "id": "relogin_restore",
+        "status": "passed",
+        "detail": "First account regains its own two conversations after logging in again"
+      },
+      {
+        "id": "login_delete_persists",
+        "status": "passed",
+        "detail": "Deleted server conversation does not return after refresh"
+      }
+    ],
+    "external_model_calls": 0,
+    "production_account_database_writes": 0,
+    "graph_writes": 0,
+    "account_database": "temp/usage-check.sqlite3",
+    "browser": "isolated headless Chromium; fallback because app browser connection failed"
+  },
+  "http_permission_checks": {
+    "status": "passed",
+    "checks": [
+      {
+        "id": "cross_user_get",
+        "status": "passed",
+        "http_status": 404
+      },
+      {
+        "id": "cross_user_patch",
+        "status": "passed",
+        "http_status": 404
+      },
+      {
+        "id": "cross_user_delete",
+        "status": "passed",
+        "http_status": 404
+      },
+      {
+        "id": "guest_cannot_read_account_history",
+        "status": "passed",
+        "http_status": 401
+      },
+      {
+        "id": "cross_user_cannot_append_messages",
+        "status": "passed",
+        "http_status": 404
+      },
+      {
+        "id": "owner_history_intact",
+        "status": "passed",
+        "http_status": 200
+      }
+    ],
+    "account_database": "temp/usage-check.sqlite3",
+    "production_account_database_writes": 0,
+    "external_model_calls": 0
+  },
+  "production_graph": {
+    "dataset_id": "medical_full_v1",
+    "entities": 27098,
+    "relations": 301314,
+    "state": "complete"
+  },
+  "lint": "passed",
+  "production_build": "passed",
+  "limits": [
+    "App Browser connection failed; dedicated headless Chromium used instead.",
+    "Accounts and messages stored only in temporary SQLite DB.",
+    "External model substituted locally; model answer quality and cost not evaluated."
+  ]
+}

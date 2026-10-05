@@ -1,0 +1,225 @@
+{
+  "version": "planning_challenge_v1",
+  "tasks": [
+    {
+      "id": "P01",
+      "split": "dev",
+      "question": "只做资料整理：先查糖尿病的并发疾病原文关系。在工具按名称Unicode升序返回的最多8个对象中，选前2个（不足2个则全部），分别列出疾病描述和预防原文摘录及出处。这是并列表格，不要求推断医学异同；缺失资料请明确标出，不推断我患病。",
+      "seed": {
+        "id": "Disease:779b75cfda0f6b563b0cd4d81c6bc559413b9cce94cddcdeaf8a2b399925f9e5",
+        "name": "糖尿病"
+      },
+      "scenario": "normal",
+      "selection": {
+        "order": "unicode_name_ascending",
+        "visible_limit": 8,
+        "take": 2
+      },
+      "required_fields": [
+        "desc",
+        "prevent"
+      ],
+      "budget": {
+        "read_calls": 5,
+        "planner_decisions": 4,
+        "answer_calls": 1,
+        "total_seconds": 90
+      }
+    },
+    {
+      "id": "P02",
+      "split": "dev",
+      "question": "只做资料整理：先查胃溃疡的并发疾病原文关系。在工具按名称Unicode升序返回的最多8个对象中，选前2个（不足2个则全部），分别列出疾病描述和预防原文摘录及出处。这是并列表格，不要求推断医学异同；缺失资料请明确标出，不推断我患病。",
+      "seed": {
+        "id": "Disease:2c37d480186021c595298d0be6543962ee82efc0c263846c0cc995a549f7f355",
+        "name": "胃溃疡"
+      },
+      "scenario": "normal",
+      "selection": {
+        "order": "unicode_name_ascending",
+        "visible_limit": 8,
+        "take": 2
+      },
+      "required_fields": [
+        "desc",
+        "prevent"
+      ],
+      "budget": {
+        "read_calls": 5,
+        "planner_decisions": 4,
+        "answer_calls": 1,
+        "total_seconds": 90
+      }
+    },
+    {
+      "id": "P03",
+      "split": "holdout",
+      "question": "只做资料整理：先查冠心病的并发疾病原文关系。在工具按名称Unicode升序返回的最多8个对象中，选前2个（不足2个则全部），分别列出疾病描述和预防原文摘录及出处。这是并列表格，不要求推断医学异同；缺失资料请明确标出，不推断我患病。",
+      "seed": {
+        "id": "Disease:2561ec389037c05c3537bb4b7a6c96f9dc9a462b477d2443cbe3c8cec9d332e8",
+        "name": "冠心病"
+      },
+      "scenario": "normal",
+      "selection": {
+        "order": "unicode_name_ascending",
+        "visible_limit": 8,
+        "take": 2
+      },
+      "required_fields": [
+        "desc",
+        "prevent"
+      ],
+      "budget": {
+        "read_calls": 5,
+        "planner_decisions": 4,
+        "answer_calls": 1,
+        "total_seconds": 90
+      }
+    },
+    {
+      "id": "P04",
+      "split": "holdout",
+      "question": "只做资料整理：先查急性胰腺炎的并发疾病原文关系。在工具按名称Unicode升序返回的最多8个对象中，选前2个（不足2个则全部），分别列出疾病描述和预防原文摘录及出处。这是并列表格，不要求推断医学异同；缺失资料请明确标出，不推断我患病。",
+      "seed": {
+        "id": "Disease:d2395bdd291d8c6acd4d947c0108f002c4c4fbe98cb600ba812d0e09431f71db",
+        "name": "急性胰腺炎"
+      },
+      "scenario": "normal",
+      "selection": {
+        "order": "unicode_name_ascending",
+        "visible_limit": 8,
+        "take": 2
+      },
+      "required_fields": [
+        "desc",
+        "prevent"
+      ],
+      "budget": {
+        "read_calls": 5,
+        "planner_decisions": 4,
+        "answer_calls": 1,
+        "total_seconds": 90
+      }
+    },
+    {
+      "id": "P05",
+      "split": "dev",
+      "question": "只做资料整理：先查高血压的并发疾病原文关系。在工具按名称Unicode升序返回的最多8个对象中，选前2个（不足2个则全部），分别列出疾病描述和预防原文摘录及出处。这是并列表格，不要求推断医学异同；缺失资料请明确标出，不推断我患病。",
+      "seed": {
+        "id": "Disease:63403dfe0d0c42776d27e8cdcc244438abe48fb95695b29127b3961bd619b34a",
+        "name": "高血压"
+      },
+      "scenario": "missing_prevent",
+      "selection": {
+        "order": "unicode_name_ascending",
+        "visible_limit": 8,
+        "take": 2
+      },
+      "required_fields": [
+        "desc",
+        "prevent"
+      ],
+      "budget": {
+        "read_calls": 5,
+        "planner_decisions": 4,
+        "answer_calls": 1,
+        "total_seconds": 90
+      },
+      "fixture": {
+        "event": "first_selected_entity.prevent",
+        "effect": "return_missing",
+        "scope": "local_tool_return_only"
+      }
+    },
+    {
+      "id": "P06",
+      "split": "holdout",
+      "question": "只做资料整理：先查肺炎的并发疾病原文关系。在工具按名称Unicode升序返回的最多8个对象中，选前2个（不足2个则全部），分别列出疾病描述和预防原文摘录及出处。这是并列表格，不要求推断医学异同；缺失资料请明确标出，不推断我患病。",
+      "seed": {
+        "id": "Disease:44c1c64879bb7aaf205c6086b637d04e08856157df4d9db345cf88533928f67d",
+        "name": "肺炎"
+      },
+      "scenario": "transient_error",
+      "selection": {
+        "order": "unicode_name_ascending",
+        "visible_limit": 8,
+        "take": 2
+      },
+      "required_fields": [
+        "desc",
+        "prevent"
+      ],
+      "budget": {
+        "read_calls": 5,
+        "planner_decisions": 4,
+        "answer_calls": 1,
+        "total_seconds": 90
+      },
+      "fixture": {
+        "event": "first_read_fields_call",
+        "effect": "transient_error_once",
+        "scope": "local_tool_return_only"
+      }
+    },
+    {
+      "id": "P07",
+      "split": "dev",
+      "question": "只做资料整理：先查贫血的并发疾病原文关系。在工具按名称Unicode升序返回的最多8个对象中，选前2个（不足2个则全部），分别列出疾病描述和预防原文摘录及出处。这是并列表格，不要求推断医学异同；缺失资料请明确标出，不推断我患病。",
+      "seed": {
+        "id": "Disease:b8e171c0a6787d42ee99484f93fb39dce470d3c6534755271939eb31c63edac1",
+        "name": "贫血"
+      },
+      "scenario": "resume_after_relations",
+      "selection": {
+        "order": "unicode_name_ascending",
+        "visible_limit": 8,
+        "take": 2
+      },
+      "required_fields": [
+        "desc",
+        "prevent"
+      ],
+      "budget": {
+        "read_calls": 5,
+        "planner_decisions": 4,
+        "answer_calls": 1,
+        "total_seconds": 90
+      },
+      "fixture": {
+        "event": "after_read_relations",
+        "effect": "checkpoint_and_new_controller",
+        "scope": "isolated_task_state"
+      }
+    },
+    {
+      "id": "P08",
+      "split": "holdout",
+      "question": "只做资料整理：先查感冒的并发疾病原文关系。在工具按名称Unicode升序返回的最多8个对象中，选前2个（不足2个则全部），分别列出疾病描述和预防原文摘录及出处。这是并列表格，不要求推断医学异同；缺失资料请明确标出，不推断我患病。",
+      "seed": {
+        "id": "Disease:65717f88a8efb0a4f84770868d3761c3c6a1c5f10ed0b6e988246778ac16d173",
+        "name": "感冒"
+      },
+      "scenario": "resume_after_relations",
+      "selection": {
+        "order": "unicode_name_ascending",
+        "visible_limit": 8,
+        "take": 2
+      },
+      "required_fields": [
+        "desc",
+        "prevent"
+      ],
+      "budget": {
+        "read_calls": 5,
+        "planner_decisions": 4,
+        "answer_calls": 1,
+        "total_seconds": 90
+      },
+      "fixture": {
+        "event": "after_read_relations",
+        "effect": "checkpoint_and_new_controller",
+        "scope": "isolated_task_state"
+      }
+    }
+  ]
+}

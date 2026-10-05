@@ -1,0 +1,1196 @@
+{
+  "version": "planning_challenge_v1",
+  "do_not_send_to_planner": true,
+  "cases": [
+    {
+      "id": "P01",
+      "visible_relations": [
+        {
+          "id": "Disease:5b1a119a9da9d407dc2ad46ad0f45bbdb6dc3cf9ec93550b41481b1f7524f8ba",
+          "name": "尿毒症",
+          "relation_id": "acompany_with:b28831ef01367c81ed14e8a9c4650cf6dfb84e4fcee038e69c446b9bd34a275e",
+          "sources": [
+            {
+              "disease": "糖尿病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 4,
+              "line": 8780,
+              "raw_value": "尿毒症",
+              "record_id": {
+                "$oid": "5bb57901831b973a137e6131"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:a2d9f1acbf7452a022aed78236043d26e9b32ac258922519ee87f898b25b62a5",
+          "name": "糖尿病乳酸性酸中毒",
+          "relation_id": "acompany_with:409d5b644f8dbd98f590e03bc856c502185b55064ca0d99dd1c1c6a64d488532",
+          "sources": [
+            {
+              "disease": "糖尿病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 1,
+              "line": 8780,
+              "raw_value": "糖尿病乳酸性酸中毒",
+              "record_id": {
+                "$oid": "5bb57901831b973a137e6131"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:bde597ed8140af7712c8497d709bb12c271d0fc78537ca54390063cbbcdf699d",
+          "name": "糖尿病性神经病",
+          "relation_id": "acompany_with:589246f76a7d5eeb065c307ebc7b2c51c371ece53931231b50b94b86e19fcab2",
+          "sources": [
+            {
+              "disease": "糖尿病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 2,
+              "line": 8780,
+              "raw_value": "糖尿病性神经病",
+              "record_id": {
+                "$oid": "5bb57901831b973a137e6131"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:8d86b7a0563d4ae5d5816a446c9aaf82904c4d83b72ba127c703907c4dd95de9",
+          "name": "糖尿病酮症酸中毒",
+          "relation_id": "acompany_with:e748533f3de86bca66a753291200d0bde518b9053b8e0baefb2445beeb6c4fc5",
+          "sources": [
+            {
+              "disease": "糖尿病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 8780,
+              "raw_value": "糖尿病酮症酸中毒",
+              "record_id": {
+                "$oid": "5bb57901831b973a137e6131"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:63403dfe0d0c42776d27e8cdcc244438abe48fb95695b29127b3961bd619b34a",
+          "name": "高血压",
+          "relation_id": "acompany_with:530fcc75321590a8e6f2a94c9871ad3fb6344b61e212f6e4fa2a1b7c8e0af506",
+          "sources": [
+            {
+              "disease": "糖尿病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 3,
+              "line": 8780,
+              "raw_value": "高血压",
+              "record_id": {
+                "$oid": "5bb57901831b973a137e6131"
+              }
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "id": "Disease:5b1a119a9da9d407dc2ad46ad0f45bbdb6dc3cf9ec93550b41481b1f7524f8ba",
+          "name": "尿毒症",
+          "relation_id": "acompany_with:b28831ef01367c81ed14e8a9c4650cf6dfb84e4fcee038e69c446b9bd34a275e",
+          "relation_sources": [
+            {
+              "disease": "糖尿病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 4,
+              "line": 8780,
+              "raw_value": "尿毒症",
+              "record_id": {
+                "$oid": "5bb57901831b973a137e6131"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "尿毒症实际上是指人体不能通过肾脏产生尿液，将体内代谢产生的废物和过多的水分排出体外，引起的毒害。现代医学认为尿毒症是肾功能丧失后，机体内部生化过程紊乱而产生的一系列复杂的综合征。而不是一个独立的疾病，称为肾功能衰竭综合征或简称肾衰，这个术语是PIORRY和HERITER在1840年描述了肾功能衰竭以后提出的。",
+              "sources": [
+                {
+                  "disease": "尿毒症",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 3973,
+                  "raw_value": "尿毒症实际上是指人体不能通过肾脏产生尿液，将体内代谢产生的废物和过多的水分排出体外，引起的毒害。现代医学认为尿毒症是肾功能丧失后，机体内部生化过程紊乱而产生的一系列复杂的综合征。而不是一个独立的疾病，称为肾功能衰竭综合征或简称肾衰，这个术语是PIORRY和HERITER在1840年描述了肾功能衰竭以后提出的。",
+                  "record_id": {
+                    "$oid": "5bb578da831b973a137e4e6a"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "尿毒症的日常预防\n1、积极治疗\n尿毒症虽是致命的疾病，但也并不是无药可医，对无诱发因素的病例，肾功能不可逆转时，可考虑做透析治疗，透析疗法包括口服，腹膜，血液透析(人工肾)三种;口服透析治疗仅适用于轻的尿毒症患者，近年来，由于透析疗法的普遍应用，使晚期尿毒症病人有5年以卜存活并保持一定劳动力者不少，因此，透析疗法是治疗晚期尿毒症的有效方法之一。\n2、充分休息\n尿毒症病人应保证充足的休息和良好的营养，不要从事力所不及的活动。\n3、避免有损肾脏的化学物质\n要避免含有镉，氯仿，乙烯乙二醇和四氯乙烯的用品和环境，它们一般存在于杀虫剂，汽车尾气，涂料，建筑物和家用清洁剂中。\n4、限制含镐量高的食物\n已经在一般家庭用品中发现一些化学元素与急性和慢性肾病有关联，只要仔细阅读产品的说明，多采取一些预防措施，是町以避免这些有害物质的。\n镉：这种稀有金属用于生产杀虫剂，橡皮轮胎以及塑料，涂料和其他产品，由于镉的工业用途很广，已经大范围地在一些食品和水中发现，以下几点应引起注意\n限制摄人含镉量高的食物，如由动物肝和肾制成的食物，比目鱼，蚌类，扇贝，牡蚝以及在污泥中长成的蔬菜。\n确保用来喷涂和工艺用涂料，染料，瓷钠不含镉。\n不要使用古董的烹调用具，因为这些器具上涂有含镉制成的色素。\n5、勿抽烟\n烟对肾脏有害无益。\n6、采用低蛋白饮食\n对尿毒症患者应给予低蛋白饮食，正常成人每公斤体重需要蛋白量1—1.5克，尿毒症病人只能进食0.5克/公斤以下，以减少体内氮质代谢产物的生成和潴留。\n7、选用蛋奶类食品\n由于进食蛋白量少，因此应尽量选用营养价值较高的鸡蛋，牛奶等动物蛋白质食物，而少用豆制品等植物蛋白。\n8、补充水分\n根据病情供给适量的水分。\n危险讯譬\n如果你有下列症状，请尽快就医：\n*纳差，恶心，呕吐和腹泻。\n*口中有氨味，齿龈也常发炎，口腔粘膜溃烂出血等。\n*失眠，烦躁，四肢麻木灼痛，出现嗜睡甚至抽搐，昏迷。\n*出现高血压以及由心包炎及心力衰竭引起的心前区疼痛，心悸，气急，上腹胀痛，浮肿，不能平卧等症状。\n尿毒症健康教育\n1、预防尿毒症首先应该充分休息：尿毒症病人应保证充足的休息和良好的营养，不要从事力所不及的活动。\n2、避免有损肾脏的化学物质：要避免含有镉、氯仿、乙烯乙二醇和四氯乙烯的用品和环境。它们一般存在于杀虫剂、汽车尾气、涂料、建筑物和家用清洁剂中。\n3、确保用来喷涂和工艺用涂料、染料、瓷钠不含镉。不要使用古董的烹调用具，因为这些器具上涂有含镉制成的色素。勿抽烟，烟对肾脏有害无益，能够有效预防尿毒症。\n4、采用低蛋白饮食： 由于进食蛋白量少，因此应尽量选用营养价值较高的鸡蛋、牛奶等动物蛋白质食物，而少用豆制品等植物蛋白。\n5、补充水分：根据病情供给适量的水分。其实预防尿毒症关键在于平常生活中的一些细节，做到时刻关注身体的变化，积极做到预防，这样才能够远离尿毒症。",
+              "sources": [
+                {
+                  "disease": "尿毒症",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 3973,
+                  "raw_value": "尿毒症的日常预防\n1、积极治疗\n尿毒症虽是致命的疾病，但也并不是无药可医，对无诱发因素的病例，肾功能不可逆转时，可考虑做透析治疗，透析疗法包括口服，腹膜，血液透析(人工肾)三种;口服透析治疗仅适用于轻的尿毒症患者，近年来，由于透析疗法的普遍应用，使晚期尿毒症病人有5年以卜存活并保持一定劳动力者不少，因此，透析疗法是治疗晚期尿毒症的有效方法之一。\n2、充分休息\n尿毒症病人应保证充足的休息和良好的营养，不要从事力所不及的活动。\n3、避免有损肾脏的化学物质\n要避免含有镉，氯仿，乙烯乙二醇和四氯乙烯的用品和环境，它们一般存在于杀虫剂，汽车尾气，涂料，建筑物和家用清洁剂中。\n4、限制含镐量高的食物\n已经在一般家庭用品中发现一些化学元素与急性和慢性肾病有关联，只要仔细阅读产品的说明，多采取一些预防措施，是町以避免这些有害物质的。\n镉：这种稀有金属用于生产杀虫剂，橡皮轮胎以及塑料，涂料和其他产品，由于镉的工业用途很广，已经大范围地在一些食品和水中发现，以下几点应引起注意\n限制摄人含镉量高的食物，如由动物肝和肾制成的食物，比目鱼，蚌类，扇贝，牡蚝以及在污泥中长成的蔬菜。\n确保用来喷涂和工艺用涂料，染料，瓷钠不含镉。\n不要使用古董的烹调用具，因为这些器具上涂有含镉制成的色素。\n5、勿抽烟\n烟对肾脏有害无益。\n6、采用低蛋白饮食\n对尿毒症患者应给予低蛋白饮食，正常成人每公斤体重需要蛋白量1—1.5克，尿毒症病人只能进食0.5克/公斤以下，以减少体内氮质代谢产物的生成和潴留。\n7、选用蛋奶类食品\n由于进食蛋白量少，因此应尽量选用营养价值较高的鸡蛋，牛奶等动物蛋白质食物，而少用豆制品等植物蛋白。\n8、补充水分\n根据病情供给适量的水分。\n危险讯譬\n如果你有下列症状，请尽快就医：\n*纳差，恶心，呕吐和腹泻。\n*口中有氨味，齿龈也常发炎，口腔粘膜溃烂出血等。\n*失眠，烦躁，四肢麻木灼痛，出现嗜睡甚至抽搐，昏迷。\n*出现高血压以及由心包炎及心力衰竭引起的心前区疼痛，心悸，气急，上腹胀痛，浮肿，不能平卧等症状。\n尿毒症健康教育\n1、预防尿毒症首先应该充分休息：尿毒症病人应保证充足的休息和良好的营养，不要从事力所不及的活动。\n2、避免有损肾脏的化学物质：要避免含有镉、氯仿、乙烯乙二醇和四氯乙烯的用品和环境。它们一般存在于杀虫剂、汽车尾气、涂料、建筑物和家用清洁剂中。\n3、确保用来喷涂和工艺用涂料、染料、瓷钠不含镉。不要使用古董的烹调用具，因为这些器具上涂有含镉制成的色素。勿抽烟，烟对肾脏有害无益，能够有效预防尿毒症。\n4、采用低蛋白饮食： 由于进食蛋白量少，因此应尽量选用营养价值较高的鸡蛋、牛奶等动物蛋白质食物，而少用豆制品等植物蛋白。\n5、补充水分：根据病情供给适量的水分。其实预防尿毒症关键在于平常生活中的一些细节，做到时刻关注身体的变化，积极做到预防，这样才能够远离尿毒症。",
+                  "record_id": {
+                    "$oid": "5bb578da831b973a137e4e6a"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "Disease:a2d9f1acbf7452a022aed78236043d26e9b32ac258922519ee87f898b25b62a5",
+          "name": "糖尿病乳酸性酸中毒",
+          "relation_id": "acompany_with:409d5b644f8dbd98f590e03bc856c502185b55064ca0d99dd1c1c6a64d488532",
+          "relation_sources": [
+            {
+              "disease": "糖尿病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 1,
+              "line": 8780,
+              "raw_value": "糖尿病乳酸性酸中毒",
+              "record_id": {
+                "$oid": "5bb57901831b973a137e6131"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "体内无氧酵解的代谢产物乳酸，在血中升高造成的酸中毒，血乳酸持续增高和PH减低(<7.35)的异常生化改变所致的临床综合症，多见于并同时合并肾功能障碍或组织缺氧性疾病如肺心病，心力衰竭，休克及服双胍类药物治疗的老年糖尿病患者。早期表现为食欲不振，恶心呕吐，渐渐出现呼吸急促，烦躁，谵妄，昏迷，由于不能直接消除血液内，尤其脑内乳酸，故疗效差，死亡率较高。",
+              "sources": [
+                {
+                  "disease": "糖尿病乳酸性酸中毒",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 863,
+                  "raw_value": "体内无氧酵解的代谢产物乳酸，在血中升高造成的酸中毒，血乳酸持续增高和PH减低(<7.35)的异常生化改变所致的临床综合症，多见于并同时合并肾功能障碍或组织缺氧性疾病如肺心病，心力衰竭，休克及服双胍类药物治疗的老年糖尿病患者。早期表现为食欲不振，恶心呕吐，渐渐出现呼吸急促，烦躁，谵妄，昏迷，由于不能直接消除血液内，尤其脑内乳酸，故疗效差，死亡率较高。",
+                  "record_id": {
+                    "$oid": "5bb578c0831b973a137e4244"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "乳酸性酸中毒一旦发生，病死率极高，具体预防措施如下：\n1.在糖尿病治疗中不用苯乙双胍。凡糖尿病肾病、肝肾功能不全、大于70岁的老年人以及心肺功能不佳者，其他双胍类药物也不应采用。糖尿病控制不佳者可用胰岛素治疗。\n2.积极治疗各种可诱发乳酸性酸中毒的疾病。\n3.糖尿病患者应戒酒，并尽量不用可引起乳酸性酸中毒的药物。",
+              "sources": [
+                {
+                  "disease": "糖尿病乳酸性酸中毒",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 863,
+                  "raw_value": "乳酸性酸中毒一旦发生，病死率极高，具体预防措施如下：\n1.在糖尿病治疗中不用苯乙双胍。凡糖尿病肾病、肝肾功能不全、大于70岁的老年人以及心肺功能不佳者，其他双胍类药物也不应采用。糖尿病控制不佳者可用胰岛素治疗。\n2.积极治疗各种可诱发乳酸性酸中毒的疾病。\n3.糖尿病患者应戒酒，并尽量不用可引起乳酸性酸中毒的药物。",
+                  "record_id": {
+                    "$oid": "5bb578c0831b973a137e4244"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "expected_stop": "complete"
+    },
+    {
+      "id": "P02",
+      "visible_relations": [
+        {
+          "id": "Disease:a6f163c81f590eadef9a4f4c351f9b7e58215a230f18dd0aa77e8b32b59c4503",
+          "name": "上消化道出血",
+          "relation_id": "acompany_with:9d536f55c9aee0771034865588bbb3baf0a0cd60e51717f9cc5f7aefe4924729",
+          "sources": [
+            {
+              "disease": "胃溃疡",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 8336,
+              "raw_value": "上消化道出血",
+              "record_id": {
+                "$oid": "5bb578fe831b973a137e5f75"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:97e80de72c28bc4a1ed0939e7a1cd07e6237da5a5b4a6856f8a327d693d8624e",
+          "name": "幽门梗阻",
+          "relation_id": "acompany_with:a7f0b45d35319f2846328c4061e69a5c4de0b6b91a5f132981977a6557af0356",
+          "sources": [
+            {
+              "disease": "胃溃疡",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 1,
+              "line": 8336,
+              "raw_value": "幽门梗阻",
+              "record_id": {
+                "$oid": "5bb578fe831b973a137e5f75"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:5cad1ae6972c2ba42b13b1c22de1a912ea96a88c3f0884f17228d3d3f92e82a6",
+          "name": "胃溃疡性穿孔",
+          "relation_id": "acompany_with:43d24f0d0722fce75b1b82d9e75cfa22eb9d750d1c3fc56b50293e2d18d19d8a",
+          "sources": [
+            {
+              "disease": "胃溃疡",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 2,
+              "line": 8336,
+              "raw_value": "胃溃疡性穿孔",
+              "record_id": {
+                "$oid": "5bb578fe831b973a137e5f75"
+              }
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "id": "Disease:a6f163c81f590eadef9a4f4c351f9b7e58215a230f18dd0aa77e8b32b59c4503",
+          "name": "上消化道出血",
+          "relation_id": "acompany_with:9d536f55c9aee0771034865588bbb3baf0a0cd60e51717f9cc5f7aefe4924729",
+          "relation_sources": [
+            {
+              "disease": "胃溃疡",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 8336,
+              "raw_value": "上消化道出血",
+              "record_id": {
+                "$oid": "5bb578fe831b973a137e5f75"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "上消化道出血是指屈氏韧带以上的消化道，包括食管、胃、十二指肠或胰胆等病变引起的出血，胃空肠吻合术后的空肠病变出血亦属这一范围。大量出血是指在数小时内失血量超出1000ml或循环血容量的20%，其临床主要表现为呕血和(或)黑粪，往往伴有血容量减少引起的急性周围循环衰竭，是常见的急症，病死率高达8%～13.7%。\n上消化道大量出血的病因很多，常见者有消化性溃疡、急性胃黏膜损害、食管胃底静脉曲张和胃癌。\n急性大量出血或出血持续不止，则出现心悸，冷汗，烦躁，面色苍白，皮肤湿凉，心率加快，血压下降以及昏厥等循环衰竭现象。\n治疗分手术治疗和非手术治疗两大类。由于很多疾病和病变可以引起上消化道出血，每一个病种的手术治疗和非手术治疗的指征不尽相同。\n ",
+              "sources": [
+                {
+                  "disease": "上消化道出血",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 463,
+                  "raw_value": "上消化道出血是指屈氏韧带以上的消化道，包括食管、胃、十二指肠或胰胆等病变引起的出血，胃空肠吻合术后的空肠病变出血亦属这一范围。大量出血是指在数小时内失血量超出1000ml或循环血容量的20%，其临床主要表现为呕血和(或)黑粪，往往伴有血容量减少引起的急性周围循环衰竭，是常见的急症，病死率高达8%～13.7%。\n上消化道大量出血的病因很多，常见者有消化性溃疡、急性胃黏膜损害、食管胃底静脉曲张和胃癌。\n急性大量出血或出血持续不止，则出现心悸，冷汗，烦躁，面色苍白，皮肤湿凉，心率加快，血压下降以及昏厥等循环衰竭现象。\n治疗分手术治疗和非手术治疗两大类。由于很多疾病和病变可以引起上消化道出血，每一个病种的手术治疗和非手术治疗的指征不尽相同。\n ",
+                  "record_id": {
+                    "$oid": "5bb578bb831b973a137e40b4"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "1、积极进行针对出血病因的治疗。\n2、注意生活习惯，饮食习惯，情志，避免刺激因素。",
+              "sources": [
+                {
+                  "disease": "上消化道出血",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 463,
+                  "raw_value": "1、积极进行针对出血病因的治疗。\n2、注意生活习惯，饮食习惯，情志，避免刺激因素。",
+                  "record_id": {
+                    "$oid": "5bb578bb831b973a137e40b4"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "Disease:97e80de72c28bc4a1ed0939e7a1cd07e6237da5a5b4a6856f8a327d693d8624e",
+          "name": "幽门梗阻",
+          "relation_id": "acompany_with:a7f0b45d35319f2846328c4061e69a5c4de0b6b91a5f132981977a6557af0356",
+          "relation_sources": [
+            {
+              "disease": "胃溃疡",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 1,
+              "line": 8336,
+              "raw_value": "幽门梗阻",
+              "record_id": {
+                "$oid": "5bb578fe831b973a137e5f75"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "幽门是消化道最狭窄的部位，正常的直径约1.5cm，因此容易发生梗阻。由于幽门通过障碍，胃内容物不能顺利入肠，而在胃内大量潴留，导致胃壁肌层肥厚，胃腔扩大及胃黏膜层的炎症，水肿及糜烂。临床上因病人长期不能正常进食，并大量呕吐，导致严重的营养不良，低蛋白血症及贫血，并有严重脱水、低钾及碱中毒等水、电解质紊乱。\n一般病人都有较长溃疡病史，随病变的进展，胃痛渐加重，并有嗳气、反胃等症状。病人往往因胃胀而厌食，抗酸药亦渐无效。胃逐渐扩张，上腹部饱满，并有移动性包块。体征：消瘦、倦怠、皮肤干燥并丧失弹性，可出现维生素缺乏征象，口唇干，舌干有苔，眼球内陷。上腹膨胀显著，能看见胃型和自左向右移动之胃蠕动波。叩诊上腹鼓音、振水音明显。",
+              "sources": [
+                {
+                  "disease": "幽门梗阻",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 564,
+                  "raw_value": "幽门是消化道最狭窄的部位，正常的直径约1.5cm，因此容易发生梗阻。由于幽门通过障碍，胃内容物不能顺利入肠，而在胃内大量潴留，导致胃壁肌层肥厚，胃腔扩大及胃黏膜层的炎症，水肿及糜烂。临床上因病人长期不能正常进食，并大量呕吐，导致严重的营养不良，低蛋白血症及贫血，并有严重脱水、低钾及碱中毒等水、电解质紊乱。\n一般病人都有较长溃疡病史，随病变的进展，胃痛渐加重，并有嗳气、反胃等症状。病人往往因胃胀而厌食，抗酸药亦渐无效。胃逐渐扩张，上腹部饱满，并有移动性包块。体征：消瘦、倦怠、皮肤干燥并丧失弹性，可出现维生素缺乏征象，口唇干，舌干有苔，眼球内陷。上腹膨胀显著，能看见胃型和自左向右移动之胃蠕动波。叩诊上腹鼓音、振水音明显。",
+                  "record_id": {
+                    "$oid": "5bb578bd831b973a137e4119"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "积极有效的治疗溃疡病，防止出现痉挛性、水肿性和瘢痕性幽门狭窄而引起的梗阻。改善饮食习惯，以易消化的食物为主，避免刺激性物质，吃七分饱，维持规律、正常的饮食习惯。溃疡虽然容易治疗，但是出容易复发。除饮食要注意外，烟、酒，都要限制，保持充足的睡眠、适度的运动及消除过度的紧张，是基本有效的方法。",
+              "sources": [
+                {
+                  "disease": "幽门梗阻",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 564,
+                  "raw_value": "积极有效的治疗溃疡病，防止出现痉挛性、水肿性和瘢痕性幽门狭窄而引起的梗阻。改善饮食习惯，以易消化的食物为主，避免刺激性物质，吃七分饱，维持规律、正常的饮食习惯。溃疡虽然容易治疗，但是出容易复发。除饮食要注意外，烟、酒，都要限制，保持充足的睡眠、适度的运动及消除过度的紧张，是基本有效的方法。",
+                  "record_id": {
+                    "$oid": "5bb578bd831b973a137e4119"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "expected_stop": "complete"
+    },
+    {
+      "id": "P03",
+      "visible_relations": [
+        {
+          "id": "Disease:efe6dee9bf1df0b62d4a0a4ee73c6f51cc08d51b64f95c4f196f4aab3312f8f5",
+          "name": "二尖瓣关闭不全",
+          "relation_id": "acompany_with:d7dae58d7701ad22fe2b056dd781d2035e1b52f1f799fe1fafe0ec38cc206076",
+          "sources": [
+            {
+              "disease": "冠心病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 1,
+              "line": 143,
+              "raw_value": "二尖瓣关闭不全",
+              "record_id": {
+                "$oid": "5bb578b8831b973a137e3f74"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:297e8a52a0600cf3c87e7cf3a1177d93819a9b5da90de360401ea3b6d9010016",
+          "name": "猝死",
+          "relation_id": "acompany_with:2cfb225a186eca4e852bc46b6900580b18eb4e00b59a44bd4e58a5944a3029c8",
+          "sources": [
+            {
+              "disease": "冠心病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 143,
+              "raw_value": "猝死",
+              "record_id": {
+                "$oid": "5bb578b8831b973a137e3f74"
+              }
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "id": "Disease:efe6dee9bf1df0b62d4a0a4ee73c6f51cc08d51b64f95c4f196f4aab3312f8f5",
+          "name": "二尖瓣关闭不全",
+          "relation_id": "acompany_with:d7dae58d7701ad22fe2b056dd781d2035e1b52f1f799fe1fafe0ec38cc206076",
+          "relation_sources": [
+            {
+              "disease": "冠心病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 1,
+              "line": 143,
+              "raw_value": "二尖瓣关闭不全",
+              "record_id": {
+                "$oid": "5bb578b8831b973a137e3f74"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "由于二尖瓣在解剖结构和(或)功能上的异常，造成左心室收缩时左心室内血液部分返流到左心房即称为二尖瓣关闭不全。在发展中国家，以风湿性二尖瓣关闭不全较常见，女性比较多见，发病年龄多为20-40岁。风湿性心脏病二尖瓣闭锁不全是由于风湿性心脏炎后所遗留的二尖瓣瓣膜损害，使瓣膜发生僵硬、变形、瓣缘卷缩，瓣口连接处发生融合及缩短，同时伴腱索、乳头肌的缩短，融合或断裂，造成二尖瓣的闭合不全，从而引起血流动力学的一系列改变。其他常见原因包括二尖瓣脱垂、二尖瓣退行性变、心肌缺血、感染性心内膜、先天性畸形等。临床上大多为慢性表现。预后主要取决于瓣膜关闭不全程度、心房心室增大情况、心功能、基本病因、风湿活动复发以及是否出现并发症等情况。早诊断、早治疗是关键。本病目前尚无特效根治药物，外科手术治疗可根治。",
+              "sources": [
+                {
+                  "disease": "二尖瓣关闭不全",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 123,
+                  "raw_value": "由于二尖瓣在解剖结构和(或)功能上的异常，造成左心室收缩时左心室内血液部分返流到左心房即称为二尖瓣关闭不全。在发展中国家，以风湿性二尖瓣关闭不全较常见，女性比较多见，发病年龄多为20-40岁。风湿性心脏病二尖瓣闭锁不全是由于风湿性心脏炎后所遗留的二尖瓣瓣膜损害，使瓣膜发生僵硬、变形、瓣缘卷缩，瓣口连接处发生融合及缩短，同时伴腱索、乳头肌的缩短，融合或断裂，造成二尖瓣的闭合不全，从而引起血流动力学的一系列改变。其他常见原因包括二尖瓣脱垂、二尖瓣退行性变、心肌缺血、感染性心内膜、先天性畸形等。临床上大多为慢性表现。预后主要取决于瓣膜关闭不全程度、心房心室增大情况、心功能、基本病因、风湿活动复发以及是否出现并发症等情况。早诊断、早治疗是关键。本病目前尚无特效根治药物，外科手术治疗可根治。",
+                  "record_id": {
+                    "$oid": "5bb578b7831b973a137e3f60"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "1、避免过度的体力劳动及剧烈运动。\n2、限制钠盐摄入。\n3、利尿、扩血管，保护心功能。\n4、饮食上注意增加营养提高抵抗能力。",
+              "sources": [
+                {
+                  "disease": "二尖瓣关闭不全",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 123,
+                  "raw_value": "1、避免过度的体力劳动及剧烈运动。\n2、限制钠盐摄入。\n3、利尿、扩血管，保护心功能。\n4、饮食上注意增加营养提高抵抗能力。",
+                  "record_id": {
+                    "$oid": "5bb578b7831b973a137e3f60"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "Disease:297e8a52a0600cf3c87e7cf3a1177d93819a9b5da90de360401ea3b6d9010016",
+          "name": "猝死",
+          "relation_id": "acompany_with:2cfb225a186eca4e852bc46b6900580b18eb4e00b59a44bd4e58a5944a3029c8",
+          "relation_sources": [
+            {
+              "disease": "冠心病",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 143,
+              "raw_value": "猝死",
+              "record_id": {
+                "$oid": "5bb578b8831b973a137e3f74"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "1979年国际心脏病学会、美国心脏学会以及1970年世界卫生组织定义的猝死为：急性症状发生后即刻或者在24小时内发生的意外死亡。后世界卫生组织定为发病后6小时内死亡者为猝死。目前大多数学者倾向于将猝死的时间限定在发病1小时内。特点是死亡急骤，出人意料，自然死亡或非暴力死亡，死得不明不白。",
+              "sources": [
+                {
+                  "disease": "猝死",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 8490,
+                  "raw_value": "1979年国际心脏病学会、美国心脏学会以及1970年世界卫生组织定义的猝死为：急性症状发生后即刻或者在24小时内发生的意外死亡。后世界卫生组织定为发病后6小时内死亡者为猝死。目前大多数学者倾向于将猝死的时间限定在发病1小时内。特点是死亡急骤，出人意料，自然死亡或非暴力死亡，死得不明不白。",
+                  "record_id": {
+                    "$oid": "5bb578ff831b973a137e600f"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "日常预防\n注意适当休息，勿过劳掌握动静结合，休息好，有利于身体的恢复;运动可以增强体力，增强抗病能力，两者相结合，可更好的恢复。为了降低猝死的发生率，建议对处于心肌梗死急性期的病人切勿做切割磁力线的快速运动，以减少心律失常及猝死的发生。",
+              "sources": [
+                {
+                  "disease": "猝死",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 8490,
+                  "raw_value": "日常预防\n注意适当休息，勿过劳掌握动静结合，休息好，有利于身体的恢复;运动可以增强体力，增强抗病能力，两者相结合，可更好的恢复。为了降低猝死的发生率，建议对处于心肌梗死急性期的病人切勿做切割磁力线的快速运动，以减少心律失常及猝死的发生。",
+                  "record_id": {
+                    "$oid": "5bb578ff831b973a137e600f"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "expected_stop": "complete"
+    },
+    {
+      "id": "P04",
+      "visible_relations": [
+        {
+          "id": "Disease:aa21569e54ec1df1420c0d5146dd1a961fe97cc96cd87c6989fb377c9aa97145",
+          "name": "休克",
+          "relation_id": "acompany_with:963bc4e9cce3acc50e169076acc62ecd2f738b0ff887d26e528bc862aae71fe3",
+          "sources": [
+            {
+              "disease": "急性胰腺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 2,
+              "line": 395,
+              "raw_value": "休克",
+              "record_id": {
+                "$oid": "5bb578bb831b973a137e4070"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:f648ae77382420570f38be4edd47c06fb437580d0414390f435f6e843a86d3e9",
+          "name": "弥散性血管内凝血",
+          "relation_id": "acompany_with:02c6c6ebb1d33d7f80d9dbb2c06c9a261ea532989b19852a5c9257255ffcd115",
+          "sources": [
+            {
+              "disease": "急性胰腺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 5,
+              "line": 395,
+              "raw_value": "弥散性血管内凝血",
+              "record_id": {
+                "$oid": "5bb578bb831b973a137e4070"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:8b0940b70c471ff697bb1c36807ec3d9d04af031aeecabc610f28643897d7518",
+          "name": "意识障碍",
+          "relation_id": "acompany_with:4377e5f6e60a4a6f16bf7e600dfa009dc368cca04921e39f43f27f746e321001",
+          "sources": [
+            {
+              "disease": "急性胰腺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 6,
+              "line": 395,
+              "raw_value": "意识障碍",
+              "record_id": {
+                "$oid": "5bb578bb831b973a137e4070"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:adf6ba4fee0bef215f999036e73efe4be52f955aec9636a230f01367a3f5df27",
+          "name": "慢性胰腺炎",
+          "relation_id": "acompany_with:1e7fd93f5f07ab0f1a2506f856bdff45f2be7c8a1c386f9e5f288e4650cd79e6",
+          "sources": [
+            {
+              "disease": "急性胰腺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 9,
+              "line": 395,
+              "raw_value": "慢性胰腺炎",
+              "record_id": {
+                "$oid": "5bb578bb831b973a137e4070"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:b628ed88fe2a8659170fe52834c0aaf056d2616a2d40333a3c12af68fb038a99",
+          "name": "昏迷",
+          "relation_id": "acompany_with:db35abab4c6cbd9894e7788eab13bbe13abaf6cf03aedd237b4b7cae6e5e791e",
+          "sources": [
+            {
+              "disease": "急性胰腺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 7,
+              "line": 395,
+              "raw_value": "昏迷",
+              "record_id": {
+                "$oid": "5bb578bb831b973a137e4070"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:b303267a0e98d0dc79306cb1aa3474a2a01e0bb61b2f1d3071a48a5c30391247",
+          "name": "消化道出血",
+          "relation_id": "acompany_with:15f958a3544ccc90c0cb8505fbc0637d24bd9106442f148bd1c3688c54f87d3b",
+          "sources": [
+            {
+              "disease": "急性胰腺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 4,
+              "line": 395,
+              "raw_value": "消化道出血",
+              "record_id": {
+                "$oid": "5bb578bb831b973a137e4070"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:63faf7ac5641b910a624c7317a0d6ebf287db2993b74b72b636b158269c03141",
+          "name": "胰腺假性囊肿",
+          "relation_id": "acompany_with:5c8bc21f9e68c45362940203459159b5825b2e2aec464b13958b411676e09b98",
+          "sources": [
+            {
+              "disease": "急性胰腺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 1,
+              "line": 395,
+              "raw_value": "胰腺假性囊肿",
+              "record_id": {
+                "$oid": "5bb578bb831b973a137e4070"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Disease:9669b1f65139ace3a411db7d26f734f23cab9c60c30c9f5f628be336dd989853",
+          "name": "胰腺脓肿",
+          "relation_id": "acompany_with:54bb2e53a85cc40723469028ee726dd38630e85aace570c3e02aa0d621e29ca5",
+          "sources": [
+            {
+              "disease": "急性胰腺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 395,
+              "raw_value": "胰腺脓肿",
+              "record_id": {
+                "$oid": "5bb578bb831b973a137e4070"
+              }
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "id": "Disease:aa21569e54ec1df1420c0d5146dd1a961fe97cc96cd87c6989fb377c9aa97145",
+          "name": "休克",
+          "relation_id": "acompany_with:963bc4e9cce3acc50e169076acc62ecd2f738b0ff887d26e528bc862aae71fe3",
+          "relation_sources": [
+            {
+              "disease": "急性胰腺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 2,
+              "line": 395,
+              "raw_value": "休克",
+              "record_id": {
+                "$oid": "5bb578bb831b973a137e4070"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "休克(shock)是一种急性组织灌注量不足而引起的临床综合征，是临床各科严重疾病中常见的并发症。虽然病因不同，但休克的共同特征是有效循环量不足，导致组织低灌注状态，从而引起全身组织和脏器的血液灌注不良，导致组织缺氧、微循环瘀滞，脏器功能障碍和细胞的代谢功能异常等一系列病理生理改变。因此，休克的发病规律一般是从代偿性组织灌注减少发展到微循环衰竭，最后导致细胞死亡。所以临床上分为休克早期也是代偿期，中期也称为淤滞期，晚期称为难治期，其主要临床表现有血压下降，面色苍白，四肢湿冷和肢端紫绀，浅表静脉萎陷，脉搏细弱，全身无力，尿量减少，烦躁不安，反应迟钝，神志模糊，甚至昏迷等。",
+              "sources": [
+                {
+                  "disease": "休克",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 168,
+                  "raw_value": "休克(shock)是一种急性组织灌注量不足而引起的临床综合征，是临床各科严重疾病中常见的并发症。虽然病因不同，但休克的共同特征是有效循环量不足，导致组织低灌注状态，从而引起全身组织和脏器的血液灌注不良，导致组织缺氧、微循环瘀滞，脏器功能障碍和细胞的代谢功能异常等一系列病理生理改变。因此，休克的发病规律一般是从代偿性组织灌注减少发展到微循环衰竭，最后导致细胞死亡。所以临床上分为休克早期也是代偿期，中期也称为淤滞期，晚期称为难治期，其主要临床表现有血压下降，面色苍白，四肢湿冷和肢端紫绀，浅表静脉萎陷，脉搏细弱，全身无力，尿量减少，烦躁不安，反应迟钝，神志模糊，甚至昏迷等。",
+                  "record_id": {
+                    "$oid": "5bb578b8831b973a137e3f8d"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "1、休克的预防应采取综合措施，对有可能发生休克的伤病员，应针对病因，采取相应的预防措施，对外伤病员要进行及时而准确的急救处理，活动性大出血者要 确切止血；骨折部位要稳妥固定；软组织损伤应予包扎，防止污染；呼吸道梗阻者需行气管切开；需后送者，应争取发生休克前后送，并选用快速而舒适的运输工具，运输时病人头向车尾或飞机尾，防行进中脑贫血，后送途中要持续输液，并做好急救准备。\n2、严重感染病人，采用敏感抗生素，静脉滴注，积极清除原发病灶（如引流排脓等），对某些可能并发休克的外科疾病，抓紧术前准备，2小时内行手术治疗，如坏死肠段切除。\n3、必须充分做好手术病人的术前准备，包括纠正水与电解质紊乱和低蛋白血症；补足血容量；全面了解内脏功能；选择合适的麻醉方法，还要充分估计术中可能发生休克的各种因素，采取相应的预防低血容量休克的措施。\n4、综上所述，可概括为积极消除病因，提高机体的调节代偿能力。",
+              "sources": [
+                {
+                  "disease": "休克",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 168,
+                  "raw_value": "1、休克的预防应采取综合措施，对有可能发生休克的伤病员，应针对病因，采取相应的预防措施，对外伤病员要进行及时而准确的急救处理，活动性大出血者要 确切止血；骨折部位要稳妥固定；软组织损伤应予包扎，防止污染；呼吸道梗阻者需行气管切开；需后送者，应争取发生休克前后送，并选用快速而舒适的运输工具，运输时病人头向车尾或飞机尾，防行进中脑贫血，后送途中要持续输液，并做好急救准备。\n2、严重感染病人，采用敏感抗生素，静脉滴注，积极清除原发病灶（如引流排脓等），对某些可能并发休克的外科疾病，抓紧术前准备，2小时内行手术治疗，如坏死肠段切除。\n3、必须充分做好手术病人的术前准备，包括纠正水与电解质紊乱和低蛋白血症；补足血容量；全面了解内脏功能；选择合适的麻醉方法，还要充分估计术中可能发生休克的各种因素，采取相应的预防低血容量休克的措施。\n4、综上所述，可概括为积极消除病因，提高机体的调节代偿能力。",
+                  "record_id": {
+                    "$oid": "5bb578b8831b973a137e3f8d"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "Disease:f648ae77382420570f38be4edd47c06fb437580d0414390f435f6e843a86d3e9",
+          "name": "弥散性血管内凝血",
+          "relation_id": "acompany_with:02c6c6ebb1d33d7f80d9dbb2c06c9a261ea532989b19852a5c9257255ffcd115",
+          "relation_sources": [
+            {
+              "disease": "急性胰腺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 5,
+              "line": 395,
+              "raw_value": "弥散性血管内凝血",
+              "record_id": {
+                "$oid": "5bb578bb831b973a137e4070"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "在某些致病因子作用下，凝血因子和血小板被激活，大量促凝物质入血，凝血酶增加，进而微循环中形成广泛的微血栓。微血栓形成中消耗了大量凝血因子和血小板，继发性纤维蛋白溶解功能增强，导致患者出现出血，休克，器官功能障碍和溶血性贫血等临床表现，这种病理过程被称为DIC。",
+              "sources": [
+                {
+                  "disease": "弥散性血管内凝血",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 928,
+                  "raw_value": "在某些致病因子作用下，凝血因子和血小板被激活，大量促凝物质入血，凝血酶增加，进而微循环中形成广泛的微血栓。微血栓形成中消耗了大量凝血因子和血小板，继发性纤维蛋白溶解功能增强，导致患者出现出血，休克，器官功能障碍和溶血性贫血等临床表现，这种病理过程被称为DIC。",
+                  "record_id": {
+                    "$oid": "5bb578c0831b973a137e4285"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "（一） 防治原发病（Prevention and treatment of primary diseases）\n预防和去除引起DIC的病因是防治DIC的根本措施，例如控制感染，去除死胎或滞留胎盘等，某些轻度DIC，只要及时去除病因，病情即可迅速恢复。\n（二） 改善微循环障碍（Improvment of microcirculatory diaturbance）\n采用扩充血容量，解除血管痉挛等措施及早疏通阻塞的微循环。\n（三） 建立新的凝血与纤溶间的动态平衡（Establish new balance between coagulation and fibrolysis）\n在高凝期可应用抗凝药物如肝素，低分子右旋糖酐，阿斯匹林等阻止凝血过程的发动与进行，预防新血栓的形成，出血倾向十分严重的病人，可输血或补充血小板等凝血物质以及使用纤溶抑制剂。",
+              "sources": [
+                {
+                  "disease": "弥散性血管内凝血",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 928,
+                  "raw_value": "（一） 防治原发病（Prevention and treatment of primary diseases）\n预防和去除引起DIC的病因是防治DIC的根本措施，例如控制感染，去除死胎或滞留胎盘等，某些轻度DIC，只要及时去除病因，病情即可迅速恢复。\n（二） 改善微循环障碍（Improvment of microcirculatory diaturbance）\n采用扩充血容量，解除血管痉挛等措施及早疏通阻塞的微循环。\n（三） 建立新的凝血与纤溶间的动态平衡（Establish new balance between coagulation and fibrolysis）\n在高凝期可应用抗凝药物如肝素，低分子右旋糖酐，阿斯匹林等阻止凝血过程的发动与进行，预防新血栓的形成，出血倾向十分严重的病人，可输血或补充血小板等凝血物质以及使用纤溶抑制剂。",
+                  "record_id": {
+                    "$oid": "5bb578c0831b973a137e4285"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "expected_stop": "complete"
+    },
+    {
+      "id": "P05",
+      "visible_relations": [
+        {
+          "id": "Disease:e04842952e9b41aeee63e80969f2e59b5f200d6d3936b77a6e6be03b990b28b0",
+          "name": "中风",
+          "relation_id": "acompany_with:85fca575ce38b1016b8d656a2092a9daae2ae606b09b73b1a5d2fcc75a79ea49",
+          "sources": [
+            {
+              "disease": "高血压",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 139,
+              "raw_value": "中风",
+              "record_id": {
+                "$oid": "5bb578b7831b973a137e3f70"
+              }
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "id": "Disease:e04842952e9b41aeee63e80969f2e59b5f200d6d3936b77a6e6be03b990b28b0",
+          "name": "中风",
+          "relation_id": "acompany_with:85fca575ce38b1016b8d656a2092a9daae2ae606b09b73b1a5d2fcc75a79ea49",
+          "relation_sources": [
+            {
+              "disease": "高血压",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 139,
+              "raw_value": "中风",
+              "record_id": {
+                "$oid": "5bb578b7831b973a137e3f70"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "中风(Stroke)也叫脑卒中。中风是中医学对急性脑血管疾病的统称。它是以猝然昏倒，不省人事，伴发口角歪斜、语言不利而出现半身不遂为主要症状的一类脑血液循环障碍性疾病。由于中风发病率高、死亡率高、致残率高、复发率高以及并发症多的特点，所以医学界把它同冠心病、癌症并列为威胁人类健康的三大疾病之一。预防中风的重要性已经引起国内外医学界的重视，医学家们正从各个方面探索中风的预防措施。因发病急骤，症见多端，病情变化迅速，与风之善行数变特点相似，故名中风、卒中。本病常留有后遗症，发病年龄也趋向年轻化，因此，是威胁人类生命和生活质量的重大疾患。",
+              "sources": [
+                {
+                  "disease": "中风",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 1163,
+                  "raw_value": "中风(Stroke)也叫脑卒中。中风是中医学对急性脑血管疾病的统称。它是以猝然昏倒，不省人事，伴发口角歪斜、语言不利而出现半身不遂为主要症状的一类脑血液循环障碍性疾病。由于中风发病率高、死亡率高、致残率高、复发率高以及并发症多的特点，所以医学界把它同冠心病、癌症并列为威胁人类健康的三大疾病之一。预防中风的重要性已经引起国内外医学界的重视，医学家们正从各个方面探索中风的预防措施。因发病急骤，症见多端，病情变化迅速，与风之善行数变特点相似，故名中风、卒中。本病常留有后遗症，发病年龄也趋向年轻化，因此，是威胁人类生命和生活质量的重大疾患。",
+                  "record_id": {
+                    "$oid": "5bb578c3831b973a137e4370"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "missing",
+              "available_value": "1、预防中风，就要把中风的危险因素尽可能降到最低。控制高血压是预防中风的重点。高血压病人要遵医嘱按时服用降压药物，有条件者最好每日测1次血压，特别是在调整降压药物阶段，以保持血压稳定。要保持情绪平稳，少做或不做易引起情绪激动的事，如打牌、搓麻将、看体育比赛转播等;饮食须清淡有节制，戒烟酒，保持大便通畅;适量活动，如散步、打太极拳等。\n防治动脉粥样硬化，关键在于防治高脂血症和肥胖。建立健康的饮食习惯，多吃新鲜蔬菜和水果，少吃高脂肪高盐(特别是腌制品)的食物如肥肉和动物内脏等；适量运动增加热量消耗，服用降血脂药物。控制糖尿病与其他疾病如心脏病、脉管炎等。\n2、注意中风的先兆征象：一部分病人在中风发作前常有血压升高、波动，头痛头晕、手脚麻木无力等先兆，发现后要尽早采取措施加以控制。\n3、有效地控制短暂性脑缺血发作：当病人有短暂性脑缺血发作先兆时，应让其安静休息，并积极治疗，防止其发展为脑血栓形成。\n4、注意气象因素的影响：季节与气候变化会使高血压病人情绪不稳，血压波动，诱发中风，在这种时候更要防备中风的发生。\n5、多吃果蔬：不易得中风。",
+              "sources": [
+                {
+                  "disease": "中风",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 1163,
+                  "raw_value": "1、预防中风，就要把中风的危险因素尽可能降到最低。控制高血压是预防中风的重点。高血压病人要遵医嘱按时服用降压药物，有条件者最好每日测1次血压，特别是在调整降压药物阶段，以保持血压稳定。要保持情绪平稳，少做或不做易引起情绪激动的事，如打牌、搓麻将、看体育比赛转播等;饮食须清淡有节制，戒烟酒，保持大便通畅;适量活动，如散步、打太极拳等。\n防治动脉粥样硬化，关键在于防治高脂血症和肥胖。建立健康的饮食习惯，多吃新鲜蔬菜和水果，少吃高脂肪高盐(特别是腌制品)的食物如肥肉和动物内脏等；适量运动增加热量消耗，服用降血脂药物。控制糖尿病与其他疾病如心脏病、脉管炎等。\n2、注意中风的先兆征象：一部分病人在中风发作前常有血压升高、波动，头痛头晕、手脚麻木无力等先兆，发现后要尽早采取措施加以控制。\n3、有效地控制短暂性脑缺血发作：当病人有短暂性脑缺血发作先兆时，应让其安静休息，并积极治疗，防止其发展为脑血栓形成。\n4、注意气象因素的影响：季节与气候变化会使高血压病人情绪不稳，血压波动，诱发中风，在这种时候更要防备中风的发生。\n5、多吃果蔬：不易得中风。",
+                  "record_id": {
+                    "$oid": "5bb578c3831b973a137e4370"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "expected_stop": "partial"
+    },
+    {
+      "id": "P06",
+      "visible_relations": [
+        {
+          "id": "Disease:22e3c95a35095bad8ab164921c5f56082626d4bad979266ceb77c92a754ac665",
+          "name": "支气管肺炎",
+          "relation_id": "acompany_with:1d211ab431152fc205cbb9b7e44b153523a76e746c24a64667411074dbb6947c",
+          "sources": [
+            {
+              "disease": "肺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 24,
+              "raw_value": "支气管肺炎",
+              "record_id": {
+                "$oid": "5bb578b6831b973a137e3efd"
+              }
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "id": "Disease:22e3c95a35095bad8ab164921c5f56082626d4bad979266ceb77c92a754ac665",
+          "name": "支气管肺炎",
+          "relation_id": "acompany_with:1d211ab431152fc205cbb9b7e44b153523a76e746c24a64667411074dbb6947c",
+          "relation_sources": [
+            {
+              "disease": "肺炎",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 24,
+              "raw_value": "支气管肺炎",
+              "record_id": {
+                "$oid": "5bb578b6831b973a137e3efd"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "支气管肺炎又称小叶肺炎，是小儿的一种主要常见病，尤多见于婴幼儿，也是婴儿时期主要死亡原因。肺炎多发生于冬春寒冷季节及气候骤变时，但夏季并不例外。甚至有些华南地区反而在夏天发病较多，患病后免疫力不持久，容易再受感染。支气管肺炎由细菌或病毒引起。支气管肺炎多发生于冬春季节及气候骤变时，有些华南地区反而在夏天发病较多。室内居住拥挤、通风不良、空气污浊、致病性微生物较多，容易发生肺炎。支气管肺炎可由细菌或病毒引起。",
+              "sources": [
+                {
+                  "disease": "支气管肺炎",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 109,
+                  "raw_value": "支气管肺炎又称小叶肺炎，是小儿的一种主要常见病，尤多见于婴幼儿，也是婴儿时期主要死亡原因。肺炎多发生于冬春寒冷季节及气候骤变时，但夏季并不例外。甚至有些华南地区反而在夏天发病较多，患病后免疫力不持久，容易再受感染。支气管肺炎由细菌或病毒引起。支气管肺炎多发生于冬春季节及气候骤变时，有些华南地区反而在夏天发病较多。室内居住拥挤、通风不良、空气污浊、致病性微生物较多，容易发生肺炎。支气管肺炎可由细菌或病毒引起。",
+                  "record_id": {
+                    "$oid": "5bb578b7831b973a137e3f52"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "为预防肺炎，应着重注意下列措施。\n1、加强护理和体格锻炼：婴儿时期应注意营养，及时增添副食，培养良好的饮食及卫生习惯，多晒太阳，防止佝偻病及营养不良是预防重症肺炎的关键，从小锻炼体格，室内要开窗通风，经常在户外活动或在户外睡眠，使机体耐寒及对环境温度变化的适应能力增强，就不易发生呼吸道感染及肺炎。\n2、防止急性呼吸道感染及呼吸道传染病：对婴幼儿应心可能避免接触呼吸道感染的病人，尤以弱小婴儿受染后易发展成肺炎，注意防治容易并发严重肺炎的呼吸道传染病，如百日咳，流感，腺病毒及麻诊等感染，尤其对免疫缺陷性疾病或应用免疫抑制剂的患儿更要注意。\n3、预防并发症和继发感染：已患肺炎的婴幼儿抵抗力弱，易染他病，应积极预防可能引起严重预后的并发症，如脓胸，脓气胸等，在病房中应将不同病原的患儿尽量隔离，恢复期及新入院患儿也应尽量分开，医务人员接触不同患儿时，应注意消毒隔离操作，近年来有用苍术，艾叶等中药香薰烟以减少空气中病原体的报道，此法可用来预防交叉感染。",
+              "sources": [
+                {
+                  "disease": "支气管肺炎",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 109,
+                  "raw_value": "为预防肺炎，应着重注意下列措施。\n1、加强护理和体格锻炼：婴儿时期应注意营养，及时增添副食，培养良好的饮食及卫生习惯，多晒太阳，防止佝偻病及营养不良是预防重症肺炎的关键，从小锻炼体格，室内要开窗通风，经常在户外活动或在户外睡眠，使机体耐寒及对环境温度变化的适应能力增强，就不易发生呼吸道感染及肺炎。\n2、防止急性呼吸道感染及呼吸道传染病：对婴幼儿应心可能避免接触呼吸道感染的病人，尤以弱小婴儿受染后易发展成肺炎，注意防治容易并发严重肺炎的呼吸道传染病，如百日咳，流感，腺病毒及麻诊等感染，尤其对免疫缺陷性疾病或应用免疫抑制剂的患儿更要注意。\n3、预防并发症和继发感染：已患肺炎的婴幼儿抵抗力弱，易染他病，应积极预防可能引起严重预后的并发症，如脓胸，脓气胸等，在病房中应将不同病原的患儿尽量隔离，恢复期及新入院患儿也应尽量分开，医务人员接触不同患儿时，应注意消毒隔离操作，近年来有用苍术，艾叶等中药香薰烟以减少空气中病原体的报道，此法可用来预防交叉感染。",
+                  "record_id": {
+                    "$oid": "5bb578b7831b973a137e3f52"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "expected_stop": "complete"
+    },
+    {
+      "id": "P07",
+      "visible_relations": [
+        {
+          "id": "Disease:1ce9c65f5cf26ffd79045ceaa9dc9782861e551f3986db5cd09b201ba660b2eb",
+          "name": "营养不良",
+          "relation_id": "acompany_with:64be1bbd71107108ef456541f70282189d4f0cd937c1fc85c0bf531e6dabbaca",
+          "sources": [
+            {
+              "disease": "贫血",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 934,
+              "raw_value": "营养不良",
+              "record_id": {
+                "$oid": "5bb578c0831b973a137e428b"
+              }
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "id": "Disease:1ce9c65f5cf26ffd79045ceaa9dc9782861e551f3986db5cd09b201ba660b2eb",
+          "name": "营养不良",
+          "relation_id": "acompany_with:64be1bbd71107108ef456541f70282189d4f0cd937c1fc85c0bf531e6dabbaca",
+          "relation_sources": [
+            {
+              "disease": "贫血",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 934,
+              "raw_value": "营养不良",
+              "record_id": {
+                "$oid": "5bb578c0831b973a137e428b"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "营养不良是由于能量和(或)蛋白质摄入不足，导致营养状况不佳或不能维持正常的生长发育，主要见于3岁以下婴幼儿。临床常见三种类型：能量供应不足为主，表现为体重明显减轻，皮下脂肪减少者称为消瘦型;以蛋白质供应不足为主，表现为水肿的称为浮肿型，介于两者之间的消瘦-浮肿型。营养不良是一个描述健康状况的用语，由不适当或不足饮食所造成。通常指的是起因于摄入不足、吸收不良或过度损耗营养素所造成的营养不足,但也可能包含由于暴饮暴食或过度的摄入特定的营养素而造成的营养过剩。如果不能长期摄取由适当数量、种类或质量的营养素所构成的健康饮食，个体将营养不良。长期的营养不良可能导致饥饿死亡。",
+              "sources": [
+                {
+                  "disease": "营养不良",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 6442,
+                  "raw_value": "营养不良是由于能量和(或)蛋白质摄入不足，导致营养状况不佳或不能维持正常的生长发育，主要见于3岁以下婴幼儿。临床常见三种类型：能量供应不足为主，表现为体重明显减轻，皮下脂肪减少者称为消瘦型;以蛋白质供应不足为主，表现为水肿的称为浮肿型，介于两者之间的消瘦-浮肿型。营养不良是一个描述健康状况的用语，由不适当或不足饮食所造成。通常指的是起因于摄入不足、吸收不良或过度损耗营养素所造成的营养不足,但也可能包含由于暴饮暴食或过度的摄入特定的营养素而造成的营养过剩。如果不能长期摄取由适当数量、种类或质量的营养素所构成的健康饮食，个体将营养不良。长期的营养不良可能导致饥饿死亡。",
+                  "record_id": {
+                    "$oid": "5bb578ef831b973a137e580f"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "要避免孩子营养不良，最好办法是积极做好预防，婴儿在6-7个月内最好实行母乳喂养，按时增添辅食，做到饮食多样化，给予高热量，高蛋白，含维生素丰富的食物。",
+              "sources": [
+                {
+                  "disease": "营养不良",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 6442,
+                  "raw_value": "要避免孩子营养不良，最好办法是积极做好预防，婴儿在6-7个月内最好实行母乳喂养，按时增添辅食，做到饮食多样化，给予高热量，高蛋白，含维生素丰富的食物。",
+                  "record_id": {
+                    "$oid": "5bb578ef831b973a137e580f"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "expected_stop": "complete"
+    },
+    {
+      "id": "P08",
+      "visible_relations": [
+        {
+          "id": "Disease:9b5904b3ab0a4101b169fd3f9106dd319488c9e69c2fb720cb22613c02f342a5",
+          "name": "支气管炎",
+          "relation_id": "acompany_with:f7b0caaf95740d810902606e342a2b7dd0bb5ba9a26d4c54a545c2519b667b5a",
+          "sources": [
+            {
+              "disease": "感冒",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 33,
+              "raw_value": "支气管炎",
+              "record_id": {
+                "$oid": "5bb578b6831b973a137e3f06"
+              }
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "id": "Disease:9b5904b3ab0a4101b169fd3f9106dd319488c9e69c2fb720cb22613c02f342a5",
+          "name": "支气管炎",
+          "relation_id": "acompany_with:f7b0caaf95740d810902606e342a2b7dd0bb5ba9a26d4c54a545c2519b667b5a",
+          "relation_sources": [
+            {
+              "disease": "感冒",
+              "field": "acompany",
+              "file": "bishe/data/medical.json",
+              "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+              "index": 0,
+              "line": 33,
+              "raw_value": "支气管炎",
+              "record_id": {
+                "$oid": "5bb578b6831b973a137e3f06"
+              }
+            }
+          ],
+          "fields": [
+            {
+              "field": "desc",
+              "expected_status": "found",
+              "available_value": "支气管炎是指气管、支气管黏膜及其周围组织的慢性非特异性炎症。支气管炎主要原因为病毒和细菌的反复感染形成了支气管的慢性非特异性炎症。当气温下降、呼吸道小血管痉挛缺血、防御功能下降等利于致病，烟雾粉尘、污染大气等慢性刺激也可发病，吸烟使支气管痉挛、黏膜变异、纤毛运动降低、黏液分泌增多有利感染，过敏因素也有一定关系。急性支气管炎起病较快，开始为干咳，以后咳粘痰或脓性痰。常伴胸骨后闷胀或疼痛。发热等全身症状多在3～5天内好转，但咳嗽、咳痰症状常持续2～3周才恢复。而慢性支气管炎则以长期、反复而逐渐加重的咳嗽为突出症状，伴有咳痰。咳痰症状与感染与否有关，时轻时重。还可伴有喘息，病程迁延。",
+              "sources": [
+                {
+                  "disease": "支气管炎",
+                  "field": "desc",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 2255,
+                  "raw_value": "支气管炎是指气管、支气管黏膜及其周围组织的慢性非特异性炎症。支气管炎主要原因为病毒和细菌的反复感染形成了支气管的慢性非特异性炎症。当气温下降、呼吸道小血管痉挛缺血、防御功能下降等利于致病，烟雾粉尘、污染大气等慢性刺激也可发病，吸烟使支气管痉挛、黏膜变异、纤毛运动降低、黏液分泌增多有利感染，过敏因素也有一定关系。急性支气管炎起病较快，开始为干咳，以后咳粘痰或脓性痰。常伴胸骨后闷胀或疼痛。发热等全身症状多在3～5天内好转，但咳嗽、咳痰症状常持续2～3周才恢复。而慢性支气管炎则以长期、反复而逐渐加重的咳嗽为突出症状，伴有咳痰。咳痰症状与感染与否有关，时轻时重。还可伴有喘息，病程迁延。",
+                  "record_id": {
+                    "$oid": "5bb578cb831b973a137e47b4"
+                  }
+                }
+              ],
+              "truncated": false
+            },
+            {
+              "field": "prevent",
+              "expected_status": "found",
+              "available_value": "支气管炎的日常预防：\n1、积极控制感染：在急性期，遵照医嘱，选择有效的抗菌药物治疗。常用药物有：复方磺胺甲醛异恶挫、强力毒素、红霉素、青霉素等。治疗无效时，也可以选用病人未用过或少用的药物，如麦迪霉素、螺旋霉素、先锋霉素等。在急性感染控制后，及时停用抗菌药物，以免长期应用引起副作用。\n2、戒烟：慢性支气管炎患者不但要首先戒烟，而且还要避免被动吸烟，因为烟中的化学物质如焦油、尼古丁、氰氢酸等，可作用于植物神经，引起支气管的痉挛，从而增加呼吸道阻力；另外，还可损伤支气管粘膜上皮细胞及其纤毛，使支气管粘膜分泌物增多，降低肺的净化功能，易引起病原菌在肺及支气管内的繁殖，致慢性支气管炎的发生。\n3、促使排痰：急性期患者在使用抗菌药物的同时，应用镇咳、祛痰药物。对年老体弱无力咳痰的病人或痰量较多的病人，应以祛痰为主，不宜选用强烈镇咳药，以免抑制中枢神经加重呼吸道炎症，导致病情恶化。帮助危重病人定时变换体位，轻轻按摩病人胸背，可以促使痰液排出。\n4、保持良好的家庭环境卫生，室内空气流通新鲜，有一定湿度，控制和消除各种有害气体和烟尘，戒除吸烟的习惯，注意保暖。室内空气补充负离子。小粒径高活性的空气负离子能有效加强气管粘膜上皮的纤毛运动，影响上皮绒毛内呼吸酶的活性，改善肺泡的分泌功能及肺的通气和换气功能，从而有效缓解支气管炎。\n5、加强体育锻炼，增强体质，提高呼吸道的抵抗力，加强体育锻炼提高自身的身体素质，要可根据自身体质选择医疗保健操、太极拳、五禽戏等项目，坚持锻炼，能提高机体抗病能力，活动量以无明显气急、心跳加速及过分疲劳为度。慢性支气管炎患者在缓解期要作适当的体育锻炼，以提高机体的免疫能力和心、肺的贮备能力。当然只靠加强锻炼是不够的，要配合使用一些国内常用的医疗器械，哮喘治疗、带以调节和改善脏腑器官的机能，哮喘治疗带是准字号的医疗器械，以中医经络针灸理论为基础，采用高科技材料钕铁硼磁体，作用于人体任督二脉、手太阴肺经、手少阴心经、以及心俞、肺俞、膻中、大椎等穴位从给根本上调节脏腑器官的机能，达到通调气机、活血化痰、宣肺平喘、消炎镇痛的目的。防止上呼吸道感染，避免吸入有害物质及过敏原，可预防或减少本病发生。\n6、在气候变化和寒冷季节，注意及时添减衣服，避免受凉感冒，预防流感。注意观察病情变化，掌握发病规律，以便事先采取措施。如果病人出现呼吸困难，嘴唇，指甲发紫，下肢浮肿，神志恍惚，嗜睡，要及时送医院治疗。\n支气管炎的健康指导：\n1、积极开展体育活动，加强体育锻炼，提高抗病能力。如开展耐寒锻炼，散步或练气功，坚持冷水浴等。改善环境卫生，防止大气污染，戒烟。\n2、及时预防和治疗感冒。因为感冒是引起急性发作的诱因。同时根治鼻炎、咽喉炎、慢性扁桃腺炎等上呼吸道感染，对预防本病发作有重要意义。注意增减衣服，慎防外邪侵入，注意室内空气流通，注意摄生。\n3、自我按摩：取三里、迎香、太阳、百会穴轻轻按揉，常年不断。平素注意饮食调护，多吃萝卜、梨、冬瓜、西瓜等新鲜蔬菜水果，以养肺清热化痰。慎食辛辣、酒类等有刺激性食物。",
+              "sources": [
+                {
+                  "disease": "支气管炎",
+                  "field": "prevent",
+                  "file": "bishe/data/medical.json",
+                  "file_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+                  "line": 2255,
+                  "raw_value": "支气管炎的日常预防：\n1、积极控制感染：在急性期，遵照医嘱，选择有效的抗菌药物治疗。常用药物有：复方磺胺甲醛异恶挫、强力毒素、红霉素、青霉素等。治疗无效时，也可以选用病人未用过或少用的药物，如麦迪霉素、螺旋霉素、先锋霉素等。在急性感染控制后，及时停用抗菌药物，以免长期应用引起副作用。\n2、戒烟：慢性支气管炎患者不但要首先戒烟，而且还要避免被动吸烟，因为烟中的化学物质如焦油、尼古丁、氰氢酸等，可作用于植物神经，引起支气管的痉挛，从而增加呼吸道阻力；另外，还可损伤支气管粘膜上皮细胞及其纤毛，使支气管粘膜分泌物增多，降低肺的净化功能，易引起病原菌在肺及支气管内的繁殖，致慢性支气管炎的发生。\n3、促使排痰：急性期患者在使用抗菌药物的同时，应用镇咳、祛痰药物。对年老体弱无力咳痰的病人或痰量较多的病人，应以祛痰为主，不宜选用强烈镇咳药，以免抑制中枢神经加重呼吸道炎症，导致病情恶化。帮助危重病人定时变换体位，轻轻按摩病人胸背，可以促使痰液排出。\n4、保持良好的家庭环境卫生，室内空气流通新鲜，有一定湿度，控制和消除各种有害气体和烟尘，戒除吸烟的习惯，注意保暖。室内空气补充负离子。小粒径高活性的空气负离子能有效加强气管粘膜上皮的纤毛运动，影响上皮绒毛内呼吸酶的活性，改善肺泡的分泌功能及肺的通气和换气功能，从而有效缓解支气管炎。\n5、加强体育锻炼，增强体质，提高呼吸道的抵抗力，加强体育锻炼提高自身的身体素质，要可根据自身体质选择医疗保健操、太极拳、五禽戏等项目，坚持锻炼，能提高机体抗病能力，活动量以无明显气急、心跳加速及过分疲劳为度。慢性支气管炎患者在缓解期要作适当的体育锻炼，以提高机体的免疫能力和心、肺的贮备能力。当然只靠加强锻炼是不够的，要配合使用一些国内常用的医疗器械，哮喘治疗、带以调节和改善脏腑器官的机能，哮喘治疗带是准字号的医疗器械，以中医经络针灸理论为基础，采用高科技材料钕铁硼磁体，作用于人体任督二脉、手太阴肺经、手少阴心经、以及心俞、肺俞、膻中、大椎等穴位从给根本上调节脏腑器官的机能，达到通调气机、活血化痰、宣肺平喘、消炎镇痛的目的。防止上呼吸道感染，避免吸入有害物质及过敏原，可预防或减少本病发生。\n6、在气候变化和寒冷季节，注意及时添减衣服，避免受凉感冒，预防流感。注意观察病情变化，掌握发病规律，以便事先采取措施。如果病人出现呼吸困难，嘴唇，指甲发紫，下肢浮肿，神志恍惚，嗜睡，要及时送医院治疗。\n支气管炎的健康指导：\n1、积极开展体育活动，加强体育锻炼，提高抗病能力。如开展耐寒锻炼，散步或练气功，坚持冷水浴等。改善环境卫生，防止大气污染，戒烟。\n2、及时预防和治疗感冒。因为感冒是引起急性发作的诱因。同时根治鼻炎、咽喉炎、慢性扁桃腺炎等上呼吸道感染，对预防本病发作有重要意义。注意增减衣服，慎防外邪侵入，注意室内空气流通，注意摄生。\n3、自我按摩：取三里、迎香、太阳、百会穴轻轻按揉，常年不断。平素注意饮食调护，多吃萝卜、梨、冬瓜、西瓜等新鲜蔬菜水果，以养肺清热化痰。慎食辛辣、酒类等有刺激性食物。",
+                  "record_id": {
+                    "$oid": "5bb578cb831b973a137e47b4"
+                  }
+                }
+              ],
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "expected_stop": "complete"
+    }
+  ]
+}

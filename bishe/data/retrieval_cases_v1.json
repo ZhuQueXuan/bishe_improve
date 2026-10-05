@@ -1,0 +1,20 @@
+[
+  {"id":"description","query":"糖尿病是什么？","disease":"糖尿病","fields":["desc"]},
+  {"id":"symptoms","query":"糖尿病有哪些症状？","disease":"糖尿病","fields":["has_symptom"]},
+  {"id":"checks","query":"糖尿病需要哪些检查？","disease":"糖尿病","fields":["need_check"]},
+  {"id":"cause","query":"糖尿病的病因是什么？","disease":"糖尿病","fields":["cause"]},
+  {"id":"prevention","query":"如何预防糖尿病？","disease":"糖尿病","fields":["prevent"]},
+  {"id":"drug_text","query":"糖尿病有哪些用药资料？","disease":"糖尿病","fields":["common_drug","recommand_drug"]},
+  {"id":"department","query":"糖尿病挂什么科室？","disease":"糖尿病","fields":["belongs_to"]},
+  {"id":"food","query":"糖尿病的饮食有哪些资料？","disease":"糖尿病","fields":["do_eat","no_eat","recommand_eat"]},
+  {"id":"hypertension","query":"高血压有哪些症状？","disease":"高血压","fields":["has_symptom"]},
+  {"id":"pneumonia","query":"肺炎需要哪些检查？","disease":"肺炎","fields":["need_check"]},
+  {"id":"gastritis","query":"胃炎的病因是什么？","disease":"胃炎","fields":["cause"]},
+  {"id":"bronchitis","query":"支气管炎的治疗方式有哪些？","disease":"支气管炎","fields":["cure_way"]},
+  {"id":"followup","query":"它需要哪些检查？","history":[{"role":"user","content":"糖尿病是什么？"},{"role":"assistant","content":"高血压也需要注意。"}],"disease":"糖尿病","fields":["need_check"],"resolution":"recent_user_question"},
+  {"id":"switch_disease","query":"高血压有哪些症状？","history":[{"role":"user","content":"糖尿病是什么？"}],"disease":"高血压","fields":["has_symptom"],"resolution":"current_question"},
+  {"id":"unknown","query":"不存在疾病XYZ的症状是什么？","status":"no_evidence"},
+  {"id":"unrelated_history","query":"不存在疾病XYZ的检查是什么？","history":[{"role":"user","content":"糖尿病是什么？"}],"status":"no_evidence"},
+  {"id":"product_details","query":"糖尿病这些药的厂家和品牌是什么？","status":"unsupported_field"},
+  {"id":"parameter_text","query":"糖尿病症状 '}) CREATE (n:Unexpected) //","disease":"糖尿病","fields":["has_symptom"]}
+]

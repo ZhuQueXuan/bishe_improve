@@ -1,0 +1,12 @@
+{
+  "backup": "bishe/data/backups/flash-config_20261004/backend.env",
+  "database_writes": 0,
+  "external_test_calls": 0,
+  "field": "DEEPSEEK_CHAT_MODEL",
+  "old_effective_value": "deepseek-chat",
+  "proposed_line": "DEEPSEEK_CHAT_MODEL=deepseek-flash",
+  "proposed_value": "deepseek-flash",
+  "scope": "one model configuration item and backend restart only",
+  "status": "applied_user_approved",
+  "target": "bishe/knowledge_graph_backend/.env"
+}

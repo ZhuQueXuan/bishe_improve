@@ -1,0 +1,13 @@
+{
+  "ddl": "CREATE FULLTEXT INDEX medical_fulltext_v1 IF NOT EXISTS\nFOR (n:CuratedEntity) ON EACH [n.name, n.properties_json]\nOPTIONS {indexConfig: {`fulltext.analyzer`: 'cjk', `fulltext.eventually_consistent`: false}}",
+  "deletions": 0,
+  "index": "medical_fulltext_v1",
+  "node_writes": 0,
+  "plan_sha256": "af551e9a34382009e3d5c0a3bbfa59dbaae490bf708873218b9b90ba7a34b117",
+  "relationship_writes": 0,
+  "retriever_sha256": "60b3bebab855c6e426f24e0019d0e7d31d4464aab83f503837f8928e5cca33c2",
+  "source_sha256": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+  "target_database": "neo4j",
+  "target_uri": "bolt://127.0.0.1:7687",
+  "tool_sha256": "b517a0eb6277332575c327141b9d88cde4096ddb6e451fc79b77fb190e7f7055"
+}

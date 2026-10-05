@@ -1,0 +1,35 @@
+{
+  "version": "planning_challenge_v1",
+  "created": "2026-10-04",
+  "dataset_id": "medical_full_v1",
+  "medical_review_status": "not_verified",
+  "hashes": {
+    "bishe/data/medical.json": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+    "bishe/data/full_v1/entities.json": "6f2c252b162cb59ef61ae241e9407fc0a2e297dbcea0069754a868721fc49ae9",
+    "bishe/data/full_v1/relations.json": "13e2ef51068ce10140c73fcb49fcf4ba65e87f469a2634a77a618f9f5d5290cc",
+    "bishe/data/planning_challenge_v1/tasks.json": "e1a9e8306a1745b1f034eb6e058ec55ab6180889bb2b445c6f346e3251ec711b",
+    "bishe/data/planning_challenge_v1/oracle.json": "dbe72aea9471ddac9ecfba06ed64c6375aec21c3ad170f885089b0fcde3526b7",
+    "bishe/data/planning_challenge_v1/protocol.schema.json": "350beb204f1c4a443abc3dc623b58a29b206fff0dcef71f0767d56efdb609c1a",
+    "bishe/data/planning_challenge_v1/README.md": "03f47833f99e0b4d8f653d88b8788e9df75de5fefa35061a42ba9140e14443ce"
+  },
+  "split": {
+    "dev": [
+      "P01",
+      "P02",
+      "P05",
+      "P07"
+    ],
+    "holdout": [
+      "P03",
+      "P04",
+      "P06",
+      "P08"
+    ]
+  },
+  "limitations": [
+    "Small shared task family; not representative of general planning.",
+    "Holdout covers new seed entities but not an unseen task template.",
+    "Oracle proves source availability, not model or medical correctness.",
+    "Missing/failure/resume fixtures do not change the live database."
+  ]
+}

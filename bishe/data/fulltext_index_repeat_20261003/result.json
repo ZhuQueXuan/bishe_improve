@@ -1,0 +1,25 @@
+{
+  "created": false,
+  "database_data_writes": 0,
+  "graph_unchanged": true,
+  "index": {
+    "labelsOrTypes": [
+      "CuratedEntity"
+    ],
+    "name": "medical_fulltext_v1",
+    "options": {
+      "indexConfig": {
+        "fulltext.analyzer": "cjk",
+        "fulltext.eventually_consistent": false
+      },
+      "indexProvider": "fulltext-1.0"
+    },
+    "properties": [
+      "name",
+      "properties_json"
+    ],
+    "state": "ONLINE"
+  },
+  "schema_write": false,
+  "status": "passed"
+}
