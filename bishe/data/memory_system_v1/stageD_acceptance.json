@@ -1,0 +1,33 @@
+{
+  "date":"2026-10-26", "stage":"D", "developer_visible":true,
+  "scope":"finite structural and keyword retrieval; vectors deferred until D-G complete",
+  "query_now":"2026-10-26T12:00:00+08:00",
+  "records":[
+    ["diabetes","记住，我有糖尿病。"],
+    ["cold_week","记住，我上周感冒了。"],
+    ["cold_year","记住，我去年感冒了。"],
+    ["hypertension_denied","记住，我没有高血压。"],
+    ["pneumonia_resolved","记住，我上周的肺炎已经好了。"]
+  ],
+  "cases":[
+    {"id":"D01","query":"糖尿病是什么？","selected":[],"clarify":false},
+    {"id":"D02","query":"我的糖尿病有什么资料？","selected":["diabetes"],"clarify":false},
+    {"id":"D03","query":"我妈妈的糖尿病有什么资料？","selected":[],"clarify":false},
+    {"id":"D04","query":"你记得我保存过哪些情况吗？","selected":["diabetes","cold_week","cold_year","hypertension_denied","pneumonia_resolved"],"clarify":false},
+    {"id":"D05","query":"我之前保存的感冒是什么时候？","selected":["cold_week","cold_year"],"clarify":false},
+    {"id":"D06","query":"我上周的感冒有什么资料？","selected":["cold_week"],"clarify":false},
+    {"id":"D07","query":"我2025年的感冒有什么资料？","selected":["cold_year"],"clarify":false},
+    {"id":"D08","query":"我去年的感冒有什么资料？","selected":["cold_year"],"clarify":false},
+    {"id":"D09","query":"我以前的感冒有什么预防资料？","selected":[],"clarify":true},
+    {"id":"D10","query":"我现在的感冒有什么资料？","selected":[],"clarify":false},
+    {"id":"D11","query":"你记得我已经好了的情况吗？","selected":["pneumonia_resolved"],"clarify":false},
+    {"id":"D12","query":"你记得我否认过哪些情况吗？","selected":["hypertension_denied"],"clarify":false},
+    {"id":"D13","query":"我之前记住的那个病的预防资料是什么？","selected":[],"clarify":true},
+    {"id":"D14","query":"我2024年的感冒有什么资料？","selected":[],"clarify":false},
+    {"id":"D15","query":"我去年12月的感冒有什么资料？","selected":[],"clarify":true},
+    {"id":"D16","query":"我想了解糖尿病。","selected":[],"clarify":false},
+    {"id":"D17","query":"如果我的糖尿病好了，有什么资料？","selected":[],"clarify":false},
+    {"id":"D18","query":"你记得我保存的糖尿病和高血压情况吗？","selected":["diabetes","hypertension_denied"],"clarify":false}
+  ],
+  "extra_required":["guest/account isolation","paused/forgotten/pending excluded","disabled use","new week is not old week","relative raw anchored to original source time","source tamper rejected","current session precedence scoped by time","conflict before tools","unique and ambiguous personal reference","local recall without model or graph","no stale recalled assistant history after forgetting","bounded row count and byte budget","deterministic selection audit without excluded contents","C source/permission/idempotency kept"]
+}

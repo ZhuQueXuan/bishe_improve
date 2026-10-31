@@ -4,7 +4,8 @@ $checks = @(
     @{ Name = 'Frontend'; Url = 'http://127.0.0.1:8080/' },
     @{ Name = 'Backend'; Url = 'http://127.0.0.1:8000/admin/login/' },
     @{ Name = 'Graph API'; Url = 'http://127.0.0.1:8000/api/statistics/' },
-    @{ Name = 'Neo4j'; Url = 'http://127.0.0.1:7474/' }
+    @{ Name = 'Neo4j'; Url = 'http://127.0.0.1:7474/' },
+    @{ Name = 'Qdrant'; Url = 'http://127.0.0.1:16333/readyz' }
 )
 
 $failed = $false

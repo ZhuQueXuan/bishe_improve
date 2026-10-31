@@ -1,0 +1,115 @@
+{
+  "contract": "natural-memory-r6-lifecycle-v1",
+  "date": "2026-10-28",
+  "scope": "isolated_chain_only",
+  "model": "NaturalMemoryDerived",
+  "candidate_migration": "0009_natural_memory_derived",
+  "formal_migration_applied": false,
+  "artifact_kinds": [
+    "cache",
+    "summary",
+    "checkpoint",
+    "answer_view"
+  ],
+  "binding": [
+    "authenticated_owner",
+    "query_session_and_exact_source_IDs",
+    "ledger_revision",
+    "account_epoch",
+    "state_seal",
+    "policy_hash",
+    "processing_permission_hash",
+    "answer_grant_hash",
+    "live_message_envelope_hashes",
+    "conversation_reset_versions",
+    "latest_user_IDs"
+  ],
+  "integrity": "payload_hash_and_binding_seal_are_drift_detectors_not_authentication_signatures",
+  "change_hooks": [
+    "new_message",
+    "extraction_review_decision",
+    "confirmation",
+    "correction",
+    "duplicate_source_link",
+    "pause_retraction_forget",
+    "collection_and_use_policy",
+    "cloud_extraction_and_verification_grants",
+    "routing_and_personal_answer_grants",
+    "conversation_reset"
+  ],
+  "invalidation": {
+    "same_transaction_as_authoritative_change": true,
+    "derived_payload_fields": "cleared",
+    "ticket_handles": "removed",
+    "spent_counts_and_original_deadline": "retained",
+    "retained_chat": "not_deleted_not_reingested_as_current_background",
+    "raw_source_edits_or_exclusions": "read_time_exact_binding_check_then_scrub"
+  },
+  "pause": {
+    "stage": "after_verified_request_preparation_before_answer",
+    "actual_router_calls": 1,
+    "answer_calls_before_resume": 0,
+    "prepared_cache_and_summary": "same_binding_as_checkpoint",
+    "original_deadline": "question_received_at_plus90s",
+    "single_timeout": "min45s_and_original_remaining",
+    "resume_claim": "one_shot_atomic_consumption_payload_cleared",
+    "after_claim_crash": "fail_closed_no_automatic_replay_or_new_budget",
+    "legacy_tokens": "not_accepted"
+  },
+  "permission_effects": {
+    "collection_off": "no_new_collection_but_existing_use_independent",
+    "use_off": "no_saved_background_but_collection_independent",
+    "cloud_extraction_off": "no_extraction_new_dispatch",
+    "cloud_verification_off": "health_not_saved_without_verification",
+    "cloud_personal_answer_off": "no_saved_context_to_answer",
+    "cloud_routing_off": "no_question_intent_dispatch",
+    "forget": "allowed_when_collection_and_cloud_permissions_off"
+  },
+  "consumers": {
+    "cache_and_summary": "typed_internal_read_derived_fence_check",
+    "checkpoint": "authenticated_resume_endpoint",
+    "answer": "finalization_then_view_level_and_result_endpoint_recheck",
+    "frontend": "new_pure_guard_module_tested; actual_page_binding_R7_pending",
+    "professional_RAG_or_vectors": "unchanged_no_personal_collection_created"
+  },
+  "limits": {
+    "derived_rows_per_owner": 128,
+    "payload_bytes_per_row": 131072,
+    "overflow": "reject_no_truncation",
+    "existing_R3_R4_R5_limits": "retained"
+  },
+  "verification": {
+    "new_R6_backend_tests": 26,
+    "related_backend_tests": 538,
+    "client_guard_tests": 8,
+    "actual_HTTP_and_independent_process_recovery": true,
+    "intentional_claim_crash_exit": 73,
+    "competing_resume_answer_callbacks": 1,
+    "same_author_offline_model_substitutes": true,
+    "real_model_calls": 0,
+    "paid_tests": 0,
+    "reserved_used": false,
+    "formal_chat_rows_read": 0,
+    "formal_service_restarts": 0
+  },
+  "remaining": [
+    "R2_R5_real_semantic_gates",
+    "R7_actual_browser_UI_binding",
+    "R8_reserved_combined_acceptance_and_formal_activation",
+    "capacity_retention_policy_before_unbounded_use"
+  ],
+  "future_vector_invalidation": {
+    "enabled": false,
+    "required_fields": [
+      "owner",
+      "entry_key",
+      "entry_version",
+      "epoch",
+      "policy_version",
+      "content_hash"
+    ],
+    "stale_action": "discard_without_index_write",
+    "collection_created": false,
+    "embedding_calls": 0
+  }
+}

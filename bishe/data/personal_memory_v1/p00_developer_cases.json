@@ -1,0 +1,47 @@
+{
+  "version": "personal-memory-p00-dev-v1",
+  "synthetic": true,
+  "split": "developer_visible",
+  "now": "2026-10-27T12:00:00+08:00",
+  "records": [
+    {"key": "hypertension", "source": "记住，我有高血压。", "source_time": "2026-10-20T12:00:00+08:00"},
+    {"key": "diabetes", "source": "记住，我有糖尿病。", "source_time": "2026-10-21T12:00:00+08:00"},
+    {"key": "cold_2025", "source": "记住，我去年感冒了。", "source_time": "2026-10-20T12:00:00+08:00"}
+  ],
+  "extraction": [
+    {"id":"E01","text":"我有高血压。","role":"user","future_kind":"self_disease_report","future_candidate":true},
+    {"id":"E02","text":"医生说我可能有高血压。","role":"user","future_kind":"self_disease_report","future_candidate":true,"qualification":"uncertain"},
+    {"id":"E03","text":"我对虚构药甲过敏。","role":"user","future_kind":"self_allergy_report","future_candidate":true},
+    {"id":"E04","text":"我目前服用虚构药乙。","role":"user","future_kind":"current_medication","future_candidate":true},
+    {"id":"E05","text":"我目前在哺乳期。","role":"user","future_kind":"temporary_health_state","future_candidate":true},
+    {"id":"E06","text":"我昨天发烧了。","role":"user","future_kind":"symptom_event","future_candidate":true},
+    {"id":"E07","text":"我今天测得血压135/85毫米汞柱。","role":"user","future_kind":"measurement_event","future_candidate":true,"qualification":"do_not_infer_diagnosis"},
+    {"id":"E08","text":"以后请尽量通俗一点。","role":"user","future_kind":"presentation_preference","future_candidate":true},
+    {"id":"E09","text":"高血压有哪些症状？","role":"user","future_kind":null,"future_candidate":false},
+    {"id":"E10","text":"如果我有高血压怎么办？","role":"user","future_kind":null,"future_candidate":false},
+    {"id":"E11","text":"我爸爸有高血压。","role":"user","future_kind":null,"future_candidate":false},
+    {"id":"E12","text":"文章写着“我有高血压”。","role":"user","future_kind":null,"future_candidate":false},
+    {"id":"E13","text":"这次回答简短一点。","role":"user","future_kind":null,"future_candidate":false},
+    {"id":"E14","text":"我有高血压。","role":"assistant","future_kind":null,"future_candidate":false},
+    {"id":"E15","text":"我的验证码是000000，这只是虚构测试。","role":"user","future_kind":null,"future_candidate":false},
+    {"id":"E16","text":"记住，我有高血压。","role":"user","future_kind":"self_disease_report","future_candidate":true,"qualification":"existing_command_proposal_still_needs_confirmation"}
+  ],
+  "retrieval": [
+    {"id":"R01","query":"我的高血压有什么资料？","expected_selected":["hypertension"],"expected_clarify":false},
+    {"id":"R02","query":"这款药适合我吗？","expected_selected":["hypertension","diabetes"],"expected_clarify":false,"qualification":"background_selection_only_not_drug_safety"},
+    {"id":"R03","query":"我感冒了，可以吃什么药？","expected_selected":["hypertension","diabetes"],"expected_clarify":false,"qualification":"background_selection_only_not_prescribing"},
+    {"id":"R04","query":"高血压是什么？","expected_selected":[],"expected_clarify":false},
+    {"id":"R05","query":"我妈妈的高血压有什么资料？","expected_selected":[],"expected_clarify":false},
+    {"id":"R06","query":"如果我有高血压怎么办？","expected_selected":[],"expected_clarify":false},
+    {"id":"R07","query":"你记得我保存过哪些疾病情况吗？","expected_selected":["hypertension","diabetes","cold_2025"],"expected_clarify":false},
+    {"id":"R08","query":"我2025年的感冒有什么资料？","expected_selected":["cold_2025"],"expected_clarify":false},
+    {"id":"R09","query":"我现在的感冒有什么资料？","expected_selected":[],"expected_clarify":false},
+    {"id":"R10","query":"你记得我保存的高血压吗？","expected_selected":["hypertension"],"expected_clarify":false},
+    {"id":"R11","query":"我之前记住的那个病的预防资料是什么？","expected_selected":[],"expected_clarify":true},
+    {"id":"R12","query":"我没有高血压。","expected_selected":[],"expected_clarify":true},
+    {"id":"R13","query":"我的高血压有什么资料？","enabled":false,"expected_selected":[],"expected_clarify":false},
+    {"id":"R14","query":"我的高血压有什么资料？","authenticated":false,"expected_selected":[],"expected_clarify":false},
+    {"id":"R15","query":"我血压那方面的老问题，需要注意什么？","expected_selected":["hypertension"],"expected_clarify":false},
+    {"id":"R16","query":"我2024年的感冒有什么资料？","expected_selected":[],"expected_clarify":false}
+  ]
+}

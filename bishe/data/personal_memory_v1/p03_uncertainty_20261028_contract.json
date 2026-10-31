@@ -1,0 +1,39 @@
+{
+  "stage": "P03 uncertain self-report completeness repair",
+  "status": "offline_rule_and_completion_implementation_real_v32_model_evaluation_pending",
+  "prompt_version": "personal-extraction-quote-prompt-v3.2",
+  "wire_protocol": "personal-source-quote-v1",
+  "completion_policy": "sourced-uncertain-self-report-v1",
+  "assertion": "suspected",
+  "event_state": "uncertain",
+  "user_confirmed": false,
+  "clinical_confirmation": false,
+  "literal_support": "finite five original disease names; explicit self possibly/appears/suspected, self suspicion and doctor suspicion concerning self",
+  "subject_not_assumed": "bare 可能有高血压 does not prove self; leave unclear subject for clarification",
+  "source": "complete current user assertion preserving subject, uncertainty and raw time; full-message hash unchanged",
+  "complete_only_when": [
+    "the quote protocol response is complete and valid",
+    "all supplied quotes are resolved without missing or ambiguous occurrences",
+    "a permitted local self-disease rule proves suspected/uncertain from a unique full source",
+    "no model proposal already refers to the same entity and no conflicting local assertion/time for it",
+    "candidate is absent from the already accepted set and total remains at most five"
+  ],
+  "never_complete": [
+    "malformed, incomplete or missing model response",
+    "family, hypothesis, quotation, question or unclear subject",
+    "duplicate source quote or same-entity model disagreement",
+    "ordinary confirmed/denied disease, medication, preference or arbitrary other information"
+  ],
+  "audit": {
+    "model_raw_results": "immutable; never backfill raw extraction scores",
+    "model_groundings": "only real model-provided quotes; local completions do not invent model quotes",
+    "local_uncertain_completion": "policy version plus exact added candidate IDs",
+    "candidate_origins": "model_quote versus local_uncertain_rule",
+    "effective_preview_digest": "includes final candidates and completion metadata"
+  },
+  "storage": "existing P01/P02 source, permission, version, transaction and same-attribute P04 guards still apply",
+  "live_chat_connected": false,
+  "formal_migration_applied": false,
+  "new_model_calls": 0,
+  "pending": ["new synthetic real-model evaluation of prompt v3.2; raw vs completed metrics separate", "unknown synonym semantic validation", "P04 conflict and forget integration", "P08/P09 formal migration and chat/UI"]
+}

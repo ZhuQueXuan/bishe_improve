@@ -1,0 +1,21 @@
+{
+  "stage": "G", "date": "2026-10-26", "scope": "finite working-memory composition; offline doubles, not medical/model quality",
+  "cases": [
+    "Original personal health selection survives pause/continue and is attached to actual final input",
+    "Original temporary presentation choice survives same-task continue without becoming a long-term preference",
+    "Account, conversation, reset and profile revision reject old continuations before tools/models",
+    "Forgotten, archived, edited source or changed selected row rejects old continuation without resurrection",
+    "Signed checkpoint binds exact state bytes; recomputed unsigned checksum cannot renew expiry or change counters",
+    "Read evidence, requirements, pending fields and previous counts are reconstructable and do not repeat completed actions",
+    "Original deadline and all call limits continue cumulatively across multiple pauses",
+    "All planner usage receipts have task/sequence ownership; unknown usage or price stays unknown",
+    "Answer attempt appears in final task audit including failure; no automatic model retry",
+    "Dialogue cache/coverage on continuation describes original frozen input, not new continue text",
+    "Clarification, general/family questions, control recall, disabled memories and source exclusions still compose",
+    "Over-budget personal context stops before model and never silently reports omitted memories as used",
+    "Frontend secondary evidence section shows selected memories, pending steps and cumulative calls as escaped text",
+    "Fixed developer-visible F/G comparison separately records contract checks, synthetic usage and local latency",
+    "Original backend/source-budget/frontend checks pass; formal data and old evidence remain unchanged",
+    "Real loopback synthetic API and fresh process restoration pass; no personal vectors/model/embedding calls"
+  ]
+}

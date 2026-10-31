@@ -1,0 +1,33 @@
+{
+  "stage": "R7",
+  "version": 1,
+  "production_enabled": false,
+  "ui_status": "implementation_ready_browser_acceptance_pending",
+  "separate_entry": "src/natural-memory-main.js",
+  "authentication": "Token; fixture-only synthetic credentials; browser memory only",
+  "settings": [
+    "cloud_answer_personal_context",
+    "cloud_extraction",
+    "cloud_routing",
+    "cloud_verification",
+    "collect_health",
+    "collect_preferences",
+    "preference_auto_enabled",
+    "use_enabled"
+  ],
+  "release_gate": "trusted server only; A/B false, C synthetic auto-preference demo only",
+  "boundaries": {
+    "real_models": 0,
+    "paid": 0,
+    "real_chat_rows_read": 0,
+    "formal_migration": 0,
+    "production_restart": 0,
+    "reserved_content_read": false
+  },
+  "http_root": "isolated URLconf only",
+  "new_migrations": [],
+  "browser_refresh": "does not persist credentials or checkpoint; reconnect explicit fixture account",
+  "response": "fresh read plus R6 delivery fence; late/out-of-order/foreign responses discarded",
+  "offline_provider": "exact prewritten synthetic responses only; unknown text fails",
+  "browser_results": null
+}

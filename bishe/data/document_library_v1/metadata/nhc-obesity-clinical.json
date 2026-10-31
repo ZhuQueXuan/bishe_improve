@@ -1,0 +1,20 @@
+{
+  "doc_id": "nhc-obesity-clinical",
+  "title": "肥胖症诊疗指南（2024年版）",
+  "edition": "2024年版",
+  "publisher": "国家卫生健康委员会",
+  "source_url": "https://www.nhc.gov.cn/wjw/c100378/202410/bcf804e19e0c4246b5aea6cd338b55e1.shtml",
+  "download_url": "https://www.nhc.gov.cn/cms-search/downFiles/c171fa2416864a21b69278fd04a33f21.pdf",
+  "sha256": "8d7c5c87f8e58f56231e251b1aa588b9d640e74d32dbec2a45e68dcf141274c3",
+  "acquired_at": "2026-10-22T16:33:17.871422+00:00",
+  "effective_date": null,
+  "printed_page_offset": 0,
+  "rights": "public_official_document_local_project_use_redistribution_not_assessed",
+  "published_date": "2024-10-12",
+  "selected_pages": [
+    1,
+    2,
+    3
+  ],
+  "scope_note": "国内2024年版肥胖症诊疗指南，仅PDF1—3页概述、病因学和流行病学，未纳入诊断分期表、用药、手术、个体减重方案及后续多学科处置。用于肥胖基础知识和危险因素解释，具体数字以版本年份为限，医学状态not_verified。"
+}

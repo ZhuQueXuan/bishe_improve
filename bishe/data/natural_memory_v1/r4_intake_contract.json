@@ -1,0 +1,143 @@
+{
+  "contract": "natural-memory-r4-isolated-intake-v1",
+  "date": "2026-10-28",
+  "scope": "synthetic_isolated_HTTP_and_disk_only",
+  "entry_points": {
+    "fixture_root_urlconf": "api.natural_memory_fixture_urls",
+    "http": [
+      "POST natural-memory/messages/",
+      "GET natural-memory/state/",
+      "POST natural-memory/confirm/",
+      "POST natural-memory/manage/"
+    ],
+    "internal_worker": [
+      "worker_request",
+      "submit_reply"
+    ],
+    "production_mount": false
+  },
+  "guard": {
+    "explicit_enabled": true,
+    "exact_database_selection_required": true,
+    "allowed_databases": [
+      "Django memory test database",
+      "project temp/*.sqlite3"
+    ],
+    "formal_database_allowed": false
+  },
+  "storage": {
+    "new_models": [
+      "NaturalMemoryLedger",
+      "NaturalMemoryJob",
+      "NaturalMemoryOperation"
+    ],
+    "candidate_migration": "0007_natural_memory_ledger",
+    "formal_applied": false,
+    "aggregate_contract": "natural-memory-decision-state-v1",
+    "legacy_conversion": false,
+    "schema_initialization_on_import": false
+  },
+  "ingress": {
+    "authenticated_owner": "request.user",
+    "writes_actual_ChatMessage": true,
+    "explicit_context_ids_max": 4,
+    "implicit_history_scan": false,
+    "trusted_fields_loaded_from_database": [
+      "owner",
+      "policy",
+      "permissions",
+      "source_envelopes",
+      "conversation_versions",
+      "latest_user_ids",
+      "state"
+    ],
+    "client_candidates_or_model_replies_accepted": false
+  },
+  "transaction": {
+    "message_and_job_and_receipt": "one_atomic_transaction",
+    "first_owner_SQL": "write_reservation_lock_version",
+    "state_CAS": "revision_where_filter",
+    "confirmation": "revalidate_sources_policy_targets_and_latest_user_inside_transaction",
+    "two_window_fence": [
+      "revision",
+      "epoch",
+      "policy_version",
+      "display_digest",
+      "target_version"
+    ],
+    "idempotency": [
+      "owner_request_key",
+      "exact_input_hash"
+    ],
+    "replay": "metadata_only_no_saved_ack"
+  },
+  "worker": {
+    "dispatch_implemented": false,
+    "real_calls": 0,
+    "stages": [
+      "awaiting_extraction",
+      "awaiting_review",
+      "completed_or_failed_or_stale"
+    ],
+    "deadline_seconds": 90,
+    "per_request_timeout_seconds_cap": 45,
+    "deadline_reset": false,
+    "sdk_retries": 0,
+    "reply_bytes_max": 8192,
+    "complete_request_bytes_max": 32768,
+    "completed_or_stale_raw_bodies": "cleared",
+    "audit": "request_refs_prompt_versions_context_digest_reply_hashes_review_verdicts_coverage_no_quote_copies"
+  },
+  "answer": {
+    "status": "not_scheduled_in_R4",
+    "actual_answer_dispatch": "R5_pending"
+  },
+  "confirmation": {
+    "health": "confirmation_first",
+    "clinical_confirmation": false,
+    "reply_intent": "explicit_UI_action_or_trusted_adapter; no_natural_language_parser",
+    "clarification": "old_display_and_original_context_required; one_targeted_reply_supported",
+    "saved_ack": "only_returned_after_successful_commit"
+  },
+  "forget_fix": {
+    "discovered_in": "synthetic_two_fact_shared_sentence_disk_probe",
+    "scrub": "all_shared_quote_copies_in_current_and_historical_linked_records",
+    "unrelated_assertions": "retained_paused_without_erased_evidence",
+    "resume_without_evidence": false,
+    "source_chat": "kept",
+    "new_source": "requires_new_confirmation"
+  },
+  "bounds": {
+    "jobs_per_owner": 128,
+    "operation_receipts_per_owner": 256,
+    "explicit_rechecked_sources": 512,
+    "explicit_rechecked_sessions": 64,
+    "R3_bounds": "retained; no_automatic_compaction_or_silent_truncation"
+  },
+  "validation": {
+    "related_suite": 468,
+    "new_R4_tests": 36,
+    "new_R3_regression_tests": 2,
+    "previous_suite": 430,
+    "synthetic_disk_entries": 2,
+    "process_crash_exit": 73,
+    "two_process_http_statuses": [
+      200,
+      409
+    ],
+    "model_quality_or_clinical_claim": false,
+    "reserved_used": false,
+    "formal_chat_rows_read": 0,
+    "paid_tests": 0,
+    "service_restarts": 0
+  },
+  "pending": [
+    "real_model_dispatch_and_semantic_gate",
+    "production_URL_mount_and_schema_rollout",
+    "R5_query_selection_and_answer_generation",
+    "R6_live_answer_and_checkpoint_invalidation",
+    "R7_browser_UI",
+    "R8_reserved_semantic_acceptance",
+    "long_term_receipt_and_job_retention_policy"
+  ]
+}

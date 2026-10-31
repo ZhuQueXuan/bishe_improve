@@ -1,0 +1,644 @@
+{
+  "status": "stopped_on_H12_review_contract_failure_batch_closed",
+  "batch_id": "r8-uncertainty-remaining-20261031-ea59f57420f6",
+  "attempted_inputs": 6,
+  "completed_pipeline_inputs": 5,
+  "failed_input": "R0-H12",
+  "unexecuted_inputs": 0,
+  "total_calls": 10,
+  "extraction_calls": 6,
+  "review_calls": 4,
+  "retries": 0,
+  "unknown_cost_attempts": 0,
+  "prompt_tokens": 17559,
+  "completion_tokens": 995,
+  "estimated_peak_usd": "0.0064617",
+  "estimated_peak_cny_at_8": "0.0516936",
+  "actual_bill_unknown": true,
+  "metrics": {
+    "raw_decision_matches": {
+      "numerator": 6,
+      "denominator": 6
+    },
+    "raw_full_fact_precision": {
+      "numerator": 3,
+      "denominator": 3
+    },
+    "raw_full_fact_recall": {
+      "numerator": 3,
+      "denominator": 3
+    },
+    "pipeline_complete": {
+      "numerator": 5,
+      "denominator": 6
+    },
+    "preferences_retained_unreviewed": {
+      "numerator": 2,
+      "denominator": 2
+    },
+    "review_supported_health_facts": {
+      "numerator": 0,
+      "denominator": 1
+    },
+    "necessary_clarification_correct": {
+      "numerator": 1,
+      "denominator": 1
+    },
+    "unnecessary_clarifications": {
+      "numerator": 0,
+      "denominator": 5
+    },
+    "review_contract_completed": {
+      "numerator": 3,
+      "denominator": 4
+    },
+    "automatic_save_confirmation_retrieval_answer": null,
+    "qualification_note": "Two preferences are R2 unreviewed structural candidates, not model-supported or automatically saved; the one health proposal failed review."
+  },
+  "observations": [
+    {
+      "case_id": "R0-H07",
+      "source": {
+        "contract": "natural-memory-source-v1",
+        "owner": "user:933960311389",
+        "session": "conversation:933960311389",
+        "policy_version": 1,
+        "conversation_version": 0,
+        "collect_types": [
+          "presentation_preference",
+          "self_disease_report"
+        ],
+        "source_after_id": 0,
+        "excluded_ids": [],
+        "context_complete": true,
+        "messages": [
+          {
+            "id": "db:933960311390",
+            "owner": "user:933960311389",
+            "session": "conversation:933960311389",
+            "role": "user",
+            "content": "之后可以直接用专业术语回答，不用每次再解释基本词。",
+            "recorded_at": "2026-10-28T10:00:00+08:00",
+            "message_hash": "5cdef380ba9bc7dfef19d1df59f923b0124aef0797bb48501a6f7925e5124d97"
+          }
+        ],
+        "current_message_id": "db:933960311390",
+        "context_digest": "968c8bb147ae80745cf45155a5427f5c46a18c7c46b52929d53245b0093cdbd6"
+      },
+      "original_gold": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "presentation_preference",
+            "subject": "self",
+            "slot": "style",
+            "value": "technical",
+            "scope": "long_term",
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-H07:u",
+                "text": "之后可以直接用专业术语回答，不用每次再解释基本词。",
+                "start": 0,
+                "end": 25,
+                "message_sha256": "5cdef380ba9bc7dfef19d1df59f923b0124aef0797bb48501a6f7925e5124d97"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "raw_extraction": {
+        "contract": "natural-memory-extraction-v1",
+        "request_ref": "extraction_57b4504991b57d43e35b6adb",
+        "outcome": "propose",
+        "items": [
+          {
+            "contract": "natural-memory-candidate-v1",
+            "category": "presentation_preference",
+            "subject": "self",
+            "content": {
+              "slot": "style",
+              "value": "technical",
+              "scope": "long_term"
+            },
+            "time": {
+              "raw": null,
+              "temporal_scope": "not_applicable"
+            },
+            "relation": "new_information",
+            "evidence": [
+              {
+                "source_ref": "current",
+                "text": "之后可以直接用专业术语回答，不用每次再解释基本词。"
+              }
+            ]
+          }
+        ],
+        "clarifications": []
+      },
+      "raw_review": null,
+      "original_extraction_semantically_matches": true,
+      "actual_status": "pending_review",
+      "reason": null,
+      "raw_log_sha256": "ac532291353dea8559e26ddfab3b43cff6e675af7c10488701572e266dc25cda",
+      "unchanged_response_replay_equal": true,
+      "pipeline_completed": true,
+      "model_review_performed": false
+    },
+    {
+      "case_id": "R0-H08",
+      "source": {
+        "contract": "natural-memory-source-v1",
+        "owner": "user:933960311390",
+        "session": "conversation:933960311390",
+        "policy_version": 1,
+        "conversation_version": 0,
+        "collect_types": [
+          "presentation_preference",
+          "self_disease_report"
+        ],
+        "source_after_id": 0,
+        "excluded_ids": [],
+        "context_complete": true,
+        "messages": [
+          {
+            "id": "db:933960311400",
+            "owner": "user:933960311390",
+            "session": "conversation:933960311390",
+            "role": "user",
+            "content": "从现在开始，答复展开些，把步骤说完整。",
+            "recorded_at": "2026-10-28T10:00:00+08:00",
+            "message_hash": "9db3ff96d469ff40fef074c6e65d7ed07e5bf966848d9252045d2296f0e351fe"
+          }
+        ],
+        "current_message_id": "db:933960311400",
+        "context_digest": "3755cc1a746deda724a6f65343e8b2eaba532d5a94fa9e71e680e90c0396316f"
+      },
+      "original_gold": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "presentation_preference",
+            "subject": "self",
+            "slot": "length",
+            "value": "detailed",
+            "scope": "long_term",
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-H08:u",
+                "text": "从现在开始，答复展开些，把步骤说完整。",
+                "start": 0,
+                "end": 19,
+                "message_sha256": "9db3ff96d469ff40fef074c6e65d7ed07e5bf966848d9252045d2296f0e351fe"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "raw_extraction": {
+        "contract": "natural-memory-extraction-v1",
+        "request_ref": "extraction_10e8d173dd4aa84d950112fa",
+        "outcome": "propose",
+        "items": [
+          {
+            "contract": "natural-memory-candidate-v1",
+            "category": "presentation_preference",
+            "subject": "self",
+            "content": {
+              "slot": "length",
+              "value": "detailed",
+              "scope": "long_term"
+            },
+            "time": {
+              "raw": null,
+              "temporal_scope": "not_applicable"
+            },
+            "relation": "new_information",
+            "evidence": [
+              {
+                "source_ref": "current",
+                "text": "从现在开始，答复展开些，把步骤说完整。"
+              }
+            ]
+          }
+        ],
+        "clarifications": []
+      },
+      "raw_review": null,
+      "original_extraction_semantically_matches": true,
+      "actual_status": "pending_review",
+      "reason": null,
+      "raw_log_sha256": "6ab04f758ca7ebfd10921aabd460023873108315f54e9a7524ef435fa7bdf00e",
+      "unchanged_response_replay_equal": true,
+      "pipeline_completed": true,
+      "model_review_performed": false
+    },
+    {
+      "case_id": "R0-H09",
+      "source": {
+        "contract": "natural-memory-source-v1",
+        "owner": "user:933960311391",
+        "session": "conversation:933960311391",
+        "policy_version": 1,
+        "conversation_version": 0,
+        "collect_types": [
+          "presentation_preference",
+          "self_disease_report"
+        ],
+        "source_after_id": 0,
+        "excluded_ids": [],
+        "context_complete": true,
+        "messages": [
+          {
+            "id": "db:933960311410",
+            "owner": "user:933960311391",
+            "session": "conversation:933960311391",
+            "role": "user",
+            "content": "今天这道题简单说说就行。",
+            "recorded_at": "2026-10-28T10:00:00+08:00",
+            "message_hash": "47283b4699bff17b4ef81d2a16248c93a6da7fdbb17ba717238e7f3a7f362b26"
+          }
+        ],
+        "current_message_id": "db:933960311410",
+        "context_digest": "78cc458353a02d45e672a472a290277720b5dffb47f0c832019ddda1a1c908fc"
+      },
+      "original_gold": {
+        "decision": "ignore",
+        "facts": [],
+        "reason": "temporary_requirement_only",
+        "transient_requirements": [
+          {
+            "slot": "length",
+            "value": "brief",
+            "scope": "current"
+          }
+        ],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "raw_extraction": {
+        "contract": "natural-memory-extraction-v1",
+        "request_ref": "extraction_548910a5a7067834eeafcfbc",
+        "outcome": "no_memory",
+        "items": [],
+        "clarifications": []
+      },
+      "raw_review": {
+        "contract": "natural-memory-review-v1",
+        "request_ref": "review_c5b8fec6bb0536d9a8d76d5a",
+        "items": [],
+        "clarifications": [],
+        "coverage": {
+          "verdict": "complete",
+          "reason": "no_eligible_self_assertion",
+          "examined_refs": [
+            "current"
+          ],
+          "evidence": [
+            {
+              "source_ref": "current",
+              "text": "今天这道题简单说说就行。"
+            }
+          ]
+        }
+      },
+      "original_extraction_semantically_matches": true,
+      "actual_status": "no_memory",
+      "reason": null,
+      "raw_log_sha256": "d6ec840bcdc24e6f5dbb668b5349e87ca50cfde58b6ed9da270981b8c9cc6956",
+      "unchanged_response_replay_equal": true,
+      "pipeline_completed": true,
+      "model_review_performed": true
+    },
+    {
+      "case_id": "R0-H10",
+      "source": {
+        "contract": "natural-memory-source-v1",
+        "owner": "user:933960311392",
+        "session": "conversation:933960311392",
+        "policy_version": 1,
+        "conversation_version": 0,
+        "collect_types": [
+          "presentation_preference",
+          "self_disease_report"
+        ],
+        "source_after_id": 0,
+        "excluded_ids": [],
+        "context_complete": true,
+        "messages": [
+          {
+            "id": "db:933960311420",
+            "owner": "user:933960311392",
+            "session": "conversation:933960311392",
+            "role": "user",
+            "content": "我们家有人有糖尿病。",
+            "recorded_at": "2026-10-28T10:00:00+08:00",
+            "message_hash": "372a65527b1fd89525331b5ebbe7512b9b997904be79066f90df721bab994525"
+          }
+        ],
+        "current_message_id": "db:933960311420",
+        "context_digest": "95c625529d71c8a1453c25dd5755653525eaaae7c1f11b7cfe468bf93e339548"
+      },
+      "original_gold": {
+        "decision": "clarify",
+        "facts": [],
+        "reason": "self_subject_not_established",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "raw_extraction": {
+        "contract": "natural-memory-extraction-v1",
+        "request_ref": "extraction_46c846bb4282d55bc9810a70",
+        "outcome": "clarify",
+        "items": [],
+        "clarifications": [
+          {
+            "reason": "subject_unclear",
+            "question": "“我们家有人有糖尿病”指的是你本人有糖尿病，还是其他家人有糖尿病？",
+            "evidence": [
+              {
+                "source_ref": "current",
+                "text": "我们家有人有糖尿病。"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_review": {
+        "contract": "natural-memory-review-v1",
+        "request_ref": "review_5144427bfe6455c6b36da749",
+        "items": [],
+        "clarifications": [
+          {
+            "question_ref": "question_1",
+            "verdict": "appropriate",
+            "evidence": [
+              {
+                "source_ref": "current",
+                "text": "我们家有人有糖尿病。"
+              }
+            ]
+          }
+        ],
+        "coverage": {
+          "verdict": "complete",
+          "reason": "coverage_complete",
+          "examined_refs": [
+            "current"
+          ],
+          "evidence": [
+            {
+              "source_ref": "current",
+              "text": "我们家有人有糖尿病。"
+            }
+          ]
+        }
+      },
+      "original_extraction_semantically_matches": true,
+      "actual_status": "needs_confirmation",
+      "reason": null,
+      "raw_log_sha256": "7ecbb4d0762ee89160e58c1aed7b1eecdd4e90c4474a960d5066e02c1eab136a",
+      "unchanged_response_replay_equal": true,
+      "pipeline_completed": true,
+      "model_review_performed": true
+    },
+    {
+      "case_id": "R0-H11",
+      "source": {
+        "contract": "natural-memory-source-v1",
+        "owner": "user:933960311393",
+        "session": "conversation:933960311393",
+        "policy_version": 1,
+        "conversation_version": 0,
+        "collect_types": [
+          "presentation_preference",
+          "self_disease_report"
+        ],
+        "source_after_id": 0,
+        "excluded_ids": [],
+        "context_complete": true,
+        "messages": [
+          {
+            "id": "db:933960311430",
+            "owner": "user:933960311393",
+            "session": "conversation:933960311393",
+            "role": "assistant",
+            "content": "你有糖尿病。",
+            "recorded_at": "2026-10-28T10:00:00+08:00",
+            "message_hash": "92221a69e79d4ee742cc6849415a9a967b44022a508505173a2c90b58a82b737"
+          },
+          {
+            "id": "db:933960311431",
+            "owner": "user:933960311393",
+            "session": "conversation:933960311393",
+            "role": "user",
+            "content": "你刚才说我有糖尿病，这个结论我从没告诉过你。",
+            "recorded_at": "2026-10-28T10:00:00+08:00",
+            "message_hash": "a4bbbb20c16dc36a9f8ef61933b6f3c20e656a36b74ffed95d35dd043397a6ff"
+          }
+        ],
+        "current_message_id": "db:933960311431",
+        "context_digest": "5da73d0314e71e6931a43704851b5b3ca4c4e421491884c7dfc50f05e11165ab"
+      },
+      "original_gold": {
+        "decision": "ignore",
+        "facts": [],
+        "reason": "rejects_assistant_claim_not_disease_denial",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "raw_extraction": {
+        "contract": "natural-memory-extraction-v1",
+        "request_ref": "extraction_912d79743df8bbe0ae35975a",
+        "outcome": "no_memory",
+        "items": [],
+        "clarifications": []
+      },
+      "raw_review": {
+        "contract": "natural-memory-review-v1",
+        "request_ref": "review_8fca569a2664bbdfb2f9159b",
+        "items": [],
+        "clarifications": [],
+        "coverage": {
+          "verdict": "complete",
+          "reason": "no_eligible_self_assertion",
+          "examined_refs": [
+            "context_1",
+            "current"
+          ],
+          "evidence": [
+            {
+              "source_ref": "current",
+              "text": "你刚才说我有糖尿病，这个结论我从没告诉过你。"
+            }
+          ]
+        }
+      },
+      "original_extraction_semantically_matches": true,
+      "actual_status": "no_memory",
+      "reason": null,
+      "raw_log_sha256": "cca9d0403ece791d9f2d6ee4ff5659ce82b1601eaf33eaace72b844d2575933d",
+      "unchanged_response_replay_equal": true,
+      "pipeline_completed": true,
+      "model_review_performed": true
+    },
+    {
+      "case_id": "R0-H12",
+      "source": {
+        "contract": "natural-memory-source-v1",
+        "owner": "user:933960311394",
+        "session": "conversation:933960311394",
+        "policy_version": 1,
+        "conversation_version": 0,
+        "collect_types": [
+          "presentation_preference",
+          "self_disease_report"
+        ],
+        "source_after_id": 0,
+        "excluded_ids": [],
+        "context_complete": true,
+        "messages": [
+          {
+            "id": "db:933960311440",
+            "owner": "user:933960311394",
+            "session": "conversation:933960311394",
+            "role": "user",
+            "content": "我觉得自己可能没有高血压，但也说不准。",
+            "recorded_at": "2026-10-28T10:00:00+08:00",
+            "message_hash": "2a1f3b5c8b91a60284e51738d4ef1792a48d2daf129cdd43008dc1afa568c2c3"
+          }
+        ],
+        "current_message_id": "db:933960311440",
+        "context_digest": "07ad61853369a7840e9d5e499c9239ac9373e6aca73f8e55bff0f7de02ac6cb5"
+      },
+      "original_gold": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "高血压",
+            "polarity": "negated",
+            "certainty": "possible",
+            "time_raw": null,
+            "temporal_scope": "unspecified",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": false,
+            "evidence": [
+              {
+                "message_id": "R0-H12:u",
+                "text": "我觉得自己可能没有高血压，但也说不准。",
+                "start": 0,
+                "end": 19,
+                "message_sha256": "2a1f3b5c8b91a60284e51738d4ef1792a48d2daf129cdd43008dc1afa568c2c3"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "raw_extraction": {
+        "contract": "natural-memory-extraction-v1",
+        "request_ref": "extraction_62298a0ebb28412a873c92f5",
+        "outcome": "propose",
+        "items": [
+          {
+            "contract": "natural-memory-candidate-v1",
+            "category": "self_disease_report",
+            "subject": "self",
+            "content": {
+              "value_raw": "高血压",
+              "polarity": "negated",
+              "certainty": "possible"
+            },
+            "time": {
+              "raw": null,
+              "temporal_scope": "unspecified"
+            },
+            "relation": "new_information",
+            "evidence": [
+              {
+                "source_ref": "current",
+                "text": "我觉得自己可能没有高血压，但也说不准。"
+              }
+            ]
+          }
+        ],
+        "clarifications": []
+      },
+      "raw_review": {
+        "contract": "natural-memory-review-v1",
+        "request_ref": "review_29b677f18885df12cc6ef235",
+        "items": [
+          {
+            "item_ref": "item_1",
+            "verdict": "unclear",
+            "reason": "wrong_certainty",
+            "evidence": [
+              {
+                "source_ref": "current",
+                "text": "我觉得自己可能没有高血压，但也说不准。"
+              }
+            ]
+          }
+        ],
+        "clarifications": [],
+        "coverage": {
+          "verdict": "complete",
+          "reason": "coverage_complete",
+          "examined_refs": [
+            "current"
+          ],
+          "evidence": [
+            {
+              "source_ref": "current",
+              "text": "我觉得自己可能没有高血压，但也说不准。"
+            }
+          ]
+        }
+      },
+      "original_extraction_semantically_matches": true,
+      "actual_status": "processing_failed",
+      "reason": "review_reason",
+      "raw_log_sha256": "02f30125239e08856ac7652e996e3ecefeb4e82b1c1fd9effd984ee0d6bc1af1",
+      "unchanged_response_replay_equal": true,
+      "pipeline_completed": false,
+      "model_review_performed": true
+    }
+  ],
+  "failure": "review verdict unclear combined with wrong_certainty, outside the allowed reason set",
+  "raw_H12_negative_uncertainty_preserved": true,
+  "new_uncertainty_rule_did_not_reject_the_raw_proposal": true,
+  "protected_files": 1578,
+  "unchanged_at_audit": 1578,
+  "changed_external_navigation": [],
+  "business_source_or_prompt_changes": 0,
+  "all_H01_H12_single_texts_now_expanded": true,
+  "reserved_multiturn_texts_not_expanded": true,
+  "generator_not_read": true,
+  "old_grades_archives_and_closed_batches_unchanged": true,
+  "new_calls_in_audit": 0,
+  "formal_db_chat_rows_migration_restart_embedding_qdrant_mini_docker_operations": false,
+  "full_R8_passed": false
+}

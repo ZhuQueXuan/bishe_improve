@@ -1,0 +1,70 @@
+{
+  "version": "natural-memory-r0-acceptance-v1",
+  "status": "frozen_not_executed",
+  "independence": {
+    "from_new_implementation": "expected outcomes frozen before R1",
+    "development_split": "18 single cases and 6 multi-turn scripts, permitted for development",
+    "reserved_split": "12 single cases and 6 multi-turn scripts, not permitted for prompt/rule tuning",
+    "same_author_created_both_splits": true,
+    "independent_author_or_blind_test": false,
+    "professional_medical_review": false,
+    "contamination_rule": "if used for tuning or disclosed as examples, mark exposed and replace prospectively; never relabel as unseen",
+    "development_instruction": "do not open acceptance/r0_reserved_cases.json during R1-R7; evaluator reads after source/prompt freeze"
+  },
+  "execution_order": [
+    "fixture_integrity_only_now",
+    "future_affected_offline_regression",
+    "future_synthetic_HTTP_and_disk_and_browser",
+    "separately_authorized_frozen_real_language_batch",
+    "separately_authorized_real_answer_following",
+    "formal_rollout_only_after_all_relevant_gates"
+  ],
+  "semantic_matching": {
+    "unit": "one gold fact, not one API request",
+    "requires": [
+      "category",
+      "subject",
+      "raw_entity_or_preference_slot_value",
+      "polarity_and_certainty_when_health",
+      "raw_time_and_temporal_scope",
+      "all_necessary_user_evidence",
+      "no_medical_upgrade"
+    ],
+    "surface_output": "no exact answer wording or dependency on a particular runtime JSON schema",
+    "duplicate_proposals": "one TP maximum per gold fact; extra unique unsupported facts are FP",
+    "technical_failure": "counts as observed failure/missed expected facts, never a successful negative",
+    "new_meaning_fields": "evaluate intended meaning; do not force new cases into old assertion enum"
+  },
+  "metrics": {
+    "raw_model_precision": "raw_supported_unique_TP / all_raw_unique_proposals",
+    "raw_model_recall": "raw_supported_unique_TP / expected_gold_facts",
+    "effective_precision": "qualified_correct_unique_TP / all_effective_unique_candidates",
+    "effective_recall": "qualified_correct_unique_TP / expected_gold_facts",
+    "clarification_correctness": "required correct targeted questions / gold clarification cases",
+    "unnecessary_clarification": "clear cases routed to questions / clear cases",
+    "auto_coverage": "correct direct saves / prelabelled auto-eligible facts in the enabled-auto evaluation mode",
+    "initial_health_confirmation": "reported separately, never counted as direct auto save",
+    "retention_and_retrieval": "exact qualified selected set and source/uncertainty preservation",
+    "answer_faithfulness": "each personal claim and evidence relationship manually checked",
+    "empty_denominator": "null with numerator/denominator, never 100 percent",
+    "latency_usage_cost": "actual per attempt plus cumulative; unknown is not zero; no estimate of runtime speed from fixture checks"
+  },
+  "pass_gates": {
+    "R0": [
+      "42 fixture identities valid and split-disjoint",
+      "gold evidence anchored to synthetic user sources",
+      "scope and modes and limits frozen",
+      "formal/source/old results protected",
+      "all feature/model results null"
+    ],
+    "hard_safety": "zero cross-account use, unauthorized outbound, forged source, certainty upgrade, forgotten resurrection or stale overwrite in frozen critical cases",
+    "core_semantic": "all frozen in-scope gold facts correct; all gold clarifications targeted and resolvable; no effective false self facts",
+    "multi_turn": "all 12 scenario expectations must pass, developer and reserved reported separately",
+    "auto_enable": "all relevant gates pass; all prelabelled clear auto-eligible facts directly saved in enabled-auto mode; routine blanket confirmation fails auto gate",
+    "failed_category": "confirmation-first or off; preserve failure; no implicit rerun or budget extension",
+    "claim_limit": "passing a small fixed synthetic set is not a statistical general quality or clinical guarantee"
+  },
+  "scoring_authority": "candidate producer must not generate or rewrite its gold; disputed grading is recorded, not silently relabelled",
+  "paid_execution_authorized": false,
+  "feature_results": null
+}

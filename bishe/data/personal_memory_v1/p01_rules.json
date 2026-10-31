@@ -1,0 +1,134 @@
+{
+  "version": "personal-policy-v1",
+  "stage": "P01",
+  "runtime_enabled": false,
+  "language_extraction_verified": false,
+  "storage_writes": false,
+  "types": {
+    "self_disease_report": {
+      "kind": "event",
+      "allowed_detail_fields": [],
+      "required_detail_fields": [],
+      "detail_values_must_occur_in_source": true,
+      "disease_or_event_name_must_occur_in_source": true
+    },
+    "self_allergy_report": {
+      "kind": "event",
+      "allowed_detail_fields": [
+        "reaction"
+      ],
+      "required_detail_fields": [],
+      "detail_values_must_occur_in_source": true,
+      "disease_or_event_name_must_occur_in_source": true
+    },
+    "self_intolerance_report": {
+      "kind": "event",
+      "allowed_detail_fields": [
+        "reaction"
+      ],
+      "required_detail_fields": [],
+      "detail_values_must_occur_in_source": true,
+      "disease_or_event_name_must_occur_in_source": true
+    },
+    "current_medication": {
+      "kind": "event",
+      "allowed_detail_fields": [
+        "dose_raw",
+        "frequency_raw"
+      ],
+      "required_detail_fields": [],
+      "detail_values_must_occur_in_source": true,
+      "disease_or_event_name_must_occur_in_source": true
+    },
+    "temporary_health_state": {
+      "kind": "event",
+      "allowed_detail_fields": [],
+      "required_detail_fields": [],
+      "detail_values_must_occur_in_source": true,
+      "disease_or_event_name_must_occur_in_source": true
+    },
+    "symptom_event": {
+      "kind": "event",
+      "allowed_detail_fields": [],
+      "required_detail_fields": [],
+      "detail_values_must_occur_in_source": true,
+      "disease_or_event_name_must_occur_in_source": true
+    },
+    "measurement_event": {
+      "kind": "event",
+      "allowed_detail_fields": [
+        "unit",
+        "value_raw"
+      ],
+      "required_detail_fields": [
+        "unit",
+        "value_raw"
+      ],
+      "detail_values_must_occur_in_source": true,
+      "disease_or_event_name_must_occur_in_source": true
+    },
+    "test_result_event": {
+      "kind": "event",
+      "allowed_detail_fields": [
+        "result_raw",
+        "unit"
+      ],
+      "required_detail_fields": [
+        "result_raw"
+      ],
+      "detail_values_must_occur_in_source": true,
+      "disease_or_event_name_must_occur_in_source": true
+    },
+    "presentation_preference": {
+      "kind": "preference",
+      "allowed_detail_fields": [],
+      "required_detail_fields": [],
+      "detail_values_must_occur_in_source": true,
+      "disease_or_event_name_must_occur_in_source": false
+    },
+    "service_relevant_background": {
+      "kind": "background",
+      "allowed_detail_fields": [],
+      "required_detail_fields": [],
+      "detail_values_must_occur_in_source": true,
+      "disease_or_event_name_must_occur_in_source": false
+    }
+  },
+  "actions": [
+    "add",
+    "no_change",
+    "keep_separate",
+    "supplement",
+    "replace_effective",
+    "event_transition",
+    "temporary_only",
+    "clarify",
+    "reject",
+    "forget",
+    "pause"
+  ],
+  "rules": [
+    "来源必须是同账号同会话的用户原话，来源跨度和发送时间可核对",
+    "来源文本匹配不证明提取含义正确，类型/主体/否定/意图/事件关联由P03提供依据",
+    "调用者提供逐类收集许可和选定历史范围，不由候选自行声明",
+    "疑似/否认不提升为肯定自述，数值事件不推断诊断，过敏/不耐受分开",
+    "同事件变化需要明确目标ID及当前版本和事件关联，未知关联先澄清",
+    "更正和新默认需要明确请求依据，临时要求不改长期值",
+    "历史原话晚入库不能覆盖更晚来源，独立事件可以并存",
+    "已排除来源、已遗忘重放和非活动目标不能静默恢复",
+    "关闭收集仍允许有准确目标的明确遗忘/停用",
+    "家属归属更正需要撤销错误本人记录和另行处理家属信息，不能直接搬成第一版家属档案"
+  ],
+  "references": {
+    "existing_source_contract": "api.memory_contract.validate_record",
+    "old_live_contract_unchanged": true,
+    "standalone_policy": "api.personal_memory_contract",
+    "test_file": "api/test_memory_contract.py"
+  },
+  "pending": [
+    "P02持久化及事务/版本/权限再次核验",
+    "P03语义提取及真实模型评价",
+    "P04多候选关联及写入闭环",
+    "聊天和页面接入"
+  ]
+}

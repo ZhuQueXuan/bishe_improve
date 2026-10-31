@@ -1,0 +1,35 @@
+{
+  "revision": "user-memory-v1-20261023",
+  "manual_finite_preferences_only": true,
+  "code_files": {
+    "bishe/knowledge_graph_backend/api/models.py": "3a37d0c3b2353643d430023906ea9c79755819b16d5fce711cb56eb5252a2244",
+    "bishe/knowledge_graph_backend/api/views.py": "6d45cdc9073c33527d1d75d70f64e5ce927d5d7635fe659493e140d6542837f0",
+    "bishe/knowledge_graph_backend/api/urls.py": "e8ec76b330213703a585b0447207b5564a005fb6c94b1a4e12631d6f9d473ad1",
+    "bishe/knowledge_graph_backend/api/user_memory.py": "61c32f7fb313d7c93ae08da16efc896f4499210f2d4e221adf85a70b3548d3bb",
+    "bishe/knowledge_graph_backend/api/memory_views.py": "746a43e6a9a1bd79104462c5ce11b7ef925fa956d65814dc734a33a498281b52",
+    "bishe/knowledge_graph_backend/api/test_user_memory.py": "bf53b36cff1298e96def7faeb213b9bb80a4383063c7cb6ddd35bdff06ded7bf",
+    "bishe/knowledge_graph_backend/api/chat_runtime.py": "e536d21ebc613e2beb67b1d5821220ed004471785d5c542e289bab395d677f6a",
+    "bishe/knowledge_graph_backend/api/conversation_context.py": "fad4fbd9e1fe411b6b290a3ce1edb6cd18b362e8571a2e9a67b9d9272cda1166",
+    "bishe/knowledge_graph_backend/api/migrations/0002_user_memory_management.py": "308ad069b35bcbf85d102544ebf5f0d98ca68ccc6dd85d7cb3fed3ac35d70f91",
+    "bishe/knowledge-graph-frontend/src/components/MemoryManager.vue": "487f9d16ef2b464070d3bb3ab695dd87fb8f218e0a9fdb17d547153a6cbbffae",
+    "bishe/knowledge-graph-frontend/src/views/ChatWorkspace.vue": "129863878beda1e5622d832a8ff395a69f5e1ed86cfa2565c8c7b36c12fbb42a",
+    "bishe/knowledge-graph-frontend/src/stores/chat.js": "1a238e77658717626ccae021d0f8f084ba49d0eee433caa50dc94e44b7fe6d40"
+  },
+  "backend_tests": 316,
+  "new_memory_backend_tests": 21,
+  "new_frontend_checks": 12,
+  "existing_frontend_checks": 10,
+  "isolated_real_http_checks": 14,
+  "real_model_calls_this_stage": 0,
+  "model_effect_evaluation": "not_run",
+  "medical_review": "not_performed",
+  "proof_files": [
+    "temp/chat_rag_offline_report.json",
+    "temp/memory_frontend_report.json",
+    "temp/memory_http_report.json",
+    "temp/memory_formal_report.json",
+    "temp/memory_migration_v2_20261023/report.json",
+    "temp/memory_install_20261023/report.json",
+    "temp/memory_manager_preview_20261023.png"
+  ]
+}

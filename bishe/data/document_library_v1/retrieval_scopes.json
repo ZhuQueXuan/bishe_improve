@@ -1,0 +1,131 @@
+{
+  "contract": "reviewed_scope_v1",
+  "documents": [
+    {
+      "doc_id": "nhc-copd-service",
+      "version_id": "8eb1a58150497ff8dcc961a39bbc59fe0812f766b92b18df9872553dbfea88ef",
+      "query_terms": [
+        "慢阻肺",
+        "慢性阻塞性肺",
+        "copd"
+      ],
+      "diseases": [
+        "慢性阻塞性肺疾病",
+        "慢性阻塞性肺病"
+      ]
+    },
+    {
+      "doc_id": "nhc-diabetes-diet",
+      "version_id": "c24cbd8b94c79d875a2c803e744d94404c5d7a4f0034c8748352d617eab1d033",
+      "query_terms": [
+        "糖尿病",
+        "血糖"
+      ],
+      "diseases": [
+        "糖尿病",
+        "2型糖尿病"
+      ]
+    },
+    {
+      "doc_id": "nhc-health-literacy",
+      "version_id": "a0a882544b59e3a59e015876bb7c023ff8f9423f86ab30777354b841f60d6baf",
+      "query_terms": [
+        "健康",
+        "保健食品",
+        "体检",
+        "疫苗",
+        "传染",
+        "艾滋病",
+        "乙肝",
+        "丙肝",
+        "结核",
+        "狂犬",
+        "高血压",
+        "糖尿病",
+        "慢阻肺",
+        "骨质疏松",
+        "老年",
+        "跌倒",
+        "痴呆",
+        "膳食",
+        "饮食",
+        "饮水",
+        "运动",
+        "戒烟",
+        "心理",
+        "焦虑",
+        "抑郁",
+        "睡眠",
+        "口腔",
+        "刷牙",
+        "就医",
+        "用药",
+        "抗生素",
+        "抗微生物",
+        "药品",
+        "血压",
+        "脉搏",
+        "体温",
+        "120",
+        "急救电话",
+        "食品标签",
+        "血糖",
+        "体重"
+      ],
+      "diseases": [
+        "糖尿病",
+        "2型糖尿病",
+        "高血压",
+        "慢性阻塞性肺疾病",
+        "慢性阻塞性肺病",
+        "肺结核",
+        "结核病",
+        "乙肝",
+        "丙肝",
+        "艾滋病",
+        "狂犬病",
+        "骨质疏松症",
+        "骨质疏松",
+        "焦虑症",
+        "抑郁症",
+        "老年痴呆",
+        "肥胖症"
+      ]
+    },
+    {
+      "doc_id": "nhc-hypertension-diet",
+      "version_id": "640cfb57b9dc6eafd33112ffdff94d63a660e449282d04fa5f778f36ab8cbe27",
+      "query_terms": [
+        "高血压",
+        "血压",
+        "dash"
+      ],
+      "diseases": [
+        "高血压"
+      ]
+    },
+    {
+      "doc_id": "nhc-hypertension-primary-care",
+      "version_id": "10b277c8942eef7e164efcb8f79758a6bccb9a5a2a4092228adf366c4ac04480",
+      "query_terms": [
+        "高血压",
+        "血压"
+      ],
+      "diseases": [
+        "高血压"
+      ]
+    },
+    {
+      "doc_id": "nhc-obesity-clinical",
+      "version_id": "60729e6ff5c9680d7172ba939750ab893de2adf6c8ddce4d2a10521a4c058874",
+      "query_terms": [
+        "肥胖",
+        "超重"
+      ],
+      "diseases": [
+        "肥胖症",
+        "肥胖"
+      ]
+    }
+  ]
+}

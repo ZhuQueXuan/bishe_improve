@@ -1,0 +1,38 @@
+{
+  "stage": "P03 source and preference scope repair",
+  "status": "offline_protocol_implementation_real_v3_model_evaluation_pending",
+  "quote_contract": "personal-source-quote-v1",
+  "quote_prompt_version": "personal-extraction-quote-prompt-v3",
+  "entry": "personal_memory_extraction.model_messages(request, source_quotes=True) -> extract_quote_preview(request, model_response=raw)",
+  "root_fields": ["contract", "items"],
+  "item_fields": ["category", "assertion", "value", "details", "source_text"],
+  "model_offsets_or_authority_fields": "rejected",
+  "grounding": {
+    "source": "current owned user message envelope only",
+    "matching": "exact Unicode substring, no whitespace or punctuation normalization, no fuzzy match",
+    "quote_length_characters": 1600,
+    "unique_occurrence_required": true,
+    "missing_or_ambiguous": "clarify, no candidate",
+    "meaning": "location is insufficient; full literal assertion and P01 category/source/permission contract still required",
+    "partial_quote": "never widen or recover missing subject, time, negation or uncertainty",
+    "terminal_punctuation": "one Chinese full stop may follow the exact complete local assertion; canonical source remains complete assertion, received quote retained in grounding metadata"
+  },
+  "scope": {
+    "categories": ["presentation_preference"],
+    "classes": ["long_term", "temporary", "mixed", "unknown"],
+    "long_term": "requires explicit durable marker and supported local finite preference expression",
+    "temporary_mixed_unknown": "no long-term candidate or default update; leave existing default untouched",
+    "health_time_words": "not treated as preference instructions; original event qualification remains",
+    "language_limit": "finite Chinese markers, no arbitrary-language understanding claim"
+  },
+  "legacy": {
+    "v2_numeric_offset_parser": "still strict: no out-of-range repair or automatic quote manufacture",
+    "punctuation_equivalence": "only one terminal Chinese full stop",
+    "duplicate_variants": "one effective candidate; duplicate flagged",
+    "raw_old_results_and_scores": "retained unchanged; new replay stored separately"
+  },
+  "unchanged_limits": {"message_utf8_bytes": 4096, "context_messages": 2, "context_utf8_bytes": 2048, "response_utf8_bytes": 8192, "items": 5},
+  "integration": {"live_chat_caller": false, "formal_migration_applied": false, "model_transport_added": false, "model_only_meanings_auto_saved": false},
+  "real_model_calls_in_this_repair": 0,
+  "pending": ["new explicitly scoped quote-v3 synthetic real-model batch", "general semantic extraction and unsupported synonyms", "P04 conflict/forget and old context invalidation", "P08/P09 formal migration and chat/UI integration"]
+}

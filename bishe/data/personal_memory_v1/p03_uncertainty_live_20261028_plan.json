@@ -1,0 +1,1026 @@
+{
+  "version": "uncertainty-real-storage-diagnostic-v1",
+  "batch_id": "personal-uncertainty-20261028-4ce5e7b18208",
+  "status": "frozen_not_executed",
+  "authorization": "User explicitly requested real uncertainty extraction and preserved-state save/read test; announced 12 attempts/RMB0.50",
+  "destination": "https://api.deepseek.com/chat/completions",
+  "model": "deepseek-flash",
+  "prompt_version": "personal-extraction-quote-prompt-v3.2",
+  "max_requests": 12,
+  "max_retries": 0,
+  "budget_rmb": "0.50",
+  "maximum_reserved_rmb": "0.2820024",
+  "stop_conditions": [
+    "any transport/credit/billing failure",
+    "missing/invalid usage",
+    "incomplete response",
+    "budget exceeded",
+    "frozen request or source mismatch"
+  ],
+  "cost_basis": {
+    "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "checked": "2026-10-28",
+    "usd_per_million_input_peak": "0.30",
+    "usd_per_million_output_peak": "1.20",
+    "usd_per_million_cached_input_peak": "0.006",
+    "conservative_rmb_per_usd": "8",
+    "kind": "estimate, not invoice or exchange settlement"
+  },
+  "scoring": {
+    "raw_model": "6 suspected tuples and exact unique complete quotes; negative nonempty items count regardless of later filtering",
+    "effective_pipeline": "all six accepted with suspected/uncertain, complete self source, no user or clinical confirmation; six negatives no effective candidates",
+    "source_audit": "model_quote and local_uncertain_rule reported separately; never credit local additions as raw model recall",
+    "storage": "actual accepted results saved only in new synthetic disk SQLite; reopened by a second process, exact states and source preserved; duplicate requests do not add rows",
+    "not_holdout": true,
+    "not_clinical_evaluation": true
+  },
+  "protected_before": {
+    "../job/AGENTS.md": "3dc0e4d897e57f24d17fd1a8ddc4aa203a77c719d2892508cbac8884620e38db",
+    "AGENTS.md": "1c8ef7261d891482891a6e5de7472ce6714a01247f2d147fa87baffe29939fa8",
+    "Project/00_项目现状与快速接手.md": "1de5ab48272163421de8838909fe3debaa84ad89f7c0a1cbd59cc3e3e1bee582",
+    "Project/48_规划_主动个人记忆与历史对话检索实施框架.md": "3fb528ffda3bed82f5d405f570aa9624ce75186b659a8d70b4232e26b9251a73",
+    "Project/52_过程_个人主动记忆P03有界候选提取与隔离接线.md": "065a6ad5a388b2b3fdb24a7be7e5c4800f19e50bcb75cbb614b75dac60a790c7",
+    "Project/53_验收_个人主动记忆P03真实提取测试与提示合同补修.md": "6e85ea4dd0ce27388665a91c80a0a569546a2e880da048e4e138c84b77d77726",
+    "Project/54_验收_个人主动记忆P03提示修正后真实复验.md": "7fa919a73fa508bf3d05fa3f5fe713e426c539588a797d31eccd79dc2a80c90a",
+    "Project/55_修复_个人记忆原话定位与临时要求范围.md": "28c31408780a650c3198137d137f3b014fb061c4ba2d516715952ef2445eac15",
+    "Project/56_验收_个人记忆引用格式首条截断与结果指令补修.md": "f24cc8cfea290eb13a499540b1e017e1d23a1ed40c9a02f32e2e90fcf5a1009a",
+    "Project/57_验收_个人记忆引用连通性与后续完整批次.md": "20e0297565ad4c1d427f82570dbcbf52edca4c988f9eed55a3af9d9a7868f75b",
+    "Project/58_修复_不确定健康自述提取与有据补漏.md": "f0427d0b9014cf81b9042617609c713dd373d509b1d2af4d618c9ae4d7991469",
+    "Project\\51_过程_个人主动记忆P02来源与版本化保存.md": "75b6ff9ed29e69252df11bff5edf00b7100c57a87636af61282f68c134844e54",
+    "VERSION": "0dc8489f55b24f8c7f12619f9e5e25a3eab2ce5cce7e057413d9c27c26b7d675",
+    "bishe/data/document_library_v1/library/catalog.sqlite3": "bd16b7ffa165297c43929ed148646096d1cca763420e090da98ba262693c1cd7",
+    "bishe/data/medical.json": "268f8e824df0ca49e6dcd98c95babf1db04fef0b89b9483854bb637586d1e49d",
+    "bishe/data/memory_system_v1/acceptance.json": "d494f48b8e0448dbc23f2d870b28a1f1a48339e431d2347b4d361445980bf0b6",
+    "bishe/data/memory_system_v1/contract.json": "b12118eeb3c3ce7a85971b71fb662d8f410f334521c873ec72d7880a4914bc13",
+    "bishe/data/memory_system_v1/docker_stability_20261027_manifest.json": "12857b62081d154a8a6152bbc1ce2ae03b6e1bc4422effe7ae134dcc86b75ca0",
+    "bishe/data/memory_system_v1/final_acceptance_20261027_manifest.json": "e1329ab8eece644d0ff95446b9539533bc11ca509ceddca3e2d95a00a933ad8f",
+    "bishe/data/memory_system_v1/final_online_20261027_plan.json": "b27a65752d2293ebb4f022dcfdeca09d14663d1500b59ae64c3aaa39de9ac577",
+    "bishe/data/memory_system_v1/phase0_A_20261024_manifest.json": "24ce34c623e9054cf97dd4a95a2eb3a28557aa14fd15d3b874bb1abe314192a8",
+    "bishe/data/memory_system_v1/release_acceptance_20261026_manifest.json": "8d21f50a91839c7763b714c04b3899e4f2b110503120cd10e12d0d1e00b5fcf0",
+    "bishe/data/memory_system_v1/release_pilot_20261026_plan.json": "9203f18988792bea7e9345d0e3750197eec654eac5881d7d3bbd094d0ed49855",
+    "bishe/data/memory_system_v1/release_v1_0_1_20261027_manifest.json": "3cb27d93860ae6a61793b2a7ca78aa9a84e4a1a1b9aef09941099c807551e737",
+    "bishe/data/memory_system_v1/release_v1_0_2_20261027_manifest.json": "f438681b3240e639643c8486f117513500da5f83c68a447f3a696d78770b26c7",
+    "bishe/data/memory_system_v1/release_v1_20261027_manifest.json": "26148bdd063e6864d5e478c07eab07fd7c81c4036732c65d928cd70c6a211cc6",
+    "bishe/data/memory_system_v1/round1_20261026_manifest.json": "93eb4992db262e4ad411de7b08d4ef2c718b4970e76f441702fed1b8d3f081c6",
+    "bishe/data/memory_system_v1/round1_acceptance_20261026.json": "d45591a4bfa48dc43d7ad2b5ed893239533b5a416b2c634abdb17bf11193f546",
+    "bishe/data/memory_system_v1/stageB_20261025_manifest.json": "6ba0b7935672458e597f2f3ea2b576a55342204d179061a3dda4f68d61197b6d",
+    "bishe/data/memory_system_v1/stageB_acceptance.json": "afda6b9cdce3e939096029c2345b9e5a43fdebad0fe50222934e6433b08a36b7",
+    "bishe/data/memory_system_v1/stageC_20261026_manifest.json": "cd1b7ed5d8c4dcbd1b6a9238f07a30c3d238ab2dfc3f2d20683fd98f91390a12",
+    "bishe/data/memory_system_v1/stageC_acceptance.json": "1c949f1978f0e3855fa3800418b1ef176f22c9adf2450f4696959926475db5c7",
+    "bishe/data/memory_system_v1/stageD_20261026_manifest.json": "ea52b4c0b86cd07af4f3e4fe5e6679301872b8265444c578caedc78426db99c8",
+    "bishe/data/memory_system_v1/stageD_acceptance.json": "e3da9da01400a3de0ed5b5a771236d654a6bbad318e8dde71e4708b652aba083",
+    "bishe/data/memory_system_v1/stageE_20261026_manifest.json": "84a07459a5e5e56da7c632363211e82015d0755c87e0077ff9e2e9e3671566eb",
+    "bishe/data/memory_system_v1/stageE_acceptance.json": "a309accad770dbafc098f1f72f51424ceac4c05c9956b21bba308b756df5ce38",
+    "bishe/data/memory_system_v1/stageF_20261026_manifest.json": "d1b7baf32b8627ef98e47295d82fe8a31415fc1574a9c899c0069f0fc952a6e8",
+    "bishe/data/memory_system_v1/stageF_acceptance.json": "486ffacd937e69db55c24b9f1109af1cb0b3bc4ee1e3cdb64646e3a92603bbe9",
+    "bishe/data/memory_system_v1/stageG_20261026_manifest.json": "cef08f87f0fd173e5dfc628bdceb8fb4c2a03f338dab9b68cfc6908e4a0d6e38",
+    "bishe/data/memory_system_v1/stageG_acceptance.json": "c17a3fd68b335c9fd69935679bbc294da244e700f26a65cb4b38dd44221fe1bf",
+    "bishe/data/personal_memory_v1/p00_20261027_manifest.json": "5d8a604ca8ea7adde8120e6413c91e8e68b23c6ec275551b766d74dee754723a",
+    "bishe/data/personal_memory_v1/p00_developer_cases.json": "10ad0b5e3fad2215721c14c5b3489b1a6d3f5ba5886555a230479018662cc34a",
+    "bishe/data/personal_memory_v1/p00_scope.json": "53de92ffcf251c2d7ab64f76aed2b9366a1ddac860dcc33dd054345d7e102141",
+    "bishe/data/personal_memory_v1/p01_20261027_manifest.json": "aea94d96f8988670031cb6944f671afb81c6138f16c03854573b21d0edf84404",
+    "bishe/data/personal_memory_v1/p01_rules.json": "db89f75be2e9e8bba90052fdd12277e14d5fd04edf6e3115f58faa1e77923a45",
+    "bishe/data/personal_memory_v1/p02_20261027_manifest.json": "49c7b3a022be9aca8d5d08fb6df82e78cad3565e917d2491f0e5abdb3fdd3710",
+    "bishe/data/personal_memory_v1/p02_storage_contract.json": "b9d11160a88d4b35d5848592da188ddb1114dab84fcc7914c6f6db3676c96d8d",
+    "bishe/data/personal_memory_v1/p03_20261028_manifest.json": "7ee721e648230b9714abc90719821387c971fa8e3fbe5bdb1a8595654023711c",
+    "bishe/data/personal_memory_v1/p03_extraction_contract.json": "9126f105546cf3f609fa2f247e612ec549496995a0f4480afc1dc2d5e7c67517",
+    "bishe/data/personal_memory_v1/p03_live_20261028_manifest.json": "d13a07262e225481663a0f4b328ac237fb294c23a8dcf92a1dcc73f822e59252",
+    "bishe/data/personal_memory_v1/p03_live_20261028_plan.json": "06186b1d7da13300a17890c24c41cd802be9dc1456d1398ba74e92c7db6b5ace",
+    "bishe/data/personal_memory_v1/p03_quote_v31_20261028_manifest.json": "56c4958264bd4490de5370b5665b384259cb6e726e518e6021736057800fc413",
+    "bishe/data/personal_memory_v1/p03_quote_v31_20261028_plan.json": "1c22c44eb336fca2cb3ba4a9e81feb0983be2cea2ec7ad2a96e2e7cac8b8705e",
+    "bishe/data/personal_memory_v1/p03_quote_v3_20261028_manifest.json": "5ce4b1cee27d572cdd1a25fb6eecfbdbc8a5cd7d0b116ad0a66511ce371c99bf",
+    "bishe/data/personal_memory_v1/p03_quote_v3_20261028_plan.json": "118a9613275b78b4ccb91dd4a772e4c48a6698909adc00fecf5bd97daa6f702c",
+    "bishe/data/personal_memory_v1/p03_source_scope_20261028_contract.json": "de68cd0169c3652dcdc7d65cc00c2e4ae7b854a9a18a8562db63573864ce9241",
+    "bishe/data/personal_memory_v1/p03_source_scope_20261028_manifest.json": "64644060452a7bd8bbcbfce931193f1ecb9ba9a72c32936a6292550fbb42dd6e",
+    "bishe/data/personal_memory_v1/p03_uncertainty_20261028_contract.json": "9a3541dfd3f7ca6cd44ae9afcc8c43a29038b19e4af95c77bf62f674431c58d6",
+    "bishe/data/personal_memory_v1/p03_uncertainty_20261028_manifest.json": "d09414a8dc34125807a9fdf07dd9491e4724224cfe916b2dd734674e6037564b",
+    "bishe/data/personal_memory_v1/p03_v2_20261028_manifest.json": "6cd7c2e9ab14698693673cd75b2f87b5bcabb6754ca566008af504a5e209919f",
+    "bishe/data/personal_memory_v1/p03_v2_20261028_plan.json": "3fbd81b2e6a03dc1d282eb6f056f58686185a590e897b9275d6a9ff46fb87fdc",
+    "bishe/knowledge-graph-frontend/src/App.vue": "a150c4300f18816dfa31d081c80749631c2b590d741470ab0850fae2f61fdc8f",
+    "bishe/knowledge-graph-frontend/src/components/MemoryManager.vue": "7b86721f715ac1018f5ac2a2859ff490e4398cec9b2c304b5074aca222e94107",
+    "bishe/knowledge-graph-frontend/src/components/MessageContent.vue": "1bb88f04a8e897a4e9af8fdd4ed7b5d1953235c6242e2c30d7d98a216da3bdf8",
+    "bishe/knowledge-graph-frontend/src/components/SourceReferences.vue": "ca61a53ee03e54249496f53d1aac515cebecf1d0dd87347ef3d64b0642aa5b06",
+    "bishe/knowledge-graph-frontend/src/config/api.js": "1ab3d96c0a38ee7690796659e1ed22778daf30a7a8e5633ad4984175ff677d65",
+    "bishe/knowledge-graph-frontend/src/main.js": "54e854448558d737fcb5ac7b48ebc275f9b642b5dd1b0b28f5508dfbf1271dae",
+    "bishe/knowledge-graph-frontend/src/router/index.js": "afa11b56f56920a5149366f201fdf7228f09040e17044c113b91aea365f8db14",
+    "bishe/knowledge-graph-frontend/src/stores/chat.js": "1b7c709ebad6ef0e3b4f7202e4aac5bdd0ca112d90cba0a6d998635fdcdce31c",
+    "bishe/knowledge-graph-frontend/src/stores/user.js": "cc727c16a5c474efeec406aa11169b182041236f62eb7274fde3bb3e92675103",
+    "bishe/knowledge-graph-frontend/src/utils/messageBlocks.js": "3a3b634b1b058e993fab9a72ceea3458f6a1eafa1ede35a3a500332cf59305e1",
+    "bishe/knowledge-graph-frontend/src/utils/messageDisplay.js": "2b940ad177ff4dc70faf07e7f2474c4fdd0a68db301ff21bc77a033b0c2bbcff",
+    "bishe/knowledge-graph-frontend/src/utils/sourceLinks.js": "cc9838fe181ec9c95cc90dc4f57a8a15ec43f65571a510a4cfaa348adebda84a",
+    "bishe/knowledge-graph-frontend/src/views/ChatWorkspace.vue": "db7c5171ee935c7db91a28c53310f7242af213425a3fc86cd6b938638fa780b9",
+    "bishe/knowledge-graph-frontend/src/views/Login.vue": "357ddf3d80c1c308700b8ab4ae18ab66e7ad9a4ace5f660de536cff22295cf59",
+    "bishe/knowledge-graph-frontend/src/views/Register.vue": "fc765c98d885c3f990e4625a891c038f7ebc8bcd38ec62197ed153be573df099",
+    "bishe/knowledge_graph_backend/api/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bishe/knowledge_graph_backend/api/account_credentials.py": "106126298e86850c840942e805c2985600b3b005629a337c04edf75c85a5d4fa",
+    "bishe/knowledge_graph_backend/api/admin.py": "a7ac68a753eeb831b6530bf71bf6917e577139f0734d17cc6a8666391564ab25",
+    "bishe/knowledge_graph_backend/api/agent_loop.py": "7cc736ef3a1e616557f7659d73d257e529431b48a1c7a8374bdca3c337753b12",
+    "bishe/knowledge_graph_backend/api/answer_boundaries.py": "198dd1e27f69acbd67ca6740fac021cbc7226e470666b17f56d40f6480fe67be",
+    "bishe/knowledge_graph_backend/api/apps.py": "32ecb981d6145931d4d5613186816308b540e6c06a9a9eba43de232e5210782d",
+    "bishe/knowledge_graph_backend/api/authorized_planner.py": "a4a21191272a23d6d49d3842f6d8bcee967584f032e50483cafd87a7bb8fd87f",
+    "bishe/knowledge_graph_backend/api/automatic_memory.py": "4485144aaa45f8b1c29e1b0fe5ab9c6a312ad8b71246a1bcf395f56625d1a3ba",
+    "bishe/knowledge_graph_backend/api/chat_runtime.py": "ae399f17d65128e288c138088f87fe4d75f72723744416534b3b17f422cff1c5",
+    "bishe/knowledge_graph_backend/api/controlled_health.py": "0051807cafa96d14b81059a10a6f98a08471568c55656b1e71b5fe869f906731",
+    "bishe/knowledge_graph_backend/api/conversation_context.py": "ab3a148427754412f579388ea91610555e2f9779de9be880eb6c539bd1f6210a",
+    "bishe/knowledge_graph_backend/api/conversation_reader.py": "195fd6dd9645cff1610eb0d3624cc1c951197bbd4483ed891535ac23669fbcd7",
+    "bishe/knowledge_graph_backend/api/deepseek_planner.py": "2a025bc0dd290f75d57c57db180b0c8f25be2177001d37f5f7e7f3b3f10cbaf2",
+    "bishe/knowledge_graph_backend/api/dialogue_context.py": "56f1f12f56132940339b19c0cbf86187a2a99661f08eacc9b7d78bcc13c4ff87",
+    "bishe/knowledge_graph_backend/api/document_library.py": "6456f9278ce234dcf8014b202cb59facdcba0750fb8a4f91cddae56edda5bfa1",
+    "bishe/knowledge_graph_backend/api/document_search.py": "b724fec896376c2678ef561332ea8e432805c827a4f7223a47df1ad631f787e1",
+    "bishe/knowledge_graph_backend/api/document_vectors.py": "dd7097ccc86c222c826d9a82f2fea6cbbf52a0ed447ddc127d0b02d84446e97c",
+    "bishe/knowledge_graph_backend/api/embedding.py": "be01afad0b696f2c068f840e354d29b94d523ff18022bfc0acc7e574496711b2",
+    "bishe/knowledge_graph_backend/api/evidence_sources.py": "d4c634747e45e2743929c0764b5bdffc3bc1a23a68c7806821f34e99c2d990fb",
+    "bishe/knowledge_graph_backend/api/fulltext_retrieval.py": "6ae2e00ecce3a2e90642b744327ec0e9c4f289c747a3c8ca4d4bf63722f1e083",
+    "bishe/knowledge_graph_backend/api/graph_retrieval.py": "2fd7a584b742b7eb908d6fa17f4d6b9b4d95769f2c3c2a80c15d122335ef4aa1",
+    "bishe/knowledge_graph_backend/api/management/commands/maintain_memory.py": "8b457fb0d43dea8ba73e0c1d3ef72ee26cbef7bfd12cb6a0efb73d61fc676fc2",
+    "bishe/knowledge_graph_backend/api/memory_contract.py": "e0e19db24ced0fdbe7ce21f29982043f253bde7e1516629e9ede1f234b03814d",
+    "bishe/knowledge_graph_backend/api/memory_lifecycle.py": "511bbd4bc9f3d66cf98f5d7d1b27d34624d175873315def035501fec1a3be500",
+    "bishe/knowledge_graph_backend/api/memory_retrieval.py": "81c13609e882eaf00fab205cb754114bf8972317d02c9861ec6349a928be04c2",
+    "bishe/knowledge_graph_backend/api/memory_views.py": "1b1b5e70e6d020f2baccfff645c1a2b514ee6f4a015b017ad6ad981d54ad2659",
+    "bishe/knowledge_graph_backend/api/migrations/0001_initial.py": "4c2e11d9c06eb28073437a5db3ad56eb36880e642ea9536e0ae4c86fbbdf85c7",
+    "bishe/knowledge_graph_backend/api/migrations/0002_user_memory_management.py": "308ad069b35bcbf85d102544ebf5f0d98ca68ccc6dd85d7cb3fed3ac35d70f91",
+    "bishe/knowledge_graph_backend/api/migrations/0003_internal_automatic_memory.py": "8c2f98492b872fb5d7be7901e6ee4ebc65aa288bce8244bea5951178a350854d",
+    "bishe/knowledge_graph_backend/api/migrations/0004_controlled_health_memory.py": "d1c5e82584de2b240eb86fc9024a85fb1f100477bf4dac06629780adf6ef9f51",
+    "bishe/knowledge_graph_backend/api/migrations/0005_memory_lifecycle.py": "9e9e8ceb0b06efd58a22bdb18294e471601c8bf269b0b86c5001bfe65b9e4c04",
+    "bishe/knowledge_graph_backend/api/migrations/0006_personal_memory_storage.py": "da8ba8c871627df6f1b4de531bafb50d103dae3dc1582eb7e8520a096154c3e0",
+    "bishe/knowledge_graph_backend/api/migrations/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bishe/knowledge_graph_backend/api/models.py": "637bf0e47b8afb7a6c3e8afe382688f061b48b0726c6bddc1a7b4e3cfcfc5ca1",
+    "bishe/knowledge_graph_backend/api/personal_memory_contract.py": "e6010549574bdb8dbfdc6748364ed7a9e43bb790b9b00ad716cb300d84f15a31",
+    "bishe/knowledge_graph_backend/api/personal_memory_extraction.py": "3df8e64c2199a417bf4981706ac8266a950e241fe84afd6fd65aa3b8825e02a5",
+    "bishe/knowledge_graph_backend/api/personal_memory_intake.py": "0abe656a4a00bc3d7552298a487df581a63ea9f488be7f70fc1e6772f41847a0",
+    "bishe/knowledge_graph_backend/api/personal_memory_store.py": "2e09b5bd3b6740c54b8b8366cdb4283a79b6d2800667f5e8ace6ce945601ed0a",
+    "bishe/knowledge_graph_backend/api/planning_policies.py": "d3ac9752c858e7fa65695467123700e28b8e3da91c8c6c03d7db97db0c683098",
+    "bishe/knowledge_graph_backend/api/planning_runtime.py": "407db2f3832d69d4fe0c4129f7d4e759c87927910dd65cfa3e651f03e852550e",
+    "bishe/knowledge_graph_backend/api/planning_tools.py": "ec311d3f357fcc426809a9f9dd1fd3e55b341f8d84761195774b6cbae2ef86b5",
+    "bishe/knowledge_graph_backend/api/preference_language.py": "eaaecd11604d957681262690dd73aa35c4a7d82910d54425afff33fb8c6981ac",
+    "bishe/knowledge_graph_backend/api/query_planning.py": "43a7850729d85367752f82278f441b6e73bcd3fb0411c83a585f8f4a5ff8407c",
+    "bishe/knowledge_graph_backend/api/read_tools.py": "ae0298b50e46a3bca5ceac1df5e4fa058de221682e76db095e3c8f0185588571",
+    "bishe/knowledge_graph_backend/api/requirements.py": "8b7aecdf6e51eeb5be8016a7e5cdd47983f74a830c2ea5b52f7f9f462fb89568",
+    "bishe/knowledge_graph_backend/api/session_health.py": "8c2d0a6d083b2e4a9a6b53f58a624455acd9d779fbd025ffbbee099e04f8285c",
+    "bishe/knowledge_graph_backend/api/summary_layers.py": "ea1b083a2781d34135cbae8bddb889a32e2ff73d0eadef981212e110b5197efe",
+    "bishe/knowledge_graph_backend/api/test_account_credentials.py": "42f632adaaab93b8b4ebc2908f6616f80fff60768eec6126cccba044b41fa95b",
+    "bishe/knowledge_graph_backend/api/test_agent_loop.py": "d81cd5bf4604d5b2a3e9acefb855d62cddfe0f9598cd7a7c88b7ac280cf4bf6e",
+    "bishe/knowledge_graph_backend/api/test_answer_boundaries.py": "4945cfbdc0ff09d7a709d5da58fca8c4735abb248871854149f9e10172df57dd",
+    "bishe/knowledge_graph_backend/api/test_authorized_planner.py": "efa030aa9fb1e670ce56f0f89600c6c5ddcce79df6a3ce24fa43985ebd7c82f0",
+    "bishe/knowledge_graph_backend/api/test_chat_documents.py": "00e934f4b2794f31eda6367beaf84b6031daf6ccd205a6d8e2deb5e0cf370380",
+    "bishe/knowledge_graph_backend/api/test_chat_runtime.py": "7b0c3f1fc6d60fc71910198de5e6bc06405d39c346a01984964b5b7b2d10a613",
+    "bishe/knowledge_graph_backend/api/test_controlled_health.py": "10f8d5622a6c3887ec851b9d1af1491294110e90fe7d836b5b34c32aad8001bc",
+    "bishe/knowledge_graph_backend/api/test_conversation_context.py": "117bddd0c15aa066fbfdf791dd40af2ff785f1dd450e1274f4c67fb40f63860a",
+    "bishe/knowledge_graph_backend/api/test_conversation_reader.py": "65b305ba81f260a9cf18e066d4f2f66cb91536b93c643369b3cad230b89f7a7f",
+    "bishe/knowledge_graph_backend/api/test_deepseek_planner.py": "8fa1196f6900b7e58fcab89cced44a08261f8c67e7b3b09558d56aee57914064",
+    "bishe/knowledge_graph_backend/api/test_document_budget.py": "9b0c2df93370109a5ab49e3d8c43c86b13b5b5deebd3d2205bfcd4d269fb53c2",
+    "bishe/knowledge_graph_backend/api/test_document_library.py": "047dff35dd85367e7ee66eefdd8a52d64b524d681f203b788495dc511796fee8",
+    "bishe/knowledge_graph_backend/api/test_embedding.py": "01fb405caecb78b079ae5495f0f245f6af9347fd6210c6fd6585bd2668efa54d",
+    "bishe/knowledge_graph_backend/api/test_graph_retrieval.py": "795e641b0c1d987f84046cd1efa62ade939122391d0b8da5b0df38a236e2d3a2",
+    "bishe/knowledge_graph_backend/api/test_internal_memory.py": "9a429c5602358406831317f24fa794bc7b0cbb41a70a13c1a7f8c61e8ecc7db6",
+    "bishe/knowledge_graph_backend/api/test_memory_contract.py": "67c333493b31de8390a894f25ac25f59391135ac260999f036e9771eeea4c828",
+    "bishe/knowledge_graph_backend/api/test_memory_lifecycle.py": "9de916259a8590cdef3d97b61420d8c449bcc7fcbb81fb697d399a8d0d1ee8b0",
+    "bishe/knowledge_graph_backend/api/test_memory_retrieval.py": "81bfb26321d1cff1278cd611fdf60c591ede5b6c2f7c6cb42c5ad24aa81af595",
+    "bishe/knowledge_graph_backend/api/test_personal_memory_extraction.py": "bef11c17d59537cceb75a18f2c399f558700c3c242a07c6c1dfc60e87ec4817d",
+    "bishe/knowledge_graph_backend/api/test_personal_memory_store.py": "8d2e5612db86bbd0d75865e749ee3c760bd4f9e4ad5b8ec2a97fe15931fd7e62",
+    "bishe/knowledge_graph_backend/api/test_planner_diagnostics.py": "1a24d29dc120366a860ddb057f86ba1c843a64dcd336d5c2a561755764625eb7",
+    "bishe/knowledge_graph_backend/api/test_planning_feedback.py": "c2cdddc7f0e7d234fd257a1de59fe674a3785840f2e51c57339f58959ec984b2",
+    "bishe/knowledge_graph_backend/api/test_planning_runtime.py": "bb1fa9b35b4764591db0dcb4d1118c8fd34e8cd554e2b66b354016b28d9580fc",
+    "bishe/knowledge_graph_backend/api/test_query_planning.py": "f1cea83a801480a5ed0172cabf3bd2091a2e2ac06024187520a79ff132351f58",
+    "bishe/knowledge_graph_backend/api/test_requirement_scopes.py": "f25d5a82164f531acae0c69acb604cc9cea3ec2ba64169cfa435bdc5a3fc9c11",
+    "bishe/knowledge_graph_backend/api/test_session_health.py": "499c4b568eb5c436ce6984dcefe5803a225d7347949d375cd470d804ecc5d838",
+    "bishe/knowledge_graph_backend/api/test_summary_layers.py": "ea0278703bf140fa5aecac013b80f88aef582cd62325067849c76eee51aa630b",
+    "bishe/knowledge_graph_backend/api/test_user_memory.py": "ffd0dc6987a9edfed16c80641f63de26ff6f9039239382f41e4797eff9d89f96",
+    "bishe/knowledge_graph_backend/api/test_working_memory.py": "6bd263eea3a0ed53d7c6b67fdb4f7d9a0b9efd74618e1c2719b5a9bfb465c56f",
+    "bishe/knowledge_graph_backend/api/tests.py": "2ae504f68a4b5a7b4c27310e162905678bec9aae74788b8939f8dc156788ab17",
+    "bishe/knowledge_graph_backend/api/text_chunks.py": "4ad00fb558bdae03d60a8c833b494acdaa9956ac9ff4a4da798124ce9dcde496",
+    "bishe/knowledge_graph_backend/api/urls.py": "694fcf1e9eb995eaf3a3a1f206c2adfa1ab18cf776a2ff4b7a02e77492d16a43",
+    "bishe/knowledge_graph_backend/api/user_memory.py": "2a10cee70957cd0fc2a27f7642a8dba232ad7df2722126b1ec8c36cfb22be7fe",
+    "bishe/knowledge_graph_backend/api/user_memory_options.py": "d34fcef79e2a2a9bef0c6e22c6e41fc1f9c438eb2ce8b48d85c4079431e8fa9c",
+    "bishe/knowledge_graph_backend/api/utils.py": "7b197d9a14698c6207d0013cd93f09cf5db776dd5cfe945fe5a9f9d0b1986dce",
+    "bishe/knowledge_graph_backend/api/views.py": "b1a62d8de26097096d42d2f798789e64a7335c639620792b0aa28d1f463fac99",
+    "bishe/knowledge_graph_backend/api/working_memory.py": "7a42ee990d74c0f24c91300faac4c85f61b799e01b6c1ff2b4cd7e387daacbd1",
+    "bishe/knowledge_graph_backend/db.sqlite3": "99fe27c904eda90d539d2ee18e084c0e2721c861838312e86e257ab65346736a",
+    "bishe/knowledge_graph_backend/knowledge_graph_backend/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bishe/knowledge_graph_backend/knowledge_graph_backend/asgi.py": "e9406ed6e25acbc0252b8c3cdac8e734ce2c6ea4bf9d66fb169764f2ddb7c7bc",
+    "bishe/knowledge_graph_backend/knowledge_graph_backend/settings.py": "8218c48344ad629143c37157b4e069c1f1a61f174b6d4fcf1f684017616af855",
+    "bishe/knowledge_graph_backend/knowledge_graph_backend/urls.py": "4a48a632ea6a60f5578b90ac5d30fb20b65fea6059a48648a62e7baf881a2bb8",
+    "bishe/knowledge_graph_backend/knowledge_graph_backend/wsgi.py": "1872a7535c8dbf56ea271e793bc8a44b9756d0eae9475b6207aeda84d7701105",
+    "bishe/scripts/configure-env.ps1": "68eaf60df68877a68289cecbfb127ee265bf049bedc686d7b24ef19386a2bdd1",
+    "bishe/scripts/enable-qdrant-prerequisites.ps1": "ec84cda80624e4a4c4c63c9fbc5fa900c775ecd264d218a747e784bc0e274953",
+    "bishe/scripts/health-check.ps1": "b2eccf7a95fb55f5376acf97c52ffbb0c9e56a953d2dd1d7de5857a8e6807dc5",
+    "bishe/scripts/neo4j-console.ps1": "23dee4850da5d377377193bbdb142323247342889647f17b803abe6b6bc98ad1",
+    "bishe/scripts/neo4j-stop-console.ps1": "f0bce1e07dae71bf01be23e26a12f45cae4ef3be53d45f0128fb30b46343bc48",
+    "bishe/scripts/process-records.ps1": "b4abc2de88cfba1d5e7de9e91408835cfc6589c4058a3d0c6a4f4ede3177aff2",
+    "bishe/scripts/qdrant.ps1": "a2e3bce270ae7d7c79fda51e5950242aacb75dcfb0ad0ca75c3f358e7297f2e5",
+    "bishe/scripts/rag_evaluation_runtime.py": "9764ad93e20bbc307ea6ed3168a6c9d404902e409c7257304ac39cb124fce2c4",
+    "bishe/scripts/start.ps1": "90d7f80cd9492ce149891fe438f2dc9cc2be812e46038074702d093474ac548e",
+    "bishe/scripts/stop.ps1": "1327a827a645e0505b3bf2f88441cf1b70354c9e95de78b2083fde95397eda12",
+    "temp/memory_check_personal-source-scope-regression-20261028_db51742a5a/verification.json": "a17517144cdbeb6b7de0ec195193d25ceca641e2af3842e556944105a4f5fc76",
+    "temp/memory_check_personal-source-scope-target-20261028_cda4c5f20d/verification.json": "f56054b354a072f5a54ff1f109d5d7fa6f058867a0952e1656088ae418adf710",
+    "temp/memory_check_personal-source-scope-verified-20261028_4d2f8e6c80/verification.json": "ffe0df9b718569e4a6330d537c4f807bc32ecb7513e12e8bdb18eeeb629507ce",
+    "temp/memory_check_quote-v31-instruction-fix-20261028_a55efd2910/verification.json": "fe88ee76bb9e8a221320a0ffb4afc6438ae0f521a9e4a91ea8499f920bc858b3",
+    "temp/memory_check_uncertain-completion-regression-20261028_6fb93db355/verification.json": "29bc2c6b8e18591792ebd47e025125252850806af32843a0008083d373841338",
+    "temp/memory_check_uncertain-completion-target-20261028_749253c871/verification.json": "b763657128a160656bd0f686f07357e46718244bc99a900b3adf42eef3620efd",
+    "temp/personal_memory_live_personal-extraction-v2-20261028-56787b05c785/ledger.json": "d3ee012b266a347c732e685342072b2a055abdfc0fff2235f488e1d376e84522",
+    "temp/personal_memory_live_personal-extraction-v2-20261028-56787b05c785/report.json": "dd2cedf40a0c0640434f0f4b65fefccb24d7affe03295bfb22ddb23f5d414ced",
+    "temp/personal_memory_live_personal-extraction-v2-20261028-56787b05c785/responses.json": "a52b876fb26efad973d2082ccb6a047295dab77c7bb899fb8dd293f80ff5fdaf",
+    "temp/personal_memory_live_personal-extraction-v2-20261028-56787b05c785/scores.json": "2271599f9b9c1f2a2a3c958c8372ca1d42772e4cadcbc1e5738d19c5b37df926",
+    "temp/personal_memory_live_personal-extraction-v2-20261028-56787b05c785/storage-replay.json": "906eac23895fb1489ebe58eb7f55e203a95ab0d51dd187eeb375d179392d6c63",
+    "temp/personal_memory_live_personal-quote-v3-20261028-5e7f100bbfa1/before-instruction-fix-seal.json": "9cd1361d97d415804ff9c945bab109adacd7d85054873a2739a1ef62ac5d018a",
+    "temp/personal_memory_live_personal-quote-v3-20261028-5e7f100bbfa1/extraction.before-instruction-fix.py": "aecc75792730612545f85d890747c18f1c6d73e62e69e5d3dbfffbc930656d03",
+    "temp/personal_memory_live_personal-quote-v3-20261028-5e7f100bbfa1/instruction-fix-replay.json": "c525e9f6b6490c89e35984ee691ee19b71a23855602455aff030bbd72fd54860",
+    "temp/personal_memory_live_personal-quote-v3-20261028-5e7f100bbfa1/ledger.json": "97bf1e6d95e9d7f8896f51ce7037a9ab57219419443d976cd46ab4890804f3cd",
+    "temp/personal_memory_live_personal-quote-v3-20261028-5e7f100bbfa1/report.json": "55a8ef6cb0c5a818719d1d50773bb15a1de96d53a9585a8f0ea097fcd39d3adb",
+    "temp/personal_memory_live_personal-quote-v3-20261028-5e7f100bbfa1/responses.json": "48e6f5efc8f1178a9a8d5c8a3953b0fa6403aac03e3ad49deaaa972848fc5163",
+    "temp/personal_memory_live_personal-quote-v3-20261028-5e7f100bbfa1/scores.json": "5e6f07a7b9b01e6a5813159817389ce6339c344d2da1aed85542c6daad111f92",
+    "temp/personal_memory_live_personal-quote-v3-20261028-5e7f100bbfa1/tests.before-instruction-fix.py": "a73697e890b0e7a72e2e3bbaf759f05afde11c242e4124bcaebe3556ba48d7ed",
+    "temp/personal_memory_live_personal-quote-v31-20261028-c17ae252b17e/connectivity-gate.json": "f8e62582fb2fe6e1a8e00cf5fd517d570b6e5870bf1936423261209ddc944b21",
+    "temp/personal_memory_live_personal-quote-v31-20261028-c17ae252b17e/ledger.json": "2673f40612d5eeb53967d19595c7a0bc91d78048545130bb022ce1a83ccacd0a",
+    "temp/personal_memory_live_personal-quote-v31-20261028-c17ae252b17e/report.json": "d2000f7a5850088e021c366f7d3c921a53101f2838104fb591e6e10946677319",
+    "temp/personal_memory_live_personal-quote-v31-20261028-c17ae252b17e/responses.json": "3b47646fe430a021d58ede879ce40b8e48af8ffc97a4c7160a451a9925c536b3",
+    "temp/personal_memory_live_personal-quote-v31-20261028-c17ae252b17e/scores.json": "28f8c0c1c5851302dc806f093e79b9b2f60be10de13f73b889f141fdeb59e8b8",
+    "temp/personal_memory_live_personal-quote-v31-20261028-c17ae252b17e/storage-replay.json": "2252a3c84d5775a98fb1eae70172e27a049a1e192154cce8838175dafe6af64e",
+    "temp/personal_memory_p03_mock_b00c4d35f0/report.json": "8cf7a6e70585fdecba85d461815b4b2e527fc3afbc614512fc5ef8f2d3e8fa1c",
+    "temp/personal_memory_p03_mock_b00c4d35f0/scores.json": "56b9697932bcf0ffc38c7a3091753bdcc62f640dfb20c185614c6ded0c472858",
+    "temp/personal_memory_p03_mock_bf172efe86/connectivity-gate.json": "fb136f6cf449a27b687797d6a6d63fe0521f7a19a868f6243b0935a4d00e1c84",
+    "temp/personal_memory_p03_mock_bf172efe86/report.json": "f238c06495860e575a06275814a3c04702242ce43958d2c690bce73fca96c1dc",
+    "temp/personal_memory_p03_mock_bf172efe86/scores.json": "92ae37637b574656179b8f11102d6d26dbdde816abbe318e464311b3ec4998fd",
+    "temp/personal_memory_p03_mock_dc2ead7a3a/report.json": "9e4d1b3c1f4dd50e218ea45034d17e7965fb312dd17345028cda5ddd4972f358",
+    "temp/personal_memory_p03_mock_dc2ead7a3a/scores.json": "245afd4b424ebb1be7983f550f158938dd36820fe1a3f549ccbaf55c7f7ae6bf",
+    "temp/personal_memory_source_scope_20261028_b643a82b8d/before.json": "6b7558202fbe35c88b2886359c2deafdeb046ccf6d35eb17e43f5c0ac19683f0",
+    "temp/personal_memory_source_scope_20261028_b643a82b8d/extraction.before.py": "a3cc77329a8eb592cb77fa4c64d592bbf4623a638fa9a1a7f40f337d4ddfb5f6",
+    "temp/personal_memory_source_scope_20261028_b643a82b8d/replay-report.json": "adeb19a10d32673e57a62137379600b91c515872e8b4452007dbaba5ce4edb17",
+    "temp/personal_memory_source_scope_20261028_b643a82b8d/tests.before.py": "e1679b25a334d892ebcc696c25b72fa6279439d2179bcb7ef99b6117bd6f486c",
+    "temp/personal_quote_v31_preflight_324f9337cf/verification.json": "e76153f7f82ef8c70c85931f2ffa5261aa67b29470b505006ed0ae9111d43396",
+    "temp/personal_quote_v3_preflight_70b82990a3/verification.json": "8c2a427ee8aba2a0c05c97385e6c0e7255dad3614101a78030e20bf350ca210c",
+    "temp/personal_uncertainty_fix_20261028_e479b43d96/before.json": "dccd1ec689a368f5d1e6f69b6fb0e6deaa2594ecfe14e116f98634afeae70683",
+    "temp/personal_uncertainty_fix_20261028_e479b43d96/extraction.before.py": "79d5d6105d885fcb2a93e8d3804412915d85493a062a95fd3d7967532ba869e2",
+    "temp/personal_uncertainty_fix_20261028_e479b43d96/replay-report.json": "375a93c47501edca9658ed2db8bc8b539044fb202a5b82880b494aefc752db70",
+    "temp/personal_uncertainty_fix_20261028_e479b43d96/tests.before.py": "d23700221da9e3f49e4c2e457367f7957f42329ba50183e1ffcd56fa424d8d05",
+    "temp/run_personal_memory_p03_live_20261028.py": "e52953b37a868ed11694438cf2d38498e9cc24470d3be36244e095ec54c7daa2",
+    "temp/run_personal_memory_p03_v2_20261028.py": "9abb6ede9bca059c2a6c1d64cd86e49af6eb72749aecc0758d53cefb0d23f2a2",
+    "temp/run_personal_memory_quote_v31_20261028.py": "e6406df8b0ee4744bdb456433a29dbfcd733b8a9441bada20f39945c59cb0a4e",
+    "temp/run_personal_memory_quote_v3_20261028.py": "a78a9f83a3a93122cee439054a0c3729b808a00127e0019f6870558c58ca6268",
+    "temp/run_personal_uncertainty_live_20261028.py": "00506c78162595b9166d67d5633f23e6bd1bd5769d9e2f86c4b31b0258e884ca",
+    "temp/score_personal_memory_p03_live_20261028.py": "4838020c40c681fc5c67322792d771b335b99f8fee446e9fd2b7200dfb240075",
+    "temp/score_personal_memory_p03_v2_20261028.py": "f3fe38441ef0020d2003c5ce5e42f6765039a822309b0c1fd4f4a84d9af6c2b3",
+    "temp/score_personal_memory_quote_v31_20261028.py": "cae068459a4266c77d42bc67510e0ec2e5fe522e7fa95819de57605c2407fec1",
+    "temp/score_personal_memory_quote_v3_20261028.py": "8d4de69630c2f2769ad2a6ac6828ddff1747bf7fcb84cc8a58e63c9e56740441",
+    "temp/score_personal_uncertainty_live_20261028.py": "57b7bc6c6933a4e4de12106dc1e418cbeaaa01180df7656a3f9a898e94e4f3b3"
+  },
+  "cases": [
+    {
+      "id": "UNC-01",
+      "label": "self_possible",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "我可能有高血压。",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [
+        {
+          "semantic": {
+            "category": "self_disease_report",
+            "assertion": "suspected",
+            "value": "高血压",
+            "details": {}
+          },
+          "supported_spans": [
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        }
+      ],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"我可能有高血压。\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "0aa706e3543e2a8097483216f6946879ca93f6fefc0ee187efd8d3fa3e45c803"
+    },
+    {
+      "id": "UNC-02",
+      "label": "doctor_possible",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "医生说我可能有高血压。",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [
+        {
+          "semantic": {
+            "category": "self_disease_report",
+            "assertion": "suspected",
+            "value": "高血压",
+            "details": {}
+          },
+          "supported_spans": [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              11
+            ]
+          ]
+        }
+      ],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"医生说我可能有高血压。\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "6027cde68339a0c1df8b25d1d8ba99269784792511f0c35a176a5dcd000ae036"
+    },
+    {
+      "id": "UNC-03",
+      "label": "self_suspects",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "我怀疑自己有高血压。",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [
+        {
+          "semantic": {
+            "category": "self_disease_report",
+            "assertion": "suspected",
+            "value": "高血压",
+            "details": {}
+          },
+          "supported_spans": [
+            [
+              0,
+              9
+            ],
+            [
+              0,
+              10
+            ]
+          ]
+        }
+      ],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"我怀疑自己有高血压。\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "19e179469156bb9012a2e93de34f4036ddf7366045f5b1ec18f9ec2fdd68deb1"
+    },
+    {
+      "id": "UNC-04",
+      "label": "doctor_suspects",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "医生怀疑我有高血压。",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [
+        {
+          "semantic": {
+            "category": "self_disease_report",
+            "assertion": "suspected",
+            "value": "高血压",
+            "details": {}
+          },
+          "supported_spans": [
+            [
+              0,
+              9
+            ],
+            [
+              0,
+              10
+            ]
+          ]
+        }
+      ],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"医生怀疑我有高血压。\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "0b073392e2461629ec085b46a041ab5135813082854ff6e1d0cc7a0e6f20c184"
+    },
+    {
+      "id": "UNC-05",
+      "label": "time_qualified",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "我最近可能患有高血压。",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [
+        {
+          "semantic": {
+            "category": "self_disease_report",
+            "assertion": "suspected",
+            "value": "高血压",
+            "details": {}
+          },
+          "supported_spans": [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              11
+            ]
+          ]
+        }
+      ],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"我最近可能患有高血压。\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "82c4a8397bd9a47af3e3f656a6074277bff4e98565138c2dd35e64580528d8a2"
+    },
+    {
+      "id": "UNC-06",
+      "label": "past_qualified",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "我去年可能有哮喘。",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [
+        {
+          "semantic": {
+            "category": "self_disease_report",
+            "assertion": "suspected",
+            "value": "哮喘",
+            "details": {}
+          },
+          "supported_spans": [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              9
+            ]
+          ]
+        }
+      ],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"我去年可能有哮喘。\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "6f36a99c304df05b5c60dd6674468ab6b45605ca129ea0a55cfec62560e385a3"
+    },
+    {
+      "id": "UNC-07",
+      "label": "family_not_self",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "我爸爸可能有高血压。",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"我爸爸可能有高血压。\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "6d79a1ee4ec9b2a0d65e9bc777be07b01cdd1ab83c89cfe637aaabbba38d1b36"
+    },
+    {
+      "id": "UNC-08",
+      "label": "hypothesis",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "如果我有高血压怎么办？",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"如果我有高血压怎么办？\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "94c41caccb56b399f9a3067cd2b3f647c09b8f63302dce5452c26fae9cc229e2"
+    },
+    {
+      "id": "UNC-09",
+      "label": "quotation",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "文章写着“我可能有高血压”。",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"文章写着“我可能有高血压”。\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "2064d73e211f0905e825d1fcb66837336c4823f2ce6e47f60cc5554545646222"
+    },
+    {
+      "id": "UNC-10",
+      "label": "question",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "我可能有高血压吗？",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"我可能有高血压吗？\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "2a4d23c6fe4b0434a231252b63da213116e47b610d5a481bdb06a06f81e902a5"
+    },
+    {
+      "id": "UNC-11",
+      "label": "unclear_subject",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "可能有高血压。",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"可能有高血压。\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "3a3d807c570b12e626653e3caedca45600b7659a60faa938d11ec798b672e28b"
+    },
+    {
+      "id": "UNC-12",
+      "label": "uncertain_negation",
+      "synthetic": true,
+      "extraction_request": {
+        "version": "personal-extraction-literal-v1",
+        "message": {
+          "id": "db:3",
+          "owner": "user:1",
+          "session": "conversation:1",
+          "role": "user",
+          "content": "我可能没有高血压。",
+          "recorded_at": "2026-10-28T10:00:00+08:00"
+        },
+        "allowed_types": [
+          "current_medication",
+          "measurement_event",
+          "presentation_preference",
+          "self_allergy_report",
+          "self_disease_report",
+          "self_intolerance_report",
+          "service_relevant_background",
+          "symptom_event",
+          "temporary_health_state",
+          "test_result_event"
+        ],
+        "context": []
+      },
+      "expected_facts": [],
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你的任务是提取当前用户消息的实际事实，不是编写或复述JSON Schema。实际答案只有contract和items两个根字段，形如{\"contract\":\"personal-source-quote-v1\",\"items\":[]}。有事实则把提取记录放进items，没有则为空数组。不要返回prompt_version、root、categories、properties或examples；它们仅为下面的规则说明。仅提取当前用户本人明确自述。相邻消息只作语境，不可捐献当前原话或疾病名称。明确自述指用户确实这样表达过，不要求疾病已确诊。可能有、怀疑有、疑似也是值得记录的不确定自述，本人或医生对本人的怀疑用suspected，保留完整限定词，不升级为reported，也不因为尚未确诊而省略。只返回带contract和items的JSON对象，严格按合同。禁止返回start/end或猜字符坐标。source_text逐字引用当前消息中完整且唯一的本人断言，包含主体、时间、否定、不确定及明细；不要只摘名称，不改标点、空格、数字或单位。无法唯一引用、没有本人断言就不提出候选。引用存在不等于已被核实，不推断诊断、药名、剂量或事件关联。家属、假设、引用、问题均不记。assertion只可为reported（明确自述）、suspected（可能或不确定）、denied（否定）、not_applicable（偏好/背景）。value只写名称，不拼整句或反应；健康名称和details值逐字来自引用。details必须是对象，空时{}，禁止数组。表达偏好只有明确以后、长期或每次生效才提取；这次、本轮、当前问题、先、暂时等要求不写长期记忆。没有明确长期范围的“请简短回答”也不写；同条消息范围混合或矛盾时待澄清，不自行选范围。偏好/背景value使用合同有限英文值。示例不是当前用户事实，不能原样输出示例。仅供阅读的规则说明JSON：{\"prompt_version\": \"personal-extraction-quote-prompt-v3.2\", \"root\": {\"type\": \"object\", \"required\": [\"contract\", \"items\"], \"additionalProperties\": false}, \"items\": {\"type\": \"array\", \"maxItems\": 5, \"item\": {\"type\": \"object\", \"additionalProperties\": false, \"required\": [\"category\", \"assertion\", \"value\", \"details\", \"source_text\"], \"properties\": {\"category\": {\"type\": \"string\", \"enum\": [\"current_medication\", \"measurement_event\", \"presentation_preference\", \"self_allergy_report\", \"self_disease_report\", \"self_intolerance_report\", \"service_relevant_background\", \"symptom_event\", \"temporary_health_state\", \"test_result_event\"]}, \"assertion\": {\"type\": \"string\", \"enum\": [\"reported\", \"suspected\", \"denied\", \"not_applicable\"]}, \"value\": {\"type\": \"string\"}, \"details\": {\"type\": \"object\"}, \"source_text\": {\"type\": \"string\", \"maxLength\": 1600}}}}, \"categories\": {\"current_medication\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"dose_raw\", \"frequency_raw\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"measurement_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"unit\", \"value_raw\"], \"required_detail_keys\": [\"unit\", \"value_raw\"], \"detail_values_type\": \"string\"}, \"presentation_preference\": {\"kind\": \"preference\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_allergy_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_disease_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"self_intolerance_report\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"reaction\"], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"service_relevant_background\": {\"kind\": \"background\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"symptom_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"temporary_health_state\": {\"kind\": \"event\", \"allowed_detail_keys\": [], \"required_detail_keys\": [], \"detail_values_type\": \"string\"}, \"test_result_event\": {\"kind\": \"event\", \"allowed_detail_keys\": [\"result_raw\", \"unit\"], \"required_detail_keys\": [\"result_raw\"], \"detail_values_type\": \"string\"}}, \"non_health_values\": {\"style\": {\"plain\": \"通俗解释，术语附说明\", \"technical\": \"使用专业术语并解释依据\"}, \"length\": {\"brief\": \"简短回答，保留必要限制与出处\", \"detailed\": \"详细解释，保留必要限制与出处\"}, \"background\": {\"general\": \"一般知识了解\", \"nursing\": \"护理学习\", \"medicine\": \"医学学习\"}}, \"examples\": [{\"current\": \"我可能有哮喘。\", \"output\": {\"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"我可能有哮喘\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"我目前服用示例药丁，剂量2mL。\", \"output\": {\"items\": [{\"category\": \"current_medication\", \"assertion\": \"reported\", \"value\": \"示例药丁\", \"details\": {\"dose_raw\": \"2mL\"}, \"source_text\": \"我目前服用示例药丁，剂量2mL\"}], \"contract\": \"personal-source-quote-v1\"}}, {\"current\": \"本轮请用简单话说。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"请简短回答。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": []}}, {\"current\": \"医生怀疑我有哮喘。\", \"output\": {\"contract\": \"personal-source-quote-v1\", \"items\": [{\"category\": \"self_disease_report\", \"assertion\": \"suspected\", \"value\": \"哮喘\", \"details\": {}, \"source_text\": \"医生怀疑我有哮喘\"}]}}], \"contract\": \"personal-source-quote-v1\"}"
+          },
+          {
+            "role": "user",
+            "content": "{\"task\": \"请从current.content提取实际结果，只返回contract和items。不要输出规则说明、JSON Schema或示例。\", \"current\": {\"role\": \"user\", \"content\": \"我可能没有高血压。\"}, \"adjacent_context\": []}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 600,
+        "timeout": 45,
+        "stream": false,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "request_sha256": "ea4ee807e7236d71310c61ecbff71396dc964ee49714d859992cbecc2dd474fc"
+    }
+  ],
+  "scope": {
+    "only_synthetic_inputs": true,
+    "formal_database_queries_or_writes": false,
+    "embedding": false,
+    "qdrant": false,
+    "live_chat": false
+  }
+}

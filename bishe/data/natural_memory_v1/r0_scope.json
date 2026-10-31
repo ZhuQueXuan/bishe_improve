@@ -1,0 +1,117 @@
+{
+  "version": "natural-memory-r0-scope-v1",
+  "date": "2026-10-28",
+  "status": "frozen_preimplementation",
+  "runtime_configuration": false,
+  "first_release_types": [
+    "self_disease_report",
+    "presentation_preference"
+  ],
+  "disease_rules": {
+    "names": "open raw names, no five-label whitelist; no inferred normalization",
+    "polarity_labels_for_oracle": [
+      "affirmed",
+      "negated",
+      "unknown"
+    ],
+    "certainty_labels_for_oracle": [
+      "asserted",
+      "possible",
+      "unknown"
+    ],
+    "temporal_labels_for_oracle": [
+      "current_report",
+      "past",
+      "unspecified"
+    ],
+    "initial_mode": "confirmation_first",
+    "future_auto_candidate": "explicit supported self assertion/suspicion without unresolved relation/conflict, after R2-R8 gates",
+    "denial_or_unknown_polarity": "preserve meaning; confirm, never silently clear prior condition",
+    "clinical_confirmation": false
+  },
+  "preference_rules": {
+    "slots": {
+      "style": [
+        "plain",
+        "technical"
+      ],
+      "length": [
+        "brief",
+        "detailed"
+      ]
+    },
+    "language": "natural paraphrases allowed; scoped constraints remain finite",
+    "initial_mode": "auto_for_clear_long_term_preference_only",
+    "temporary": "current response only",
+    "same_slot_scope_conflict": "targeted_clarification"
+  },
+  "preserve_legacy": [
+    "old confirmed HealthMemory and explicit save route",
+    "old profile use semantics",
+    "old manual/finite background behavior",
+    "professional RAG and 134 professional points",
+    "P01/P02 source/owner/transaction/CAS/idempotence principles, with versioned future adapters"
+  ],
+  "deferred_new_collection": [
+    "allergy",
+    "intolerance",
+    "medication",
+    "symptom",
+    "measurement",
+    "test_result",
+    "temporary_health_state",
+    "new_service_background",
+    "family_profile"
+  ],
+  "deferred_mechanisms": [
+    "personal_vectors",
+    "history_search_and_backfill",
+    "uploaded_record_parsing",
+    "dose_or_medical_inference",
+    "new_framework_or_multi_agent"
+  ],
+  "account_scope": "logged_in_new_owned_messages_only",
+  "permissions": {
+    "new_collection": "default_off_per_type",
+    "saved_use": "independent_choice",
+    "cloud_extraction": "separate_default_off",
+    "cloud_verification": "separate_default_off",
+    "cloud_answer_personal_context": "separate_default_off",
+    "cloud_embedding": "off_not_in_first_release",
+    "old_history_search": "off",
+    "old_history_extraction": "off",
+    "legacy_auto_enabled_grants_new_health": false,
+    "synthetic_fixture_permissions_do_not_change_runtime": true
+  },
+  "oracle_is_runtime_schema": false,
+  "oracle_note": "R1 defines a versioned runtime contract; do not feed gold labels to extraction",
+  "limits_for_future_implementation": {
+    "runtime_configuration": false,
+    "authorized_live_calls_now": 0,
+    "authorized_paid_budget_rmb_now": "0",
+    "max_current_message_utf8_bytes": 4096,
+    "max_adjacent_messages": 4,
+    "max_adjacent_content_utf8_bytes": 4096,
+    "max_complete_request_utf8_bytes_including_prompt_and_wrappers": 32768,
+    "max_candidates": 5,
+    "max_response_utf8_bytes": 8192,
+    "max_extraction_calls_per_new_message": 1,
+    "max_semantic_verification_calls_per_new_message": 1,
+    "max_output_tokens_per_call": 1024,
+    "max_call_timeout_seconds": 45,
+    "sdk_automatic_retries": 0,
+    "front_end_existing_deadline_seconds": 90,
+    "deadline_rule": "share original remaining deadline; never restart for extraction, verification or resume",
+    "over_limit": "explicit_budget_or_context_gap_no_silent_truncation",
+    "future_live_plan_required": [
+      "explicit_authorization",
+      "provider_and_model",
+      "exact_payload_hashes",
+      "case_order",
+      "max_calls",
+      "worst_case_reserve_and_price_basis",
+      "unknown_usage_stop",
+      "billing_rejection_stop"
+    ]
+  }
+}

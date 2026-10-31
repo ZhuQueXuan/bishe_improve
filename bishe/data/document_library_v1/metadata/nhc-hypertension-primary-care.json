@@ -1,0 +1,25 @@
+{
+  "doc_id": "nhc-hypertension-primary-care",
+  "title": "基层医疗卫生机构高血压防治管理标准",
+  "edition": "WS/T 872—2025",
+  "published_date": "2025-09-19",
+  "effective_date": "2026-03-01",
+  "publisher": "国家卫生健康委员会",
+  "source_url": "https://www.nhc.gov.cn/wjw/c100309/202509/b601cb822b25461f92f7aa66c03495a8.shtml",
+  "download_url": "https://www.nhc.gov.cn/fzs/c100048/202509/2f3f7cce449145f8b361e70b3ed4ae9a/files/WS%20T%20872%E2%80%942025-20250930105429913.pdf",
+  "acquired_at": "2026-10-22T15:56:08.681384+00:00",
+  "sha256": "4c099a4a656b72d6524c7acd05359da10b4dd861def402b80acd94a307d410d6",
+  "rights": "publicly_accessible_redistribution_not_assessed",
+  "printed_page_offset": -2,
+  "selected_pages": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "page_text_end_before": {
+    "4": "表 1 高血压患者评估内容",
+    "6": "表 2 健康教育内容"
+  },
+  "scope_note": "成人基层高血压管理标准正文。仅PDF第3—6页；第4、6页表题及之后表格不索引，封面、前言、附录流程图、参考文献不索引。依赖这些表/图的完整结论不能由本库单独支持。工程核验不等于医学审核。"
+}

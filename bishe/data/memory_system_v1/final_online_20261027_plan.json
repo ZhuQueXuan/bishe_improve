@@ -1,0 +1,15 @@
+{
+  "status": "prepared_not_executed",
+  "purpose": "existing professional Qdrant readiness and two public-query embeddings",
+  "queries": [
+    "如何预防老年人跌倒？",
+    "高血压患者如何减少食盐摄入？"
+  ],
+  "max_embedding_requests": 2,
+  "max_model_requests": 0,
+  "max_retries": 0,
+  "budget_rmb": "0.05",
+  "embedding_payload_scope": "public questions only plus existing query instruction, no chat/account/health memories",
+  "provider": "existing Aliyun Beijing configured endpoint",
+  "personal_vectors": false
+}

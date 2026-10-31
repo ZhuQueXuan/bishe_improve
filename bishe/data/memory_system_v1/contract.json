@@ -1,0 +1,20 @@
+{
+  "version": "memory-record-v1",
+  "stage": "A",
+  "production_connected": false,
+  "record_fields": ["id", "owner", "session", "subject", "kind", "attribute", "value", "scope", "scope_ref", "storage_state", "event_state", "event_id", "recorded_at", "event_time", "source", "revision"],
+  "kinds": ["preference", "background", "event", "constraint"],
+  "scopes": ["current", "topic", "session", "long_term"],
+  "storage_states": ["active", "paused", "superseded", "forgotten"],
+  "event_states": ["not_applicable", "current", "past", "resolved", "denied", "uncertain"],
+  "source_modes": ["explicit_request", "self_report", "family_report", "question", "hypothetical", "quotation", "assistant_inference"],
+  "intents": ["new_information", "new_default", "correction", "same_event_update", "forget", "pause"],
+  "decisions": ["add", "keep_separate", "no_change", "replace_effective", "temporary_override", "event_transition", "clarify", "reject", "forget", "pause"],
+  "source_offsets": "Python Unicode character indexes; half-open [start,end); exact match against original user message",
+  "timestamps": "recorded_at is an aware ISO-8601 timestamp; event_time.raw preserves user wording, start/end may remain null; no inferred calendar date or automatic expiry",
+  "identity": "owner and session must match the source message; family labels are relationships, not resolved real-world identities",
+  "semantics_boundary": "This contract validates structure and source span identity, not the natural-language truth or meaning of a supplied value, subject, mode, intent or event linkage. Stage B must verify extraction and intent before production use.",
+  "persistence_boundary": "Pure validation and decision only. No database, memory collection, vector indexing, message sending, real-model call or lifecycle mutation. Cross-session applicability and user permissions are enforced by future production adapters.",
+  "event_linking": "An event transition requires matching non-null event_id and subject/attribute; a disease name alone is insufficient. Ambiguous event linkage yields clarify.",
+  "history_policy": "replace_effective marks a future logical relationship; it never instructs deletion of historical records. resolved is a user-reported event state, not medical confirmation."
+}

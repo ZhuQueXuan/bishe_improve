@@ -3,6 +3,7 @@ $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $workspaceRoot = Split-Path -Parent $projectRoot
 $processFile = Join-Path $workspaceRoot 'temp\run\managed-processes.json'
+. (Join-Path $PSScriptRoot 'process-records.ps1')
 
 if (-not (Test-Path -LiteralPath $processFile)) {
     Write-Output 'No managed process record was found. Nothing was stopped.'
@@ -17,13 +18,22 @@ function Stop-ProcessTree {
         Stop-ProcessTree -ProcessId $child.ProcessId
     }
     if (Get-Process -Id $ProcessId -ErrorAction SilentlyContinue) {
-        Stop-Process -Id $ProcessId -Force
+        try { Stop-Process -Id $ProcessId -Force -ErrorAction Stop }
+        catch {
+            # A parent may exit naturally as its last child stops. Suppress only
+            # that completed outcome; a still-running process remains an error.
+            if (Get-Process -Id $ProcessId -ErrorAction SilentlyContinue) { throw }
+        }
     }
 }
 
 $records = Get-Content -LiteralPath $processFile -Raw | ConvertFrom-Json
 foreach ($record in $records) {
     if ($record.Managed -and $record.Id) {
+        if (-not (Test-ManagedRecord $record $projectRoot)) {
+            Write-Output "Skipped $($record.Name): process identity is missing, expired or changed. Nothing stopped; run start.ps1 to verify live legacy records."
+            continue
+        }
         if ($record.Name -eq 'neo4j') {
             if (Get-Process -Id ([int]$record.Id) -ErrorAction SilentlyContinue) {
                 $helper = Start-Process -FilePath 'powershell.exe' `

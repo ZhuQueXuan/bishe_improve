@@ -1,0 +1,47 @@
+{
+  "stage": "P03",
+  "version": "personal-extraction-literal-v1",
+  "status": "offline_wiring_only_real_model_not_evaluated",
+  "runtime_chat_enabled": false,
+  "trigger": "internal explicit new-user-message adapter only; live trigger deferred to P08",
+  "source": "owned persisted user message; latest user message in explicitly supplied conversation; trusted caller must establish actual new-message context",
+  "limits": {
+    "message_utf8_bytes": 4096,
+    "adjacent_messages": 2,
+    "adjacent_content_utf8_bytes": 2048,
+    "model_response_utf8_bytes": 8192,
+    "candidates": 5,
+    "provider_calls_in_this_stage": 0
+  },
+  "literal_support": "ten P01 categories with finite anchored Chinese forms; five explicit disease labels; literal drug names and exact dose/unit fields; no diagnosis inference",
+  "model_output": {
+    "root_fields": ["items"],
+    "item_fields": ["category", "assertion", "value", "details", "start", "end"],
+    "authority_fields": "never accepted from model",
+    "unverified_meanings": "clarification only; do not construct writable model-only candidate"
+  },
+  "save": {
+    "input": "message ID and expected policy/conversation/source/preview versions; never client candidate JSON",
+    "rebuild_from_database": true,
+    "default_new_health_collection": false,
+    "legacy_auto_enabled_grants_new_health_collection": false,
+    "existing_attribute": "requires P04; do not append contradictory active memories",
+    "multiple_items": "single enclosing transaction; any later failure rolls all items back",
+    "request_replay": "stable per-batch request key plus item ordinal; P02 receipt recheck",
+    "user_confirmed": false,
+    "clinical_confirmation": false
+  },
+  "cloud": {
+    "executor_present": false,
+    "old_paid_batches_reopened": false,
+    "real_personal_messages_sent": false,
+    "future_policy": "separate explicit cloud extraction grant and separately scoped model test batch with cost cap"
+  },
+  "pending": [
+    "real model evaluation on separately approved synthetic material and cost budget",
+    "general semantic meaning validation beyond literal grammar and unsupported adjacent-context references",
+    "P04 target/conflict/forget integration including old context invalidation",
+    "P08 live caller and formal 0006 migration with fresh backup",
+    "P09 settings and preview UI"
+  ]
+}

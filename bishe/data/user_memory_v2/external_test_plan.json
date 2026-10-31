@@ -1,0 +1,30 @@
+{
+  "status": "awaiting_explicit_data_egress_authorization_after_auto_review_rejection",
+  "executed_requests": 0,
+  "destination": "https://api.deepseek.com/chat/completions",
+  "model": "deepseek-flash",
+  "payload_scope": {
+    "local_public_corpus": "bishe/data/medical.json",
+    "line": 8780,
+    "field": "symptom",
+    "values": [
+      "血糖值升高",
+      "尿糖"
+    ],
+    "synthetic_two_turn_questions": [
+      "糖尿病有哪些常见症状？请按1、2编号列出两点，每点只写资料原文。",
+      "刚才第二点展开。这次简短点。只解释当前资料能支持的内容。"
+    ],
+    "synthetic_presentation_preferences": [
+      "通俗解释，术语附说明",
+      "本次简短"
+    ],
+    "system_prompt": "current source-grounded answer instructions; no user account or private chat history"
+  },
+  "max_requests": 2,
+  "budget_rmb": "0.1",
+  "automatic_retry": false,
+  "no_personal_chat_or_account_data": true,
+  "implementation_sha256": "b665926e9f404f1b67e0df7bdd48c977c83bd92a8a0f12568ea0b8083c0b0456",
+  "rejection_reason": "Automatic approval review requires explicit authorization of this local data payload to the external DeepSeek destination."
+}

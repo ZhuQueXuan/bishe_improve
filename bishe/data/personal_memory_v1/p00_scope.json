@@ -1,0 +1,36 @@
+{
+  "version": "personal-memory-p00-v1",
+  "date": "2026-10-27",
+  "status": "scope_and_baseline_only",
+  "runtime_configuration": false,
+  "approved_direction": "主动从本人聊天发现有用信息，按场景读取，支持来源、更新、更正、遗忘和个人检索",
+  "planned_types": ["self_disease_report", "self_allergy_report", "self_intolerance_report", "current_medication", "temporary_health_state", "symptom_event", "measurement_event", "test_result_event", "presentation_preference", "service_relevant_background"],
+  "excluded": ["family_profile", "hypothetical_fact", "quoted_fact", "assistant_inference", "diagnosis_from_measurement", "inferred_dose", "password_or_code", "unrelated_identity", "medical_record_upload_parsing", "prescribing"],
+  "proposed_controls": {
+    "collect_new_messages": {"default": false, "per_type": true},
+    "use_saved_memory": {"independent_of_collection": true, "preserve_existing_choice": true},
+    "search_old_conversations": {"default": false, "selected_conversations_only": true},
+    "extract_from_old_conversations": {"default": false, "separate_from_search": true},
+    "cloud_extraction": {"default": false, "separate_permission": true},
+    "cloud_embedding": {"default": false, "separate_permission": true},
+    "cloud_answer_context": {"personal_memory_expansion_default": false, "separate_permission": true}
+  },
+  "permission_rules": [
+    "旧auto_enabled只代表已有有限偏好，不自动开启新健康收集",
+    "原用户已确认的记录和原使用开关保持语义，不批量改成自动提取",
+    "开启收集不代表允许扫描旧聊天或任何云端外发",
+    "本轮只运行虚构数据离线基线；真实历史范围和外发文本尚未获本批授权"
+  ],
+  "required_record_fields": ["owner_id", "memory_id", "type", "subject", "assertion", "value", "event_id", "event_time_raw", "event_time_precision", "source_message_time", "ingested_at", "source_message_id", "source_span", "source_hash", "collection_origin", "user_confirmation", "validity_status", "version", "supersedes", "index_status", "embedding_contract"],
+  "data_flow": ["范围检查", "候选提取及原文支持核验", "主体时间和冲突判断", "业务版本及索引任务事务提交", "有界后台索引", "结构读取和按需语义召回", "回源资格复核", "有预算个人上下文与独立专业证据"],
+  "evaluation": {
+    "fixture_role": "developer_visible_not_holdout",
+    "extraction_baseline": "现有parse_command与preference_events函数；不是端到端自动保存成绩",
+    "retrieval_baseline": "现有personal_plan；输入为人为构建且已通过命令解析的本人记录，不测试其账号过滤适配器",
+    "adapter_permissions": "沿用既有隔离ORM/API回归单独验证",
+    "metrics": ["候选提取覆盖", "误提取", "精确选中集合", "漏选", "误带入", "澄清", "来源支持", "原数据和业务源码指纹", "原专业集合指纹"],
+    "performance": "本轮不以离线函数耗时代替线上性能，P05/P06有真实检索路径后另固定延迟和费用口径",
+    "future_holdout": "P10前另行建立未参与调参的保留集；本批全部可见，不能改称盲测"
+  },
+  "future_gate": "P01定义逐类规则与确定性合同；P00完成不代表自动健康发现已上线"
+}

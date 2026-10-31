@@ -46,3 +46,20 @@ Thumbs.db
 /bishe/data/full_v1/source_records.json
 /bishe/data/full_v1/skipped_items.json
 /bishe/data/medical_text_v1/chunks.json
+
+# Local source PDFs, extracted pages and version/index catalog (source manifest is tracked)
+/bishe/data/document_library_v1/originals/
+/bishe/data/document_library_v1/library/
+
+# Private account snapshots and local acceptance archives
+/bishe/data/account_backups/
+/bishe/data/natural_memory_v1/r8_*/
+/bishe/data/natural_memory_v1/*_manifest.json
+/bishe/data/natural_memory_v1/*_manifest.sha256
+/bishe/data/natural_memory_v1/*_readback.json
+/bishe/data/natural_memory_v1/*.zip
+/bishe/data/memory_system_v1/*_manifest.json
+/bishe/data/personal_memory_v1/*_manifest.json
+/bishe/data/user_memory_v2/*_manifest.json
+/bishe/data/user_memory_v2/trial_execution_*.json*
+/bishe/data/rag_evaluation_v1/temp/

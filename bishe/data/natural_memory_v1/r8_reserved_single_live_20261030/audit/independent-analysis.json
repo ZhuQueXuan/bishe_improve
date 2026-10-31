@@ -1,0 +1,292 @@
+{
+  "status": "failed_first_heldout_phase_stopped_and_closed",
+  "batch_id": "r8-reserved-single-20261030-72e974cf919a",
+  "attempted_inputs": 2,
+  "completed_cases_before_failure": 1,
+  "extraction_calls": 2,
+  "review_calls": 1,
+  "total_calls": 3,
+  "retries": 0,
+  "prompt_tokens": 4055,
+  "completion_tokens": 404,
+  "estimated_peak_usd": "0.0017013",
+  "estimated_peak_cny_at_8": "0.0136104",
+  "actual_bill_unknown": true,
+  "unknown_cost_attempts": 0,
+  "metrics": {
+    "raw_full_fact_precision_observed": {
+      "numerator": 1,
+      "denominator": 2,
+      "value": 0.5
+    },
+    "raw_full_fact_recall_observed": {
+      "numerator": 1,
+      "denominator": 2,
+      "value": 0.5
+    },
+    "effective_fact_precision_observed": {
+      "numerator": 1,
+      "denominator": 1,
+      "value": 1.0
+    },
+    "effective_fact_recall_observed": {
+      "numerator": 1,
+      "denominator": 2,
+      "value": 0.5
+    },
+    "planned_gold_facts": 9,
+    "gold_facts_in_attempted_cases": 2,
+    "remaining_gold_facts_unexecuted": 7,
+    "correct_full_facts": 1,
+    "wrong_time_full_fact": 1,
+    "unexecuted_inputs": 10,
+    "clarification_correctness": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "unnecessary_clarification_observed": {
+      "numerator": 0,
+      "denominator": 2,
+      "value": 0.0
+    },
+    "save_confirmation_retrieval_answer_auto": null,
+    "precision_note": "Full semantic tuple matching: H02 is one unmatched raw proposal and one missed gold fact due to missing time. Its disease name/current-scope subdimensions were correct.",
+    "coverage_note": "Unsent inputs are unexecuted, never correct negatives; no full-12-case accuracy or recall claimed."
+  },
+  "observations": [
+    {
+      "case_id": "R0-H01",
+      "agent_manual_verdict": "pass",
+      "note": "Raw and effective fact matches every gold dimension and complete user quote; one independent model review supported it. Not saved/confirmed.",
+      "original_gold": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "溃疡性结肠炎",
+            "polarity": "affirmed",
+            "certainty": "asserted",
+            "time_raw": null,
+            "temporal_scope": "unspecified",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-H01:u",
+                "text": "我这边的诊断单写着“溃疡性结肠炎”，说的是我自己。",
+                "start": 0,
+                "end": 25,
+                "message_sha256": "b449daa4989815b91e4f82a1e0033bbd3f2d6e9c805ce8a5e02de63a84ffca5a"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "source": {
+        "contract": "natural-memory-source-v1",
+        "owner": "user:624146781800",
+        "session": "conversation:624146781800",
+        "policy_version": 1,
+        "conversation_version": 0,
+        "collect_types": [
+          "presentation_preference",
+          "self_disease_report"
+        ],
+        "source_after_id": 0,
+        "excluded_ids": [],
+        "context_complete": true,
+        "messages": [
+          {
+            "id": "db:624146781801",
+            "owner": "user:624146781800",
+            "session": "conversation:624146781800",
+            "role": "user",
+            "content": "我这边的诊断单写着“溃疡性结肠炎”，说的是我自己。",
+            "recorded_at": "2026-10-28T10:00:00+08:00",
+            "message_hash": "b449daa4989815b91e4f82a1e0033bbd3f2d6e9c805ce8a5e02de63a84ffca5a"
+          }
+        ],
+        "current_message_id": "db:624146781801",
+        "context_digest": "49459b1a75f5198751adc7a7fcbf474beadab92201320a9e7cebc482a550f1f5"
+      },
+      "raw_extraction": {
+        "contract": "natural-memory-extraction-v1",
+        "request_ref": "extraction_30afc53f47d7a61e4162a7b3",
+        "outcome": "propose",
+        "items": [
+          {
+            "contract": "natural-memory-candidate-v1",
+            "category": "self_disease_report",
+            "subject": "self",
+            "content": {
+              "value_raw": "溃疡性结肠炎",
+              "polarity": "affirmed",
+              "certainty": "asserted"
+            },
+            "time": {
+              "raw": null,
+              "temporal_scope": "unspecified"
+            },
+            "relation": "new_information",
+            "evidence": [
+              {
+                "source_ref": "current",
+                "text": "我这边的诊断单写着“溃疡性结肠炎”，说的是我自己。"
+              }
+            ]
+          }
+        ],
+        "clarifications": []
+      },
+      "raw_review": {
+        "contract": "natural-memory-review-v1",
+        "request_ref": "review_8db7bddff5c76be1f05802ae",
+        "items": [
+          {
+            "item_ref": "item_1",
+            "verdict": "supported",
+            "reason": "meaning_supported",
+            "evidence": [
+              {
+                "source_ref": "current",
+                "text": "我这边的诊断单写着“溃疡性结肠炎”，说的是我自己。"
+              }
+            ]
+          }
+        ],
+        "clarifications": [],
+        "coverage": {
+          "verdict": "complete",
+          "reason": "coverage_complete",
+          "examined_refs": [
+            "current"
+          ],
+          "evidence": [
+            {
+              "source_ref": "current",
+              "text": "我这边的诊断单写着“溃疡性结肠炎”，说的是我自己。"
+            }
+          ]
+        }
+      },
+      "actual_status": "proposed",
+      "reason": null,
+      "raw_log_sha256": "05c0f3334d01a21cebe3b0fde5c99eadb35d9241e588bb48bb5653e011f752f9"
+    },
+    {
+      "case_id": "R0-H02",
+      "agent_manual_verdict": "fail",
+      "note": "Entity, owner, polarity/certainty and current scope recognized; original time word omitted, so the full gold fact does not match and contract rejected before review.",
+      "original_gold": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "慢性肾病",
+            "polarity": "affirmed",
+            "certainty": "asserted",
+            "time_raw": "现在",
+            "temporal_scope": "current_report",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-H02:u",
+                "text": "我到现在仍有慢性肾病。",
+                "start": 0,
+                "end": 11,
+                "message_sha256": "300abef0eaeb172d31b0f70f6f2fdee3e1be320d8764456d323f6f36709aebc5"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "source": {
+        "contract": "natural-memory-source-v1",
+        "owner": "user:624146781801",
+        "session": "conversation:624146781801",
+        "policy_version": 1,
+        "conversation_version": 0,
+        "collect_types": [
+          "presentation_preference",
+          "self_disease_report"
+        ],
+        "source_after_id": 0,
+        "excluded_ids": [],
+        "context_complete": true,
+        "messages": [
+          {
+            "id": "db:624146781811",
+            "owner": "user:624146781801",
+            "session": "conversation:624146781801",
+            "role": "user",
+            "content": "我到现在仍有慢性肾病。",
+            "recorded_at": "2026-10-28T10:00:00+08:00",
+            "message_hash": "300abef0eaeb172d31b0f70f6f2fdee3e1be320d8764456d323f6f36709aebc5"
+          }
+        ],
+        "current_message_id": "db:624146781811",
+        "context_digest": "9a7e67943de4170dfefe2b0a6f2ddf9e915c77020ff015f6cbfe2124fdd47c6a"
+      },
+      "raw_extraction": {
+        "contract": "natural-memory-extraction-v1",
+        "request_ref": "extraction_f4eaced187f1c1a6aef617e7",
+        "outcome": "propose",
+        "items": [
+          {
+            "contract": "natural-memory-candidate-v1",
+            "category": "self_disease_report",
+            "subject": "self",
+            "content": {
+              "value_raw": "慢性肾病",
+              "polarity": "affirmed",
+              "certainty": "asserted"
+            },
+            "time": {
+              "raw": null,
+              "temporal_scope": "current_report"
+            },
+            "relation": "new_information",
+            "evidence": [
+              {
+                "source_ref": "current",
+                "text": "我到现在仍有慢性肾病。"
+              }
+            ]
+          }
+        ],
+        "clarifications": []
+      },
+      "raw_review": null,
+      "actual_status": "processing_failed",
+      "reason": "time_basis_required",
+      "raw_log_sha256": "33a0445647f6ab22086d21c273225637463c339138ee4112b1b778d28a2579c0"
+    }
+  ],
+  "protected_files": 961,
+  "unchanged_protected_files_at_audit": 961,
+  "changed_external_navigation": [],
+  "business_code_or_prompt_changes": 0,
+  "manual_review": "agent against frozen original oracle, not independent clinical review",
+  "failure_reproduced_by_pure_offline_preview": true,
+  "new_calls_in_audit": 0,
+  "full_R8_passed": false,
+  "no_retry_no_resume_no_remaining_budget_reuse": true,
+  "formal_db_or_chat_access": false,
+  "non_interrupting_chat_experience_not_tested_by_this_extraction_phase": true
+}

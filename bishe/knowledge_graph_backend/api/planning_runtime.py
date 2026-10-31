@@ -299,12 +299,15 @@ class PlanningHarness:
         with path.open('x', encoding='utf-8') as stream: json.dump(envelope, stream, ensure_ascii=False, indent=2)
 
     @classmethod
-    def restore(cls, path, task, tools, verifier, manifest_hash, temp_root, clock=time.monotonic, wall=time.time, allow_external=False):
+    def restore(cls, path, task, tools, verifier, manifest_hash, temp_root, clock=time.monotonic, wall=time.time, allow_external=False, expected_sha256=None):
         path = Path(path).resolve()
         if not path.is_relative_to(Path(temp_root).resolve()) or path.stat().st_size > 2_000_000:
             raise BoundaryError('checkpoint_path_or_size')
         try:
-            envelope = json.loads(path.read_text(encoding='utf-8'))
+            raw=path.read_bytes()
+            if expected_sha256 is not None and hashlib.sha256(raw).hexdigest()!=expected_sha256:
+                raise BoundaryError('checkpoint_signed_integrity')
+            envelope = json.loads(raw.decode('utf-8'))
             payload = envelope['payload']
             if envelope['sha256'] != fingerprint(payload) or payload['version'] != 'planning_checkpoint_v1':
                 raise BoundaryError('checkpoint_integrity')

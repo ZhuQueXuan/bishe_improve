@@ -1,0 +1,28 @@
+{
+  "contract": "memory-record-v1",
+  "stage": "A",
+  "declared_before_implementation": true,
+  "evaluation_type": "developer-visible structured scenarios; not natural-language extraction, blind evaluation or clinical assessment",
+  "cases": [
+    {"id":"A01","scenario":"长期详细与本轮简短","intent":"new_information","expected":"temporary_override"},
+    {"id":"A02","scenario":"明确以后简短更新长期默认","intent":"new_default","expected":"replace_effective"},
+    {"id":"A03","scenario":"本人和母亲同一病名","intent":"new_information","expected":"keep_separate"},
+    {"id":"A04","scenario":"已确认同一事件从当前变为用户报告结束","intent":"same_event_update","expected":"event_transition"},
+    {"id":"A05","scenario":"相同病名但事件关联未知","intent":"same_event_update","expected":"clarify"},
+    {"id":"A06","scenario":"喜欢甜咖啡与目前戒糖属于不同属性","intent":"new_information","expected":"keep_separate"},
+    {"id":"A07","scenario":"不同值且没有明确更新依据","intent":"new_information","expected":"clarify"},
+    {"id":"A08","scenario":"有明确纠错指令且同一属性","intent":"correction","expected":"replace_effective"},
+    {"id":"A09","scenario":"新消息叙述过去不能覆盖当前","intent":"new_information","expected":"keep_separate"},
+    {"id":"A10","scenario":"引用不是本人事实","intent":"new_information","expected":"reject"},
+    {"id":"A11","scenario":"忘记后的旧来源重放","intent":"new_information","expected":"reject"},
+    {"id":"A12","scenario":"不同账号不能互相更新","intent":"correction","expected":"reject"},
+    {"id":"A13","scenario":"不同事件同名同时存在","intent":"new_information","expected":"keep_separate"},
+    {"id":"A14","scenario":"未知主体不能自动更新明确主体","intent":"correction","expected":"clarify"},
+    {"id":"A15","scenario":"源消息原文跨度不匹配","intent":"new_information","expected":"validation_error"},
+    {"id":"A16","scenario":"记录时间较新不等于事件时间较新","intent":"new_information","expected":"clarify"},
+    {"id":"A17","scenario":"好转作为未确定状态而不是已结束","intent":"same_event_update","expected":"event_transition"},
+    {"id":"A18","scenario":"显式遗忘只产生决定不修改输入","intent":"forget","expected":"forget"},
+    {"id":"A19","scenario":"临时范围不能覆盖永久记录","intent":"correction","expected":"temporary_override"},
+    {"id":"A20","scenario":"不同会话的本轮要求独立","intent":"new_information","expected":"keep_separate"}
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "contract": "natural-memory-r5-retrieval-answer-v1",
+  "date": "2026-10-28",
+  "scope": "isolated_only",
+  "intent": {
+    "contract": "natural-memory-query-intent-v1",
+    "purposes": [
+      "general_knowledge",
+      "personal_application",
+      "memory_review",
+      "other_person",
+      "unclear"
+    ],
+    "names": "exact raw question names or all_saved for nameless self reference",
+    "subject": "finite supported meanings with current exact evidence",
+    "natural_language_rules": "no local fixed-phrase classifier",
+    "assurance": "model_judgment_not_proof",
+    "router_payload": "current question only; no saved records or adjacent private sentences"
+  },
+  "selection": {
+    "owner_and_source_recheck": true,
+    "health_requires_user_confirmed": true,
+    "excluded": [
+      "pending",
+      "disputed",
+      "paused",
+      "retracted",
+      "forgotten",
+      "reset_or_excluded_source",
+      "source_changed"
+    ],
+    "current_background": "affirmed, active, not past/resolved",
+    "memory_review": "qualified past, possible, denied and resolved self reports allowed",
+    "time": "source-anchored calendar intervals using existing helper, unknown asks clarification",
+    "multiple_same_name_events": "clarify for applicability; independently label in review",
+    "max_reports": 5,
+    "overflow": "clarify_no_truncation",
+    "personal_vectors": false
+  },
+  "presentation": {
+    "saved_defaults": "independent slots",
+    "current_override": "answer_only_no_save",
+    "full_source_quote_sent": false,
+    "audit_separate_from_health": true
+  },
+  "answer_grants": {
+    "model": "NaturalMemoryAnswerGrant",
+    "candidate_migration": "0008_natural_memory_answer_grant",
+    "defaults": "both false",
+    "fields": [
+      "cloud_routing",
+      "cloud_answer_personal_context"
+    ],
+    "independent_from": [
+      "collection",
+      "saved_use",
+      "cloud_extraction",
+      "cloud_verification"
+    ],
+    "fixture_only_configured": true
+  },
+  "answer_payload": {
+    "sections": [
+      "question",
+      "personal_reports",
+      "presentation_preferences",
+      "professional_evidence",
+      "limitations"
+    ],
+    "personal_report_fields": [
+      "raw_name",
+      "polarity",
+      "certainty",
+      "event_time",
+      "event_state",
+      "source_date",
+      "user_confirmed",
+      "clinical_confirmation_false"
+    ],
+    "local_only": [
+      "entry_owner_and_ids",
+      "history",
+      "source_quote_copies",
+      "selection_packs"
+    ],
+    "no_background": "does_not_imply_no_disease_or_medication_safety",
+    "professional_evidence": "explicit source/version/page/text hash; cannot verify self disease",
+    "model_output_contract": "natural-memory-answer-v1",
+    "reference_validation": "bounded known M/E refs only; not semantic proof"
+  },
+  "orchestration": {
+    "entry": "POST natural-memory/questions/ in fixture URLconf only",
+    "authenticated_ingress": "R4 existing post_message",
+    "providers": "explicit server injected offline fixtures only; never client replies",
+    "question_before_answer": "committed separately",
+    "audit_store": "NaturalMemoryOperation IDs/hashes/reasons, no source/prompt copies",
+    "idempotence": "same received question not automatically dispatched twice",
+    "deadline": "original message received_at plus90s",
+    "single_timeout": "min45s and original remaining",
+    "routing_calls_max": 1,
+    "answer_calls_max": 1,
+    "sdk_retries": 0,
+    "actual_live_budget": 0,
+    "response_recheck": [
+      "epoch",
+      "state_revision",
+      "policy",
+      "answer_grants",
+      "query_source",
+      "selected_source_integrity",
+      "exact_final_messages_hash"
+    ],
+    "actual_real_model_dispatch": false
+  },
+  "proof": {
+    "new_R5_tests": 44,
+    "previous_related": 468,
+    "final_related": 512,
+    "actual_loopback_HTTP": true,
+    "HTTP_questions": 6,
+    "offline_answer_callbacks": 5,
+    "final_model_messages_recorded": true,
+    "synthetic_only": true,
+    "same_author_oracle": true,
+    "reserved_used": false,
+    "real_model_or_medical_quality_evaluated": false
+  },
+  "unchanged": [
+    "professional_RAG_retrieval_and_RRF",
+    "R0_frozen_results",
+    "R1_R2_contracts",
+    "R3_decision_implementation",
+    "R4_intake_implementation",
+    "formal_routes_and_settings",
+    "formal_database_0005",
+    "formal_version1.0.2",
+    "Mini_main_project"
+  ],
+  "pending": [
+    "R2_and_R5_real_semantic_gate",
+    "real_provider_dispatch_with_separate_authorized_budget",
+    "R6_general_cache_summary_checkpoint_and_UI_invalidation",
+    "R7_browser_UI",
+    "R8_reserved_acceptance_and_formal_rollout"
+  ]
+}

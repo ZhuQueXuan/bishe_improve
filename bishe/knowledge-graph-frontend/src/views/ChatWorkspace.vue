@@ -54,9 +54,10 @@
             <span>已登录</span>
           </div>
           <el-dropdown trigger="click" @command="handleAccountCommand">
-            <button class="more-button"><el-icon><MoreFilled /></el-icon></button>
+            <button class="more-button" aria-label="账号设置"><el-icon><MoreFilled /></el-icon></button>
             <template #dropdown>
               <el-dropdown-menu>
+                <el-dropdown-item command="memory">记忆设置</el-dropdown-item>
                 <el-dropdown-item command="logout">退出登录</el-dropdown-item>
               </el-dropdown-menu>
             </template>
@@ -68,6 +69,10 @@
             <strong>游客</strong>
             <span>刷新后清空对话</span>
           </div>
+          <el-dropdown trigger="click" @command="handleAccountCommand">
+            <button class="more-button" aria-label="会话设置"><el-icon><MoreFilled /></el-icon></button>
+            <template #dropdown><el-dropdown-menu><el-dropdown-item command="memory">会话设置</el-dropdown-item></el-dropdown-menu></template>
+          </el-dropdown>
           <button class="text-login" @click="router.push('/register')">注册</button>
         </template>
       </div>
@@ -80,7 +85,7 @@
         </button>
         <div class="model-title">
           <span>医疗知识助手</span>
-          <span class="model-badge"><i /> 图谱增强</span>
+          <span class="model-badge"><i /> 图谱 + 文档</span>
         </div>
         <div v-if="!userStore.isLoggedIn" class="auth-actions">
           <button class="login-link" @click="router.push('/login')">登录</button>
@@ -89,6 +94,7 @@
         <div v-else class="saved-indicator">
           <el-icon><CircleCheck /></el-icon>
           {{ chatStore.syncing ? '正在加载历史会话…' : '历史已同步到后端' }}
+          <button v-if="chatStore.naturalPendingCount" class="memory-review-notice" @click="memoryOpen = true">{{ chatStore.naturalPendingCount }} 条记忆待核对</button>
         </div>
       </header>
 
@@ -99,15 +105,16 @@
             <span class="orbit-dot two" />
             <div class="welcome-logo">杏</div>
           </div>
-          <p class="eyebrow">KNOWLEDGE GRAPH + LLM</p>
+          <p class="eyebrow">KNOWLEDGE GRAPH + DOCUMENTS</p>
           <h1>今天想了解什么？</h1>
-          <p class="welcome-copy">我会先从医疗知识图谱中检索相关信息，再结合大模型组织回答。</p>
+          <p class="welcome-copy">我会检索医疗图谱与已收录的中文专业资料，回答附有可查阅的出处。</p>
+          <p class="suggestion-hint">示例问题：点击填入，确认后发送</p>
           <div class="suggestion-grid">
             <button v-for="item in suggestions" :key="item.title" @click="useSuggestion(item.prompt)">
               <span class="suggestion-icon"><el-icon><component :is="item.icon" /></el-icon></span>
               <span>
                 <strong>{{ item.title }}</strong>
-                <small>{{ item.description }}</small>
+                <small>{{ item.prompt }}</small>
               </span>
               <el-icon class="arrow"><Right /></el-icon>
             </button>
@@ -127,11 +134,19 @@
                 <span>{{ formatTime(message.timestamp) }}</span>
               </div>
               <MessageContent class="message-text" :content="visibleMessageContent(message)" />
+              <SourceReferences v-if="message.role === 'assistant'" :sources="message.sources || []" />
               <button v-if="message.resumeToken" class="guest-login" :disabled="chatStore.loading" @click="resumeTask(message)">继续整理</button>
               <details v-if="message.retrieval?.task" class="graph-evidence">
                 <summary>查看本次整理依据</summary>
                 <div>本次查询 {{ message.retrieval.task.counts.reads }} 次；{{ message.retrieval.task.status === 'partial' ? '部分资料缺失' : message.retrieval.task.status === 'paused' ? '等待继续' : message.retrieval.task.status === 'complete' ? '所选资料已整理' : '整理已停止' }}。</div>
                 <div v-for="item in message.retrieval.diseases" :key="item">{{ item }}</div>
+                <template v-if="message.retrieval.task.working_memory">
+                  <div>累计规划 {{ message.retrieval.task.working_memory.counts.cumulative.decisions }} 次，回答 {{ message.retrieval.task.working_memory.counts.cumulative.answers }} 次；本次新增查询 {{ message.retrieval.task.working_memory.counts.this_request.reads }} 次。</div>
+                  <div>仍待处理 {{ message.retrieval.task.working_memory.pending.length }} 项；已核对 {{ message.retrieval.task.working_memory.evidence_ids.length }} 条资料出处。</div>
+                  <div>任务选用健康自述 {{ message.retrieval.task.working_memory.selected_memory.health.length }} 条，表达要求 {{ message.retrieval.task.working_memory.selected_memory.presentation.length }} 项。个人自述不作为医学证据。</div>
+                  <div v-for="item in message.retrieval.task.working_memory.selected_memory.health" :key="`health-${item.id}`">自述 {{ item.id }} · 版本 {{ item.version }}</div>
+                  <div>暂停后沿用原查询、选用记忆和剩余限额。费用尚未计算。</div>
+                </template>
               </details>
             </div>
           </article>
@@ -141,7 +156,7 @@
             <div class="message-body thinking-body">
               <div class="message-meta"><strong>知医 Agent</strong></div>
               <div class="thinking"><span /><span /><span /></div>
-              <small>正在检索知识图谱并组织回答…</small>
+              <small>正在检索相关资料并组织回答…</small>
             </div>
           </article>
         </div>
@@ -164,28 +179,31 @@
             @keydown.enter.exact.prevent="send"
           />
           <div class="composer-bottom">
-            <div class="mode-pill"><el-icon><Connection /></el-icon> 图谱检索</div>
-            <label class="composer-hint"><input v-model="stepwise" type="checkbox" /> 先看关联结果</label>
+            <div class="mode-pill"><el-icon><Connection /></el-icon> 资料检索</div>
+            <label class="composer-hint stepwise-option"><input v-model="stepwise" type="checkbox" /> 先看关联结果</label>
             <div class="composer-hint">Shift + Enter 换行</div>
             <button class="send-button" :disabled="!draft.trim() || chatStore.loading || chatStore.syncing" @click="send">
               <el-icon><Promotion /></el-icon>
             </button>
           </div>
         </div>
-        <p class="medical-note">当前问题、有效会话要求与检索资料会交给 DeepSeek 整理；讨论对象不是个人病历，回答不替代专业诊断。</p>
+        <p class="medical-note">当前问题用于检索，问题、有效会话要求和检索资料由模型整理；讨论对象不是个人病历，回答不替代专业诊断。</p>
       </footer>
     </main>
+    <MemoryManager v-model:open="memoryOpen" />
   </div>
 </template>
 
 <script setup>
-import { computed, nextTick, onMounted, ref, watch } from 'vue'
+import { computed, nextTick, onMounted, onBeforeUnmount, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { ElMessage } from 'element-plus'
 import { useUserStore } from '../stores/user'
 import { useChatStore } from '../stores/chat'
 import { visibleMessageContent } from '../utils/messageDisplay'
 import MessageContent from '../components/MessageContent.vue'
+import SourceReferences from '../components/SourceReferences.vue'
+import MemoryManager from '../components/MemoryManager.vue'
 
 const router = useRouter()
 const userStore = useUserStore()
@@ -194,7 +212,13 @@ const draft = ref('')
 const stepwise = ref(false)
 const searchText = ref('')
 const sidebarOpen = ref(false)
+const memoryOpen = ref(false)
 const messageArea = ref(null)
+const memoryNoticeTimer = setInterval(() => {
+  if (userStore.isLoggedIn && chatStore.naturalMemoryAvailable && document.visibilityState === 'visible') void chatStore.refreshNaturalMemory()
+}, 10000)
+onBeforeUnmount(() => clearInterval(memoryNoticeTimer))
+watch(memoryOpen, open => { if (!open) void chatStore.refreshNaturalMemory() })
 
 const suggestions = [
   { title: '疾病知识', description: '了解症状、检查与治疗知识', prompt: '糖尿病常见的症状和检查项目有哪些？', icon: 'FirstAidKit' },
@@ -225,11 +249,15 @@ const initializeChat = async () => {
 
 const startNewChat = async () => {
   if (chatStore.syncing) return
+  const owner = chatStore.currentUserKey
+  chatStore.syncing = true
   try {
     await chatStore.createSession()
     sidebarOpen.value = false
   } catch (error) {
     ElMessage.error('新建会话失败')
+  } finally {
+    if (owner === chatStore.currentUserKey) chatStore.syncing = false
   }
 }
 
@@ -248,8 +276,8 @@ const removeSession = async (sessionId) => {
 }
 
 const useSuggestion = (prompt) => {
+  if (chatStore.loading || chatStore.syncing) return
   draft.value = prompt
-  send()
 }
 
 const send = async () => {
@@ -275,6 +303,7 @@ const resumeTask = async (message) => {
 }
 
 const handleAccountCommand = async (command) => {
+  if (command === 'memory') { memoryOpen.value = true; return }
   if (command === 'logout') {
     userStore.logout()
     await chatStore.initialize(null)
@@ -290,6 +319,11 @@ const formatTime = (timestamp) => new Date(timestamp).toLocaleTimeString('zh-CN'
 watch(
   () => [userStore.token, userStore.user?.id],
   initializeChat
+)
+
+watch(
+  () => chatStore.activeSessionId,
+  () => { draft.value = '' }
 )
 
 watch(
@@ -348,6 +382,7 @@ button { border: 0; cursor: pointer; }
 .login-link { color: #31453b; background: transparent; }
 .register-link { color: #fff; background: #276c50; }
 .saved-indicator { display: flex; align-items: center; gap: 6px; margin-left: auto; color: #6c7d74; font-size: 12px; }
+.memory-review-notice { border: 1px solid #c4dcd3; border-radius: 12px; padding: 3px 8px; background: #f3f8f5; color: #356b58; cursor: pointer; }
 .mobile-menu { display: none; margin-right: 10px; padding: 7px; color: #52645b; background: transparent; }
 .message-area { flex: 1; min-height: 0; overflow-y: auto; scroll-behavior: smooth; }
 .welcome-state { width: min(760px, calc(100% - 40px)); min-height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 45px 0 32px; margin: 0 auto; text-align: center; }
@@ -358,6 +393,7 @@ button { border: 0; cursor: pointer; }
 .eyebrow { margin: 0 0 8px; color: #5b8c73; font-size: 10px; font-weight: 700; letter-spacing: .16em; }
 .welcome-state h1 { margin: 0; color: #17251e; font-family: Georgia, 'Noto Serif SC', serif; font-size: clamp(30px, 4vw, 42px); font-weight: 600; letter-spacing: -.03em; }
 .welcome-copy { max-width: 540px; margin: 14px 0 28px; color: #78867f; font-size: 14px; line-height: 1.8; }
+.suggestion-hint { margin: 0 0 14px; color: #65766b; font-size: 12px; }
 .suggestion-grid { width: 100%; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .suggestion-grid button { min-height: 112px; display: flex; align-items: flex-start; gap: 11px; padding: 17px 15px; border: 1px solid #e1e7e2; border-radius: 14px; color: #304139; background: #fff; text-align: left; box-shadow: 0 6px 22px rgba(34,63,49,.04); transition: .2s ease; }
 .suggestion-grid button:hover { border-color: #a7cbb8; transform: translateY(-2px); box-shadow: 0 10px 26px rgba(34,83,59,.08); }
@@ -394,7 +430,10 @@ button { border: 0; cursor: pointer; }
   .mobile-mask { position: fixed; z-index: 20; inset: 0; display: block; background: rgba(13,24,19,.4); }
   .mobile-menu { display: inline-grid; place-items: center; }
   .topbar { padding: 0 14px; }
-  .model-badge, .saved-indicator { display: none; }
+  .model-badge { display: none; }
+  .saved-indicator { font-size: 0; gap: 0; }
+  .saved-indicator > .el-icon { display: none; }
+  .memory-review-notice { font-size: 11px; max-width: 120px; }
   .suggestion-grid { grid-template-columns: 1fr; }
   .suggestion-grid button { min-height: 80px; }
   .welcome-state { justify-content: flex-start; padding-top: 46px; }
@@ -402,6 +441,7 @@ button { border: 0; cursor: pointer; }
   .message-body { max-width: 86%; }
   .composer-wrap { padding: 0 12px 10px; }
   .composer-hint { display: none; }
+  .stepwise-option { display: flex; align-items: center; gap: 4px; margin-left: auto; font-size: 10px; }
   .auth-actions button { padding: 7px 10px; }
 }
 </style>

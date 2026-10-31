@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-24",
+  "scope": "explicit finite auto preferences + dialogue references + extractive context compression",
+  "not_blind": true,
+  "development_cases": [
+    {
+      "id": "D01",
+      "scenario": "刚才第二点展开：重新检索，不把旧助手文字当医学证据"
+    },
+    {
+      "id": "D02",
+      "scenario": "没有第二点或多个对象时澄清，零外部调用"
+    },
+    {
+      "id": "D03",
+      "scenario": "换话题和取消表格后不恢复旧状态"
+    },
+    {
+      "id": "D04",
+      "scenario": "以后先解释术语：形成有限表达偏好"
+    },
+    {
+      "id": "D05",
+      "scenario": "这次简短点：本次覆盖，不更新长期默认"
+    },
+    {
+      "id": "D06",
+      "scenario": "主动自述正在学护理：形成背景；引用/家属/假设不写"
+    },
+    {
+      "id": "D07",
+      "scenario": "自然语言忘记，旧请求ID重放不复活"
+    },
+    {
+      "id": "D08",
+      "scenario": "关闭自动收集与关闭使用分开；跨账号不能访问"
+    }
+  ],
+  "regression_extensions_not_independent_holdout": [
+    {
+      "id": "R01",
+      "scenario": "大量旧问题触发抽取式摘要，保留原文片段/ID，不编造数值或否定"
+    },
+    {
+      "id": "R02",
+      "scenario": "重置或遗忘后派生缓存失效，摘要不带回已取消要求"
+    },
+    {
+      "id": "R03",
+      "scenario": "摘要与近期片段按字节限额组装，必要状态优先，记录被省略项"
+    },
+    {
+      "id": "R04",
+      "scenario": "感冒/已康复等健康信息不自动长期保存；时效取舍待后续讨论"
+    }
+  ],
+  "no_health_long_term_memory": true,
+  "extra_extraction_model_calls": 0,
+  "extra_embedding_calls": 0,
+  "real_answer_pilot_max_calls": 2,
+  "real_pilot_estimated_rmb_limit": "0.1",
+  "automatic_retry": false
+}

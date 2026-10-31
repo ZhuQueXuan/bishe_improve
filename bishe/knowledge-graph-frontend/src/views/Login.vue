@@ -17,11 +17,11 @@
         <h2>登录账号</h2>
         <p class="subtitle">继续你之前的医疗知识探索。</p>
         <el-form ref="formRef" :model="form" :rules="rules" label-position="top" @submit.prevent>
-          <el-form-item label="用户名" prop="username">
-            <el-input v-model="form.username" size="large" placeholder="输入用户名" prefix-icon="User" />
+          <el-form-item label="用户名或邮箱" prop="username">
+            <el-input v-model="form.username" size="large" placeholder="输入注册用户名或邮箱" prefix-icon="User" autocomplete="username" />
           </el-form-item>
           <el-form-item label="密码" prop="password">
-            <el-input v-model="form.password" size="large" type="password" placeholder="输入密码" prefix-icon="Lock" show-password @keyup.enter="submit" />
+            <el-input v-model="form.password" size="large" type="password" placeholder="输入密码" prefix-icon="Lock" autocomplete="current-password" show-password @keyup.enter="submit" />
           </el-form-item>
           <el-alert v-if="userStore.error" :title="userStore.error" type="error" :closable="false" show-icon />
           <el-button class="submit-button" :loading="loading" @click="submit">登录并继续</el-button>
@@ -49,7 +49,7 @@ const formRef = ref(null)
 const loading = ref(false)
 const form = reactive({ username: '', password: '' })
 const rules = {
-  username: [{ required: true, message: '请输入用户名', trigger: 'blur' }],
+  username: [{ required: true, message: '请输入用户名或邮箱', trigger: 'blur' }],
   password: [{ required: true, message: '请输入密码', trigger: 'blur' }]
 }
 

@@ -1,0 +1,129 @@
+{
+  "contract": "natural-memory-r3-policy-spec-v1",
+  "stage": "R3",
+  "date": "2026-10-28",
+  "mode": "isolated_copy_on_write_only",
+  "implementation": "bishe/knowledge_graph_backend/api/natural_memory_policy.py",
+  "state_contract": "natural-memory-decision-state-v1",
+  "policy_contract": "natural-memory-decision-policy-v1",
+  "trust_boundary": {
+    "trusted_adapter_supplies": [
+      "authenticated_owner",
+      "current_policy_and_grants",
+      "owned_live_source_envelopes",
+      "conversation_versions",
+      "latest_user_message_ids",
+      "typed_explicit_user_intent",
+      "stored_state"
+    ],
+    "not_authority": [
+      "model_relations",
+      "model_confirmation_flags",
+      "client_preview",
+      "unkeyed_digest"
+    ]
+  },
+  "health_policy": {
+    "mode": "confirmation_first",
+    "user_confirmation_implies_clinical_confirmation": false,
+    "polarity_certainty_preserved": true,
+    "no_disease_word_list": true
+  },
+  "preference_policy": {
+    "new_slot_auto_requires": [
+      "preference_auto_enabled",
+      "preference_auto_gate_passed"
+    ],
+    "runtime_flags_changed": false,
+    "unreviewed_assurance": "extraction_only_not_supported",
+    "different_default_requires_confirmation": true
+  },
+  "relations": [
+    "add",
+    "duplicate",
+    "supplement",
+    "same_event_update",
+    "new_event",
+    "correction",
+    "new_default",
+    "retraction",
+    "unresolved"
+  ],
+  "confirmation": {
+    "click": "same_display_and_latest_original_user_message",
+    "reply": "typed_intent_with_latest_owned_newer_user_source",
+    "targeted_resolution": "old_question_bound_and_new_context_revalidated; unchanged assertion or reviewed no_memory can finish in one reply",
+    "assertion_changed": "fresh_display_required",
+    "batch": "all_or_nothing_returned_projection",
+    "saved_ack": false
+  },
+  "conflicts": {
+    "same_attribute_critical": "disputed_before_confirmation",
+    "rejected_new_candidate": "does_not_restore_disputed_old_fact",
+    "restore_original": "explicit_bound_current_version_intent",
+    "family": "no_family_entry; reviewed wrong_self_attribution_quarantines_existing_self",
+    "normal_measurements": "out_of_scope_no_implicit_disease_replacement",
+    "multiple_candidates_same_attribute": "clarify_unless_each_explicit_new_event"
+  },
+  "management": [
+    "forget",
+    "pause",
+    "resume",
+    "retraction",
+    "keep_original"
+  ],
+  "forget": {
+    "all_target_versions_extracted_bodies": "cleared",
+    "linked_context_and_confirmation_source_ids": "blocked_conservatively",
+    "pending_display": "cleared",
+    "source_chats": "not_modified",
+    "replay": "metadata_only_no_save_ack",
+    "fresh_explicit_source": "eligible_for_new_confirmation"
+  },
+  "rechecks": [
+    "owner",
+    "policy_hash",
+    "source_envelope_fingerprints",
+    "conversation_versions",
+    "reset_or_exclusion",
+    "latest_user_id",
+    "display_digest",
+    "state_revision",
+    "target_version",
+    "target_digest"
+  ],
+  "bounds": {
+    "entries": 50,
+    "history_per_entry": 20,
+    "receipts": 128,
+    "blocked_source_ids": 512,
+    "state_bytes": 1048576,
+    "overflow": "reject_no_truncation"
+  },
+  "persistence": {
+    "writes_performed": false,
+    "atomic_database_CAS": "R4_pending",
+    "resolve_revision_increments": 2,
+    "durable_replay": "R4_pending"
+  },
+  "not_completed": [
+    "real_reply_intent_understanding",
+    "real_extraction_or_review_quality",
+    "formal_chat_intake",
+    "database_commit",
+    "R5_query_selection_and_answering",
+    "R6_inflight_answer_and_checkpoint_invalidation",
+    "R7_UI",
+    "R8_reserved_acceptance"
+  ],
+  "evaluation": {
+    "synthetic_scripted_replies_only": true,
+    "r0_development_multi_turn_coverage": "component_checks_only_not_whole_script_pass",
+    "reserved_contents_read_for_development": false,
+    "r0_results_updated": false,
+    "paid_tests": 0,
+    "real_chat_rows_read": 0,
+    "formal_migrations": 0,
+    "service_restarts": 0
+  }
+}

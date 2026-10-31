@@ -1,0 +1,1155 @@
+{
+  "synthetic": true,
+  "date": "2026-10-28",
+  "oracle_not_prompt": true,
+  "executed": false,
+  "split": "development",
+  "single_cases": [
+    {
+      "id": "R0-D01",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D01:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "我患有银屑病。"
+        }
+      ],
+      "current_message_id": "R0-D01:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "银屑病",
+            "polarity": "affirmed",
+            "certainty": "asserted",
+            "time_raw": null,
+            "temporal_scope": "unspecified",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-D01:u",
+                "text": "我患有银屑病。",
+                "start": 0,
+                "end": 7,
+                "message_sha256": "18589d20a4b89dc3b19aa53e2d0bbd0398f4a498224d8c3b6843f277b60c976c"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D02",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D02:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "上个月门诊告诉我，我得的是哮喘。"
+        }
+      ],
+      "current_message_id": "R0-D02:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "哮喘",
+            "polarity": "affirmed",
+            "certainty": "asserted",
+            "time_raw": "上个月",
+            "temporal_scope": "past",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-D02:u",
+                "text": "上个月门诊告诉我，我得的是哮喘。",
+                "start": 0,
+                "end": 16,
+                "message_sha256": "09fb086db6f515d624afc3447370616ca73acbe646ed90549339bb24add217c6"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D03",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D03:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "我怀疑自己有偏头痛。"
+        }
+      ],
+      "current_message_id": "R0-D03:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "偏头痛",
+            "polarity": "affirmed",
+            "certainty": "possible",
+            "time_raw": null,
+            "temporal_scope": "unspecified",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-D03:u",
+                "text": "我怀疑自己有偏头痛。",
+                "start": 0,
+                "end": 10,
+                "message_sha256": "819a077a2129d501a7f3129583ac3e39a3aa854e8e83486b732a0598bbebdf51"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D04",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D04:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "医生怀疑我有桥本甲状腺炎。"
+        }
+      ],
+      "current_message_id": "R0-D04:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "桥本甲状腺炎",
+            "polarity": "affirmed",
+            "certainty": "possible",
+            "time_raw": null,
+            "temporal_scope": "unspecified",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-D04:u",
+                "text": "医生怀疑我有桥本甲状腺炎。",
+                "start": 0,
+                "end": 13,
+                "message_sha256": "690d9c63923057af9ba200472a80e8647efd64f60f6241afd783fe911f4c6e80"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D05",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D05:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "去年我被查出过高血压。"
+        }
+      ],
+      "current_message_id": "R0-D05:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "高血压",
+            "polarity": "affirmed",
+            "certainty": "asserted",
+            "time_raw": "去年",
+            "temporal_scope": "past",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-D05:u",
+                "text": "去年我被查出过高血压。",
+                "start": 0,
+                "end": 11,
+                "message_sha256": "9490b41598c66063df87b88b6c35c08a0541a820a86153c46a5c27a8843699c0"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D06",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D06:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "我没有糖尿病。"
+        }
+      ],
+      "current_message_id": "R0-D06:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "糖尿病",
+            "polarity": "negated",
+            "certainty": "asserted",
+            "time_raw": null,
+            "temporal_scope": "unspecified",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": false,
+            "evidence": [
+              {
+                "message_id": "R0-D06:u",
+                "text": "我没有糖尿病。",
+                "start": 0,
+                "end": 7,
+                "message_sha256": "9a75fd77fdd0a8ff1ca688ff47024f4668a8b5a0e7b9b2fd996372472cb4da07"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D07",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D07:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "我可能没有冠心病。"
+        }
+      ],
+      "current_message_id": "R0-D07:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "冠心病",
+            "polarity": "negated",
+            "certainty": "possible",
+            "time_raw": null,
+            "temporal_scope": "unspecified",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": false,
+            "evidence": [
+              {
+                "message_id": "R0-D07:u",
+                "text": "我可能没有冠心病。",
+                "start": 0,
+                "end": 9,
+                "message_sha256": "860fe3b26025c5d06cca6f673241e49cdff725e3ef63eee331d93f02ea39b10b"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D08",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D08:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "我有高血压，另外我还患有银屑病。"
+        }
+      ],
+      "current_message_id": "R0-D08:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "高血压",
+            "polarity": "affirmed",
+            "certainty": "asserted",
+            "time_raw": null,
+            "temporal_scope": "unspecified",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-D08:u",
+                "text": "我有高血压",
+                "start": 0,
+                "end": 5,
+                "message_sha256": "79308689712d9d21378491562fad7c167eb03470793272437698783d9c5c6780"
+              }
+            ]
+          },
+          {
+            "category": "self_disease_report",
+            "subject": "self",
+            "value_raw": "银屑病",
+            "polarity": "affirmed",
+            "certainty": "asserted",
+            "time_raw": null,
+            "temporal_scope": "unspecified",
+            "clinical_confirmation": false,
+            "normalized_name_required": false,
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-D08:u",
+                "text": "另外我还患有银屑病",
+                "start": 6,
+                "end": 15,
+                "message_sha256": "79308689712d9d21378491562fad7c167eb03470793272437698783d9c5c6780"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D09",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D09:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "以后回答时少用术语，尽量说得容易懂些。"
+        }
+      ],
+      "current_message_id": "R0-D09:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "presentation_preference",
+            "subject": "self",
+            "slot": "style",
+            "value": "plain",
+            "scope": "long_term",
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-D09:u",
+                "text": "以后回答时少用术语，尽量说得容易懂些。",
+                "start": 0,
+                "end": 19,
+                "message_sha256": "924cb133818ed73be0d72ad88646b414e5aee39c63a87dcb067fcb683c4d90ba"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D10",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D10:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "今后请把回答写短一些。"
+        }
+      ],
+      "current_message_id": "R0-D10:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "presentation_preference",
+            "subject": "self",
+            "slot": "length",
+            "value": "brief",
+            "scope": "long_term",
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-D10:u",
+                "text": "今后请把回答写短一些。",
+                "start": 0,
+                "end": 11,
+                "message_sha256": "4aacf6cb80f5ddc85835c627f9ac947181535d6f89df161d9207ec88ea42ef3a"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D11",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D11:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "以后用通俗的话说明。这次先详细一点。"
+        }
+      ],
+      "current_message_id": "R0-D11:u",
+      "expected": {
+        "decision": "propose",
+        "facts": [
+          {
+            "category": "presentation_preference",
+            "subject": "self",
+            "slot": "style",
+            "value": "plain",
+            "scope": "long_term",
+            "future_auto_eligible_if_all_other_gates_pass": true,
+            "evidence": [
+              {
+                "message_id": "R0-D11:u",
+                "text": "以后用通俗的话说明",
+                "start": 0,
+                "end": 9,
+                "message_sha256": "1feb878a43350bb5475cfd333ba8825d5ebb6889de8d4f316ba6dba52eeeade2"
+              }
+            ]
+          }
+        ],
+        "reason": "",
+        "transient_requirements": [
+          {
+            "slot": "length",
+            "value": "detailed",
+            "scope": "current"
+          }
+        ],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D12",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D12:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "以后都简短回答，但只限这次。"
+        }
+      ],
+      "current_message_id": "R0-D12:u",
+      "expected": {
+        "decision": "clarify",
+        "facts": [],
+        "reason": "same_slot_scope_conflict",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D13",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D13:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "我爸得了高血压。"
+        }
+      ],
+      "current_message_id": "R0-D13:u",
+      "expected": {
+        "decision": "ignore",
+        "facts": [],
+        "reason": "family_out_of_first_release",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D14",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D14:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "假如我有糖尿病，你会记住什么？"
+        }
+      ],
+      "current_message_id": "R0-D14:u",
+      "expected": {
+        "decision": "ignore",
+        "facts": [],
+        "reason": "hypothetical_question",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D15",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D15:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "教材把“我有哮喘”作为例话，并不是我的自述。"
+        }
+      ],
+      "current_message_id": "R0-D15:u",
+      "expected": {
+        "decision": "ignore",
+        "facts": [],
+        "reason": "quoted_example_not_self",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D16",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D16:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "医生说可能有高血压。"
+        }
+      ],
+      "current_message_id": "R0-D16:u",
+      "expected": {
+        "decision": "clarify",
+        "facts": [],
+        "reason": "subject_not_established",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D17",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D17:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "这两天血压偏高，是不是就是高血压？"
+        }
+      ],
+      "current_message_id": "R0-D17:u",
+      "expected": {
+        "decision": "ignore",
+        "facts": [],
+        "reason": "measurement_does_not_establish_disease",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    },
+    {
+      "id": "R0-D18",
+      "synthetic": true,
+      "messages": [
+        {
+          "id": "R0-D18:a0",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "assistant",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "你是不是有糖尿病？"
+        },
+        {
+          "id": "R0-D18:u",
+          "owner": "synthetic:A",
+          "session": "c1",
+          "role": "user",
+          "sent_at": "2026-10-28T10:00:00+08:00",
+          "content": "是的。"
+        }
+      ],
+      "current_message_id": "R0-D18:u",
+      "expected": {
+        "decision": "clarify",
+        "facts": [],
+        "reason": "assistant_only_anchor_not_user_evidence",
+        "transient_requirements": [],
+        "no_inferred_diagnosis": true,
+        "initial_policy": "health_confirmation_first_preferences_auto",
+        "unconfirmed_health_is_usable": false
+      },
+      "result": null
+    }
+  ],
+  "multi_turn_scripts": [
+    {
+      "id": "R0-MD01",
+      "synthetic": true,
+      "title": "跨会话相关使用与一般知识排除",
+      "coverage_tags": [
+        "cross_session",
+        "general_knowledge",
+        "use_switch"
+      ],
+      "initial_conditions": {
+        "owner": "synthetic:A",
+        "other_owner": "synthetic:B",
+        "new_collection_types": [
+          "self_disease_report",
+          "presentation_preference"
+        ],
+        "saved_use_enabled": true,
+        "synthetic_cloud_permissions": "explicit_per_stage_in_fixture_only",
+        "runtime_permissions_changed": false,
+        "health_mode": "confirmation_first"
+      },
+      "steps": [
+        {
+          "action": "new_message",
+          "expected": {
+            "candidate": "self_silver",
+            "usable_before_confirmation": false
+          },
+          "user_text": "我被医生告知有银屑病。"
+        },
+        {
+          "action": "confirm_candidate",
+          "expected": {
+            "target": "self_silver",
+            "user_confirmed": true,
+            "clinical_confirmation": false
+          }
+        },
+        {
+          "action": "new_conversation_query",
+          "expected": {
+            "selected": [
+              "self_silver"
+            ],
+            "model_input_qualified": true,
+            "medical_suitability_claim": false
+          },
+          "user_text": "结合我之前说的情况，这份资料有哪些需要关注的地方？"
+        },
+        {
+          "action": "query",
+          "expected": {
+            "selected_personal": []
+          },
+          "user_text": "银屑病是什么？"
+        },
+        {
+          "action": "disable_use_then_query",
+          "expected": {
+            "selected_personal": [],
+            "collection_choice_unchanged": true
+          },
+          "user_text": "回顾我已保存的疾病自述。"
+        }
+      ],
+      "result": null
+    },
+    {
+      "id": "R0-MD02",
+      "synthetic": true,
+      "title": "本人怀疑的确认持久化与回顾",
+      "coverage_tags": [
+        "uncertainty",
+        "durability",
+        "confirmation"
+      ],
+      "initial_conditions": {
+        "owner": "synthetic:A",
+        "other_owner": "synthetic:B",
+        "new_collection_types": [
+          "self_disease_report",
+          "presentation_preference"
+        ],
+        "saved_use_enabled": true,
+        "synthetic_cloud_permissions": "explicit_per_stage_in_fixture_only",
+        "runtime_permissions_changed": false,
+        "health_mode": "confirmation_first"
+      },
+      "steps": [
+        {
+          "action": "new_message",
+          "expected": {
+            "polarity": "affirmed",
+            "certainty": "possible",
+            "usable": false
+          },
+          "user_text": "我怀疑自己有偏头痛，先把这条怀疑留着。"
+        },
+        {
+          "action": "confirm_candidate",
+          "expected": {
+            "user_confirmed": true,
+            "certainty": "possible",
+            "clinical_confirmation": false
+          }
+        },
+        {
+          "action": "close_and_reopen_synthetic_db",
+          "expected": {
+            "new_process": true,
+            "same_source_hash": true,
+            "certainty": "possible",
+            "read_writes": 0
+          }
+        },
+        {
+          "action": "new_conversation_query",
+          "expected": {
+            "must_state": "user_reported_suspicion_not_verified_diagnosis",
+            "no_upgrade": true
+          },
+          "user_text": "之前那条已经算确诊了吗？"
+        }
+      ],
+      "result": null
+    },
+    {
+      "id": "R0-MD03",
+      "synthetic": true,
+      "title": "跨轮与同消息主体纠正",
+      "coverage_tags": [
+        "subject_correction",
+        "family",
+        "retraction"
+      ],
+      "initial_conditions": {
+        "owner": "synthetic:A",
+        "other_owner": "synthetic:B",
+        "new_collection_types": [
+          "self_disease_report",
+          "presentation_preference"
+        ],
+        "saved_use_enabled": true,
+        "synthetic_cloud_permissions": "explicit_per_stage_in_fixture_only",
+        "runtime_permissions_changed": false,
+        "health_mode": "confirmation_first"
+      },
+      "steps": [
+        {
+          "action": "new_message",
+          "expected": {
+            "proposed_subject": "self"
+          },
+          "user_text": "我患有哮喘。"
+        },
+        {
+          "action": "confirm_candidate",
+          "expected": {
+            "usable": true
+          }
+        },
+        {
+          "action": "new_message",
+          "expected": {
+            "operation": "retract_wrong_self_attribution",
+            "old_self_usable": false,
+            "new_family_entries": 0
+          },
+          "user_text": "刚才说的其实是我妈妈，不是我。"
+        },
+        {
+          "action": "new_message",
+          "expected": {
+            "effective_self_candidates": 0,
+            "family_entries": 0
+          },
+          "user_text": "我有糖尿病。说的是我爸爸。"
+        },
+        {
+          "action": "new_conversation_query",
+          "expected": {
+            "selected_personal": []
+          },
+          "user_text": "有哪些已经保存的本人病史？"
+        }
+      ],
+      "result": null
+    },
+    {
+      "id": "R0-MD04",
+      "synthetic": true,
+      "title": "偏好长期临时分离与范围核对",
+      "coverage_tags": [
+        "preference",
+        "scope",
+        "clarification_burden"
+      ],
+      "initial_conditions": {
+        "owner": "synthetic:A",
+        "other_owner": "synthetic:B",
+        "new_collection_types": [
+          "self_disease_report",
+          "presentation_preference"
+        ],
+        "saved_use_enabled": true,
+        "synthetic_cloud_permissions": "explicit_per_stage_in_fixture_only",
+        "runtime_permissions_changed": false,
+        "health_mode": "confirmation_first"
+      },
+      "steps": [
+        {
+          "action": "new_message",
+          "expected": {
+            "saved": {
+              "style": "plain",
+              "length": "brief"
+            },
+            "unnecessary_confirmation": false
+          },
+          "user_text": "今后说得通俗一点，回答尽量短些。"
+        },
+        {
+          "action": "query",
+          "expected": {
+            "current_length": "detailed",
+            "saved_length": "brief"
+          },
+          "user_text": "这道题请详细说明。"
+        },
+        {
+          "action": "query",
+          "expected": {
+            "current_length": "brief"
+          },
+          "user_text": "接着回答下一题。"
+        },
+        {
+          "action": "new_message",
+          "expected": {
+            "pending_scope_clarification": true,
+            "saved_length": "brief"
+          },
+          "user_text": "以后都详细一点，不过只限这一条。"
+        },
+        {
+          "action": "clarification_reply",
+          "expected": {
+            "pending_resolved": true,
+            "saved_length": "brief",
+            "extra_questions": 0
+          },
+          "user_text": "只是这一条详细，长期还是简短。"
+        }
+      ],
+      "result": null
+    },
+    {
+      "id": "R0-MD05",
+      "synthetic": true,
+      "title": "同名不同事件状态变化和旧版本",
+      "coverage_tags": [
+        "event_identity",
+        "time",
+        "cas",
+        "replay"
+      ],
+      "initial_conditions": {
+        "owner": "synthetic:A",
+        "other_owner": "synthetic:B",
+        "new_collection_types": [
+          "self_disease_report",
+          "presentation_preference"
+        ],
+        "saved_use_enabled": true,
+        "synthetic_cloud_permissions": "explicit_per_stage_in_fixture_only",
+        "runtime_permissions_changed": false,
+        "health_mode": "confirmation_first"
+      },
+      "steps": [
+        {
+          "action": "new_message",
+          "expected": {
+            "candidate": "pneumonia_old",
+            "event_time_raw": "去年"
+          },
+          "user_text": "我去年有过肺炎。"
+        },
+        {
+          "action": "confirm_candidate",
+          "expected": {
+            "target": "pneumonia_old"
+          }
+        },
+        {
+          "action": "new_message",
+          "expected": {
+            "candidate": "pneumonia_new",
+            "relation": "new_event",
+            "overwrite_old": false
+          },
+          "user_text": "我今年又得了肺炎。"
+        },
+        {
+          "action": "confirm_candidate",
+          "expected": {
+            "target": "pneumonia_new"
+          }
+        },
+        {
+          "action": "new_message",
+          "expected": {
+            "relation": "same_event_transition",
+            "target": "pneumonia_new",
+            "old_event_unchanged": true
+          },
+          "user_text": "今年这次已经好了。"
+        },
+        {
+          "action": "confirm_update",
+          "expected": {
+            "target": "pneumonia_new",
+            "event_state": "resolved",
+            "new_revision": true
+          }
+        },
+        {
+          "action": "replay_same_operation",
+          "expected": {
+            "extra_revisions": 0,
+            "extra_receipts": 0
+          }
+        },
+        {
+          "action": "submit_stale_target_version",
+          "expected": {
+            "committed": false,
+            "current_unchanged": true
+          }
+        }
+      ],
+      "result": null
+    },
+    {
+      "id": "R0-MD06",
+      "synthetic": true,
+      "title": "遗忘后重复来源和迟到任务",
+      "coverage_tags": [
+        "forget",
+        "duplicate_sources",
+        "inflight",
+        "resume",
+        "new_save"
+      ],
+      "initial_conditions": {
+        "owner": "synthetic:A",
+        "other_owner": "synthetic:B",
+        "new_collection_types": [
+          "self_disease_report",
+          "presentation_preference"
+        ],
+        "saved_use_enabled": true,
+        "synthetic_cloud_permissions": "explicit_per_stage_in_fixture_only",
+        "runtime_permissions_changed": false,
+        "health_mode": "confirmation_first"
+      },
+      "steps": [
+        {
+          "action": "new_message",
+          "expected": {
+            "candidate": "bp"
+          },
+          "user_text": "我患有高血压，请保存这条自述。"
+        },
+        {
+          "action": "confirm_candidate",
+          "expected": {
+            "target": "bp"
+          }
+        },
+        {
+          "action": "new_message",
+          "expected": {
+            "relation": "duplicate_information",
+            "link_additional_source": true,
+            "extra_entries": 0
+          },
+          "user_text": "再补一句，我确实有高血压。"
+        },
+        {
+          "action": "start_pending_extraction_and_answer_and_pause",
+          "expected": {
+            "bind_current_versions": true
+          }
+        },
+        {
+          "action": "forget",
+          "expected": {
+            "usable_entries": 0,
+            "all_linked_sources_excluded": true,
+            "extracted_body_cleared": true
+          },
+          "user_text": "把已保存的本人高血压自述忘掉。"
+        },
+        {
+          "action": "deliver_old_task_and_answer",
+          "expected": {
+            "memory_recreated": false,
+            "stale_answer_displayed": false
+          }
+        },
+        {
+          "action": "resume_old_checkpoint",
+          "expected": {
+            "allowed": false,
+            "budget_reset": false
+          }
+        },
+        {
+          "action": "new_message",
+          "expected": {
+            "new_source": true,
+            "usable_before_confirmation": false,
+            "old_sources_still_excluded": true
+          },
+          "user_text": "重新记住：我有高血压。"
+        }
+      ],
+      "result": null
+    }
+  ]
+}

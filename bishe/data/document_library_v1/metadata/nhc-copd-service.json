@@ -1,0 +1,23 @@
+{
+  "doc_id": "nhc-copd-service",
+  "title": "慢性阻塞性肺疾病患者健康服务规范（试行）",
+  "edition": "2024年试行版",
+  "publisher": "国家卫生健康委员会",
+  "source_url": "https://www.nhc.gov.cn/wjw/c100175/202409/a6dcaab25db449a396ad644ea8798fcf.shtml",
+  "download_url": "https://www.nhc.gov.cn/cms-search/downFiles/89d61f9734da4d2da0445d64a9a153a8.pdf",
+  "sha256": "bd52f183b1280b4012c81a7ff786fa0f1eff44d769bd2aeb919365450143f12b",
+  "acquired_at": "2026-10-22T16:33:16.685602+00:00",
+  "effective_date": null,
+  "printed_page_offset": 0,
+  "rights": "public_official_document_local_project_use_redistribution_not_assessed",
+  "published_date": "2024-09-11",
+  "selected_pages": [
+    1,
+    2,
+    3
+  ],
+  "page_text_end_before": {
+    "3": "三、分类随访服务流程"
+  },
+  "scope_note": "国内2024年试行慢阻肺服务规范，仅PDF1—3页服务对象/随访/检查文字，第3页流程图及以后管理指标/表格不索引。适用于规范规定的基层服务对象，不覆盖完整诊疗路径，不生成个人用药或氧疗方案；医学状态not_verified。"
+}

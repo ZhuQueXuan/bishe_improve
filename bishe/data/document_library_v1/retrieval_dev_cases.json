@@ -1,0 +1,14 @@
+[
+  {"id":"D01","query":"家庭血压应该在什么时间测量？","doc_id":"nhc-hypertension-primary-care","pages":[3]},
+  {"id":"D02","query":"基层医疗机构需要配备什么血压计？","doc_id":"nhc-hypertension-primary-care","pages":[3]},
+  {"id":"D03","query":"血压未达标的高血压患者多久随访一次？","doc_id":"nhc-hypertension-primary-care","pages":[5]},
+  {"id":"D04","query":"初诊发现收缩压180或舒张压110，短期处理后仍无法控制时如何转诊？","doc_id":"nhc-hypertension-primary-care","pages":[5]},
+  {"id":"D05","query":"高血压患者食养有哪些原则和建议？","doc_id":"nhc-hypertension-diet","pages":[6]},
+  {"id":"D06","query":"高血压患者应该怎样减钠增钾？","doc_id":"nhc-hypertension-diet","pages":[6,7]},
+  {"id":"D07","query":"高血压患者如何监测血压与自我管理？","doc_id":"nhc-hypertension-diet","pages":[9]},
+  {"id":"D08","query":"DASH膳食模式包含哪些食物？","doc_id":"nhc-hypertension-diet","pages":[10]},
+  {"id":"D09","query":"糖尿病食养强调怎样选择主食和低GI食物？","doc_id":"nhc-diabetes-diet","pages":[8,9]},
+  {"id":"D10","query":"糖尿病患者怎样规律进餐和合理加餐？","doc_id":"nhc-diabetes-diet","pages":[12,13]},
+  {"id":"D11","query":"糖尿病患者自我管理和定期营养咨询要注意什么？","doc_id":"nhc-diabetes-diet","pages":[13]},
+  {"id":"D12","query":"糖尿病患者运动前后为什么要加强血糖监测？","doc_id":"nhc-diabetes-diet","pages":[10]}
+]

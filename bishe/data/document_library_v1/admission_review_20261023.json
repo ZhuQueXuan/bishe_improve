@@ -1,0 +1,214 @@
+{
+  "review_id": "chinese-admission-20261023",
+  "purpose": "source_scope_and_extraction_admission_not_medical_review",
+  "authorization": "user_requested_review_and_ingest_qualified_sources_with_reasonable_small_model_usage",
+  "documents": [
+    {
+      "candidate_id": "health-literacy-2024",
+      "title": "中国公民健康素养——基本知识与技能释义（2024年版）",
+      "source_url": "https://www.nhc.gov.cn/xcs/c100122/202405/f251e896a50a49ff8c632b4b3da93126.shtml",
+      "candidate_sha256": "084cb6c696ae6ab08f1e2e238427b9c90b071d29c6e2c238016d9254a88464df",
+      "medical_review_status": "not_verified",
+      "reason": "官方正式版、中文国内健康教育、正文清晰，补足现有专题库覆盖；选择通用健康咨询相关部分。",
+      "decision": "approved_selected_text",
+      "metadata_file": "metadata/nhc-health-literacy.json",
+      "candidate_file": "temp\\documents\\chinese-candidates-20261023\\originals\\中国公民健康素养——基本知识与技能释义（2024年版）.pdf",
+      "selected_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "version_id": "a0a882544b59e3a59e015876bb7c023ff8f9423f86ab30777354b841f60d6baf",
+      "chunks": 93
+    },
+    {
+      "candidate_id": "public-health-2017",
+      "title": "国家基本公共卫生服务规范（第三版）",
+      "source_url": "https://www.nhc.gov.cn/jws/s3578/201703/d20c37e23e1f4c7db7b8e25f34473e1b.shtml",
+      "candidate_sha256": "5e61460188040be01605e8294561f8d82f29c09720dca40ff8c1eab7703431d8",
+      "medical_review_status": "not_verified",
+      "decision": "deferred",
+      "reason": "2017版内容需与后续专项更新逐条核对，表格/流程较多；保留候选，不导入。"
+    },
+    {
+      "candidate_id": "copd-service-2024",
+      "title": "慢性阻塞性肺疾病患者健康服务规范（试行）",
+      "source_url": "https://www.nhc.gov.cn/wjw/c100175/202409/a6dcaab25db449a396ad644ea8798fcf.shtml",
+      "candidate_sha256": "bd52f183b1280b4012c81a7ff786fa0f1eff44d769bd2aeb919365450143f12b",
+      "medical_review_status": "not_verified",
+      "reason": "官方国内基层服务依据、与现有慢病主题互补；只取服务内容正文，剔除未解析图表。",
+      "decision": "approved_selected_text",
+      "metadata_file": "metadata/nhc-copd-service.json",
+      "candidate_file": "temp\\documents\\chinese-candidates-20261023\\originals\\慢性阻塞性肺疾病患者健康服务规范（试行）.pdf",
+      "selected_pages": [
+        1,
+        2,
+        3
+      ],
+      "version_id": "8eb1a58150497ff8dcc961a39bbc59fe0812f766b92b18df9872553dbfea88ef",
+      "chunks": 3
+    },
+    {
+      "candidate_id": "obesity-clinical-2024",
+      "title": "肥胖症诊疗指南（2024年版）",
+      "source_url": "https://www.nhc.gov.cn/wjw/c100378/202410/bcf804e19e0c4246b5aea6cd338b55e1.shtml",
+      "candidate_sha256": "8d7c5c87f8e58f56231e251b1aa588b9d640e74d32dbec2a45e68dcf141274c3",
+      "medical_review_status": "not_verified",
+      "reason": "官方疾病知识来源，基础概述/病因可用于健康解释；专业处置与复杂图表不属于本轮范围。",
+      "decision": "approved_selected_text",
+      "metadata_file": "metadata/nhc-obesity-clinical.json",
+      "candidate_file": "temp\\documents\\chinese-candidates-20261023\\originals\\肥胖症诊疗指南（2024年版）.pdf",
+      "selected_pages": [
+        1,
+        2,
+        3
+      ],
+      "version_id": "60729e6ff5c9680d7172ba939750ab893de2adf6c8ddce4d2a10521a4c058874",
+      "chunks": 3
+    }
+  ],
+  "cases": [
+    {
+      "id": "R01",
+      "query": "保健食品能不能代替药品治疗疾病？",
+      "doc_id": "nhc-health-literacy",
+      "pages": [
+        21,
+        22
+      ]
+    },
+    {
+      "id": "R02",
+      "query": "为什么需要正确认识焦虑和抑郁，出现心理问题怎样寻求帮助？",
+      "doc_id": "nhc-health-literacy",
+      "pages": [
+        31,
+        32
+      ]
+    },
+    {
+      "id": "R03",
+      "query": "怎样合理用药和避免滥用抗微生物药物？",
+      "doc_id": "nhc-health-literacy",
+      "pages": [
+        38
+      ]
+    },
+    {
+      "id": "R04",
+      "query": "科学就医和理性看待诊疗结果应该注意什么？",
+      "doc_id": "nhc-health-literacy",
+      "pages": [
+        37,
+        38
+      ]
+    },
+    {
+      "id": "R05",
+      "query": "家庭常用药物应该怎样保存并查看药品说明书？",
+      "doc_id": "nhc-health-literacy",
+      "pages": [
+        47,
+        48
+      ]
+    },
+    {
+      "id": "R06",
+      "query": "拨打120时需要告诉接线员哪些信息？",
+      "doc_id": "nhc-health-literacy",
+      "pages": [
+        49,
+        50
+      ]
+    },
+    {
+      "id": "R07",
+      "query": "慢阻肺患者健康服务规范的服务对象是什么？",
+      "doc_id": "nhc-copd-service",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "R08",
+      "query": "慢阻肺患者随访需要关注哪些危险因素暴露？",
+      "doc_id": "nhc-copd-service",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "R09",
+      "query": "慢阻肺患者健康检查包括哪些内容？",
+      "doc_id": "nhc-copd-service",
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "R10",
+      "query": "遗传和环境因素怎样影响肥胖症发生？",
+      "doc_id": "nhc-obesity-clinical",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R11",
+      "query": "肥胖症的基础介绍中为什么强调多学科协作？",
+      "doc_id": "nhc-obesity-clinical",
+      "pages": [
+        1
+      ]
+    }
+  ],
+  "created_at": "2026-10-22T16:42:20.342234+00:00"
+}

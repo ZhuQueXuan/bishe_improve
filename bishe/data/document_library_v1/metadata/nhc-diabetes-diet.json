@@ -1,0 +1,28 @@
+{
+  "doc_id": "nhc-diabetes-diet",
+  "title": "成人糖尿病食养指南（2023年版）",
+  "edition": "2023",
+  "published_date": "2023-01-12",
+  "effective_date": null,
+  "publisher": "国家卫生健康委办公厅",
+  "source_url": "https://www.chinacdc.cn/jkyj/yyyjk2/jswj13949/202504/t20250407_305766.html",
+  "download_url": "https://www.nhc.gov.cn/cms-search/downFiles/4fcbecd2c18e46baaf291bf46c2b79cd.pdf",
+  "acquired_at": "2026-10-22T15:56:16.255408+00:00",
+  "sha256": "2e03cd9e06b1a1faf67298647a01c5e5d2be9cd99aacb527732c51f1ee378d87",
+  "rights": "publicly_accessible_redistribution_not_assessed",
+  "printed_page_offset": -2,
+  "selected_pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "scope_note": "成人食养指导，非个体诊疗或处方依据。首版仅索引前言、疾病特点和食养原则；封面、目录及附录食谱/交换表不索引。保留2023年版，不自动判为最新临床诊疗标准。工程核验不等于医学审核。"
+}

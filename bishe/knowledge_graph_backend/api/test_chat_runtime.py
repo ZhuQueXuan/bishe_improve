@@ -245,14 +245,16 @@ class ChatRuntimeTests(APITestCase):
         calls = model.client.with_options.return_value.chat.completions.create.call_args_list
         self.assertTrue(all(c.kwargs['extra_body'] == {'thinking': {'type':'disabled'}} for c in calls))
         self.assertEqual(calls[0].kwargs['response_format'], {'type':'json_object'})
-        self.assertEqual(model.last_answer_metadata, {'finish_reason':'stop'})
+        self.assertEqual(model.last_answer_metadata['finish_reason'],'stop')
+        self.assertLessEqual(model.last_answer_metadata['input_bytes'],24000)
 
     def test_truncated_final_response_is_not_accepted_or_retried(self):
         from .utils import DeepSeekAPI
         model = object.__new__(DeepSeekAPI)
         model.generate_text = Mock(return_value={'choices':[{'finish_reason':'length','message':{'content':'未完成 [E1]'}}], 'usage':None})
         self.assertEqual(model.knowledge_qa('mock'), '无法获取有效回答')
-        self.assertEqual(model.last_answer_metadata, {'finish_reason':'length'})
+        self.assertEqual(model.last_answer_metadata['finish_reason'],'length')
+        self.assertEqual(model.last_answer_metadata['max_output_tokens'],4096)
         model.generate_text.assert_called_once()
 
     def test_resume_without_history_reports_the_restored_effective_state(self):

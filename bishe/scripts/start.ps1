@@ -9,6 +9,20 @@ $managePath = Join-Path $backendPath 'manage.py'
 $frontendPath = Join-Path $projectRoot 'knowledge-graph-frontend'
 $envPath = Join-Path $backendPath '.env'
 $processFile = Join-Path $runDirectory 'managed-processes.json'
+$releaseFile = Join-Path $projectRoot 'data\natural_memory_v1\runtime_release_v1_1_0.json'
+$settingsProfile = 'knowledge_graph_backend.settings'
+if (Test-Path -LiteralPath $releaseFile) {
+    $release = Get-Content -LiteralPath $releaseFile -Raw -Encoding UTF8 | ConvertFrom-Json
+    if ($release.ready -and $release.version -eq '1.1.0') { $settingsProfile = 'knowledge_graph_backend.release_settings' }
+}
+. (Join-Path $PSScriptRoot 'process-records.ps1')
+$previousRecords = @()
+if (Test-Path -LiteralPath $processFile) {
+    # Windows PowerShell 5.1 emits a JSON array as one pipeline object. Avoid
+    # wrapping that result in @(), which adds a nested array on that host.
+    try { $previousRecords = Get-Content -LiteralPath $processFile -Raw | ConvertFrom-Json }
+    catch { throw 'Existing process record is invalid; no services started. Inspect temp\run\managed-processes.json.' }
+}
 
 if (-not (Test-Path -LiteralPath $envPath)) {
     throw 'Missing backend .env. Copy knowledge_graph_backend\.env.example to .env and configure it first.'
@@ -26,8 +40,12 @@ function Test-LocalPort {
 }
 
 $processes = @()
+$formalConfig = Join-Path $projectRoot 'data\neo4j_full_v1\conf\neo4j.conf'
+$boltSetting = @(Get-Content -LiteralPath $formalConfig | Where-Object { $_ -match '^server\.bolt\.listen_address=127\.0\.0\.1:\d+$' })
+if ($boltSetting.Count -ne 1) { throw 'Expected exactly one loopback Bolt address in the formal Neo4j config.' }
+$boltPort = [int]($boltSetting[0].Split(':')[-1])
 
-if (-not (Test-LocalPort -Port 7687)) {
+if (-not (Test-LocalPort -Port $boltPort)) {
     $formalDeployment = Join-Path $projectRoot 'data\neo4j_full_v1\deployment.json'
     if (-not (Test-Path -LiteralPath $formalDeployment)) { throw 'Missing formal graph deployment record.' }
     $deployment = Get-Content -LiteralPath $formalDeployment -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -37,22 +55,37 @@ if (-not (Test-LocalPort -Port 7687)) {
         -RedirectStandardOutput (Join-Path $runDirectory 'neo4j.out.log') `
         -RedirectStandardError (Join-Path $runDirectory 'neo4j.err.log') `
         -WindowStyle Hidden -PassThru
-    $processes += [pscustomobject]@{ Name = 'neo4j'; Id = $neo4j.Id; Managed = $true }
+    $processes += New-ManagedRecord 'neo4j' $neo4j.Id
 } else {
-    $processes += [pscustomobject]@{ Name = 'neo4j'; Id = $null; Managed = $false }
+    $processes += Get-ExistingManagedRecord 'neo4j' $boltPort $previousRecords $projectRoot
 }
 
 if (-not (Test-LocalPort -Port 8000)) {
     $backend = Start-Process -FilePath $pythonPath `
-        -ArgumentList @($managePath, 'runserver', '127.0.0.1:8000', '--noreload') `
+        -ArgumentList @($managePath, 'runserver', '127.0.0.1:8000', '--noreload', "--settings=$settingsProfile") `
         -WorkingDirectory $backendPath `
         -RedirectStandardOutput (Join-Path $runDirectory 'backend.out.log') `
         -RedirectStandardError (Join-Path $runDirectory 'backend.err.log') `
         -WindowStyle Hidden `
         -PassThru
-    $processes += [pscustomobject]@{ Name = 'backend'; Id = $backend.Id; Managed = $true }
+    $processes += New-ManagedRecord 'backend' $backend.Id
 } else {
-    $processes += [pscustomobject]@{ Name = 'backend'; Id = $null; Managed = $false }
+    $processes += Get-ExistingManagedRecord 'backend' 8000 $previousRecords $projectRoot
+}
+
+if ($settingsProfile -eq 'knowledge_graph_backend.release_settings') {
+    $workerRecord = $previousRecords | Where-Object { $_.Name -eq 'natural-memory-worker' } | Select-Object -First 1
+    if ($workerRecord -and (Test-ManagedRecord $workerRecord $projectRoot)) {
+        $processes += $workerRecord
+    } else {
+        $worker = Start-Process -FilePath $pythonPath `
+            -ArgumentList @($managePath, 'run_natural_memory_background', '--loop', "--settings=$settingsProfile") `
+            -WorkingDirectory $backendPath `
+            -RedirectStandardOutput (Join-Path $runDirectory 'natural-memory-worker.out.log') `
+            -RedirectStandardError (Join-Path $runDirectory 'natural-memory-worker.err.log') `
+            -WindowStyle Hidden -PassThru
+        $processes += New-ManagedRecord 'natural-memory-worker' $worker.Id
+    }
 }
 
 if (-not (Test-LocalPort -Port 8080)) {
@@ -63,9 +96,9 @@ if (-not (Test-LocalPort -Port 8080)) {
         -RedirectStandardError (Join-Path $runDirectory 'frontend.err.log') `
         -WindowStyle Hidden `
         -PassThru
-    $processes += [pscustomobject]@{ Name = 'frontend'; Id = $frontend.Id; Managed = $true }
+    $processes += New-ManagedRecord 'frontend' $frontend.Id
 } else {
-    $processes += [pscustomobject]@{ Name = 'frontend'; Id = $null; Managed = $false }
+    $processes += Get-ExistingManagedRecord 'frontend' 8080 $previousRecords $projectRoot
 }
 
 $processes | ConvertTo-Json | Set-Content -LiteralPath $processFile -Encoding utf8

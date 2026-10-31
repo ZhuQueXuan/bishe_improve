@@ -1,0 +1,51 @@
+{
+  "stage": "P02",
+  "version": "personal-storage-v1",
+  "status": "implemented_isolated_not_live",
+  "formal_migration_applied": false,
+  "migration": "api/0006_personal_memory_storage.py",
+  "new_tables": [
+    "PersonalMemoryPolicy",
+    "PersonalMemoryEntry",
+    "PersonalMemoryRevision",
+    "PersonalMemoryReceipt",
+    "PersonalMemoryIndexTask"
+  ],
+  "legacy_tables_altered": false,
+  "entry_key": "opaque 32 lowercase hex characters scoped by user",
+  "write_guards": [
+    "owned persisted user message",
+    "full expected source hash",
+    "source span and original send time",
+    "conversation reset/version",
+    "excluded source",
+    "explicit independent type policy version",
+    "exact target revision",
+    "P01 structured decision"
+  ],
+  "atomic_unit": [
+    "entry head",
+    "revision history",
+    "metadata-only idempotency receipt with source linkage",
+    "index intent task"
+  ],
+  "read_only_guards": [
+    "use enabled",
+    "owned active head and active revision",
+    "source hash/span/time/reset/exclusion still valid",
+    "policy/head revision recheck"
+  ],
+  "history_api": "metadata only; not a retrieval path for old personal text",
+  "indexing": "queued upsert/delete intents only; no worker, embeddings, Qdrant or cloud permission",
+  "forget": "explicit current-source administrative request + owned exact target; allowed with collection off, old source missing or paused target; scrub revision plaintext and exclude all linked sources",
+  "replay": "same request never reapplies memory or returns stored private text; changed input rejects; currently_usable is never asserted by an old receipt",
+  "disputed_state": "schema/read gating only; P04 still must persist unresolved semantic conflicts",
+  "not_yet_live": [
+    "public API",
+    "chat extraction",
+    "legacy context/pause invalidation integration",
+    "index task worker",
+    "personal vectors",
+    "cloud processing"
+  ]
+}

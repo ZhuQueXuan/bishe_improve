@@ -57,9 +57,10 @@ class SessionMemory:
         self.messages[mid] = copy.deepcopy(message)
         if message['role'] != 'user': return True
         text=message['content']
-        if '换个话题' in text:
+        self._before_user(mid)
+        if self._topic_boundary(text):
             self.topic += 1
-            for key in ('objects','field','format'): self._set(key, None, mid)
+            self._reset_topic(mid)
         # Only an explicit discussion/correction clause may introduce objects.
         clause=re.search(r'(?:讨论|改查)([^。！？\n]+)', text)
         if clause:
@@ -70,11 +71,23 @@ class SessionMemory:
                     names.append(name)
                     fragment=fragment.replace(name,'')
             self._set('objects', sorted(names), mid)
-        if '取消只查预防' in text: self._set('field', None, mid)
-        elif '只查预防' in text: self._set('field', 'prevent', mid)
-        if '取消表格' in text: self._set('format', None, mid)
-        elif '用表格' in text: self._set('format', 'table', mid)
+        self._apply_requirements(text,mid)
         return True
+
+    def _before_user(self, mid):
+        pass
+
+    def _topic_boundary(self, text):
+        return '换个话题' in text
+
+    def _reset_topic(self, mid):
+        for key in ('objects','field','format'): self._set(key,None,mid)
+
+    def _apply_requirements(self, text, mid):
+        if any(x in text for x in ('取消只查预防','不再只查预防')): self._set('field', None, mid)
+        elif '只查预防' in text: self._set('field', 'prevent', mid)
+        if any(x in text for x in ('取消表格','不要用表格','不用表格','不再用表格')): self._set('format', None, mid)
+        elif '用表格' in text: self._set('format', 'table', mid)
 
     def snapshot(self):
         def value(key): return copy.deepcopy(self.entries.get(key, {}).get('value'))

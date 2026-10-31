@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 from pathlib import Path
 
+
 from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -30,6 +31,9 @@ def env_bool(name, default=False):
 
 def env_list(name, default=''):
     return [item.strip() for item in os.getenv(name, default).split(',') if item.strip()]
+
+
+DOCUMENT_RAG_ENABLED = env_bool('DOCUMENT_RAG_ENABLED', True)
 
 
 # Quick-start development settings - unsuitable for production
@@ -146,6 +150,17 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Candidate natural-memory integration remains off until full R8 acceptance.
+# Browsers cannot open these release gates or choose a database/provider.
+NATURAL_MEMORY_FORMAL_ENABLED = False
+NATURAL_MEMORY_RELEASE_READY = False
+NATURAL_MEMORY_FORMAL_DATABASE = None
+NATURAL_MEMORY_BACKGROUND_ENABLED = False
+NATURAL_MEMORY_BACKGROUND_PROVIDER = None
+NATURAL_MEMORY_CHAT_PROVIDER = None
+NATURAL_MEMORY_DISPATCH_CANDIDATE_ENABLED = False
+NATURAL_MEMORY_LIVE_DISPATCH_ENABLED = False
 
 CORS_ALLOWED_ORIGINS = env_list(
     'DJANGO_CORS_ALLOWED_ORIGINS',
